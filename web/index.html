@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mini Rehoboam - Stillwater</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three/addons/": "./vendor/three/addons/" } }
+</script>
+</head>
+<body class="view-system">
+<div id="app">
+  <header id="header">
+    <div class="brand"><i class="led" id="led" data-tip-text="Replay: browsing a recorded run. LIVE: connected to a running server, you can advance time."></i>REHOBOAM<span>/mini</span></div>
+    <div class="metrics">
+      <div class="m" id="m-stab" data-tip="stability"><small>STABILITY</small><span class="v">--</span></div>
+      <div class="m" id="m-loop" data-tip="loop"><small>ACTIVE LOOP</small><span class="v">--</span></div>
+      <div class="m" id="m-acc" data-tip="accuracy"><small>FORECAST ACC.</small><span class="v">--</span></div>
+    </div>
+    <div class="ticker" data-tip="tick"><small>WEEK</small>
+      <button id="tick-prev" type="button" title="Previous week (Left)">&#9664;</button>
+      <b id="tick-n">--</b>
+      <button id="tick-next" type="button" title="Next week (Right)">&#9654;</button>
+    </div>
+    <div class="spacer"></div>
+    <div class="live-only" id="live-controls" hidden>
+      <button id="btn-tick" type="button" data-tip="btnTick">NEXT WEEK &#9656;</button>
+      <div class="menu">
+        <button id="btn-disrupt" type="button" data-tip="btnDisrupt">DISRUPT &#9662;</button>
+        <div id="disrupt-menu" hidden>
+          <button type="button" data-id="factory_closure" data-tip-title="Factory closure" data-tip-text="The main employer announces mass layoffs.">Factory closure</button>
+          <button type="button" data-id="organiser_arrives" data-tip-title="Organiser arrives" data-tip-text="A community organiser starts holding meetings.">Organiser arrives</button>
+          <button type="button" data-id="heatwave" data-tip-title="Heatwave" data-tip-text="Extreme heat strains the elderly and unhoused.">Heatwave</button>
+          <button type="button" data-id="data_leak" data-tip-title="Data leak" data-tip-text="Residents discover hints of the surveillance.">Data leak</button>
+        </div>
+      </div>
+    </div>
+    <button id="btn-drawer" type="button" data-tip="btnDrawer">DRAWER &#9652;</button>
+    <div class="toggle" id="view-toggle" role="group" data-tip="view">
+      <button type="button" data-view="citizen">CITIZEN</button><button type="button" data-view="system">SYSTEM</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="stage"><div id="stage-note" hidden>3D CITY UNAVAILABLE</div></div>
+    <div id="circle-panel" data-tip="circle"><i class="cn tl"></i><i class="cn br"></i>
+      <canvas id="circle"></canvas>
+      <button id="circle-zoom" type="button" title="Enlarge / shrink">&#10530;</button>
+    </div>
+    <div id="legend" class="open">
+      <button type="button" id="legend-toggle" class="lg-head">MAP KEY <span id="legend-caret">&#9662;</span></button>
+      <ul class="lg-list">
+        <li data-tip="thread"><i class="sw thread"></i>Thread: person to Rehoboam</li>
+        <li data-tip="pulse"><i class="sw pulse"></i>Pulse: acting on them now</li>
+        <li data-tip="ring"><i class="sw ring"></i>Ring: white calm, amber drifting, red likely to deviate</li>
+        <li data-tip="tiles"><i class="sw tiles"></i>Ground tint: district unrest</li>
+        <li data-tip="risk"><i class="sw dot"></i>Blinking dot: faster = riskier</li>
+      </ul>
+    </div>
+    <div id="card"></div>
+    <div id="drawer">
+      <div class="drawer-tabs">
+        <button type="button" data-tab="heatmap" data-tip="heatmap">HEATMAP</button>
+        <button type="button" data-tab="gallery" data-tip="gallery">GALLERY</button>
+        <button type="button" data-tab="archive" data-tip="archive">ARCHIVE</button>
+        <span class="spacer"></span>
+        <button type="button" id="drawer-close">&times;</button>
+      </div>
+      <div id="drawer-body"></div>
+    </div>
+    <div id="final" aria-hidden="true"><div class="final-text"></div></div>
+    <div id="toast"></div>
+  </main>
+
+  <footer id="feed"></footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
