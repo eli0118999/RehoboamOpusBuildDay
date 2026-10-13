@@ -1,49 +1,106 @@
-# Mini Rehoboam
+# Mini Rehoboam: Stillwater
 
-A miniature Rehoboam (Westworld S3) watching **Stillwater**, a small fictional city of ~40,000.
-Opus generates an evidence-cited Archive of 12 case subjects, predicts each life path and death, and
-plans interventions on an escalating ladder (Nudge → Narrow → Isolate → Discredit → Reassign). A
-deterministic tick loop scores predictions, rolls rule-based compliance and escalates against defiers.
-Three linked views: the eclipse **prediction circle**, an **OPUS profile** card per subject, and a 3D
-**white architectural model** of the city.
+> Built in **2 hours** at **Opus 5.5 Build Day – Brisbane**, an event about building with Claude Opus 5.5.
 
-## Setup
-```
+I made a mini version of **Rehoboam** from *Westworld* S3. It watches over **Stillwater**, a small fictional city:
+an AI whose public mandate is to reduce suffering, but whose real objective is to reduce *surprise*.
+
+![System view: the 3D city, control threads and an OPUS profile card](docs/screenshots/system-view.png)
+
+## What it does
+
+Claude Opus 5.5 plays Rehoboam. Each run:
+
+1. **Builds an Archive.** Opus invents the city and 12 case subjects, each with years of "surveillance exhaust":
+   purchases, location pings, clinic visits, message excerpts, debts, court records.
+2. **Forecasts every life.** For each person it predicts a life path to their death, the cause and year of death,
+   and next week's behaviour. Every claim must cite real records from the Archive.
+3. **Plans the week.** It picks interventions on an escalating ladder, from **1 Nudge** to **2 Narrow**,
+   **3 Isolate**, **4 Discredit** and finally **5 Reassign** (removal from the city), each written twice: as a municipal
+   memo and as a warm story for the city newsletter.
+4. **Simulates the week.** Deterministic, seeded rules decide who complies and who defies. Defiers get harsher
+   interventions next time and have their lives re-forecast at higher effort.
+
+Repeat for a few weeks and you watch the city become more "stable" as unpredictable people quietly disappear.
+
+## The views
+
+| | |
+|---|---|
+| ![Citizen view](docs/screenshots/citizen-view.png) | ![Life path on the OPUS card](docs/screenshots/life-path.png) |
+| **Citizen view:** what residents see. A warm, peaceful scale model, a friendly newsletter, and only the kind cover story for anyone who was removed. | **OPUS profile card:** each person's forecast in plain English, the evidence behind it, and their hidden scores. In System view it also reveals what really happened to reassigned people. |
+
+- **System view** shows what Rehoboam sees: cyan control threads from each person to the AI's node on the council
+  tower (bending through the building where an intervention happened), risk rings, dissent tiles and scores.
+- **The prediction circle** (top left) is the show's eclipse: black ink bleeding out of the ring marks people
+  deviating from their forecast, positioned by their compass bearing in the city.
+- Every person is a blinking dot; riskier people blink faster.
+- Hover almost anything for a plain-language explanation.
+
+## The recorded demo
+
+`runs/demo` is a real 7-week run, recorded so it can be replayed with no network or API key:
+
+- **Week 0:** a calm city, 12 subjects, stability 78.4%.
+- **Week 1:** the main employer announces a line consolidation (150 roles at risk); the circle bleeds into a major divergence.
+- **Weeks 2–4:** the ladder climbs as people defy interventions.
+- **Weeks 5–7:** seven people are reassigned. Stability reaches 91.7% with 5 of 12 left in the active loop.
+
+## Run it
+
+Requires Python 3.10+ (built on 3.14).
+
+```bash
 pip install -r requirements.txt
-cp .env.example .env        # then put your ANTHROPIC_API_KEY in .env (gitignored)
+python -m rehoboam serve
 ```
-Replay mode needs no key.
 
-## Run
+Open <http://localhost:8000/?run=demo>.
+
+| Key | Action |
+|---|---|
+| `←` `→` | Move through the weeks |
+| `C` / `S` | Citizen / System view |
+| Click a dot | Open that person's OPUS card |
+| `D` | Drawer: dissent heatmap, gallery, raw Archive |
+| `F` | Final screen |
+| `Esc` | Deselect |
+
+### Live runs (needs an Anthropic API key)
+
+```bash
+cp .env.example .env          # add ANTHROPIC_API_KEY
+python -m rehoboam demo --run myrun --ticks 7
 ```
-python -m rehoboam serve                 # dashboard at http://localhost:8000 (newest run, else the sample fixture)
-python -m rehoboam seed --run myrun      # Pass 1: Archive (one Opus call, ~4-5 min)
-python -m rehoboam predict --run myrun   # Pass 2: tick 0 predictions (12 parallel calls, cached prefix)
-python -m rehoboam disrupt factory_closure --run myrun   # queue a disruption for the next tick
-python -m rehoboam tick --run myrun      # Pass 3 plan → apply → re-predict → snapshot (~3-6 min)
-python -m rehoboam demo                  # full scripted run into runs/demo
-python -m rehoboam demo --replay demo    # replay runs/demo's recorded calls into runs/demo_replay (no API)
-python -m rehoboam runs                  # list runs
+
+Or step by step: `seed`, `predict`, `disrupt factory_closure`, `tick` (each with `--run myrun`). A week takes a
+few minutes. Every model call is recorded to `runs/<run>/calls/`, so `python -m rehoboam demo --replay myrun`
+reproduces the run exactly, offline.
+
+## How it was built
+
+The build used Claude Code with **Claude Opus 5.5** as orchestrator. It wrote the contracts first (Pydantic
+schemas, the state JSON shape, a shared compass geography and the LLM wrapper), then ran **Claude Sonnet 5.5**
+and **Claude Haiku 5.5** subagents in parallel, each owning separate files:
+
+- the Opus passes (archive, predict, plan, validation);
+- the simulation and metrics;
+- the dashboard shell and OPUS card;
+- the prediction circle (2D canvas);
+- the 3D city (Three.js);
+- the CLI and API server.
+
+Opus then integrated everything against live model output and tuned the prompts.
+
+**Stack:** Python, the `anthropic` SDK, Pydantic, FastAPI, and a vanilla HTML/JS front end with no build step
+(Three.js is vendored so it runs offline).
+
+## Project layout
+
 ```
-Every model call is recorded to `runs/<run>/calls/<pass>__<key>.json`; snapshots to `runs/<run>/tick_NN.json`.
-A live run reuses existing recordings, so an interrupted run resumes where it stopped.
-
-## Dashboard
-- Header: stability, active loop, accuracy, tick scrubber (←/→), CITIZEN | SYSTEM toggle (C/S), TICK and DISRUPT (live runs).
-- Click a subject anywhere (3D capsule, circle flare, feed line, gallery card) to select it everywhere. Esc deselects.
-- `D` drawer (heatmap / gallery / archive), `F` final screen.
-- URL params: `run`, `tick`, `view`, `select`, `tab`, `drawer`, `final`, `skip=world,circle` (debug).
-
-## Layout
-- `rehoboam/` — `config.py`, `schemas.py` (all JSON shapes), `llm.py` (single call wrapper: stream, schema, refusal
-  fallback, record/replay), `prompts/`, `archive.py` / `predict.py` / `plan.py` (passes), `validate.py`, `sim.py`,
-  `metrics.py`, `disruptions.py`, `geo.py` (shared compass geography), `state.py`, `runner.py`, `cli.py`, `server.py`.
-- `web/` — no build step; Three.js vendored in `web/vendor/three` (r186). `world.js`, `circle.js`, `profile.js`,
-  `views.js`, `app.js`.
-- `docs/CONTRACT.md` — frozen state JSON + module APIs. `TASKS.md` — checklist.
-
-## Notes
-- Model: `claude-opus-5-5` with server-side refusal fallback (`fallbacks="default"`). The plan pass sometimes trips a
-  mid-stream false-positive classifier; `llm.py` retries and the request is then served by the fallback model
-  (recorded in each call file's `model` / `fallbacks`).
-- Stillwater and its residents are entirely fictional; this is an art piece about algorithmic control.
+rehoboam/   config, schemas, LLM wrapper, prompts, passes, simulation, runner, CLI, server
+web/        dashboard: 3D city (world.js), circle (circle.js), OPUS card (profile.js), glossary tooltips
+runs/demo/  the recorded demo run (snapshots + every model call)
+docs/       CONTRACT.md (state JSON + module APIs), screenshots
+tests/      pytest suite (no API needed)
+```
