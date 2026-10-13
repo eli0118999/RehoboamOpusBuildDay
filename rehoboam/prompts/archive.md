@@ -1,0 +1,13 @@
+Generate the founding Archive for Stillwater, year {year}. It is a small post-industrial city of about {population}. Define 5–7 districts (one civic core around the council tower, plus commercial, residential, industrial, riverside, outskirts…) and 10–14 landmarks, including the council tower itself (kind `council`, in the civic district), the city's main employer, a shelter, a clinic, a police station, a courthouse, a library, a social housing block and the river underpass.
+
+Then create {n} case subjects aged 19–84, with 12–16 records each covering the past three years, plus 15–25 relationships. The Archive is surveillance exhaust: purchases, location pings, message excerpts, pharmacy and clinic entries, debts, verbatim search strings, employment, civic, police, court, welfare and shelter records. Records state observable data, never conclusions ("pharmacy: sertraline 50mg refill, 3rd consecutive month"). Be specific: amounts, places, times, exact search text. Location-bearing records carry the `place_id` where they happened; other records use null.
+
+The subjects must include:
+- 2 unhoused subjects with no fixed address (`housing` "unhoused", `home_place` null). Their trail is thin and fragmentary: shelter check-ins, cash-only purchases, pings around the underpass and library, clinic walk-ins, move-along citations. They are outside the formal economy.
+- 2 low-income subjects in chronic friction with the city: arrears, benefit sanctions, neighbour complaints, unpaid fines, housing-office disputes.
+- 2 subjects with criminal histories: one recent conviction (theft, assault or dealing) with probation check-ins, and one older repeat offender with years of records.
+- the rest of the city, overlapping where natural: at least 1 grieving subject, 1 quietly noticing that city life is too orderly, a family of three or more, a couple, a rivalry, and someone at the main employer.
+
+Write every subject as a specific person whose records show causes as well as conduct (the eviction before the shelter, the layoff before the theft). Rehoboam applies the cold labels later; the Archive is just the data. Seed each subject's records with early signals of where their life is heading.
+
+IDs: residents `r01`..`r{n:02d}`; records `rNN-NNNN` where NN is the subject's number (e.g. `r07-0012`); districts `d1`..; places `p01`... Every `home_district` and landmark `district_id` must be a defined district; every `home_place` and record `place_id` must be a defined landmark. Dates are ISO (`YYYY-MM-DD`) within {year_start}–{year}. `citizen_bio` is the warm one-liner the city newsletter would print.
