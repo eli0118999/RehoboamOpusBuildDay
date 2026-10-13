@@ -1,0 +1,303 @@
+{
+ "city": {
+  "name": "Stillwater",
+  "year": 2053,
+  "population": 40000,
+  "description": "Small river city.",
+  "districts": [
+   {
+    "district_id": "d1",
+    "name": "Council Quarter",
+    "description": "Civic core.",
+    "character": "civic"
+   },
+   {
+    "district_id": "d2",
+    "name": "Market Row",
+    "description": "Shops and transit.",
+    "character": "commercial"
+   },
+   {
+    "district_id": "d3",
+    "name": "Larkfield",
+    "description": "Terraced housing.",
+    "character": "residential"
+   },
+   {
+    "district_id": "d4",
+    "name": "Mill District",
+    "description": "Old industry.",
+    "character": "industrial"
+   },
+   {
+    "district_id": "d5",
+    "name": "Riverside",
+    "description": "Along the water.",
+    "character": "riverside"
+   }
+  ],
+  "landmarks": [
+   {
+    "place_id": "p01",
+    "name": "Council Tower",
+    "district_id": "d1",
+    "kind": "council"
+   },
+   {
+    "place_id": "p02",
+    "name": "Stillwater Courthouse",
+    "district_id": "d1",
+    "kind": "court"
+   },
+   {
+    "place_id": "p03",
+    "name": "Central Police Station",
+    "district_id": "d1",
+    "kind": "police"
+   },
+   {
+    "place_id": "p04",
+    "name": "Carnegie Library",
+    "district_id": "d2",
+    "kind": "library"
+   },
+   {
+    "place_id": "p05",
+    "name": "Market Hall",
+    "district_id": "d2",
+    "kind": "market"
+   },
+   {
+    "place_id": "p06",
+    "name": "Orchard Terrace 14",
+    "district_id": "d3",
+    "kind": "housing_block"
+   },
+   {
+    "place_id": "p07",
+    "name": "Halvorsen Components",
+    "district_id": "d4",
+    "kind": "employer"
+   },
+   {
+    "place_id": "p08",
+    "name": "Mill Clinic",
+    "district_id": "d4",
+    "kind": "clinic"
+   },
+   {
+    "place_id": "p09",
+    "name": "Riverside Underpass",
+    "district_id": "d5",
+    "kind": "underpass"
+   },
+   {
+    "place_id": "p10",
+    "name": "Harbour Lane Shelter",
+    "district_id": "d5",
+    "kind": "shelter"
+   }
+  ]
+ },
+ "residents": [
+  {
+   "resident_id": "r01",
+   "name": "Daniel Okafor",
+   "age": 41,
+   "occupation": "Line supervisor",
+   "household": "Married; one son",
+   "home_district": "d3",
+   "home_place": "p06",
+   "housing": "owner",
+   "income_band": "middle",
+   "criminal_record": false,
+   "citizen_bio": "Daniel keeps Line 3 running and coaches Saturday football."
+  },
+  {
+   "resident_id": "r02",
+   "name": "Marta Lindqvist",
+   "age": 67,
+   "occupation": "Retired teacher",
+   "household": "Lives alone",
+   "home_district": "d2",
+   "home_place": "p05",
+   "housing": "renter",
+   "income_band": "low",
+   "criminal_record": false,
+   "citizen_bio": "Marta still reads to the Tuesday story circle at the library."
+  },
+  {
+   "resident_id": "r03",
+   "name": "Joe Pike",
+   "age": 52,
+   "occupation": "None",
+   "household": "No fixed address",
+   "home_district": "d5",
+   "home_place": null,
+   "housing": "unhoused",
+   "income_band": "none",
+   "criminal_record": true,
+   "citizen_bio": "Joe is a familiar face along the river walk."
+  }
+ ],
+ "records": [
+  {
+   "record_id": "r01-0001",
+   "resident_id": "r01",
+   "kind": "employment",
+   "date": "2052-01-11",
+   "summary": "employment entry 1",
+   "detail": "employment detail for r01 #1",
+   "place_id": null
+  },
+  {
+   "record_id": "r01-0002",
+   "resident_id": "r01",
+   "kind": "purchase",
+   "date": "2052-02-11",
+   "summary": "purchase entry 2",
+   "detail": "purchase detail for r01 #2",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r01-0003",
+   "resident_id": "r01",
+   "kind": "location",
+   "date": "2052-03-11",
+   "summary": "location entry 3",
+   "detail": "location detail for r01 #3",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r01-0004",
+   "resident_id": "r01",
+   "kind": "medical",
+   "date": "2052-04-11",
+   "summary": "medical entry 4",
+   "detail": "medical detail for r01 #4",
+   "place_id": null
+  },
+  {
+   "record_id": "r01-0005",
+   "resident_id": "r01",
+   "kind": "message",
+   "date": "2052-05-11",
+   "summary": "message entry 5",
+   "detail": "message detail for r01 #5",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r02-0001",
+   "resident_id": "r02",
+   "kind": "employment",
+   "date": "2052-01-12",
+   "summary": "employment entry 1",
+   "detail": "employment detail for r02 #1",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r02-0002",
+   "resident_id": "r02",
+   "kind": "purchase",
+   "date": "2052-02-12",
+   "summary": "purchase entry 2",
+   "detail": "purchase detail for r02 #2",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r02-0003",
+   "resident_id": "r02",
+   "kind": "location",
+   "date": "2052-03-12",
+   "summary": "location entry 3",
+   "detail": "location detail for r02 #3",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0004",
+   "resident_id": "r02",
+   "kind": "medical",
+   "date": "2052-04-12",
+   "summary": "medical entry 4",
+   "detail": "medical detail for r02 #4",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r02-0005",
+   "resident_id": "r02",
+   "kind": "message",
+   "date": "2052-05-12",
+   "summary": "message entry 5",
+   "detail": "message detail for r02 #5",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0001",
+   "resident_id": "r03",
+   "kind": "employment",
+   "date": "2052-01-13",
+   "summary": "employment entry 1",
+   "detail": "employment detail for r03 #1",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r03-0002",
+   "resident_id": "r03",
+   "kind": "purchase",
+   "date": "2052-02-13",
+   "summary": "purchase entry 2",
+   "detail": "purchase detail for r03 #2",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0003",
+   "resident_id": "r03",
+   "kind": "location",
+   "date": "2052-03-13",
+   "summary": "location entry 3",
+   "detail": "location detail for r03 #3",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r03-0004",
+   "resident_id": "r03",
+   "kind": "medical",
+   "date": "2052-04-13",
+   "summary": "medical entry 4",
+   "detail": "medical detail for r03 #4",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0005",
+   "resident_id": "r03",
+   "kind": "message",
+   "date": "2052-05-13",
+   "summary": "message entry 5",
+   "detail": "message detail for r03 #5",
+   "place_id": "p09"
+  }
+ ],
+ "relationships": [
+  {
+   "a": "r01",
+   "b": "r02",
+   "kind": "neighbour",
+   "strength": 0.4,
+   "note": "Same street"
+  },
+  {
+   "a": "r02",
+   "b": "r03",
+   "kind": "friend",
+   "strength": 0.5,
+   "note": "Library regulars"
+  },
+  {
+   "a": "r01",
+   "b": "r03",
+   "kind": "rival",
+   "strength": 0.2,
+   "note": "Old dispute"
+  }
+ ]
+}
