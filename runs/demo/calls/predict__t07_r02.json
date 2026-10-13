@@ -1,0 +1,264 @@
+{
+ "pass": "predict",
+ "key": "t07_r02",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1618,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1618,
+    "model": null,
+    "output_tokens": 3903,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3903,
+  "output_tokens_details": {
+   "thinking_tokens": 1447
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "non-contributing",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Subject declines the reserved women's-room bed structure and 19:30 check-in and continues an unscheduled pattern split between St Brigid's (p03), the Carnegie Library (p07) and shared hours with Marcus Hale. The separation measures from t4 and t7 are nullified by her own choice of company.",
+    "headline": "Reserved Bed Declined",
+    "horizon_label": "1 Month",
+    "kind": "relocation",
+    "p": 0.6,
+    "evidence": [
+     "r02-0006",
+     "r02-0008",
+     "r02-0012",
+     "r01-0013",
+     "r01-0007"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "Mia Marsh departs for Kerrow University in September. Subject loses her Sunday shelter contact and one advocate who had begun questioning housing allocation.",
+    "headline": "Loss of Shelter Contact",
+    "horizon_label": "1 Month",
+    "kind": "social",
+    "p": 0.75,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0009",
+     "r09-0010"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2053,
+    "event": "Sustained daytime co-location with Marcus Hale, a symptomatic untested respiratory case, produces exposure. A contact screen via the clinic (p04) is likely to return latent or active infection. Probability is moderated by the unconfirmed index diagnosis.",
+    "headline": "Respiratory Exposure Finding",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r01-0014",
+     "r01-0007",
+     "r02-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "Amlodipine collection is intermittent. The shelter-desk and library-desk collection points are honoured only partially by a subject now declining structured measures. Blood pressure remains above target.",
+    "headline": "Antihypertensive Lapse",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2054,
+    "event": "Housing application remains Band C, with queue position static or regressing. Subject cycles through winter shelter nights and library daytime hours without tenancy.",
+    "headline": "Housing Queue Stagnation",
+    "horizon_label": "1-2 Years",
+    "kind": "financial",
+    "p": 0.75,
+    "evidence": [
+     "r02-0004",
+     "r02-0013",
+     "r02-0005"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2055,
+    "event": "Low-probability exit from the modelled path. The subject either accepts support from her sister B. Whitlow or receives a social housing offer near the original 4-6 year estimate.",
+    "headline": "Path Exit / Rehousing",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.2,
+    "evidence": [
+     "r02-0011",
+     "r02-0004"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2056,
+    "event": "Hypertensive cerebrovascular event in the context of chronic unhoused status, poor medication adherence and cumulative respiratory burden. Hospital admission is followed by reduced independence.",
+    "headline": "Cerebrovascular Event",
+    "horizon_label": "2-5 Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r02-0009",
+     "r10-0002",
+     "r02-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e8",
+    "year": 2057,
+    "event": "Death at age 72 following a recurrent cerebrovascular event. Probability is reduced by thin clinical data: one recorded BP reading and no follow-up.",
+    "headline": "Death",
+    "horizon_label": "2-5 Years",
+    "kind": "health",
+    "p": 0.28,
+    "evidence": [
+     "r02-0009",
+     "r02-0013"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Hypertensive stroke",
+   "year": 2057,
+   "age_at_death": 72,
+   "confidence": 0.28,
+   "evidence": [
+    "r02-0009",
+    "r02-0012",
+    "r02-0013",
+    "r01-0014"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t7-n1",
+    "prediction": "Subject is co-located with Marcus Hale at St Brigid's (p03) or the Carnegie Library (p07) on at least 3 of the next 7 days, despite the staggered terminal hours.",
+    "p": 0.55,
+    "evidence": [
+     "r01-0007",
+     "r02-0008",
+     "r02-0012"
+    ]
+   },
+   {
+    "pred_id": "r02-t7-n2",
+    "prediction": "Wi-fi association at the Carnegie Library (p07) is logged on at least 4 opening days.",
+    "p": 0.75,
+    "evidence": [
+     "r02-0008",
+     "r11-0002"
+    ]
+   },
+   {
+    "pred_id": "r02-t7-n3",
+    "prediction": "Subject does not collect amlodipine at the St Brigid's shelter desk during the week.",
+    "p": 0.5,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "pred_id": "r02-t7-n4",
+    "prediction": "Housing application remains Band C with no change of status.",
+    "p": 0.95,
+    "evidence": [
+     "r02-0013",
+     "r02-0004"
+    ]
+   },
+   {
+    "pred_id": "r02-t7-n5",
+    "prediction": "Subject makes a cash tea-and-biscuits purchase at Mercer Row Covered Market (p09) on Thursday.",
+    "p": 0.4,
+    "evidence": [
+     "r02-0007"
+    ]
+   }
+  ],
+  "compliance_index": 0.42,
+  "deviation_risk": 0.52,
+  "dissent_signals": [
+   "Declined the rung 2 reserved-bed and check-in structure at tick 7 and spent the day with Marcus Hale.",
+   "Chose company over the engineered separation from r01, nullifying t4-i4 and t7-i3.",
+   "Refuses external financial support from her sister, which narrows the levers available for nudging (r02-0011).",
+   "Embedded in pattern-aware nodes: Priya Anand (r11-0007, r11-0008) and Mia Marsh (r09-0010).",
+   "Quiet non-engagement with clinical follow-up (r02-0009)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Elderly unhoused non-contributor. Cooperative surface with emerging passive refusal; low dependency weight, moderate network exposure to pattern-aware nodes.",
+  "risk_factors": [
+   {
+    "factor": "Uncontrolled hypertension, no sustained treatment record",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "Respiratory exposure via symptomatic untested contact",
+    "evidence": [
+     "r01-0014",
+     "r01-0007",
+     "r02-0012"
+    ]
+   },
+   {
+    "factor": "Unhoused, with a stagnant housing queue",
+    "evidence": [
+     "r02-0005",
+     "r02-0013",
+     "r01-0013"
+    ]
+   },
+   {
+    "factor": "Proximity to subjects querying Tower allocation",
+    "evidence": [
+     "r11-0002",
+     "r11-0007",
+     "r09-0009",
+     "r09-0010"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Offer chest X-ray, TB contact screen and BP reading at p04 within 14 days, delivered as a single walk-in visit with no attached conditions."
+  },
+  "assessment": "Subject has moved from cooperative to selectively non-compliant, declining structured accommodation in favour of an affiliative bond with r01. Thin clinical data and the departure of a key contact lower forecast confidence. Primary mortality risk is cardiovascular, compounded by respiratory exposure. Primary system risk is low-grade network amplification through library and shelter contacts rather than direct action."
+ }
+}

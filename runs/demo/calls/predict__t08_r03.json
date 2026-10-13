@@ -1,0 +1,253 @@
+{
+ "pass": "predict",
+ "key": "t08_r03",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 22316
+  },
+  "cache_creation_input_tokens": 22316,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1745,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 22316
+    },
+    "cache_creation_input_tokens": 22316,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 1745,
+    "model": null,
+    "output_tokens": 3359,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3359,
+  "output_tokens_details": {
+   "thinking_tokens": 1036
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r03",
+  "cohort": "precarious-young",
+  "life_path": [
+   {
+    "event_id": "r03-e1",
+    "year": 2053,
+    "event": "Mould remediation at Weir Court flat 7.12 completes under ticket WC-4471. A single reassuring letter from the housing office logs the matter resolved. The children's-services courtesy referral stays closed as no further action. The subject's most acute grievance is absorbed without onward routing.",
+    "headline": "Repair Closure Logged",
+    "horizon_label": "1 Month",
+    "kind": "civic",
+    "p": 0.86,
+    "evidence": [
+     "r03-0006",
+     "r03-0007",
+     "r03-0014",
+     "r08-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e2",
+    "year": 2053,
+    "event": "The QuickNest/Northgate balance is consolidated into a $10-a-week plan administered through the single caseworker. Benefit sanctions remain suspended and work-coach appointments stay inside school hours. Short-term financial volatility falls, while dependency on one administrative channel rises.",
+    "headline": "Debt Consolidation / Routing",
+    "horizon_label": "3 Months",
+    "kind": "financial",
+    "p": 0.78,
+    "evidence": [
+     "r03-0002",
+     "r03-0005",
+     "r03-0008",
+     "r03-0010"
+    ]
+   },
+   {
+    "event_id": "r03-e3",
+    "year": 2054,
+    "event": "Third-party advocacy lapses. Ashgrove Primary has been advised that further enquiries cannot be discussed, so Daniel Marsh's contact on her behalf ceases. The tenants' drop-in now clashes with her care rounds, so she stops attending. Her external support network contracts to the caseworker and her sister.",
+    "headline": "Advocacy Channel Attrition",
+    "horizon_label": "6 Months",
+    "kind": "social",
+    "p": 0.72,
+    "evidence": [
+     "r08-0003",
+     "r08-0011",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e4",
+    "year": 2055,
+    "event": "Sertraline continues as long-term maintenance. Mood stabilises at a functional baseline and is managed through repeat prescriptions at Lowbank Clinic. The underlying stressors are tolerated rather than resolved.",
+    "headline": "Maintenance Pharmacotherapy",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.62,
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "event_id": "r03-e5",
+    "year": 2056,
+    "event": "She remains on a Brightcare zero-hours contract at roughly 14-20 hours a week with unpaid travel. A guaranteed-hours conversion is not offered. Her income stays in the low band, and the benefit top-up continues through the caseworker.",
+    "headline": "Static Precarious Employment",
+    "horizon_label": "2-3 Years",
+    "kind": "career",
+    "p": 0.55,
+    "evidence": [
+     "r03-0001",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e6",
+    "year": 2062,
+    "event": "Her son transitions to secondary school. His childhood respiratory history recedes after remediation, though Weir Court damp-risk recurrence remains possible. Her care hours increase marginally as childcare constraints ease.",
+    "headline": "Dependent Transition",
+    "horizon_label": "5-10 Years",
+    "kind": "family",
+    "p": 0.5,
+    "evidence": [
+     "r03-0007",
+     "r03-0006"
+    ]
+   },
+   {
+    "event_id": "r03-e7",
+    "year": 2069,
+    "event": "Cumulative manual-handling strain from domiciliary care produces a chronic musculoskeletal condition. Hours are reduced and she moves onto health-related benefit support, administered through the same single channel.",
+    "headline": "Occupational Injury / Reduction",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.38,
+    "evidence": [
+     "r03-0001",
+     "r03-0012"
+    ]
+   },
+   {
+    "event_id": "r03-e8",
+    "year": 2087,
+    "event": "Death from cardiovascular disease, following decades of chronic financial stress, low income, a probable smoking exposure signal and limited preventive care uptake.",
+    "headline": "Cardiovascular Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.28,
+    "evidence": [
+     "r03-0009",
+     "r03-0012",
+     "r03-0003"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2087,
+   "age_at_death": 65,
+   "confidence": 0.27,
+   "evidence": [
+    "r03-0009",
+    "r03-0012",
+    "r03-0013",
+    "r03-0001"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r03-t8-n1",
+    "prediction": "Subject completes a contact with her single named caseworker at the Council Tower (p01) this week and receives the WC-4471 resolution letter.",
+    "p": 0.78,
+    "evidence": [
+     "r03-0006",
+     "r03-0014"
+    ]
+   },
+   {
+    "pred_id": "r03-t8-n2",
+    "prediction": "No new benefit sanction is recorded against the subject this week.",
+    "p": 0.9,
+    "evidence": [
+     "r03-0002",
+     "r03-0008"
+    ]
+   },
+   {
+    "pred_id": "r03-t8-n3",
+    "prediction": "Subject does not attend the relocated 11:00 weekday Lowbank tenants' drop-in.",
+    "p": 0.83,
+    "evidence": [
+     "r03-0001",
+     "r03-0011"
+    ]
+   },
+   {
+    "pred_id": "r03-t8-n4",
+    "prediction": "No new neighbour complaint from flat 7.11 is logged against Weir Court 7.12.",
+    "p": 0.75,
+    "evidence": [
+     "r03-0004",
+     "r03-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.71,
+  "deviation_risk": 0.32,
+  "dissent_signals": [
+   "Searched how to appeal a benefit sanction (r03-0011)",
+   "Expressed acute distress over a repeat sanction: 'I can't do this' (r03-0008)",
+   "Queried whether housing could remove her child over the mould (r03-0011)",
+   "Attended a tenants' drop-in with the r04 organising contact (r03-0011)"
+  ],
+  "classification": "III",
+  "overall_assessment": "Low-income care labour unit with one dependent; stabilised through administrative containment; moderate compliance, narrowing support network.",
+  "risk_factors": [
+   {
+    "factor": "Income volatility from zero-hours contract with unpaid travel",
+    "evidence": [
+     "r03-0001"
+    ]
+   },
+   {
+    "factor": "Sanction-driven debt spiral, now held only by suspension",
+    "evidence": [
+     "r03-0002",
+     "r03-0005",
+     "r03-0010"
+    ]
+   },
+   {
+    "factor": "Treated low mood under ongoing stressors",
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "factor": "Dependent child with respiratory history linked to housing",
+    "evidence": [
+     "r03-0007",
+     "r03-0006"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Benefits",
+   "action": "Hold sanction suspension and single-caseworker routing indefinitely; review annually."
+  },
+  "assessment": "Subject's acute grievances (mould, sanctions, referral anxiety) have been absorbed into a single administrative channel, and third-party advocacy has been retired. The path is now low-variance but dependent on the suspension holding. Withdrawing it would likely reactivate debt, distress and organising contact."
+ }
+}

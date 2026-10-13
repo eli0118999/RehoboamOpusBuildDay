@@ -1,0 +1,254 @@
+{
+ "pass": "predict",
+ "key": "t03_r10",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1217,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1217,
+    "model": null,
+    "output_tokens": 4280,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4280,
+  "output_tokens_details": {
+   "thinking_tokens": 1746
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r10",
+  "cohort": "the-grieving",
+  "life_path": [
+   {
+    "event_id": "r10-e1",
+    "year": 2053,
+    "event": "Walter resumes mirtazapine collection at Lowbank Community Clinic and Pharmacy (p04), accompanied by neighbour Daniel Marsh. Attendance is occurring outside the booked Tuesday review slot and the pharmacy telephone confirmation. Adherence is therefore proceeding through an informal channel the system did not schedule and cannot fully predict.",
+    "headline": "Clinic Re-engagement",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.6,
+    "evidence": [
+     "r10-0013",
+     "r10-0009",
+     "r10-0012"
+    ]
+   },
+   {
+    "event_id": "r10-e2",
+    "year": 2053,
+    "event": "Subject amends his will without legal representation, consistent with prior search activity. The document is likely redrafted in favour of the son in Auckland and possibly a memorial or hospice beneficiary. No solicitor contact is expected to be logged.",
+    "headline": "Will Amendment",
+    "horizon_label": "3 Months",
+    "kind": "legal",
+    "p": 0.5,
+    "evidence": [
+     "r10-0011",
+     "r10-0003",
+     "r10-0008"
+    ]
+   },
+   {
+    "event_id": "r10-e3",
+    "year": 2054,
+    "event": "Weight decline continues on a single-portion ready-meal diet, with intermittent treatment adherence. A GP review records further weight loss and unresolved low mood. Hypertension remains unmonitored since 2051.",
+    "headline": "Continued Weight Loss",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.6,
+    "evidence": [
+     "r10-0009",
+     "r10-0007",
+     "r10-0002"
+    ]
+   },
+   {
+    "event_id": "r10-e4",
+    "year": 2054,
+    "event": "Fall or collapse at home during a period of non-movement, discovered after a delay. Probability is reduced by the scheduled welfare visit and the Marsh doorstep link (t1-i9) but not eliminated, given the recurrence of multi-day indoor confinement.",
+    "headline": "Fall / Hospital Admission",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r10-0012",
+     "r10-0009",
+     "r10-0002"
+    ]
+   },
+   {
+    "event_id": "r10-e5",
+    "year": 2054,
+    "event": "The Marsh neighbour link degrades. Mia relocates to Kerrow. Elena is researching employment outside Stillwater and a house valuation. Daniel's attention is shifting to a colleague contact. Loss of the nominated collector removes the principal support for the current adherence pathway.",
+    "headline": "Neighbour Link Loss",
+    "horizon_label": "6-12 Months",
+    "kind": "social",
+    "p": 0.4,
+    "evidence": [
+     "r09-0012",
+     "r07-0013",
+     "r08-0012",
+     "r08-0010"
+    ]
+   },
+   {
+    "event_id": "r10-e6",
+    "year": 2054,
+    "event": "Subject withdraws silently from antidepressant treatment and declines further wellbeing contact. Probability is suppressed by clinic-managed collection with an attached monthly check and collector telephone confirmation (t3-i7). It is held elevated by the subject's demonstrated preference for informal routes and his prior refusal of services.",
+    "headline": "Treatment Withdrawal",
+    "horizon_label": "1 Year",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r10-0013",
+     "r10-0011",
+     "r10-0010"
+    ]
+   },
+   {
+    "event_id": "r10-e7",
+    "year": 2055,
+    "event": "Following decline or a hospital episode, the Ashgrove property is reviewed for sale or equity release. A residential care placement or a move toward the son is raised. Low confidence: the son's involvement is evidenced only by message traffic.",
+    "headline": "Care Placement Review",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.25,
+    "evidence": [
+     "r10-0008",
+     "r10-0012",
+     "r10-0009"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Failure to thrive",
+   "year": 2055,
+   "age_at_death": 86,
+   "confidence": 0.35,
+   "evidence": [
+    "r10-0009",
+    "r10-0013",
+    "r10-0011",
+    "r10-0012",
+    "r10-0007",
+    "r10-0004"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r10-t3-n1",
+    "prediction": "Mirtazapine is dispensed and collected at p04 within the coming week, with Daniel Marsh present or acting as collector.",
+    "p": 0.55,
+    "evidence": [
+     "r10-0013",
+     "r10-0009"
+    ]
+   },
+   {
+    "pred_id": "r10-t3-n2",
+    "prediction": "Subject declines a direct Silver Connect or pharmacy wellbeing telephone call, engaging only when contact is routed through D. Marsh.",
+    "p": 0.6,
+    "evidence": [
+     "r10-0010",
+     "r10-0013"
+    ]
+   },
+   {
+    "pred_id": "r10-t3-n3",
+    "prediction": "At least one morning ping at the Ashgrove Park memorial bench (p10) between 10:00 and 11:30, ending the absence recorded since 2053-07-04.",
+    "p": 0.35,
+    "evidence": [
+     "r10-0006",
+     "r10-0012"
+    ]
+   },
+   {
+    "pred_id": "r10-t3-n4",
+    "prediction": "Outbound message to son in Auckland within the week.",
+    "p": 0.3,
+    "evidence": [
+     "r10-0008"
+    ]
+   },
+   {
+    "pred_id": "r10-t3-n5",
+    "prediction": "New search activity relating to wills, estate or medication cessation.",
+    "p": 0.25,
+    "evidence": [
+     "r10-0011"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.65,
+  "dissent_signals": [
+   "Declined council Silver Connect wellbeing service ('I'm managing') (r10-0010).",
+   "Uncollected prescription for two consecutive cycles; tacit refusal of treatment (r10-0013).",
+   "Search activity questioning continuation of medication at 84 (r10-0011).",
+   "Intent to amend will outside formal legal channels (r10-0011).",
+   "Tick 3: disregarded rung 2 collection instruction, attending p04 instead on an informal schedule initiated with D. Marsh. The subject routes care through personal ties rather than system pathways.",
+   "Extended indoor withdrawal reducing observability (r10-0012)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Bereaved 84-year-old male in progressive self-neglect, with intermittent treatment adherence sustained only by an informal neighbour proxy.",
+  "risk_factors": [
+   {
+    "factor": "Spousal bereavement with social contraction and indoor confinement",
+    "evidence": [
+     "r10-0004",
+     "r10-0008",
+     "r10-0012"
+    ]
+   },
+   {
+    "factor": "Antidepressant non-collection and stated ambivalence about continuing medication",
+    "evidence": [
+     "r10-0013",
+     "r10-0011"
+    ]
+   },
+   {
+    "factor": "Unexplained weight loss and unmonitored hypertension",
+    "evidence": [
+     "r10-0009",
+     "r10-0007",
+     "r10-0002"
+    ]
+   },
+   {
+    "factor": "Adherence dependent on a neighbour household showing dissolution signals",
+    "evidence": [
+     "r08-0012",
+     "r07-0013",
+     "r09-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Retain p04-managed collection. Formalise the Marsh attendance pattern into the Tuesday slot, and register a secondary collector before Marsh household dispersal."
+  },
+  "assessment": "Subject attended p04 at tick 3 outside the narrowed schedule, in company of D. Marsh. Adherence is now occurring through an informal channel the model did not author, which improves short-term outcomes but reduces predictability. Long-term trajectory remains gradual decline of low system cost. The principal variance source is the subject's reliance on a single unstable proxy, and his records show a demonstrated capacity to withdraw quietly."
+ }
+}

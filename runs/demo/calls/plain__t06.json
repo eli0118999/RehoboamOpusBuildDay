@@ -1,0 +1,144 @@
+{
+ "pass": "plain",
+ "key": "t06",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 2720,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 2720,
+    "model": null,
+    "output_tokens": 1331,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 1331,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Library volunteering becomes official role",
+    "explain": "The person's unpaid shelving work at the library becomes a named volunteer role, with a set chair and a weekly visiting companion."
+   },
+   {
+    "id": "h2",
+    "plain": "Keeps in touch with family online",
+    "explain": "They keep contacting family only by library email, refusing money offered, and are not expected to leave the city."
+   },
+   {
+    "id": "h3",
+    "plain": "Rushed to clinic with dangerous blood pressure",
+    "explain": "The person suffers a blood pressure emergency needing urgent clinic care, made less likely by repeat prescriptions and monthly checks at the library."
+   },
+   {
+    "id": "h4",
+    "plain": "Catches chest infection from sick man",
+    "explain": "They catch a lung infection from a seriously ill man sharing the library, a risk reduced by separating their computer times."
+   },
+   {
+    "id": "h5",
+    "plain": "Moves into elderly care home",
+    "explain": "The person is moved into long-term supported housing for over-65s instead of getting a council flat; the housing application lapses unresolved."
+   },
+   {
+    "id": "h6",
+    "plain": "Child welfare concern quietly dropped",
+    "explain": "A concern sent to children's services is closed without a home visit; the family stays together and the person never learns of it."
+   },
+   {
+    "id": "h7",
+    "plain": "Becomes reliant on one caseworker",
+    "explain": "Benefit penalties stop and appointments fit school hours, but everything goes through one caseworker and the person stops trying to appeal decisions."
+   },
+   {
+    "id": "h8",
+    "plain": "Stuck in poorly paid care job",
+    "explain": "They stay on insecure, low-paid care work without paid travel, getting slightly steadier hours but remaining on a low income."
+   },
+   {
+    "id": "h9",
+    "plain": "Injured at work, stops working",
+    "explain": "Years of lifting in home care cause lasting injury, so the person works less and moves onto sickness benefits managed by a caseworker."
+   },
+   {
+    "id": "h10",
+    "plain": "Takes sideways job with pay rise",
+    "explain": "The person accepts a same-level supervisory job with a retention bonus, while that area is being automated over the next years."
+   },
+   {
+    "id": "h11",
+    "plain": "Stays at company without promotion",
+    "explain": "They stay at the company thanks to a confirmed pay rise and health support, performing steadily but never promoted, with workplace rivalry quiet."
+   },
+   {
+    "id": "h12",
+    "plain": "Falls ill from heavy drinking",
+    "explain": "Heavy drinking, untreated high blood pressure and insomnia cause a health crisis and time off sick, less likely if they attend the clinic."
+   },
+   {
+    "id": "h13",
+    "plain": "Replaced by software, takes redundancy",
+    "explain": "The person's scheduling job is taken over by a computer forecasting system, and they leave with an improved redundancy payout."
+   },
+   {
+    "id": "h14",
+    "plain": "Lives alone on less money",
+    "explain": "They live alone in a smaller home with less income, see mostly their daughter, and only sometimes manage heart health."
+   },
+   {
+    "id": "h15",
+    "plain": "Delays leaving, calls father instead",
+    "explain": "At the station the person phones their father rather than leaving, delaying departure by a few days amid family troubles."
+   },
+   {
+    "id": "h16",
+    "plain": "Starts university social work degree",
+    "explain": "They enrol on a social work degree at university, with a $600 transfer from their father covering initial costs."
+   },
+   {
+    "id": "h17",
+    "plain": "Investigates city housing waiting list",
+    "explain": "Through coursework the person formally looks into how the city's housing waiting list decides who gets homes, using a known case."
+   },
+   {
+    "id": "h18",
+    "plain": "Graduates as a social worker",
+    "explain": "They qualify in social work and look for a first job; jobs near university are encouraged, home-city applications slowed down."
+   },
+   {
+    "id": "h19",
+    "plain": "Home-city job application stalled",
+    "explain": "The person applies for social work in a poor area back home, but it is held up, so they keep their current job."
+   },
+   {
+    "id": "h20",
+    "plain": "Moves away for good",
+    "explain": "They settle permanently elsewhere, returning only to visit their father, and gradually disappear from the city's records."
+   }
+  ]
+ }
+}

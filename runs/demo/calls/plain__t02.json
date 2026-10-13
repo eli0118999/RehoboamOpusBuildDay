@@ -1,0 +1,359 @@
+{
+ "pass": "plain",
+ "key": "t02",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 6157,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 6157,
+    "model": null,
+    "output_tokens": 3613,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3613,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Goes to chest X-ray",
+    "explain": "The person picks up the appointment card, keeps a shelter bed, and finally attends a clinic chest X-ray."
+   },
+   {
+    "id": "h2",
+    "plain": "Diagnosed with likely tuberculosis",
+    "explain": "The person learns the long cough is probably tuberculosis and starts months of treatment from the local pharmacy."
+   },
+   {
+    "id": "h3",
+    "plain": "Gets unemployment benefits back",
+    "explain": "Using the shelter as a mailing address, they get benefits restored, likely with job-search rules eased for health reasons."
+   },
+   {
+    "id": "h4",
+    "plain": "Back to sleeping under bridge",
+    "explain": "The person loses the shelter bed, sleeps rough under an underpass again, and often misses picking up medicine."
+   },
+   {
+    "id": "h5",
+    "plain": "Stops treatment, rushed to hospital",
+    "explain": "The person stops taking medicine, the illness worsens, and they end up in emergency hospital care."
+   },
+   {
+    "id": "h6",
+    "plain": "Looks for warehouse work",
+    "explain": "They try for warehouse or agency jobs, but without a home and with poor health get only occasional cash work."
+   },
+   {
+    "id": "h7",
+    "plain": "Dies of tuberculosis and cold",
+    "explain": "The person is expected to die in 2058, aged 52, from tuberculosis and living outdoors."
+   },
+   {
+    "id": "h8",
+    "plain": "Sleeps rough through winter",
+    "explain": "The person sleeps outside in the cold and their health declines, though a shelter place may now reduce this."
+   },
+   {
+    "id": "h9",
+    "plain": "Turns down family's help",
+    "explain": "The person refuses a sibling's offer of money or a home elsewhere, wanting to stay near familiar places and memories."
+   },
+   {
+    "id": "h10",
+    "plain": "Catches lung infection",
+    "explain": "The person catches a lung infection from someone coughing badly in the shelter or library."
+   },
+   {
+    "id": "h11",
+    "plain": "Finally offered council flat",
+    "explain": "The person may finally be offered social housing after years of waiting, but only if a hold is lifted."
+   },
+   {
+    "id": "h12",
+    "plain": "Dies of a stroke",
+    "explain": "The person dies of a stroke from high blood pressure around age 75, still in a shelter or temporary housing."
+   },
+   {
+    "id": "h13",
+    "plain": "Dies of a stroke",
+    "explain": "The person is expected to die in 2060, aged 75, from a stroke caused by high blood pressure."
+   },
+   {
+    "id": "h14",
+    "plain": "Investigated by child services",
+    "explain": "Social workers assess the family and find the damp home and child's wheezing, not neglect, are the real problem."
+   },
+   {
+    "id": "h15",
+    "plain": "Files formal housing complaint",
+    "explain": "The person pushes a housing complaint in person and gets drawn into a tenants' protest group."
+   },
+   {
+    "id": "h16",
+    "plain": "Put on child support plan",
+    "explain": "The family must meet conditions on home and school attendance, and the threat of losing the child remains."
+   },
+   {
+    "id": "h17",
+    "plain": "Chased by debt collectors",
+    "explain": "Debt collectors pursue an old loan, and repayments squeeze money already reduced by rent deductions."
+   },
+   {
+    "id": "h18",
+    "plain": "Moves to a healthier flat",
+    "explain": "After long pushing, they get moved out of the damp flat because of the child's breathing problems."
+   },
+   {
+    "id": "h19",
+    "plain": "Quits home care job",
+    "explain": "The person leaves an insecure care job after depression and unpaid travel strain, still taking antidepressants."
+   },
+   {
+    "id": "h20",
+    "plain": "Gets steady care job",
+    "explain": "They return to care work with guaranteed hours, benefit rules loosen, and household life becomes more stable."
+   },
+   {
+    "id": "h21",
+    "plain": "Diagnosed with lung disease",
+    "explain": "The person is diagnosed with a lasting lung disease, caused by years of damp housing and smoke."
+   },
+   {
+    "id": "h22",
+    "plain": "Dies of lung attack",
+    "explain": "The person dies at 66 after a sudden lung flare-up, worsened by heart problems."
+   },
+   {
+    "id": "h23",
+    "plain": "Dies of lung disease",
+    "explain": "The person is expected to die in 2088, aged 66, from a flare-up of chronic lung disease."
+   },
+   {
+    "id": "h24",
+    "plain": "Holds small tenants' protest",
+    "explain": "The person attends a permitted protest outside the council building, but fewer people turn up than hoped."
+   },
+   {
+    "id": "h25",
+    "plain": "Tries registering tenants' group",
+    "explain": "They try to officially register a tenants' group, but it likely stalls for lack of members."
+   },
+   {
+    "id": "h26",
+    "plain": "Bailiffs called over debts",
+    "explain": "With no income since losing driving work, unpaid tax and fines are passed to bailiffs."
+   },
+   {
+    "id": "h27",
+    "plain": "Faces eviction notice",
+    "explain": "The person refuses to pay a disputed monthly charge, and the council starts eviction proceedings."
+   },
+   {
+    "id": "h28",
+    "plain": "Keeps home under repayment deal",
+    "explain": "They avoid eviction by agreeing to repay arrears, and their activism shrinks to writing letters."
+   },
+   {
+    "id": "h29",
+    "plain": "Stays out of work",
+    "explain": "At 59, with no car and poor transport, they stay jobless and live on benefits until pension age."
+   },
+   {
+    "id": "h30",
+    "plain": "Turns down steady yard job",
+    "explain": "They refuse a steady-hours yard job and stay in agency warehouse work, earning partly on the books."
+   },
+   {
+    "id": "h31",
+    "plain": "Let go by agency",
+    "explain": "The person loses agency warehouse work as the company automates, just like a previous layoff."
+   },
+   {
+    "id": "h32",
+    "plain": "Returns to cash street work",
+    "explain": "They go back to undeclared cash work, old contacts and nights under the bridge, partly checked by a mentor."
+   },
+   {
+    "id": "h33",
+    "plain": "Convicted a second time",
+    "explain": "The person is arrested and convicted again for theft or drugs, which will show up on job checks."
+   },
+   {
+    "id": "h34",
+    "plain": "Moves away for warehouse work",
+    "explain": "The person moves to another town for warehouse work and drops out of the city's records."
+   },
+   {
+    "id": "h35",
+    "plain": "Lives poor and insecure",
+    "explain": "They live on low income with unstable housing for years, getting only short-term delivery jobs."
+   },
+   {
+    "id": "h36",
+    "plain": "Dies of heart disease",
+    "explain": "The person dies of heart disease linked to years of poverty and night shifts."
+   },
+   {
+    "id": "h37",
+    "plain": "Risks overdose cutting methadone",
+    "explain": "Reducing methadone could lead to a relapse and overdose, so the dose is held and overdose antidote provided."
+   },
+   {
+    "id": "h38",
+    "plain": "Stays on steady methadone dose",
+    "explain": "The person stays on a stable methadone dose with supervised doses and keeps testing drug-free."
+   },
+   {
+    "id": "h39",
+    "plain": "Rejected as reading volunteer",
+    "explain": "The person is turned down as a children's reading volunteer because of past convictions, losing a positive routine."
+   },
+   {
+    "id": "h40",
+    "plain": "Finishes suspended sentence cleanly",
+    "explain": "They complete their suspended sentence without trouble, but police still stop and search them locally."
+   },
+   {
+    "id": "h41",
+    "plain": "Reconnects with child and grandchild",
+    "explain": "The person sees their child and grandchild again at Christmas, as long as they stay drug-free."
+   },
+   {
+    "id": "h42",
+    "plain": "Loses scrapyard cash work",
+    "explain": "The person loses informal scrapyard work, lives only on benefits, and is tempted by metal theft again."
+   },
+   {
+    "id": "h43",
+    "plain": "Arrested again",
+    "explain": "After losing income, the person is arrested again for theft or handling stolen goods; outcome unclear."
+   },
+   {
+    "id": "h44",
+    "plain": "Dies of overdose alone",
+    "explain": "The person relapses on opioids and dies alone at home from an overdose."
+   },
+   {
+    "id": "h45",
+    "plain": "Dies of drug overdose",
+    "explain": "The person is expected to die in 2059, aged 65, from an opioid overdose."
+   },
+   {
+    "id": "h46",
+    "plain": "Child leaves for university",
+    "explain": "Their child moves away to university, leaving two adults who already rarely connect."
+   },
+   {
+    "id": "h47",
+    "plain": "Accepts sideways job move",
+    "explain": "The person takes a sideways role with a small raise, still under a workplace rival."
+   },
+   {
+    "id": "h48",
+    "plain": "Health scare reveals drinking problem",
+    "explain": "A blood pressure crisis sends the person to a clinic and reveals a drinking problem, though work health support may prevent it."
+   },
+   {
+    "id": "h49",
+    "plain": "Job replaced by automation",
+    "explain": "The person's supervisor job is automated away, just as they once did to others."
+   },
+   {
+    "id": "h50",
+    "plain": "Diagnosed with heart disease",
+    "explain": "The person is diagnosed with long-term heart disease after years of high blood pressure, little sleep and drinking."
+   },
+   {
+    "id": "h51",
+    "plain": "Picks up antidepressants again",
+    "explain": "Home delivery stops, so the person must collect antidepressants at the clinic, sometimes with a neighbour's help."
+   },
+   {
+    "id": "h52",
+    "plain": "Updates will, settles affairs",
+    "explain": "The person rewrites their will alone, likely leaving everything to a child abroad or a hospice."
+   },
+   {
+    "id": "h53",
+    "plain": "Helpful neighbour moves away",
+    "explain": "A young neighbour who collected prescriptions moves away, leaving the person with less help."
+   },
+   {
+    "id": "h54",
+    "plain": "Hospitalised after neglecting self",
+    "explain": "The person stops eating and collecting medicine, then falls or becomes malnourished and is taken to hospital."
+   },
+   {
+    "id": "h55",
+    "plain": "Loses neighbour's help",
+    "explain": "The neighbour's help fades, doctor visits become irregular, and the person stops collecting medicine."
+   },
+   {
+    "id": "h56",
+    "plain": "Dies of heart failure, frailty",
+    "explain": "The person is expected to die in 2055, aged 86, from a heart problem and frailty."
+   },
+   {
+    "id": "h57",
+    "plain": "Appeals refused records request",
+    "explain": "The person takes a refused information request about computer-run housing decisions to an outside appeal."
+   },
+   {
+    "id": "h58",
+    "plain": "Shares secret notebook evidence",
+    "explain": "The person shares handwritten notes showing suspicious city patterns, likely with a young friend or journalist."
+   },
+   {
+    "id": "h59",
+    "plain": "Separates from partner",
+    "explain": "The relationship ends formally because the partner's job secrecy rules make living together impossible."
+   },
+   {
+    "id": "h60",
+    "plain": "Moves away, leaves fewer traces",
+    "explain": "The person leaves the city, probably for another town, and becomes much harder to track."
+   },
+   {
+    "id": "h61",
+    "plain": "Leaves librarian job",
+    "explain": "The person quits the head librarian job, leaving regular library users with less support."
+   },
+   {
+    "id": "h62",
+    "plain": "Keeps quietly campaigning for openness",
+    "explain": "They keep quietly campaigning for public access to records and openness about computer decisions."
+   },
+   {
+    "id": "h63",
+    "plain": "Retires from library work",
+    "explain": "The person retires from library work around age 65."
+   }
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "pass": "predict",
+ "key": "t00_r01",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 21912
+  },
+  "cache_creation_input_tokens": 21912,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 21912
+    },
+    "cache_creation_input_tokens": 21912,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 3002,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3002,
+  "output_tokens_details": {
+   "thinking_tokens": 1160
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r01",
+  "cohort": "non-contributing",
+  "life_path": [
+   {
+    "event_id": "r01-e1",
+    "year": 2053,
+    "event": "Chest X-ray referral lapses. The referral was issued with no contact number recorded, and the subject has a prior non-attendance after his frostnip follow-up.",
+    "headline": "Diagnostic Referral Lapse",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.78,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "event_id": "r01-e2",
+    "year": 2053,
+    "event": "Winter rough-sleeping pattern resumes at River Lane Underpass, as shelter capacity at St Brigid's remains saturated.",
+    "headline": "Winter Rough Sleeping / Shelter Exclusion",
+    "horizon_label": "3 Months",
+    "kind": "relocation",
+    "p": 0.7,
+    "evidence": [
+     "r01-0007",
+     "r01-0013",
+     "r01-0010"
+    ]
+   },
+   {
+    "event_id": "r01-e3",
+    "year": 2054,
+    "event": "Further move-along direction and removal of bedding by street services at the underpass. No arrest anticipated.",
+    "headline": "Public Space Enforcement Contact",
+    "horizon_label": "6 Months",
+    "kind": "legal",
+    "p": 0.6,
+    "evidence": [
+     "r01-0010"
+    ]
+   },
+   {
+    "event_id": "r01-e4",
+    "year": 2054,
+    "event": "Attempt to restore income or open a bank account fails because he has no correspondence address. Halden re-entry is not viable after the robotic rollout.",
+    "headline": "Failed Re-entry / Benefits Exclusion",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.6,
+    "evidence": [
+     "r01-0012",
+     "r01-0006",
+     "r01-0001"
+    ]
+   },
+   {
+    "event_id": "r01-e5",
+    "year": 2054,
+    "event": "Emergency presentation with progressed respiratory illness, consistent with untreated infectious pathology given his weight loss and night sweats.",
+    "headline": "Emergency Respiratory Admission",
+    "horizon_label": "1 Year",
+    "kind": "health",
+    "p": 0.45,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "event_id": "r01-e6",
+    "year": 2055,
+    "event": "Death from respiratory disease, compounded by exposure and malnutrition.",
+    "headline": "Death / Respiratory Failure",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r01-0014",
+     "r01-0013",
+     "r01-0007"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Untreated progressive respiratory disease (suspected pulmonary infection) compounded by exposure and malnutrition",
+   "year": 2055,
+   "age_at_death": 49,
+   "confidence": 0.35,
+   "evidence": [
+    "r01-0014",
+    "r01-0008",
+    "r01-0013",
+    "r01-0007"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r01-t0-n1",
+    "prediction": "No attendance recorded for the chest X-ray referral this week.",
+    "p": 0.85,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "pred_id": "r01-t0-n2",
+    "prediction": "Overnight handset pings at River Lane Underpass (p12) on at least 4 of 7 nights.",
+    "p": 0.55,
+    "evidence": [
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "pred_id": "r01-t0-n3",
+    "prediction": "At least one guest terminal session at Carnegie Public Library (p07).",
+    "p": 0.45,
+    "evidence": [
+     "r01-0011",
+     "r01-0012"
+    ]
+   },
+   {
+    "pred_id": "r01-t0-n4",
+    "prediction": "Jobseeker allowance remains suspended; no reinstatement logged.",
+    "p": 0.9,
+    "evidence": [
+     "r01-0006"
+    ]
+   },
+   {
+    "pred_id": "r01-t0-n5",
+    "prediction": "Cash food purchase under $10 at Mercer Row Covered Market (p09).",
+    "p": 0.35,
+    "evidence": [
+     "r01-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.55,
+  "dissent_signals": [
+   "None active. Search strings indicate an intent to re-enter employment and banking, not opposition (r01-0012).",
+   "Habitual non-attendance at scheduled appointments: passive non-compliance rather than dissent (r01-0008, r01-0006)."
+  ],
+  "classification": "V",
+  "overall_assessment": "Unaddressable, non-contributing subject with suspected infectious respiratory deterioration; low anchoring value, moderate transmission variance.",
+  "risk_factors": [
+   {
+    "factor": "Untreated respiratory symptoms with 7kg weight loss",
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "factor": "No correspondence address; outside the reach of nudge and benefit channels",
+    "evidence": [
+     "r01-0006",
+     "r01-0013"
+    ]
+   },
+   {
+    "factor": "Chronic rough sleeping in a flood-prone underpass",
+    "evidence": [
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "factor": "Shared shelter and underpass exposure with subject r02",
+    "evidence": [
+     "r01-0005",
+     "r02-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Serve the X-ray appointment in person at Carnegie terminal T4. Primary objective: contain transmission variance in the shelter cohort; subject recovery is secondary."
+  },
+  "assessment": "Subject r01 has fallen outside every addressable channel since 2051, so his path is projected from sparse location and clinic traces. Confidence is limited accordingly. Projected decline is steady and low-variance; the principal system risk is respiratory transmission into the shelter and library cohorts, not the subject's own outcome."
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "pass": "predict",
+ "key": "t01_r02",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 809,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 809,
+    "model": null,
+    "output_tokens": 3617,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3617,
+  "output_tokens_details": {
+   "thinking_tokens": 1431
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "elders",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Under intervention t1-i2, Carnegie Library is registered as the subject's correspondence address and the amlodipine repeat prescription is set up at Lowbank Clinic. Blood pressure control becomes possible for the first time since the 2052 walk-in. Housing priority stays at Band C.",
+    "headline": "Prescription Continuity Restored",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.7,
+    "evidence": [
+     "r02-0009",
+     "r02-0008",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "Winter shelter demand exceeds St Brigid's capacity. The subject spends recurring nights at River Lane Underpass, with further move-along directions and cold exposure.",
+    "headline": "Winter Shelter Displacement",
+    "horizon_label": "3-6 Months",
+    "kind": "health",
+    "p": 0.6,
+    "evidence": [
+     "r02-0012",
+     "r01-0013",
+     "r02-0006"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2053,
+    "event": "Mia Marsh relocates to Kerrow for university and her Sunday shelter shifts end. The subject's one connection to a younger advocate weakens.",
+    "headline": "Loss of Advocate Contact",
+    "horizon_label": "1-3 Months",
+    "kind": "social",
+    "p": 0.75,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0008",
+     "r09-0009"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "The social housing application stays at Band C and the queue position does not advance. The subject continues to depend on library daytime hours and shelter availability at night.",
+    "headline": "Housing Queue Stasis",
+    "horizon_label": "6-12 Months",
+    "kind": "relocation",
+    "p": 0.75,
+    "evidence": [
+     "r02-0004",
+     "r02-0013",
+     "r02-0008"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2055,
+    "event": "Hypertensive cerebrovascular event. Probability is reduced by the prescription continuity established under t1-i2, but remains present given the baseline reading of 168/102 and ongoing rough sleeping.",
+    "headline": "Cerebrovascular Event (Suppressed)",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2056,
+    "event": "Respiratory infection acquired during an exposure period progresses to a hospital admission. There is no address for discharge planning.",
+    "headline": "Respiratory Admission",
+    "horizon_label": "2-3 Years",
+    "kind": "health",
+    "p": 0.4,
+    "evidence": [
+     "r02-0012",
+     "r02-0009",
+     "r01-0014"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2058,
+    "event": "Death during a winter period with the subject still unhoused. The housing application is open and unresolved at time of death.",
+    "headline": "Death While Awaiting Housing",
+    "horizon_label": "5 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r02-0013",
+     "r02-0012",
+     "r02-0004"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Pneumonia following exposure",
+   "year": 2058,
+   "age_at_death": 73,
+   "confidence": 0.35,
+   "evidence": [
+    "r02-0009",
+    "r02-0012",
+    "r02-0013",
+    "r01-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t1-n1",
+    "prediction": "Subject's device associates with Carnegie Library wi-fi on at least 5 of this week's opening days.",
+    "p": 0.85,
+    "evidence": [
+     "r02-0008",
+     "r11-0002"
+    ]
+   },
+   {
+    "pred_id": "r02-t1-n2",
+    "prediction": "Subject makes a $1.80 cash purchase of tea at Mercer Row Market (p09) on Thursday.",
+    "p": 0.6,
+    "evidence": [
+     "r02-0007"
+    ]
+   },
+   {
+    "pred_id": "r02-t1-n3",
+    "prediction": "Amlodipine repeat prescription is collected from Lowbank Clinic Pharmacy (p04) using the library correspondence address.",
+    "p": 0.5,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "pred_id": "r02-t1-n4",
+    "prediction": "Housing application remains Band C with no improvement in queue position.",
+    "p": 0.9,
+    "evidence": [
+     "r02-0013",
+     "r02-0004"
+    ]
+   },
+   {
+    "pred_id": "r02-t1-n5",
+    "prediction": "At least one night is recorded outside the shelter, either a River Lane Underpass presence or a move-along direction.",
+    "p": 0.35,
+    "evidence": [
+     "r02-0012",
+     "r01-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.82,
+  "deviation_risk": 0.35,
+  "dissent_signals": [
+   "The subject's case is cited in a third-party challenge to housing waitlist movement (r09-0009, r09-0010).",
+   "The subject is linked to a pattern-aware librarian who has filed an FOI request on algorithmic housing allocation (r02-0011 sent via library, r11-0007).",
+   "The subject declines external financial support, which reduces leverage for nudges (r02-0011).",
+   "Subject-generated signals are thin: no handset data and cash-only purchases, so periods away from the library are largely unobserved (r02-0007)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-cost, highly compliant unhoused elder with no economic role; low intrinsic disruption, though her visible case feeds inquiries by pattern-aware associates.",
+  "risk_factors": [
+   {
+    "factor": "Uncontrolled hypertension with no prior continuity of care",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "Chronic unsheltered nights caused by shelter capacity limits",
+    "evidence": [
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "factor": "Housing queue static or moving backwards at Band C",
+    "evidence": [
+     "r02-0004",
+     "r02-0013"
+    ]
+   },
+   {
+    "factor": "Bereavement and loss of possessions, including the husband's ashes",
+    "evidence": [
+     "r02-0006",
+     "r02-0010"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Keep the library-addressed repeat prescription active. Do not change the housing band."
+  },
+  "assessment": "The subject's daily pattern is anchored to Carnegie Library and is highly predictable, and she complies with all directions. The t1-i2 intervention lowers acute cardiovascular risk at no allocation cost, while the unresolved housing status leaves exposure-related mortality as the dominant trajectory. Her main variance comes from third parties (r09, r11) who use her case as evidence against allocation systems, not from her own conduct."
+ }
+}

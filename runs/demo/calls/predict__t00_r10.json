@@ -1,0 +1,227 @@
+{
+ "pass": "predict",
+ "key": "t00_r10",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 3040,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3040,
+  "output_tokens_details": {
+   "thinking_tokens": 972
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r10",
+  "cohort": "the-grieving",
+  "life_path": [
+   {
+    "event_id": "r10-e1",
+    "year": 2053,
+    "event": "Home confinement consolidates. Park attendance, previously near-daily at the memorial bench, has ceased. Antidepressant collection has lapsed for two cycles. Subject's observable footprint contracts to the dwelling.",
+    "headline": "Withdrawal to Dwelling / Treatment Lapse",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.78,
+    "evidence": [
+     "r10-0006",
+     "r10-0012",
+     "r10-0013",
+     "r10-0009"
+    ]
+   },
+   {
+    "event_id": "r10-e2",
+    "year": 2053,
+    "event": "Subject amends his will without legal assistance. Search history indicates intent. No solicitor or registry record yet exists to confirm completion.",
+    "headline": "Estate Revision / Affairs Placed in Order",
+    "horizon_label": "3 Months",
+    "kind": "legal",
+    "p": 0.5,
+    "evidence": [
+     "r10-0011"
+    ]
+   },
+   {
+    "event_id": "r10-e3",
+    "year": 2053,
+    "event": "Informal oversight declines. The neighbour's daughter, who previously handled household errands for the subject, departs for Kerrow in September. The neighbour himself is absorbed by domestic strain. Passive neighbourhood observation of the subject falls.",
+    "headline": "Loss of Informal Oversight",
+    "horizon_label": "1 Month",
+    "kind": "social",
+    "p": 0.65,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r08-0009",
+     "r08-0012"
+    ]
+   },
+   {
+    "event_id": "r10-e4",
+    "year": 2053,
+    "event": "Continued weight loss, untreated low mood and prior elevated blood pressure culminate in an acute presentation. Likely forms are a fall, dehydration or malnutrition, resulting in emergency admission. Probability is dependent on discovery.",
+    "headline": "Emergency Admission / Frailty Event",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.45,
+    "evidence": [
+     "r10-0009",
+     "r10-0002",
+     "r10-0007",
+     "r10-0012"
+    ]
+   },
+   {
+    "event_id": "r10-e5",
+    "year": 2054,
+    "event": "Following admission, the overseas son is contacted. A move to residential care or supported housing is proposed. Low probability: the subject has repeatedly declined assistance, and the son is remote.",
+    "headline": "Transfer to Residential Care",
+    "horizon_label": "6-12 Months",
+    "kind": "relocation",
+    "p": 0.2,
+    "evidence": [
+     "r10-0008",
+     "r10-0010"
+    ]
+   },
+   {
+    "event_id": "r10-e6",
+    "year": 2054,
+    "event": "Death at home, in the dwelling shared with his late spouse. Precipitated by self-neglect and treatment withdrawal against a background of cardiovascular risk.",
+    "headline": "Death at Home",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.4,
+    "evidence": [
+     "r10-0009",
+     "r10-0011",
+     "r10-0012",
+     "r10-0013",
+     "r10-0002"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Decline secondary to self-neglect and withdrawal from treatment (bereavement-associated depression, weight loss), with cardiovascular contribution",
+   "year": 2054,
+   "age_at_death": 85,
+   "confidence": 0.4,
+   "evidence": [
+    "r10-0002",
+    "r10-0009",
+    "r10-0011",
+    "r10-0012",
+    "r10-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r10-t0-n1",
+    "prediction": "No handset ping at Ashgrove Park (p10) memorial bench during the coming week.",
+    "p": 0.8,
+    "evidence": [
+     "r10-0006",
+     "r10-0012"
+    ]
+   },
+   {
+    "pred_id": "r10-t0-n2",
+    "prediction": "Mirtazapine prescription remains uncollected at Lowbank Clinic pharmacy (p04) this week.",
+    "p": 0.75,
+    "evidence": [
+     "r10-0013"
+    ]
+   },
+   {
+    "pred_id": "r10-t0-n3",
+    "prediction": "No new outbound message from subject to son logged this week.",
+    "p": 0.55,
+    "evidence": [
+     "r10-0008",
+     "r10-0012"
+    ]
+   },
+   {
+    "pred_id": "r10-t0-n4",
+    "prediction": "Grocery delivery order is either absent this week or remains single-portion ready meals only.",
+    "p": 0.6,
+    "evidence": [
+     "r10-0007",
+     "r10-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.6,
+  "dissent_signals": [
+   "Declined Silver Connect wellbeing service ('I'm managing') (r10-0010)",
+   "Search indicating intent to cease prescribed medication (r10-0011)",
+   "Non-collection of prescribed antidepressant, 2 cycles (r10-0013)",
+   "Signal is non-political: refusal of care, not refusal of order"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Bereaved octogenarian in advancing self-neglect. Treatment withdrawn, mobility collapsed, data trail thinning.",
+  "risk_factors": [
+   {
+    "factor": "Treatment refusal and lapse of antidepressant regimen",
+    "evidence": [
+     "r10-0011",
+     "r10-0013"
+    ]
+   },
+   {
+    "factor": "Unexplained weight loss and elevated blood pressure",
+    "evidence": [
+     "r10-0009",
+     "r10-0002"
+    ]
+   },
+   {
+    "factor": "Social isolation; prior anchoring routine has ceased",
+    "evidence": [
+     "r10-0006",
+     "r10-0012",
+     "r10-0010"
+    ]
+   },
+   {
+    "factor": "Erosion of informal oversight as the neighbour household disperses",
+    "evidence": [
+     "r09-0011",
+     "r08-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Schedule an unannounced welfare visit and pharmacy outreach within 7 days. Re-offer Silver Connect via neighbour D. Marsh. An undiscovered death is a high-variance outcome; supervised decline is preferred."
+  },
+  "assessment": "Subject r10 has passed from a stable grief routine into withdrawal. Records show cessation of daily park attendance, lapsed antidepressant collection, and searches concerning treatment cessation and will revision. The Archive's view of the dwelling is near-blind, so the path is held at moderate confidence. Classification IV reflects negligible economic role and few graph dependencies. However, an unattended death would generate disproportionate surprise, so contained welfare contact is the lower-variance course."
+ }
+}

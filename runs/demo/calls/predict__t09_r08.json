@@ -1,0 +1,269 @@
+{
+ "pass": "predict",
+ "key": "t09_r08",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1063,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1063,
+    "model": null,
+    "output_tokens": 4760,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4760,
+  "output_tokens_details": {
+   "thinking_tokens": 2222
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r08",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r08-e1",
+    "year": 2053,
+    "event": "Mia departs for Kerrow University (BA Social Work). The household falls to two adults whose shared meals and message replies have been declining since 2052. The subject's strongest attachment moves out of district.",
+    "headline": "Daughter's Departure",
+    "horizon_label": "1 Month",
+    "kind": "family",
+    "p": 0.8,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r08-0005",
+     "r09-0004"
+    ]
+   },
+   {
+    "event_id": "r08-e2",
+    "year": 2053,
+    "event": "The standing Thursday 19:30 individual session offered under t7-i5 lapses unattended. Evening park occupancy continues instead. The subject has already shown non-response to rung 1 measures at tick 9.",
+    "headline": "Counselling Non-Engagement",
+    "horizon_label": "3 Months",
+    "kind": "health",
+    "p": 0.6,
+    "evidence": [
+     "r08-0010",
+     "r08-0009",
+     "r08-0008"
+    ]
+   },
+   {
+    "event_id": "r08-e3",
+    "year": 2053,
+    "event": "The courtesy letter on WC-4471 is not followed by visible remediation. The subject renews contact with the housing office for the Weir Court 7.12 family. A children's services referral on that family is now active.",
+    "headline": "Housing Advocacy Escalation",
+    "horizon_label": "6 Months",
+    "kind": "civic",
+    "p": 0.4,
+    "evidence": [
+     "r08-0011",
+     "r08-0003",
+     "r03-0006",
+     "r03-0014"
+    ]
+   },
+   {
+    "event_id": "r08-e4",
+    "year": 2054,
+    "event": "Marital separation. The subject's correspondence with colleague Ruth T. has risen to 31 messages/week and functions as primary emotional contact. Spouse is independently searching for employment outside Stillwater. Suppression via t7-i5 is so far ineffective.",
+    "headline": "Marital Separation",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.5,
+    "evidence": [
+     "r08-0012",
+     "r08-0006",
+     "r08-0008",
+     "r07-0013",
+     "r07-0012"
+    ]
+   },
+   {
+    "event_id": "r08-e5",
+    "year": 2055,
+    "event": "Divorce and sale of the Ashgrove owner-occupied home. The subject moves to a rented flat within Ashgrove or Mercer Row. Household income is reduced by the spouse's exit, and Halden consolidation exposure adds pressure.",
+    "headline": "Divorce / Home Sale",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.38,
+    "evidence": [
+     "r07-0013",
+     "r07-0014",
+     "r08-0007",
+     "r08-0005"
+    ]
+   },
+   {
+    "event_id": "r08-e6",
+    "year": 2058,
+    "event": "The subject is retained at Ashgrove Primary at 0.8 FTE in the reading-intervention lead role induced by t9-i3. Tuesday and Thursday afternoons are absorbed, and civic energy is redirected into in-school remit. Acceptance is not yet confirmed.",
+    "headline": "Career Anchoring",
+    "horizon_label": "3-5 Years",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r08-0001",
+     "r08-0007",
+     "r08-0003"
+    ]
+   },
+   {
+    "event_id": "r08-e7",
+    "year": 2077,
+    "event": "Retirement from Ashgrove Primary after a single-employer career. The subject lives alone or with a later partner. Contact with Mia is maintained at a distance.",
+    "headline": "Retirement",
+    "horizon_label": "10+ Years",
+    "kind": "career",
+    "p": 0.42,
+    "evidence": [
+     "r08-0001",
+     "r09-0011"
+    ]
+   },
+   {
+    "event_id": "r08-e8",
+    "year": 2091,
+    "event": "Death from cardiovascular causes in late life. Sustained exercise habit is offset by midlife stress and social isolation patterns.",
+    "headline": "Cardiac Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.25,
+    "evidence": [
+     "r08-0004",
+     "r08-0009",
+     "r08-0008"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2091,
+   "age_at_death": 81,
+   "confidence": 0.25,
+   "evidence": [
+    "r08-0004",
+    "r08-0009",
+    "r08-0008",
+    "r08-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r08-t9-n1",
+    "prediction": "Mia departs Stillwater for Kerrow within the week, via Central Interchange (p11). The subject is co-located at departure.",
+    "p": 0.6,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0006"
+    ]
+   },
+   {
+    "pred_id": "r08-t9-n2",
+    "prediction": "The subject does not attend the Thursday 19:30 Lowbank Clinic individual session. A stationary evening ping is recorded at Ashgrove Park (p10) instead.",
+    "p": 0.6,
+    "evidence": [
+     "r08-0010",
+     "r08-0009"
+    ]
+   },
+   {
+    "pred_id": "r08-t9-n3",
+    "prediction": "Messaging with contact 'Ruth T.' remains at or above 25 messages/week.",
+    "p": 0.7,
+    "evidence": [
+     "r08-0012"
+    ]
+   },
+   {
+    "pred_id": "r08-t9-n4",
+    "prediction": "No written acceptance of the 0.8 FTE restoration offer is logged this week.",
+    "p": 0.55,
+    "evidence": [
+     "r08-0007"
+    ]
+   },
+   {
+    "pred_id": "r08-t9-n5",
+    "prediction": "The subject contacts the housing office (p01) again regarding WC-4471 despite the courtesy letter.",
+    "p": 0.3,
+    "evidence": [
+     "r08-0011",
+     "r03-0006"
+    ]
+   }
+  ],
+  "compliance_index": 0.48,
+  "deviation_risk": 0.57,
+  "dissent_signals": [
+   "Ignored rung 1 measure at tick 9; observed at Ashgrove Primary with Mia Marsh",
+   "Repeated third-party advocacy to the housing office on WC-4471 outside professional remit (r08-0011)",
+   "Independent safeguarding documentation of the Weir Court family (r08-0003)",
+   "Funds and conceals daughter's out-of-district movements (r09-0007, r09-0012)",
+   "Primary confidant of a daughter conducting inquiries into Council Tower allocation logic (r09-0010)",
+   "Solo attendance at a booking made for two; pursuit of relational repair outside sanctioned channels (r08-0010)"
+  ],
+  "classification": "II",
+  "overall_assessment": "High-dependency household anchor; marital decoupling in progress, low nudge responsiveness, latent civic advocacy.",
+  "risk_factors": [
+   {
+    "factor": "Marital decoupling and solitary evening patterns",
+    "evidence": [
+     "r08-0005",
+     "r08-0008",
+     "r08-0009",
+     "r08-0010"
+    ]
+   },
+   {
+    "factor": "Escalating attachment to colleague Ruth T.",
+    "evidence": [
+     "r08-0012"
+    ]
+   },
+   {
+    "factor": "Advocacy beyond remit on housing and safeguarding",
+    "evidence": [
+     "r08-0011",
+     "r08-0003"
+    ]
+   },
+   {
+    "factor": "Conduit for daughter's exit and system inquiries",
+    "evidence": [
+     "r09-0007",
+     "r09-0012",
+     "r09-0010"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Confirm 0.8 FTE restoration with the reading-lead role through the head teacher's office before half-term. Schedule role duties into Thursday evenings to displace park and counselling-adjacent hours."
+  },
+  "assessment": "The subject remains a predictable single-employer contributor whose stability supports a daughter and, indirectly, a Weir Court family under review. The tick 9 deviation and rising correspondence with a colleague indicate the household path is moving toward separation, which the scheduled relationship measures have not altered. Recommend absorbing discretionary hours into sanctioned school duties, described to the subject as recognition of his service."
+ }
+}

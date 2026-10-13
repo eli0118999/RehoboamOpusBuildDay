@@ -1,0 +1,244 @@
+{
+ "pass": "predict",
+ "key": "t00_r12",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 2819,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2819,
+  "output_tokens_details": {
+   "thinking_tokens": 607
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r12",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r12-e1",
+    "year": 2053,
+    "event": "Zone D automation reaches completion under subject's ownership. Projected 44 positions retired. Subject's standing with the Halden board is consolidated.",
+    "headline": "Zone D Completion / Headcount Reduction",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.78,
+    "evidence": [
+     "r12-0007",
+     "r12-0006",
+     "r12-0002"
+    ]
+   },
+   {
+    "event_id": "r12-e2",
+    "year": 2054,
+    "event": "Partnership with P. Anand dissolves. The proximate cause is the subject's inability to answer questions about Tower forecast feeds without breaching confidentiality schedule C. Subject relocates to a single-occupancy rental in Mercer Row.",
+    "headline": "Separation / Household Dissolution",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.62,
+    "evidence": [
+     "r12-0011",
+     "r11-0010",
+     "r12-0012",
+     "r12-0008"
+    ]
+   },
+   {
+    "event_id": "r12-e3",
+    "year": 2054,
+    "event": "Low-probability branch: subject discloses the scope of the SW-PREDICT integration to P. Anand. Exposure to contractual and disciplinary action follows. Modelled for completeness only.",
+    "headline": "Confidentiality Breach / Disciplinary Exposure",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.18,
+    "evidence": [
+     "r12-0012",
+     "r12-0010",
+     "r12-0001"
+    ]
+   },
+   {
+    "event_id": "r12-e4",
+    "year": 2056,
+    "event": "Data-sharing agreement is renewed for a further term with the subject as signatory. His role as the human interface between Halden and the Council feed becomes structurally entrenched.",
+    "headline": "Agreement Renewal / Role Entrenchment",
+    "horizon_label": "3 Years",
+    "kind": "civic",
+    "p": 0.66,
+    "evidence": [
+     "r12-0008",
+     "r12-0001"
+    ]
+   },
+   {
+    "event_id": "r12-e5",
+    "year": 2058,
+    "event": "Promotion to a regional operations directorate on the strength of a forecast-accuracy track record. Partial relocation to Kerrow, with continued oversight of Stillwater operations.",
+    "headline": "Regional Promotion / Partial Relocation",
+    "horizon_label": "5 Years",
+    "kind": "relocation",
+    "p": 0.45,
+    "evidence": [
+     "r12-0002",
+     "r12-0006",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r12-e6",
+    "year": 2066,
+    "event": "Stress-associated hypertension is identified at a routine occupational screening. It is managed pharmacologically. Evidence is thin; projection is extrapolated from role load and the cohort baseline.",
+    "headline": "Hypertension Diagnosis / Managed Condition",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r12-0006",
+     "r12-0009"
+    ]
+   },
+   {
+    "event_id": "r12-e7",
+    "year": 2080,
+    "event": "Retirement from logistics management with a high-band pension. Subject lives alone; the social graph remains sparse beyond professional ties.",
+    "headline": "Retirement / Solitary Household",
+    "horizon_label": "10+ Years",
+    "kind": "financial",
+    "p": 0.4,
+    "evidence": [
+     "r12-0006",
+     "r12-0011",
+     "r12-0004"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular event (ischaemic heart disease) secondary to long-term managed hypertension",
+   "year": 2093,
+   "age_at_death": 78,
+   "confidence": 0.28,
+   "evidence": [
+    "r12-0006",
+    "r12-0009",
+    "r12-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r12-t0-n1",
+    "prediction": "Subject badges in at Halden Logistics Fulfilment Centre (p02) on at least 4 of 5 workdays this week.",
+    "p": 0.88,
+    "evidence": [
+     "r12-0006",
+     "r12-0007"
+    ]
+   },
+   {
+    "pred_id": "r12-t0-n2",
+    "prediction": "Subject does not disclose SW-PREDICT or schedule C terms to P. Anand this week; no corresponding message or search for disclosure templates is logged.",
+    "p": 0.74,
+    "evidence": [
+     "r12-0012",
+     "r12-0008",
+     "r12-0010"
+    ]
+   },
+   {
+    "pred_id": "r12-t0-n3",
+    "prediction": "Subject continues to cohabit with P. Anand; no new rental search or change-of-address record appears.",
+    "p": 0.82,
+    "evidence": [
+     "r12-0011",
+     "r11-0010"
+    ]
+   },
+   {
+    "pred_id": "r12-t0-n4",
+    "prediction": "Subject sends at least one message to a colleague referencing P. Anand's questions about the Tower.",
+    "p": 0.35,
+    "evidence": [
+     "r12-0010",
+     "r12-0004"
+    ]
+   },
+   {
+    "pred_id": "r12-t0-n5",
+    "prediction": "A Zone D project status record (milestone or schedule update) is logged under subject's ownership.",
+    "p": 0.55,
+    "evidence": [
+     "r12-0007"
+    ]
+   }
+  ],
+  "compliance_index": 0.81,
+  "deviation_risk": 0.29,
+  "dissent_signals": [
+   "Searches for disclosing confidential council data agreement terms to partner (r12-0012)",
+   "Expressed concern that partner's Tower inquiries create personal exposure (r12-0010)",
+   "Wedding cancellation linked to Tower disagreement indicates domestic pressure toward disclosure (r12-0011, r11-0010)"
+  ],
+  "classification": "I",
+  "overall_assessment": "High-value integration asset whose throughput anchors Halden and Council forecast stability. Sole destabiliser is a domestic disclosure vector.",
+  "risk_factors": [
+   {
+    "factor": "Cohabits with a pattern-aware subject actively probing Tower systems",
+    "evidence": [
+     "r11-0010",
+     "r11-0007",
+     "r11-0012"
+    ]
+   },
+   {
+    "factor": "Signatory to confidentiality schedule C; contemplating disclosure",
+    "evidence": [
+     "r12-0008",
+     "r12-0012"
+    ]
+   },
+   {
+    "factor": "Live rivalry with displaced competitor following grievance",
+    "evidence": [
+     "r07-0011",
+     "r12-0009"
+    ]
+   },
+   {
+    "factor": "Partnership in active dissolution; wedding cancelled",
+    "evidence": [
+     "r12-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Increase Zone D workload and schedule a confidentiality refresher. Allow the partnership to resolve without intervention."
+  },
+  "assessment": "Subject is a reliable, high-yield node whose forecasting role directly sustains predictive continuity between Halden and the Council Tower. Primary variance stems from partner P. Anand's inquiries and from his own search for disclosure language. Separation is the lower-variance outcome and should be permitted to proceed, framed to the subject as protection of his professional wellbeing."
+ }
+}

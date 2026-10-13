@@ -1,0 +1,253 @@
+{
+ "pass": "predict",
+ "key": "t04_r06",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1161,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1161,
+    "model": null,
+    "output_tokens": 3195,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3195,
+  "output_tokens_details": {
+   "thinking_tokens": 951
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r06",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r06-e1",
+    "year": 2053,
+    "event": "Methadone held at 30ml on a fixed 16:00 supervised slot with naloxone current. The taper is deferred, and the subject's own push toward cessation is contained within clinical review. Urine screens remain negative.",
+    "headline": "Maintenance Dose Stabilised",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.78,
+    "evidence": [
+     "r06-0003",
+     "r06-0008",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r06-e2",
+    "year": 2053,
+    "event": "Casual scrapyard hours are continued through winter instead of lapsing seasonally. This preserves a daily structure that fits the dispensing slot. The income remains cash, low and unverified.",
+    "headline": "Kept On Through Winter",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.62,
+    "evidence": [
+     "r06-0004"
+    ]
+   },
+   {
+    "event_id": "r06-e3",
+    "year": 2053,
+    "event": "The background flag on the Carnegie 'Reading Buddies' registration is cleared and the application proceeds to a supervised placement. Uptake depends on the subject not withdrawing after the earlier pause.",
+    "headline": "Volunteer Placement Cleared",
+    "horizon_label": "3 Months",
+    "kind": "civic",
+    "p": 0.5,
+    "evidence": [
+     "r06-0012"
+    ]
+   },
+   {
+    "event_id": "r06-e4",
+    "year": 2053,
+    "event": "A second Christmas contact with daughter Shona and grandson takes place, conditional on screens remaining clean. It follows the 41-minute Ashgrove Park co-location of December 2052.",
+    "headline": "Supervised Family Contact",
+    "horizon_label": "6 Months",
+    "kind": "family",
+    "p": 0.58,
+    "evidence": [
+     "r06-0009",
+     "r06-0010",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r06-e5",
+    "year": 2054,
+    "event": "Further stop-and-search encounters on 'known to police' grounds, with nothing found. Each encounter is a residual stressor and a point of lapse risk. No new conviction is projected while the suspended sentence and maintenance hold.",
+    "headline": "Continued Police Contact",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.55,
+    "evidence": [
+     "r06-0005",
+     "r06-0013",
+     "r06-0007"
+    ]
+   },
+   {
+    "event_id": "r06-e6",
+    "year": 2055,
+    "event": "Regular, low-frequency contact with the grandson becomes routine. The subject remains on long-term methadone maintenance rather than achieving cessation, which is a stable and predictable equilibrium.",
+    "headline": "Stable Maintenance Equilibrium",
+    "horizon_label": "1-2 Years",
+    "kind": "family",
+    "p": 0.42,
+    "evidence": [
+     "r06-0009",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r06-e7",
+    "year": 2058,
+    "event": "Casual labour ends as physical capacity declines in the subject's mid-60s. He transitions to benefit dependency within Fallow Edge block C housing.",
+    "headline": "Exit From Labour",
+    "horizon_label": "5 Years",
+    "kind": "financial",
+    "p": 0.45,
+    "evidence": [
+     "r06-0004",
+     "r06-0002"
+    ]
+   },
+   {
+    "event_id": "r06-e8",
+    "year": 2066,
+    "event": "Death at approximately 72, attributed to cumulative cardiorespiratory burden after decades of opioid dependency. Confidence is limited: the Archive holds no cardiac or respiratory baseline.",
+    "headline": "Death, Natural Causes",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r06-0001",
+     "r06-0003",
+     "r06-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiorespiratory failure",
+   "year": 2066,
+   "age_at_death": 72,
+   "confidence": 0.28,
+   "evidence": [
+    "r06-0001",
+    "r06-0003",
+    "r06-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r06-t4-n1",
+    "prediction": "Subject attends the fixed 16:00 supervised methadone dispense at Lowbank Clinic (p04) on at least 5 of 7 days this week at 30ml.",
+    "p": 0.85,
+    "evidence": [
+     "r06-0003",
+     "r06-0011"
+    ]
+   },
+   {
+    "pred_id": "r06-t4-n2",
+    "prediction": "Next urine screen at p04 returns negative.",
+    "p": 0.78,
+    "evidence": [
+     "r06-0011"
+    ]
+   },
+   {
+    "pred_id": "r06-t4-n3",
+    "prediction": "Subject works casual scrapyard hours in Kiln Works on at least 3 days this week.",
+    "p": 0.6,
+    "evidence": [
+     "r06-0004"
+    ]
+   },
+   {
+    "pred_id": "r06-t4-n4",
+    "prediction": "Subject messages daughter Shona regarding Christmas contact.",
+    "p": 0.35,
+    "evidence": [
+     "r06-0009",
+     "r06-0010"
+    ]
+   },
+   {
+    "pred_id": "r06-t4-n5",
+    "prediction": "Subject is subject to a police stop at Fallow Edge Estate (p14) or Mercer Row (p09) this week.",
+    "p": 0.18,
+    "evidence": [
+     "r06-0005",
+     "r06-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.74,
+  "deviation_risk": 0.34,
+  "dissent_signals": [
+   "Self-initiated methadone reduction outside the clinical schedule (r06-0008, r06-0011).",
+   "Pursuit of a child-facing volunteer role despite record flag (r06-0012).",
+   "Casual income unverified; partial visibility of daily movement (r06-0004)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Long-term recidivist in late-stage stabilisation; compliant, low-value, contained by maintenance.",
+  "risk_factors": [
+   {
+    "factor": "Opioid dependency under self-directed taper; lapse would raise overdose risk.",
+    "evidence": [
+     "r06-0003",
+     "r06-0008",
+     "r06-0011"
+    ]
+   },
+   {
+    "factor": "Extensive conviction history; suspended sentence active.",
+    "evidence": [
+     "r06-0001",
+     "r06-0007"
+    ]
+   },
+   {
+    "factor": "Recurrent stop-and-search on 'known to police' grounds.",
+    "evidence": [
+     "r06-0005",
+     "r06-0013"
+    ]
+   },
+   {
+    "factor": "Family contact conditional on abstinence; single point of motivation.",
+    "evidence": [
+     "r06-0009",
+     "r06-0010"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Hold 30ml maintenance indefinitely at the 16:00 slot; defer the taper, keep naloxone current."
+  },
+  "assessment": "Subject is responding to the narrowed regime: dispensing is fixed, screens are negative and the work structure is preserved. The principal variance is his own drive toward cessation and family reconnection, which is best held in maintenance rather than permitted to resolve. Data trail is moderate; long-horizon confidence remains low."
+ }
+}

@@ -1,0 +1,309 @@
+{
+ "pass": "plain",
+ "key": "t04",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 5484,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 5484,
+    "model": null,
+    "output_tokens": 3227,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Gets chest X-ray late",
+    "explain": "They have the chest X-ray eventually, but late, after refusing to be escorted by a support worker."
+   },
+   {
+    "id": "h2",
+    "plain": "Starts supervised infection treatment",
+    "explain": "They begin treatment for a suspected lung infection, with medicine handed out under supervision at the shelter where a bed is held."
+   },
+   {
+    "id": "h3",
+    "plain": "Close friends flagged for screening",
+    "explain": "The people who share shelters and nights outdoors with them are flagged to be tested for infection too."
+   },
+   {
+    "id": "h4",
+    "plain": "Drops out of treatment",
+    "explain": "They stop the treatment partway and lose touch with doctors, partly because they have no address to be contacted at."
+   },
+   {
+    "id": "h5",
+    "plain": "Fails to get back into work",
+    "explain": "They try to find a job or open a bank account without an address, but it fails; old warehouse jobs are gone."
+   },
+   {
+    "id": "h6",
+    "plain": "Dies of lung illness outdoors",
+    "explain": "They die by the river from a long-untreated lung illness, made worse by cold and not enough food."
+   },
+   {
+    "id": "h7",
+    "plain": "Dies of untreated lung infection",
+    "explain": "They are expected to die in 2055, aged 49, from a lung infection that never got treated."
+   },
+   {
+    "id": "h8",
+    "plain": "Takes blood pressure pills regularly",
+    "explain": "They collect blood pressure medicine and get checked at the library, keeping it partly under control as long as they keep visiting daily."
+   },
+   {
+    "id": "h9",
+    "plain": "Gets a reliable winter shelter bed",
+    "explain": "They get a standing shelter bed for winter, so they sleep outside less, though still on some nights."
+   },
+   {
+    "id": "h10",
+    "plain": "Tested after lung infection exposure",
+    "explain": "They are tested after spending months near someone with a suspected lung infection, and may still carry a hidden infection."
+   },
+   {
+    "id": "h11",
+    "plain": "Loses most close friends",
+    "explain": "Their friends move away, are kept apart, or withdraw, leaving only library staff and a distant sibling to talk to."
+   },
+   {
+    "id": "h12",
+    "plain": "Hospitalised for dangerous blood pressure",
+    "explain": "When medicine or a bed slips, their blood pressure spikes dangerously; they spend a short time in hospital, then return to the shelter."
+   },
+   {
+    "id": "h13",
+    "plain": "Dies of a stroke",
+    "explain": "Worn down by years of near-street living and poor food, they have a fatal stroke at a shelter or library."
+   },
+   {
+    "id": "h14",
+    "plain": "Dies of a stroke",
+    "explain": "They are expected to die of a stroke in 2060, aged 75."
+   },
+   {
+    "id": "h15",
+    "plain": "Mould in flat finally fixed",
+    "explain": "The mould in their flat is cleaned up quickly and the complaint is closed, ending outside questions about it."
+   },
+   {
+    "id": "h16",
+    "plain": "Child welfare report quietly dropped",
+    "explain": "An automatic report to child services is closed without action; they never learn it existed, and their worry about losing their child eases."
+   },
+   {
+    "id": "h17",
+    "plain": "Child's breathing gets better",
+    "explain": "Their child wheezes less once the damp is gone, needs fewer clinic visits, and goes to school more regularly."
+   },
+   {
+    "id": "h18",
+    "plain": "Stays stuck on low income",
+    "explain": "They keep an insecure care job with unpaid travel, stay on antidepressants long-term, and their low mood is managed, not cured."
+   },
+   {
+    "id": "h19",
+    "plain": "Seeks a better care job",
+    "explain": "They look for steadier hours or a senior care role as their child starts secondary school, but success is unclear."
+   },
+   {
+    "id": "h20",
+    "plain": "Injured at work, stops working",
+    "explain": "Years of lifting people in care work leave them with lasting physical pain, so they stop working early and go on disability benefits."
+   },
+   {
+    "id": "h21",
+    "plain": "Keeps protesting at council",
+    "explain": "They ignore official warnings and return to the council building with a friend to keep pushing for the tenants' group."
+   },
+   {
+    "id": "h22",
+    "plain": "Debts passed to bailiffs",
+    "explain": "With no income to take fines from, their unpaid fines and council tax go to bailiffs and grow with extra charges."
+   },
+   {
+    "id": "h23",
+    "plain": "Taken to court over rent",
+    "explain": "If they withhold charges, the council takes them to court over arrears on their home, and they attend and fight it."
+   },
+   {
+    "id": "h24",
+    "plain": "Tenants' campaign loses members",
+    "explain": "Members leave after rumours about their past debts spread, leaving only a few, so they go back to campaigning alone."
+   },
+   {
+    "id": "h25",
+    "plain": "Works off the books",
+    "explain": "They stay out of official work and benefits, possibly getting by on cash delivery or driving jobs."
+   },
+   {
+    "id": "h26",
+    "plain": "Heart problems or failing mobility",
+    "explain": "They may suffer a heart-related health crisis or growing difficulty walking, while living on a fifth floor with an often-broken lift."
+   },
+   {
+    "id": "h27",
+    "plain": "Keeps warehouse agency work",
+    "explain": "They keep getting agency shifts at the warehouse, earning some declared wages instead of only cash, for now."
+   },
+   {
+    "id": "h28",
+    "plain": "Drifts from street friends",
+    "explain": "A check on their cash deposits ends without penalty, and their informal friends and contacts drift away."
+   },
+   {
+    "id": "h29",
+    "plain": "Loses warehouse shifts to automation",
+    "explain": "Machines take over the warehouse, their shifts dwindle below what they need to live on, as happened before."
+   },
+   {
+    "id": "h30",
+    "plain": "Returns to cash-in-hand work",
+    "explain": "They go back to earning cash informally, sometimes stay out overnight, fall behind on phone bills and pawn belongings."
+   },
+   {
+    "id": "h31",
+    "plain": "Moves away for warehouse work",
+    "explain": "They leave the city for warehouse jobs in a nearby town and drop out of the system's view."
+   },
+   {
+    "id": "h32",
+    "plain": "Keeps scrapyard job through winter",
+    "explain": "They keep low-paid cash work at the scrapyard all winter, giving their day a routine that fits their medicine pickups."
+   },
+   {
+    "id": "h33",
+    "plain": "Approved to volunteer reading",
+    "explain": "A background check flag is cleared, so they can start supervised volunteering at the library if they don't pull out."
+   },
+   {
+    "id": "h34",
+    "plain": "Sees family again at Christmas",
+    "explain": "They meet their child and grandchild for a second Christmas, as long as their drug tests stay clean."
+   },
+   {
+    "id": "h35",
+    "plain": "Keeps getting stopped by police",
+    "explain": "Police keep searching them because of their record, finding nothing, which adds stress and risk of relapse."
+   },
+   {
+    "id": "h36",
+    "plain": "Settles into steady, stable life",
+    "explain": "They see their grandchild regularly and stay on long-term methadone rather than quitting entirely."
+   },
+   {
+    "id": "h37",
+    "plain": "Stops working, goes on benefits",
+    "explain": "As their body weakens in their sixties, casual work ends and they live on benefits in their flat."
+   },
+   {
+    "id": "h38",
+    "plain": "Dies of natural causes",
+    "explain": "They die around age 72 from heart and lung strain after decades of opioid use."
+   },
+   {
+    "id": "h39",
+    "plain": "Dies of heart and lung failure",
+    "explain": "They are expected to die in 2066, aged 72, when the heart and lungs give out."
+   },
+   {
+    "id": "h40",
+    "plain": "Collects medicine with a companion",
+    "explain": "They pick up antidepressants only at the clinic each Tuesday with a neighbour, at the late spouse's old appointment time."
+   },
+   {
+    "id": "h41",
+    "plain": "Helper leaves for university",
+    "explain": "A young helper who also collected their medicine moves away to university, leaving just one person helping."
+   },
+   {
+    "id": "h42",
+    "plain": "Rewrites own will",
+    "explain": "They update their will themselves without a lawyer, a common step when preparing for death."
+   },
+   {
+    "id": "h43",
+    "plain": "Falls at home, unnoticed",
+    "explain": "They may fall or collapse at home and lie there over a day before anyone finds them."
+   },
+   {
+    "id": "h44",
+    "plain": "Helper stops showing up reliably",
+    "explain": "The neighbour who goes with them to collect medicine starts missing visits due to home troubles."
+   },
+   {
+    "id": "h45",
+    "plain": "Quietly stops taking medicine",
+    "explain": "They may quietly stop their medication and stop going to the clinic, despite reminder calls."
+   },
+   {
+    "id": "h46",
+    "plain": "Heart weakens, grows frail",
+    "explain": "Living alone in old age after losing a spouse, their heart weakens and they keep losing weight; home care is offered."
+   },
+   {
+    "id": "h47",
+    "plain": "Dies of heart failure, frailty",
+    "explain": "They are expected to die in 2057, aged 88, from heart failure and frailty."
+   },
+   {
+    "id": "h48",
+    "plain": "Tries going to the press",
+    "explain": "They may try taking concerns about the council's housing algorithm to outside appeals or journalists, though less likely after being refused."
+   },
+   {
+    "id": "h49",
+    "plain": "Engagement ends",
+    "explain": "Their engagement is called off; new evening and weekend shifts cut time together and contact with supportive colleagues."
+   },
+   {
+    "id": "h50",
+    "plain": "Files a formal complaint",
+    "explain": "They file an official complaint after a public meeting fails to answer their questions, delayed by polite, empty replies."
+   },
+   {
+    "id": "h51",
+    "plain": "Moves away for library job",
+    "explain": "They may leave for a library job elsewhere, though fixed work commitments and refused leave make interviews hard."
+   },
+   {
+    "id": "h52",
+    "plain": "Stays, takes local history role",
+    "explain": "If they stay, they lead a local memory project, keep private notes offline, and stop asking questions publicly."
+   },
+   {
+    "id": "h53",
+    "plain": "Develops stress-related high blood pressure",
+    "explain": "They may be diagnosed with long-term high blood pressure from stress, working evenings and weekends and living alone."
+   }
+  ]
+ }
+}

@@ -1,0 +1,247 @@
+{
+ "pass": "predict",
+ "key": "t04_r05",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1263,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1263,
+    "model": null,
+    "output_tokens": 3176,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3176,
+  "output_tokens_details": {
+   "thinking_tokens": 1000
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Subject is retained in the Halden payroll-tracked agency pool through line consolidation under priority allocation (t4-i6), with T. Lusk as anchor contact. Declared wages replace part of the undeclared cash pattern. Retention depends on continued allocation priority, not on the merit of his record.",
+    "headline": "Pool Retention",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.6,
+    "evidence": [
+     "r05-0015",
+     "r05-0001",
+     "r05-0013",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2053,
+    "event": "The routine income review of the July cash deposits (t3-i4) closes without sanction. The '@lowbank_runners' contacts step back after the probation-liaison remark. Encrypted channel activity lapses, though it is not observably terminated.",
+    "headline": "Informal Network Lapse",
+    "horizon_label": "6 Months",
+    "kind": "legal",
+    "p": 0.5,
+    "evidence": [
+     "r05-0014",
+     "r05-0012",
+     "r05-0010"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2054,
+    "event": "Zone D automation completes and the agency pool contracts. Subject's priority allocation erodes once the consolidation window closes, and shifts fall below a subsistence threshold. This repeats the 2051 'volume rebalancing' release.",
+    "headline": "Agency Pool Release",
+    "horizon_label": "6-12 Months",
+    "kind": "career",
+    "p": 0.55,
+    "evidence": [
+     "r12-0007",
+     "r05-0002",
+     "r01-0015"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2054,
+    "event": "Subject resumes cash income through informal channels following the loss of declared hours. Overnight underpass presence recurs, and phone arrears and pawn activity re-emerge. The Archive's line of sight degrades.",
+    "headline": "Informal Economy Return",
+    "horizon_label": "1-2 Years",
+    "kind": "financial",
+    "p": 0.45,
+    "evidence": [
+     "r05-0011",
+     "r05-0004",
+     "r05-0003",
+     "r05-0005"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2055,
+    "event": "Subject is arrested for an acquisitive or handling offence. Second conviction; custodial or suspended sentence. This path is partially offset if the Lusk anchor holds.",
+    "headline": "Second Conviction",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.35,
+    "evidence": [
+     "r05-0006",
+     "r05-0007",
+     "r06-0001",
+     "r06-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2057,
+    "event": "Subject relocates out of Stillwater toward Kerrow warehouse labour, as signalled by the 2052 trial shift. Archive visibility is lost thereafter.",
+    "headline": "Relocation / Kerrow",
+    "horizon_label": "3-5 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r05-0009",
+     "r05-0005"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2075,
+    "event": "Subject enters long-term casual manual and logistics employment with intermittent arrears. Health declines in mid-life, consistent with the night-shift and low-income cohort.",
+    "headline": "Chronic Precarity",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r05-0001",
+     "r05-0003"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2097,
+   "age_at_death": 66,
+   "confidence": 0.18,
+   "evidence": [
+    "r05-0001",
+    "r05-0003",
+    "r05-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t4-n1",
+    "prediction": "Subject badges in for 4 or more payroll-tracked shifts at Halden (p02) during tick 5.",
+    "p": 0.68,
+    "evidence": [
+     "r05-0015",
+     "r05-0001",
+     "r05-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t4-n2",
+    "prediction": "No new undeclared cash deposit exceeding $200 is recorded during tick 5.",
+    "p": 0.6,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t4-n3",
+    "prediction": "No overnight handset ping at River Lane Underpass (p12) is recorded during tick 5.",
+    "p": 0.62,
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t4-n4",
+    "prediction": "Subject's handset is co-located with T. Lusk (r06) on at least one shift during tick 5.",
+    "p": 0.55,
+    "evidence": [
+     "r06-0011",
+     "r06-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t4-n5",
+    "prediction": "Direct-message exchanges with '@lowbank_runners' fall to zero during tick 5.",
+    "p": 0.45,
+    "evidence": [
+     "r05-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.6,
+  "deviation_risk": 0.52,
+  "dissent_signals": [
+   "Expressed resignation toward formal hiring: 'box ticked. done.' (r05-0010)",
+   "Encrypted messaging with unverified '@lowbank_runners' account (r05-0012)",
+   "Undeclared cash deposits with no active claim (r05-0014)",
+   "Pre-offence search for sentencing thresholds (r05-0005)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Young convicted agency labourer, stable only while wage allocation is artificially prioritised; low network dependency; partial visibility.",
+  "risk_factors": [
+   {
+    "factor": "Prior theft conviction; formal job market treats him as screened out",
+    "evidence": [
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "factor": "Undeclared cash income and encrypted unverified contacts",
+    "evidence": [
+     "r05-0014",
+     "r05-0012"
+    ]
+   },
+   {
+    "factor": "Employment tied to an automating site with repeated agency releases",
+    "evidence": [
+     "r05-0002",
+     "r05-0015",
+     "r12-0007"
+    ]
+   },
+   {
+    "factor": "Housing instability; overnight underpass presence",
+    "evidence": [
+     "r05-0011",
+     "r05-0003"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Extend payroll-pool priority beyond Zone D completion; preserve the Lusk anchor; review again at tick 12."
+  },
+  "assessment": "Subject complies reliably when a declared wage is available, as shown by completion of his community order and his current shift uptake. Path stability is borrowed from the allocation priority under t4-i6 and is expected to fail when Zone D contracts the pool. Visibility is partial; deviation risk is held at a moderate level pending closure of the income review."
+ }
+}

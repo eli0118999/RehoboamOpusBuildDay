@@ -1,0 +1,242 @@
+{
+ "pass": "predict",
+ "key": "t05_r05",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1408,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1408,
+    "model": null,
+    "output_tokens": 3035,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3035,
+  "output_tokens_details": {
+   "thinking_tokens": 953
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Placement in the Halden payroll-tracked agency pool is confirmed at induction. The circulated vetting note limits him to T. Lusk's supervised crew. Declared wages replace part of the untracked cash pattern, but his standing with supervisors is lowered by disclosure of the conviction marker.",
+    "headline": "Supervised Pool Placement",
+    "horizon_label": "1 Month",
+    "kind": "career",
+    "p": 0.66,
+    "evidence": [
+     "r05-0001",
+     "r05-0015",
+     "r05-0013",
+     "r05-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2053,
+    "event": "The routine income review of three cash deposits totalling $1,040 concludes. Funds are classified as undeclared earnings, with a small repayment plan or a caution placed on file. The visible review causes encrypted contacts to withdraw, as intended.",
+    "headline": "Income Review Outcome",
+    "horizon_label": "3 Months",
+    "kind": "financial",
+    "p": 0.5,
+    "evidence": [
+     "r05-0014",
+     "r05-0012"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2054,
+    "event": "Line consolidation and Zone D automation reduce agency headcount. With the conviction now disclosed to the supervising team, his shift priority erodes and he is released under 'volume rebalancing' terms, repeating the 2051 pattern.",
+    "headline": "Agency Release",
+    "horizon_label": "6-12 Months",
+    "kind": "career",
+    "p": 0.52,
+    "evidence": [
+     "r05-0002",
+     "r05-0015",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2054,
+    "event": "Following loss of declared income, he re-engages with the Lowbank contact network. Undeclared cash activity resumes and is no longer observable through payroll.",
+    "headline": "Network Re-engagement",
+    "horizon_label": "1-2 Years",
+    "kind": "social",
+    "p": 0.38,
+    "evidence": [
+     "r05-0012",
+     "r05-0014",
+     "r05-0010"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2055,
+    "event": "Second acquisitive-offence arrest in the Mercer Row area. A prior conviction elevates the disposal to a short custodial or suspended sentence.",
+    "headline": "Second Conviction",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.3,
+    "evidence": [
+     "r05-0006",
+     "r05-0005",
+     "r05-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2058,
+    "event": "Housing precarity escalates from a shared rented room to intermittent rough sleeping in Lowbank. This extends the existing overnight underpass pattern.",
+    "headline": "Housing Loss",
+    "horizon_label": "3-5 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r05-0011",
+     "r05-0003"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2062,
+    "event": "He relocates out of Stillwater for warehouse work in Kerrow, where he previously sought a trial shift. Archive visibility is reduced after departure.",
+    "headline": "Relocation to Kerrow",
+    "horizon_label": "5-10 Years",
+    "kind": "relocation",
+    "p": 0.28,
+    "evidence": [
+     "r05-0009",
+     "r05-0005"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2096,
+   "age_at_death": 65,
+   "confidence": 0.12,
+   "evidence": [
+    "r05-0011",
+    "r05-0003",
+    "r05-0004"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t5-n1",
+    "prediction": "Badges in for at least three payroll-tracked night shifts at Halden (p02) on the Lusk-supervised crew this week.",
+    "p": 0.68,
+    "evidence": [
+     "r05-0001",
+     "r05-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t5-n2",
+    "prediction": "No new cash deposit above $200 is logged this week.",
+    "p": 0.55,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t5-n3",
+    "prediction": "At least one encrypted direct message is exchanged with '@lowbank_runners' despite the vetting note.",
+    "p": 0.4,
+    "evidence": [
+     "r05-0012"
+    ]
+   },
+   {
+    "pred_id": "r05-t5-n4",
+    "prediction": "Handset pings overnight at River Lane Underpass (p12) on at least one night.",
+    "p": 0.3,
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t5-n5",
+    "prediction": "Co-location with T. Lusk is recorded outside scheduled shift hours.",
+    "p": 0.35,
+    "evidence": [
+     "r06-0013",
+     "r05-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.52,
+  "deviation_risk": 0.62,
+  "dissent_signals": [
+   "Encrypted direct messages with unverified '@lowbank_runners' account (r05-0012)",
+   "Undeclared cash deposits with no active claim (r05-0014)",
+   "Expressed resignation toward formal employment: 'box ticked. done.' (r05-0010)",
+   "Prior prioritisation of a work trial over probation check-in (r05-0009)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-dependency young male with a conviction, held on a declared wage by supervised placement. Path is fragile once agency headcount contracts.",
+  "risk_factors": [
+   {
+    "factor": "Prior theft conviction now disclosed to supervisors",
+    "evidence": [
+     "r05-0007",
+     "r05-0006"
+    ]
+   },
+   {
+    "factor": "Untraced cash income and encrypted peer network",
+    "evidence": [
+     "r05-0014",
+     "r05-0012"
+    ]
+   },
+   {
+    "factor": "Agency role exposed to consolidation and automation",
+    "evidence": [
+     "r05-0015",
+     "r05-0002",
+     "r12-0007"
+    ]
+   },
+   {
+    "factor": "Overnight underpass presence indicating housing instability",
+    "evidence": [
+     "r05-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Retain payroll-pool slot through consolidation; keep Lusk as anchor contact."
+  },
+  "assessment": "Subject is presently contained within an observable wage channel. However, the vetting disclosure applied at t5 has reduced his placement security. If the consolidation releases him, the projected path reverts to undeclared income and re-offending. Data trail outside payroll is thin, so confidence is held low and deviation risk elevated."
+ }
+}

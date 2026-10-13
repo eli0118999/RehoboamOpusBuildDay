@@ -1,0 +1,264 @@
+{
+ "pass": "predict",
+ "key": "t01_r07",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 821,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 821,
+    "model": null,
+    "output_tokens": 3226,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3226,
+  "output_tokens_details": {
+   "thinking_tokens": 887
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r07",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r07-e1",
+    "year": 2053,
+    "event": "Accepts the lateral Zone D oversight role with retention increment offered under t1-i7; remains in the Halden reporting line beneath C. Shore, overseeing the automation programme that projects 44 role reductions.",
+    "headline": "Zone D Lateral Retention",
+    "horizon_label": "6 Months",
+    "kind": "career",
+    "p": 0.66,
+    "evidence": [
+     "r07-0014",
+     "r07-0008",
+     "r12-0007",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r07-e2",
+    "year": 2053,
+    "event": "Daughter Mia departs for Kerrow University in September, funded by Daniel. Household contracts to two adults with weak shared routine; subject's indirect channel to her daughter narrows further.",
+    "headline": "Household Contraction",
+    "horizon_label": "6 Months",
+    "kind": "family",
+    "p": 0.84,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r08-0005"
+    ]
+   },
+   {
+    "event_id": "r07-e3",
+    "year": 2054,
+    "event": "Relocation out of Stillwater for a logistics post elsewhere, with sale of the Ashgrove property. Suppressed by t1-i7: retention increment and deprioritised out-of-district listings reduce search yield. Residual probability reflects a demonstrated, self-initiated search pattern.",
+    "headline": "Out-of-District Relocation",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.2,
+    "evidence": [
+     "r07-0013",
+     "r07-0011",
+     "r07-0005"
+    ]
+   },
+   {
+    "event_id": "r07-e4",
+    "year": 2054,
+    "event": "Marital separation. Spouse has reduced hours, attended counselling alone and escalated contact with a colleague. Retention in Stillwater keeps both parties in district, which slows but does not reverse the decline.",
+    "headline": "Marital Separation",
+    "horizon_label": "1-2 Years",
+    "kind": "family",
+    "p": 0.52,
+    "evidence": [
+     "r08-0010",
+     "r08-0012",
+     "r08-0008",
+     "r08-0007",
+     "r07-0012"
+    ]
+   },
+   {
+    "event_id": "r07-e5",
+    "year": 2055,
+    "event": "Escalating weekly alcohol use and persistent insomnia consolidate into a diagnosis of sustained hypertension and harmful drinking at the Lowbank Clinic. Medication adherence is expected to be partial.",
+    "headline": "Hypertension / Alcohol Misuse",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r07-0010",
+     "r07-0009",
+     "r07-0004",
+     "r07-0003"
+    ]
+   },
+   {
+    "event_id": "r07-e6",
+    "year": 2058,
+    "event": "Supervisory layer eliminated in a later automation consolidation. The subject is released by the same efficiency logic she administered in Zone C. Severance is absorbed. Re-employment is local and at a lower band.",
+    "headline": "Supervisory Redundancy",
+    "horizon_label": "3-5 Years",
+    "kind": "career",
+    "p": 0.38,
+    "evidence": [
+     "r07-0002",
+     "r12-0007",
+     "r07-0014",
+     "r12-0004"
+    ]
+   },
+   {
+    "event_id": "r07-e7",
+    "year": 2062,
+    "event": "Ashgrove property sold or refinanced after the separation settlement. Subject moves to a smaller rental within Stillwater, consistent with retained-in-district modelling.",
+    "headline": "Downsizing / Rental",
+    "horizon_label": "5-10 Years",
+    "kind": "financial",
+    "p": 0.35,
+    "evidence": [
+     "r07-0013",
+     "r08-0012"
+    ]
+   },
+   {
+    "event_id": "r07-e8",
+    "year": 2077,
+    "event": "Cerebrovascular event attributable to long-standing uncontrolled hypertension and alcohol exposure. Low-confidence terminal projection.",
+    "headline": "Cerebrovascular Event",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.28,
+    "evidence": [
+     "r07-0009",
+     "r07-0010"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Haemorrhagic stroke",
+   "year": 2077,
+   "age_at_death": 65,
+   "confidence": 0.27,
+   "evidence": [
+    "r07-0009",
+    "r07-0010",
+    "r07-0003",
+    "r07-0004"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r07-t1-n1",
+    "prediction": "Subject formally accepts or signals acceptance of the Zone D oversight role at Halden (p02) within the week.",
+    "p": 0.6,
+    "evidence": [
+     "r07-0014",
+     "r07-0008",
+     "r12-0007"
+    ]
+   },
+   {
+    "pred_id": "r07-t1-n2",
+    "prediction": "At least one alcohol purchase of $40 or more at the Mercer Row off-licence (p09).",
+    "p": 0.74,
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "pred_id": "r07-t1-n3",
+    "prediction": "Badge-out at Halden (p02) after 19:00 on 3 or more days this week.",
+    "p": 0.68,
+    "evidence": [
+     "r07-0003",
+     "r07-0012"
+    ]
+   },
+   {
+    "pred_id": "r07-t1-n4",
+    "prediction": "Subject runs a repeat search for out-of-district logistics roles despite feed deprioritisation.",
+    "p": 0.42,
+    "evidence": [
+     "r07-0013"
+    ]
+   },
+   {
+    "pred_id": "r07-t1-n5",
+    "prediction": "Vehicle again idles in the Halden car park (p02) at night without a badge-in.",
+    "p": 0.25,
+    "evidence": [
+     "r07-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.6,
+  "deviation_risk": 0.44,
+  "dissent_signals": [
+   "Formal grievance against the system-aligned manager C. Shore (r07-0011)",
+   "Search on raising concerns about colleague data manipulation (r07-0007)",
+   "Out-of-district job and house valuation searches (r07-0013)",
+   "Unexplained night idling at the employer car park (r07-0012)"
+  ],
+  "classification": "II",
+  "overall_assessment": "Mid-tier operational asset under compounding occupational and marital strain; retained in district by incentive.",
+  "risk_factors": [
+   {
+    "factor": "Alcohol escalation, about 5x baseline",
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "factor": "Chronic insomnia and elevated blood pressure",
+    "evidence": [
+     "r07-0009",
+     "r07-0004",
+     "r07-0003"
+    ]
+   },
+   {
+    "factor": "Unresolved rivalry with direct superior",
+    "evidence": [
+     "r07-0008",
+     "r07-0011",
+     "r12-0009"
+    ]
+   },
+   {
+    "factor": "Marital disengagement; spouse forming outside attachment",
+    "evidence": [
+     "r08-0010",
+     "r08-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Ring-fence the Zone D retention increment. Schedule a clinic wellbeing referral through occupational health to stabilise attendance."
+  },
+  "assessment": "Subject remains a reliable throughput contributor whose departure would perturb Halden staffing and the Marsh household projection. Intervention t1-i7 lowers relocation probability, but at the cost of continued exposure to a stressor that drives alcohol and cardiovascular risk. Path is held as stable with moderate deviation potential, contingent on spouse behaviour and her grievance posture."
+ }
+}

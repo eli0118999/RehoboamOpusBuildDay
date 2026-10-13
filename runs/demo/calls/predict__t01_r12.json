@@ -1,0 +1,237 @@
+{
+ "pass": "predict",
+ "key": "t01_r12",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 707,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 707,
+    "model": null,
+    "output_tokens": 2573,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2573,
+  "output_tokens_details": {
+   "thinking_tokens": 689
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r12",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r12-e1",
+    "year": 2053,
+    "event": "Zone D automation reaches completion under subject's ownership; projected 44-role headcount reduction executed on schedule.",
+    "headline": "Zone D Completion",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.72,
+    "evidence": [
+     "r12-0007",
+     "r12-0006",
+     "r12-0002"
+    ]
+   },
+   {
+    "event_id": "r12-e2",
+    "year": 2054,
+    "event": "Engagement to Priya Anand formally dissolved; subject vacates the shared Mercer Row tenancy. Root cause: undisclosable data-sharing obligations versus the partner's sustained inquiry into the Tower.",
+    "headline": "Engagement Dissolution",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.58,
+    "evidence": [
+     "r12-0011",
+     "r12-0010",
+     "r12-0012",
+     "r11-0010",
+     "r11-0012"
+    ]
+   },
+   {
+    "event_id": "r12-e3",
+    "year": 2054,
+    "event": "Subject retained through the line consolidation and assigned expanded forecasting scope; the at-risk notice is resolved in the subject's favour.",
+    "headline": "Consolidation Retention",
+    "horizon_label": "1 Year",
+    "kind": "career",
+    "p": 0.66,
+    "evidence": [
+     "r12-0013",
+     "r12-0006",
+     "r12-0002"
+    ]
+   },
+   {
+    "event_id": "r12-e4",
+    "year": 2056,
+    "event": "Halden-Council data-sharing agreement renewed again with the subject as signatory. Confidentiality obligations deepen.",
+    "headline": "Agreement Renewal",
+    "horizon_label": "2-3 Years",
+    "kind": "civic",
+    "p": 0.55,
+    "evidence": [
+     "r12-0008",
+     "r12-0001"
+    ]
+   },
+   {
+    "event_id": "r12-e5",
+    "year": 2057,
+    "event": "Subject purchases owner-occupied property, likely in Ashgrove, consolidating high-band income into a fixed asset.",
+    "headline": "Property Acquisition",
+    "horizon_label": "3-5 Years",
+    "kind": "financial",
+    "p": 0.42,
+    "evidence": [
+     "r12-0006",
+     "r12-0003"
+    ]
+   },
+   {
+    "event_id": "r12-e6",
+    "year": 2060,
+    "event": "Subject is promoted to a regional logistics directorate and relocates out of Stillwater while remaining on the data-feed governance chain.",
+    "headline": "Regional Promotion / Relocation",
+    "horizon_label": "5-10 Years",
+    "kind": "relocation",
+    "p": 0.35,
+    "evidence": [
+     "r12-0006",
+     "r12-0002",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r12-e7",
+    "year": 2075,
+    "event": "Cardiometabolic strain emerges after prolonged high-accountability tenure. Inferred only; no medical records are held.",
+    "headline": "Hypertension Onset",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r12-0006",
+     "r12-0012"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Myocardial infarction",
+   "year": 2091,
+   "age_at_death": 76,
+   "confidence": 0.22,
+   "evidence": [
+    "r12-0006",
+    "r12-0007",
+    "r12-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r12-t1-n1",
+    "prediction": "Subject does not disclose the content of the Halden-Council confidentiality schedule to Priya Anand this week.",
+    "p": 0.75,
+    "evidence": [
+     "r12-0012",
+     "r12-0008",
+     "r11-0010"
+    ]
+   },
+   {
+    "pred_id": "r12-t1-n2",
+    "prediction": "Subject remains on site at Halden (p02) on at least four workdays, progressing Zone D milestones.",
+    "p": 0.7,
+    "evidence": [
+     "r12-0007",
+     "r12-0006"
+    ]
+   },
+   {
+    "pred_id": "r12-t1-n3",
+    "prediction": "Subject is not issued a redundancy confirmation under the 150-role consolidation.",
+    "p": 0.8,
+    "evidence": [
+     "r12-0013",
+     "r12-0006"
+    ]
+   },
+   {
+    "pred_id": "r12-t1-n4",
+    "prediction": "Subject enters further search queries concerning NDA scope or partner disclosure.",
+    "p": 0.45,
+    "evidence": [
+     "r12-0012",
+     "r12-0010"
+    ]
+   }
+  ],
+  "compliance_index": 0.81,
+  "deviation_risk": 0.3,
+  "dissent_signals": [
+   "Searches on disclosing the council data agreement to his partner (r12-0012)",
+   "Expressed anxiety over partner's Tower inquiries (r12-0010)",
+   "Wedding cancellation linked to the Tower dispute, indicating relational pressure toward disclosure (r12-0011)"
+  ],
+  "classification": "I",
+  "overall_assessment": "High-yield forecasting asset and data-feed signatory; stable, with a single disclosure vector via partner.",
+  "risk_factors": [
+   {
+    "factor": "Partner is pattern-aware and pressing for Tower disclosure",
+    "evidence": [
+     "r11-0010",
+     "r11-0007",
+     "r11-0012"
+    ]
+   },
+   {
+    "factor": "Holder of confidential Halden-Council data agreement",
+    "evidence": [
+     "r12-0008",
+     "r12-0001"
+    ]
+   },
+   {
+    "factor": "Internal grievance by rival on record",
+    "evidence": [
+     "r12-0009",
+     "r07-0011"
+    ]
+   },
+   {
+    "factor": "No health records held; physiological trajectory unverified",
+    "evidence": [
+     "r12-0006"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Retain through consolidation; extend scope to stabilise loyalty and preserve feed continuity."
+  },
+  "assessment": "Subject anchors Halden demand forecasting and the council data feed, and complies readily with structural incentives. The principal variance source is the domestic link to a pattern-aware partner; separation would reduce exposure but carries emotional cost, which is logged as acceptable. Health projection confidence is low owing to the absence of clinical records."
+ }
+}

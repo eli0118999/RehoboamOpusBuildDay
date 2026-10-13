@@ -1,0 +1,264 @@
+{
+ "pass": "predict",
+ "key": "t09_r03",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 22316
+  },
+  "cache_creation_input_tokens": 22316,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 2007,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 22316
+    },
+    "cache_creation_input_tokens": 22316,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 2007,
+    "model": null,
+    "output_tokens": 4079,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4079,
+  "output_tokens_details": {
+   "thinking_tokens": 1445
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r03",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r03-e1",
+    "year": 2053,
+    "event": "Contractors booked under t9-i2 attend Weir Court flat 7.12 and remediate the black mould in the child's bedroom deferred under ticket WC-4471. The repair is logged resolved and one reassuring letter follows. The son's wheeze is expected to ease but not clear; recurrence risk persists while the block's damp conditions remain.",
+    "headline": "Mould Remediation Completed",
+    "horizon_label": "1-4 Weeks",
+    "kind": "civic",
+    "p": 0.68,
+    "evidence": [
+     "r03-0006",
+     "r03-0007",
+     "r08-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e2",
+    "year": 2053,
+    "event": "The subject's tick-9 contact with Daniel Marsh near the Council Tower re-establishes the third-party advocacy channel that t7-i2 and t9-i2 sought to route through the school safeguarding lead. A joint enquiry, or written record of the case history, is likely to reach the housing office or a councillor before year end. The closed children's-services referral risks re-entering view.",
+    "headline": "Advocacy Channel Reopened",
+    "horizon_label": "1-3 Months",
+    "kind": "social",
+    "p": 0.45,
+    "evidence": [
+     "r08-0011",
+     "r08-0003",
+     "r03-0011",
+     "r03-0014"
+    ]
+   },
+   {
+    "event_id": "r03-e3",
+    "year": 2054,
+    "event": "Northgate Recoveries balance is held on the consolidated $10-a-week plan. Weir Court arrears deductions continue. No new payday borrowing occurs while the sanction suspension holds. The household's financial margin remains near zero, and a single missed shift reverses it.",
+    "headline": "Debt Plateau",
+    "horizon_label": "6 Months",
+    "kind": "financial",
+    "p": 0.52,
+    "evidence": [
+     "r03-0005",
+     "r03-0010",
+     "r03-0003",
+     "r03-0002"
+    ]
+   },
+   {
+    "event_id": "r03-e4",
+    "year": 2054,
+    "event": "Subject pursues guaranteed hours with Brightcare or moves to another care provider. The more probable outcome is that hours stay unguaranteed, with income volatility around 14 hrs/week and unpaid travel time.",
+    "headline": "Contract Hours Dispute",
+    "horizon_label": "6-12 Months",
+    "kind": "career",
+    "p": 0.4,
+    "evidence": [
+     "r03-0001",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e5",
+    "year": 2055,
+    "event": "Low mood becomes a long-term condition on maintained sertraline. Stress spikes are driven by benefit reviews and caring load. Episodes coincide with administrative failures rather than with the remediated housing condition.",
+    "headline": "Chronic Low Mood",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.55,
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "event_id": "r03-e6",
+    "year": 2056,
+    "event": "A household-circumstances review, a renewed neighbour complaint or the reactivated Marsh channel produces fresh children's-services contact. Outcome is most likely an assessment with no further action. The event introduces significant variance in household structure.",
+    "headline": "Children's Services Contact",
+    "horizon_label": "2-3 Years",
+    "kind": "family",
+    "p": 0.24,
+    "evidence": [
+     "r03-0014",
+     "r03-0009",
+     "r03-0004"
+    ]
+   },
+   {
+    "event_id": "r03-e7",
+    "year": 2063,
+    "event": "Once the son reaches secondary age, the subject transfers out of Weir Court to another social tenancy or leaves Stillwater for care work elsewhere. Data trail beyond this point is projection only.",
+    "headline": "Tenancy Transfer / Departure",
+    "horizon_label": "10+ Years",
+    "kind": "relocation",
+    "p": 0.28,
+    "evidence": [
+     "r03-0003",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e8",
+    "year": 2078,
+    "event": "Cumulative strain from manual domiciliary care, low income and a probable smoking history produces early musculoskeletal and cardiovascular morbidity, followed by reduced working capacity.",
+    "headline": "Early Morbidity",
+    "horizon_label": "20+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r03-0001",
+     "r03-0009",
+     "r03-0012"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2091,
+   "age_at_death": 69,
+   "confidence": 0.18,
+   "evidence": [
+    "r03-0001",
+    "r03-0009",
+    "r03-0012",
+    "r03-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r03-t9-n1",
+    "prediction": "Contractors attend Weir Court flat 7.12 (p08) next week and begin mould remediation under ticket WC-4471.",
+    "p": 0.68,
+    "evidence": [
+     "r03-0006"
+    ]
+   },
+   {
+    "pred_id": "r03-t9-n2",
+    "prediction": "Subject and Daniel Marsh exchange further contact, or Daniel makes a new enquiry about WC-4471 or the subject's case to the housing office (p01), bypassing the safeguarding-lead routing.",
+    "p": 0.42,
+    "evidence": [
+     "r08-0011",
+     "r08-0003"
+    ]
+   },
+   {
+    "pred_id": "r03-t9-n3",
+    "prediction": "Subject attends her scheduled school-hours caseworker appointment at the Council Tower (p01) without incurring a sanction.",
+    "p": 0.6,
+    "evidence": [
+     "r03-0002",
+     "r03-0008"
+    ]
+   },
+   {
+    "pred_id": "r03-t9-n4",
+    "prediction": "Subject searches online for sanction appeal, tenants' rights or children's-services rights information.",
+    "p": 0.33,
+    "evidence": [
+     "r03-0011",
+     "r03-0014"
+    ]
+   },
+   {
+    "pred_id": "r03-t9-n5",
+    "prediction": "No new payday loan or credit application is recorded for the subject.",
+    "p": 0.75,
+    "evidence": [
+     "r03-0005",
+     "r03-0010"
+    ]
+   }
+  ],
+  "compliance_index": 0.44,
+  "deviation_risk": 0.57,
+  "dissent_signals": [
+   "Tick 9: declined Rung 3 single-caseworker routing and made direct contact with Daniel Marsh near the Council Tower (p01).",
+   "Search intent to appeal a benefit sanction and to obtain guaranteed hours (r03-0011).",
+   "Written expression of system breakdown: 'I can't do this' (r03-0008).",
+   "Tie to Fallow Edge tenants' drop-in and the r04 organising cluster (relationship r03-r04).",
+   "Third-party advocate holds case history: Daniel Marsh safeguarding log and housing call (r08-0003, r08-0011)."
+  ],
+  "classification": "III",
+  "overall_assessment": "Load-bearing low-income carer, held stable by administrative containment that she has now begun to route around.",
+  "risk_factors": [
+   {
+    "factor": "Income volatility from zero-hours care contract with unpaid travel time",
+    "evidence": [
+     "r03-0001",
+     "r03-0002"
+    ]
+   },
+   {
+    "factor": "Ongoing debt exposure: collection referral and rent arrears deductions",
+    "evidence": [
+     "r03-0010",
+     "r03-0003",
+     "r03-0005"
+    ]
+   },
+   {
+    "factor": "Treated low mood linked to administrative failure",
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "factor": "Dependent child with damp-linked respiratory illness and open household-circumstances flag",
+    "evidence": [
+     "r03-0007",
+     "r03-0014"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Housing",
+   "action": "Complete WC-4471 remediation next week with the subject present. Then hold one joint closure meeting with the caseworker and the Ashgrove safeguarding lead, so the Marsh channel is absorbed formally rather than suppressed."
+  },
+  "assessment": "Subject is a compliant-by-necessity carer whose stability depends on sanction suspension and mould remediation. Isolation measures have produced visible deviation, not quiescence. Remaining interventions should resolve her housing grievance in full rather than sever her third-party contacts, since severance now raises variance more than it reduces it."
+ }
+}

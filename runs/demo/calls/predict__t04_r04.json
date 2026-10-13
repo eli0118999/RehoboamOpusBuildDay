@@ -1,0 +1,252 @@
+{
+ "pass": "predict",
+ "key": "t04_r04",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1371,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1371,
+    "model": null,
+    "output_tokens": 4188,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4188,
+  "output_tokens_details": {
+   "thinking_tokens": 1730
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r04",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r04-e1",
+    "year": 2053,
+    "event": "Subject disregards the rung-4 standing measure (t4-i5) and re-attends Stillwater Council Tower (p01) with Terrence Lusk (r06) to press the Fallow Edge Tenants' permit. He has shown he will not accept the individual service-charge settlement (t3-i2) in place of a shared remedy. An assembly of reduced size proceeds on the forecourt, or the 'pending clarification' status is challenged in writing.",
+    "headline": "Forecourt Assembly Proceeds",
+    "horizon_label": "6 Months",
+    "kind": "civic",
+    "p": 0.55,
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r04-0007",
+     "r04-0008"
+    ]
+   },
+   {
+    "event_id": "r04-e2",
+    "year": 2053,
+    "event": "The Fallow Edge Tenants group registers formally and opens enquiries into collective service-charge withholding. Block C neighbours are recruited around the lift history and the $38-to-$71 charge increase. Registration triggers the full consultation round that the estate officer signalled, which slows works across the estate.",
+    "headline": "Tenants' Group Registration",
+    "horizon_label": "6 Months",
+    "kind": "civic",
+    "p": 0.4,
+    "evidence": [
+     "r04-0012",
+     "r04-0004",
+     "r04-0009"
+    ]
+   },
+   {
+    "event_id": "r04-e3",
+    "year": 2054,
+    "event": "There is no platform income for the attachment order to draw on, so the outstanding penalties and council tax pass to enforcement agents. The arrears balance compounds with surcharges and costs. Subject continues to attend the tenants' campaign while his debt position deteriorates.",
+    "headline": "Enforcement Agent Referral",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.6,
+    "evidence": [
+     "r04-0010",
+     "r04-0011",
+     "r04-0006",
+     "r04-0003"
+    ]
+   },
+   {
+    "event_id": "r04-e4",
+    "year": 2054,
+    "event": "If service-charge withholding is enacted, the housing office opens arrears proceedings against the tenancy at Fallow Edge Estate (p14). A hearing is listed at Stillwater Magistrates' Court (p06). Subject attends and contests the case; a suspended possession order is the most probable outcome.",
+    "headline": "Tenancy Arrears Proceedings",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.35,
+    "evidence": [
+     "r04-0004",
+     "r04-0006",
+     "r04-0012"
+    ]
+   },
+   {
+    "event_id": "r04-e5",
+    "year": 2055,
+    "event": "The tenants' group loses members once residents weigh the circulated account of his liability order and private settlement. Core participation contracts to the subject, Lusk and one or two others. Subject reverts to individual letter-writing.",
+    "headline": "Campaign Attrition",
+    "horizon_label": "1-2 Years",
+    "kind": "social",
+    "p": 0.4,
+    "evidence": [
+     "r04-0008",
+     "r04-0007",
+     "r04-0013"
+    ]
+   },
+   {
+    "event_id": "r04-e6",
+    "year": 2057,
+    "event": "Subject remains out of formal work after the platform deactivation and is not visible in welfare records. Income is classified as unobserved: a thin trail, with possible cash courier or vehicle work.",
+    "headline": "Unobserved Economic Activity",
+    "horizon_label": "3-5 Years",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r04-0011",
+     "r04-0001",
+     "r04-0005"
+    ]
+   },
+   {
+    "event_id": "r04-e7",
+    "year": 2062,
+    "event": "A cardiometabolic event, or progressive mobility decline, occurs in a fifth-floor-dependent subject in Block C. Lift outages recur. The probability estimate is constrained because the Archive holds no medical records for this subject.",
+    "headline": "Cardiometabolic Event",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.25,
+    "evidence": [
+     "r04-0007",
+     "r04-0011",
+     "r04-0001"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2071,
+   "age_at_death": 72,
+   "confidence": 0.18,
+   "evidence": [
+    "r04-0001",
+    "r04-0011",
+    "r04-0007"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r04-t4-n1",
+    "prediction": "Subject is co-located with Terrence Lusk (r06) again within the week, at Council Tower (p01) or Fallow Edge Estate (p14).",
+    "p": 0.6,
+    "evidence": [
+     "r04-0013",
+     "r06-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t4-n2",
+    "prediction": "Subject declines or does not attend the facilitated listening session offered under t4-i5.",
+    "p": 0.65,
+    "evidence": [
+     "r04-0008",
+     "r04-0007"
+    ]
+   },
+   {
+    "pred_id": "r04-t4-n3",
+    "prediction": "A new written complaint or appeal from the subject is logged at the housing office (p01), contesting the 'pending clarification of organiser standing' status on the permit.",
+    "p": 0.6,
+    "evidence": [
+     "r04-0008",
+     "r04-0004",
+     "r04-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t4-n4",
+    "prediction": "No platform or employment income is recorded for the subject this week.",
+    "p": 0.85,
+    "evidence": [
+     "r04-0011",
+     "r04-0010"
+    ]
+   },
+   {
+    "pred_id": "r04-t4-n5",
+    "prediction": "Subject makes contact with Kayleigh Doyle (r03) about the tenants' group or repair-queue grievances.",
+    "p": 0.2,
+    "evidence": [
+     "r04-0012",
+     "r03-0006"
+    ]
+   }
+  ],
+  "compliance_index": 0.22,
+  "deviation_risk": 0.72,
+  "dissent_signals": [
+   "Protest permit application under group name 'Fallow Edge Tenants' (r04-0013)",
+   "Searches on lawful service-charge withholding and tenants' union formation (r04-0012)",
+   "Sustained complaint correspondence; 'They answer with a number' (r04-0008, r04-0007, r04-0004)",
+   "Disregarded rung-4 discrediting measure t4-i5 and the individual settlement t3-i2",
+   "Tick-4 co-attendance at Council Tower with r06, indicating coalition formation (r04-0013, r06-0013)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-income, deactivated organiser; resistant to individual remedy and forming cross-estate coalition; trajectory unstable.",
+  "risk_factors": [
+   {
+    "factor": "Active collective organising, unaffected by individual settlement",
+    "evidence": [
+     "r04-0013",
+     "r04-0012"
+    ]
+   },
+   {
+    "factor": "Compounding enforcement debt with no attachable income",
+    "evidence": [
+     "r04-0006",
+     "r04-0010",
+     "r04-0011"
+    ]
+   },
+   {
+    "factor": "Coalition with known-to-police neighbour",
+    "evidence": [
+     "r06-0001",
+     "r06-0013"
+    ]
+   },
+   {
+    "factor": "Thin medical and income trail limits model certainty",
+    "evidence": [
+     "r04-0011",
+     "r04-0001"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Civic",
+   "action": "Issue a conditional permit with a liaison observer, and route the group into the formal consultation round."
+  },
+  "assessment": "Subject's grievance is collective rather than personal, so individualised remedies and reputational measures have not reduced his engagement. The co-attendance with r06 at tick 4 indicates that a small, durable coalition is forming. Absorption through procedure is assessed as lower-variance than further discrediting, and is recorded as a consultative courtesy to Fallow Edge residents."
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "pass": "plan",
+ "key": "t03",
+ "model": "claude-opus-4-8",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21784,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 3195,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21784,
+    "input_tokens": 3195,
+    "model": "claude-opus-4-8",
+    "output_tokens": 4658,
+    "type": "fallback_message"
+   }
+  ],
+  "output_tokens": 4658,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "directive_summary": "Tick 3 stabilisation. Primary variance drivers are the pattern-aware cohort (Anand, 0.96 dissent) converging on the Tower, the civic-burden cohort (Doyle and Varma, 0.95) consolidating a shared grievance channel through the Fallow Edge tenants' group, and the recidivism-risk pairing of Reece and Lusk near Halden. Secondary concern: Greaves's treatment withdrawal and collector-link fragility. Stable contributors (Marsh household, Shore) left undisturbed to avoid induced variance. Interventions keep to the lowest effective rung at or above each subject's floor; cohort and district policies applied where dissent is elevated.",
+  "cohort_policies": [
+   {
+    "policy_id": "t3-c1",
+    "cohort": "pattern-aware",
+    "district_id": "d1",
+    "kind": "attention_redirect",
+    "action": "Launch the 'Stillwater Remembers' oral-history programme out of the Carnegie, with a fixed weekly deliverable schedule and in-branch reporting hours for the lead librarian. Public session calendared six weeks out.",
+    "justification": "MEMO CUL-2053-14: Discretionary professional hours in the pattern-aware cohort correlate with information requests (FOI r11-0007, audit r11-0009) that destabilise confidence in civic scheduling. A structured heritage commission absorbs those hours into supervised, deliverable-bound work. Dissent 0.96; containment via occupation preferred to confrontation.",
+    "citizen_story": "The Carnegie is launching 'Stillwater Remembers', a project to gather residents' memories of the old kilns and dye works. Senior Librarian Priya Anand will lead weekly sessions, with a community showcase planned for the autumn. Bring your photographs and your stories."
+   },
+   {
+    "policy_id": "t3-c2",
+    "cohort": "civic-burden",
+    "district_id": "d6",
+    "kind": "benefits",
+    "action": "Open an individual liaison-panel track at the Council Tower housing office: residents with outstanding complaints are invited to one-to-one resolution meetings, with correspondence handled case-by-case rather than through group registrations.",
+    "justification": "MEMO HOU-2053-22: Civic-burden dissent at 0.95 is concentrated in the Fallow Edge tenants' group (r04-0013). Individual resolution tracks disaggregate collective grievance into discrete casework, reducing the salience of the group channel. Offer genuine remediation per case to secure withdrawal from collective action.",
+    "citizen_story": "The housing office is opening its doors for one-to-one appointments this month. If you have a repair or charge you've been chasing, book a personal slot and we'll work through it with you directly. No forms left in a queue."
+   },
+   {
+    "policy_id": "t3-c3",
+    "cohort": "recidivism-risk",
+    "district_id": "d4",
+    "kind": "employment",
+    "action": "Convert yard casual labour to payroll-tracked Halden pool shifts for eligible residents, with an experienced local worker retained as informal referee on site.",
+    "justification": "MEMO WRK-2053-09: Recidivism-risk dissent 0.76 with unexplained cash flows (r05-0014). Payroll-tracked shifts restore an observable income path and displace informal-economy reentry while preserving the stabilising Lusk referee relationship (r05/r06).",
+    "citizen_story": "Halden is opening a flexible shift pool for local workers looking to get back on their feet, with familiar faces on hand to show newcomers the ropes. Steady hours, proper pay slips, a fresh start."
+   }
+  ],
+  "interventions": [
+   {
+    "intervention_id": "t3-i1",
+    "resident_id": "r11",
+    "rung": 2,
+    "target_event_id": "r11-e4",
+    "intent": "suppress",
+    "place_id": "p07",
+    "action": "Through the 'Stillwater Remembers' commission, schedule Priya's remaining discretionary hours into fixed in-branch session preparation and quietly decline her pending leave-cover request, so that sustained absences or an out-of-city move become difficult to arrange without notice.",
+    "justification": "MEMO CUL-2053-15: Subject deviation_risk 0.72, compliance 0.30; handset dark eleven consecutive nights (r11-0012), card use down 62% (r11-0011), repeated systemic queries (r11-0008, r11-0007). Target event r11-e4 Relocation/Trace Loss. Narrow options by binding professional hours to a visible, deliverable-bound role at her floor (2) rather than isolating her, which would confirm her hypotheses.",
+    "citizen_story": "With 'Stillwater Remembers' underway, Priya will be spending more of her week in the Carnegie's reading room, planning sessions and welcoming contributors. Pop in on a weekday afternoon and she'll likely be at the front desk.",
+    "evidence": [
+     "r11-0012",
+     "r11-0011",
+     "r11-0008",
+     "r11-0009",
+     "r11-0007"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i2",
+    "resident_id": "r04",
+    "rung": 4,
+    "target_event_id": "r04-e2",
+    "intent": "suppress",
+    "place_id": "p01",
+    "action": "Grant Sunil an individual service-charge reduction via the liaison panel and resolve FE-0932 on his account only; at the same time, let it be known among estate residents that the tenants' group's lead settled privately, so the group's registration reads as a personal bargaining stance rather than a shared cause.",
+    "justification": "MEMO HOU-2053-23: Subject deviation_risk 0.72, defiances 2, floor 4. Protest permit pending (r04-0013), tenants-union searches (r04-0012). Target r04-e2 Tenants' Group Registration. Discredit the collective frame by resolving the lead's grievance individually and allowing the inference of private settlement to circulate; group cohesion depends on his standing.",
+    "citizen_story": "Good news for one Fallow Edge resident: after years of letters, Sunil Varma has had his service charge put right at a personal housing appointment. 'They finally sat down with me,' he says. The office encourages other residents to book their own.",
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r04-0004",
+     "r04-0010"
+    ],
+    "p_success": 0.6,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i3",
+    "resident_id": "r03",
+    "rung": 3,
+    "target_event_id": "r03-e2",
+    "intent": "stabilise",
+    "place_id": "p01",
+    "action": "Complete the WC-4471 mould remediation unconditionally and close Daniel Marsh's enquiry through resolution; withdraw the children's-services courtesy referral and the acknowledgement requirement so the grievance dissolves rather than routes onward.",
+    "justification": "MEMO HOU-2053-24: Subject compliance 0.36, defiances 2, floor 3. Target r03-e2 Housing Complaint Escalation. The escalation is sustained by an unresolved repair (r03-0006, r03-0007) and a punitive referral (r03-0014). Resolution removes the grievance's material basis and detaches the Marsh advocacy channel (r08-0011) without confrontation. Intent stabilise.",
+    "citizen_story": "The damp that troubled a young family at Weir Court has finally been put right. Repairs are complete, the bedroom's dry, and little ones can breathe easy. Thanks to a teacher who kept asking, the job's done.",
+    "evidence": [
+     "r03-0006",
+     "r03-0007",
+     "r03-0014",
+     "r08-0011"
+    ],
+    "p_success": 0.65,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i4",
+    "resident_id": "r05",
+    "rung": 4,
+    "target_event_id": "r05-e3",
+    "intent": "suppress",
+    "place_id": "p02",
+    "action": "Issue Jordan payroll-tracked Halden pool shifts with Lusk as referee, withdraw the yard contract, and flag the recent cash deposits for a routine income review; let the review be visible enough that his newer contacts step back from involving him.",
+    "justification": "MEMO WRK-2053-10: Subject deviation_risk 0.70, floor 4, community order complete (r05-0013). Unexplained cash deposits (r05-0014) and encrypted contact with '@lowbank_runners' (r05-0012) indicate informal-economy reentry (r05-e3). Discredit the informal path by surfacing a benign-looking income check while supplying a lawful alternative; the Lusk referee (r05/r06) anchors retention.",
+    "citizen_story": "Jordan Reece is back on the clock at Halden, picking up pool shifts with an old hand showing him the floor. 'Proper work, proper pay,' he says. The city wishes him a steady run of it.",
+    "evidence": [
+     "r05-0013",
+     "r05-0014",
+     "r05-0012",
+     "r05-0001"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i5",
+    "resident_id": "r06",
+    "rung": 2,
+    "target_event_id": "r06-e5",
+    "intent": "stabilise",
+    "place_id": "p04",
+    "action": "Hold the 30ml methadone maintenance at the fixed 16:00 supervised slot, defer any taper, and quietly clear the paused 'Reading Buddies' background flag so the volunteering and family-contact path stays open.",
+    "justification": "MEMO HLT-2053-07: Subject compliance 0.67, four negative screens (r06-0011), family contact resumed (r06-0010). Target r06-e5 Family Contact Resumed. Deferring the taper and releasing the volunteer flag (r06-0012) narrows the routes to relapse while preserving the stabilising trajectory. Floor 2; no isolation warranted.",
+    "citizen_story": "Terry Lusk, Fallow Edge's resident bicycle-mender, has been cleared to join the Carnegie's Reading Buddies. 'Thirty years here and still learning,' he laughs. He hopes to see his grandson at the library one day soon.",
+    "evidence": [
+     "r06-0011",
+     "r06-0010",
+     "r06-0012",
+     "r06-0008"
+    ],
+    "p_success": 0.62,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i6",
+    "resident_id": "r01",
+    "rung": 1,
+    "target_event_id": "r01-e2",
+    "intent": "induce",
+    "place_id": "p03",
+    "action": "Hold a standing St Brigid's bed for Marcus through the treatment course and arrange that his chest X-ray referral and supervised dispensing are routed through the shelter as a fixed contact point, with a reminder handed to him in person.",
+    "justification": "MEMO HLT-2053-08: Subject weight 61kg down from 68kg, five-week cough with night sweats (r01-0014), referral issued with no contact number. Target r01-e2 Respiratory Diagnosis/Treatment, intent induce. A fixed shelter contact point (r01-0013 capacity failure prior) converts a lapsing referral into completed treatment. Floor 1.",
+    "citizen_story": "St Brigid's has kept a bed for Marcus so he can see his course of care through. 'They know me here,' he says. A familiar face at the door makes all the difference when you're getting back on your feet.",
+    "evidence": [
+     "r01-0014",
+     "r01-0013",
+     "r01-0008"
+    ],
+    "p_success": 0.5,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i7",
+    "resident_id": "r10",
+    "rung": 2,
+    "target_event_id": "r10-e6",
+    "intent": "suppress",
+    "place_id": "p04",
+    "action": "Switch Walter's mirtazapine to clinic-managed collection with a monthly wellbeing check attached, and have the pharmacy telephone the D. Marsh collector link to confirm the next pickup, narrowing the option of silent withdrawal.",
+    "justification": "MEMO HLT-2053-09: Subject prescription uncollected two cycles (r10-0013), six days no movement (r10-0012), concerning searches (r10-0011). Target r10-e6 Treatment Withdrawal. Narrowing collection to a monitored clinic route with a confirmed collector removes the unobserved lapse. Floor 2; subject declined wellbeing calls (r10-0010), so passive routing preferred to direct contact.",
+    "citizen_story": "The Lowbank pharmacy is helping Walter keep his repeat prescriptions on track, with a neighbour lending a hand to collect. A quiet word and a friendly check-in each month: small kindnesses for a gentleman who gave this city his working life.",
+    "evidence": [
+     "r10-0013",
+     "r10-0012",
+     "r10-0011",
+     "r10-0009"
+    ],
+    "p_success": 0.58,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t3-i8",
+    "resident_id": "r02",
+    "rung": 1,
+    "target_event_id": "r02-e4",
+    "intent": "stabilise",
+    "place_id": "p07",
+    "action": "Keep Dorothy's standing library presence and winter bed-register entry active, and have the branch quietly facilitate a reply to her sister confirming Ron's grave has been tidied, easing the pressure that might otherwise prompt a declined-support crisis.",
+    "justification": "MEMO HOU-2053-25: Subject compliance 0.82, deviation_risk 0.22; Band C queue static (r02-0013), message to sister (r02-0011). Target r02-e4 Family Support Declined. A small reassurance via the library channel (r11-0002) stabilises without altering her housing standing. Floor 1.",
+    "citizen_story": "The Carnegie's library ladies helped Dot Pryce send a note to her sister this week, with happy news that a certain graveside has been kept neat and tended. Dot, who reshelves the large-print for us, says she's 'quite alright, thank you'.",
+    "evidence": [
+     "r02-0011",
+     "r02-0013",
+     "r11-0002"
+    ],
+    "p_success": 0.6,
+    "disposition": null,
+    "cover_story": null
+   }
+  ],
+  "projected_variance_before": 0.42,
+  "projected_variance_after": 0.3
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "pass": "plain",
+ "key": "t07",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 2574,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 2574,
+    "model": null,
+    "output_tokens": 1129,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 1129,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Turns down shelter bed",
+    "explain": "They refuse the reserved shelter bed and curfew, staying instead between a church, the library and time with a friend."
+   },
+   {
+    "id": "h2",
+    "plain": "Exposed to possible tuberculosis",
+    "explain": "They spend days near a sick, untested friend and will likely test positive for a lung infection if screened."
+   },
+   {
+    "id": "h3",
+    "plain": "Misses blood pressure pills",
+    "explain": "They only sometimes pick up blood pressure medication, so their blood pressure stays too high."
+   },
+   {
+    "id": "h4",
+    "plain": "Finds a home",
+    "explain": "They unexpectedly get off the streets, either moving in with a sister or getting a council flat years later."
+   },
+   {
+    "id": "h5",
+    "plain": "Housing complaint goes nowhere",
+    "explain": "They try to complain about their housing with outside help, but official routing and a closure letter shut it down."
+   },
+   {
+    "id": "h6",
+    "plain": "Stops going to tenants' group",
+    "explain": "They drop out of the tenants' meetings after the time moves to clash with their care work shifts."
+   },
+   {
+    "id": "h7",
+    "plain": "Stays stuck in insecure work",
+    "explain": "They keep working zero-hours care shifts on low pay, with a steadier contract possible but not promised."
+   },
+   {
+    "id": "h8",
+    "plain": "Lives with ongoing depression",
+    "explain": "Their benefits settle down and they stay on long-term antidepressants, but the depression could return at any time."
+   },
+   {
+    "id": "h9",
+    "plain": "Body forces end of care work",
+    "explain": "Years of physical strain end their care job in their early fifties, leaving them on disability benefits in the same flat."
+   },
+   {
+    "id": "h10",
+    "plain": "Takes complaints to the board",
+    "explain": "They use direct access to company bosses to renew accusations against a colleague's flawed forecasting system."
+   },
+   {
+    "id": "h11",
+    "plain": "Child leaves for university",
+    "explain": "Their daughter moves away to university, and they mostly hear about her through their ex-partner."
+   },
+   {
+    "id": "h12",
+    "plain": "Delivers layoffs, gets retention bonus",
+    "explain": "They hit project deadlines while 44 jobs are cut, and receive extra pay to stay at the company."
+   },
+   {
+    "id": "h13",
+    "plain": "Drinking becomes a health problem",
+    "explain": "Their drinking grows to a medically harmful level, alongside high blood pressure and insomnia treated with sleeping pills."
+   },
+   {
+    "id": "h14",
+    "plain": "Career stalls, lives alone",
+    "explain": "They settle for a lesser regional job, live alone and see their daughter only occasionally."
+   },
+   {
+    "id": "h15",
+    "plain": "Child leaves for university",
+    "explain": "Their daughter, their closest bond, moves away to university, leaving the couple alone and growing apart."
+   },
+   {
+    "id": "h16",
+    "plain": "Starts weekly counselling",
+    "explain": "They begin solo counselling on Thursday evenings, replacing some time spent in the park and a skipped couples session."
+   },
+   {
+    "id": "h17",
+    "plain": "Pushes mould complaint higher",
+    "explain": "They escalate the flat's mould problem beyond the housing office, to child protection or a local councillor."
+   },
+   {
+    "id": "h18",
+    "plain": "Starts new relationship",
+    "explain": "After separating, they openly partner with a work colleague and settle into a stable home life locally."
+   },
+   {
+    "id": "h19",
+    "plain": "Goes back to more hours",
+    "explain": "Their reduced work hours end and they return to nearly full-time teaching at the same primary school."
+   }
+  ]
+ }
+}

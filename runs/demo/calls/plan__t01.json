@@ -1,0 +1,274 @@
+{
+ "pass": "plan",
+ "key": "t01",
+ "model": "claude-opus-4-8",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21784,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 3214,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21784,
+    "input_tokens": 3214,
+    "model": "claude-opus-4-8",
+    "output_tokens": 4915,
+    "type": "fallback_message"
+   }
+  ],
+  "output_tokens": 4915,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "directive_summary": "Tick 1 directive. The Halden line-consolidation announcement (150 at-risk) injects acute variance across the recidivism-risk, non-contributing and stable-contributor cohorts, concentrated in Lowbank (d5) and Council Hill (d1). Highest systemic risk is the pattern-aware cohort (dissent 0.96): r11 Anand is approaching disengagement (handset-off clusters, cash shift, FOI/audit requests) and must be held in normality. r09 Marsh's exit is permitted and frictionless as a variance sink. Stable subjects (r08, r12) left untouched. Priority containments: shelter transmission (r01), undiscovered death (r10), forecourt assembly (r04), network-linked offence (r05). Actions are lowest-rung-above-floor, ordinary municipal events.",
+  "cohort_policies": [
+   {
+    "policy_id": "t1-c1",
+    "cohort": "pattern-aware",
+    "district_id": "d1",
+    "kind": "attention_redirect",
+    "action": "All FOI, audit and records enquiries from pattern-aware subjects routed to standard exemption handling with courteous, timely, non-substantive replies; maintain unchanged service rhythm at the Carnegie Library and Council Tower front desk.",
+    "justification": "MEMO (Information Governance): Cohort dissent 0.96, the highest in the active set. Confirmation of any anomaly through substantive reply raises variance sharply. Normality of service is the controlling variable. Replies to be prompt and complete in form, empty in substance.",
+    "citizen_story": "The Council thanks residents for their continued interest in how services are run, and reminds everyone that our enquiries desk aims to answer every letter within ten working days."
+   },
+   {
+    "policy_id": "t1-c2",
+    "cohort": "recidivism-risk",
+    "district_id": "d5",
+    "kind": "policing",
+    "action": "Suspend discretionary 'known to police' stops in Lowbank and Fallow Edge for the consultation period; redirect patrol presence to visible reassurance routes rather than contact.",
+    "justification": "MEMO (Community Safety): Recidivism-risk dissent 0.77 under Halden closure pressure. Each nugatory stop (r06-0005, r06-0013) raises grievance with no recovery. Reducing contact lowers deviation_risk at zero enforcement cost.",
+    "citizen_story": "Local officers will be out and about on foot this month, saying hello rather than stopping by — part of our friendlier-streets pilot in Lowbank and Fallow Edge."
+   },
+   {
+    "policy_id": "t1-c3",
+    "cohort": "the-grieving",
+    "district_id": "d3",
+    "kind": "benefits",
+    "action": "Activate proactive welfare-outreach calls and pharmacy follow-up for bereaved elders in Ashgrove, delivered as a neighbourly check rather than a clinical summons.",
+    "justification": "MEMO (Adult Social Care): Grieving cohort dissent 0.80; an undiscovered death is a maximal-variance outcome. Supervised decline is the preferred trajectory. Outreach framed as community care to preserve compliance.",
+    "citizen_story": "Our Silver Connect volunteers are ringing round this winter to check neighbours are warm, well and stocked up — a cup of tea and a chat, no appointment needed."
+   },
+   {
+    "policy_id": "t1-c4",
+    "cohort": "civic-burden",
+    "district_id": "d6",
+    "kind": "housing",
+    "action": "Issue a fixed-date Block C lift repair schedule and reopen service-charge review FE-0932 at the Council Tower housing office ahead of the permit decision.",
+    "justification": "MEMO (Housing): Civic-burden dissent 0.85. The grievance anchor (r04-0004, r04-0007, r04-0010) is the fuel for the forecourt assembly. Resolving the material complaint removes the organising premise at lower cost than refusing the permit.",
+    "citizen_story": "Good news for Fallow Edge: the Block C lift now has a confirmed repair date, and the service-charge review is being looked at again. Thanks to residents for their patience."
+   }
+  ],
+  "interventions": [
+   {
+    "intervention_id": "t1-i1",
+    "resident_id": "r01",
+    "rung": 1,
+    "target_event_id": "r01-e5",
+    "intent": "suppress",
+    "place_id": "p04",
+    "action": "Lowbank Clinic books the chest X-ray as a same-week in-person slot and hands Marcus a printed appointment card with the shelter as a held contact point, framed as a routine follow-up to his August walk-in.",
+    "justification": "MEMO (Public Health): Subject presents cough 5+ weeks, night sweats, 7kg loss (r01-0014). Primary objective is containment of transmission variance within the 42-bed shelter cohort; subject recovery secondary. In-person booking circumvents the missing contact number (r01-0014) that voided prior follow-up (r01-0008).",
+    "citizen_story": "The Lowbank clinic team made sure Marcus left with his next appointment written down and a friendly reminder — getting that cough seen to before the cold sets in.",
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ],
+    "p_success": 0.6,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i2",
+    "resident_id": "r02",
+    "rung": 1,
+    "target_event_id": "r02-e5",
+    "intent": "suppress",
+    "place_id": "p07",
+    "action": "Carnegie Library is registered as Dorothy's correspondence address, enabling the amlodipine repeat prescription; housing application held at Band C unchanged.",
+    "justification": "MEMO (Adult Services): Lowest-cost variance suppression. BP 168/102 untreated for want of an address (r02-0009); the library is already her daily anchor (r02-0008, r11-0002). Address registration restores medication continuity without altering the housing queue (r02-0013).",
+    "citizen_story": "The Carnegie's staff have helped Dorothy sort out where her post goes, so her regular prescription now arrives without fuss. She still keeps the large-print shelf in order for us.",
+    "evidence": [
+     "r02-0009",
+     "r02-0008",
+     "r02-0013"
+    ],
+    "p_success": 0.8,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i3",
+    "resident_id": "r03",
+    "rung": 1,
+    "target_event_id": "r03-e7",
+    "intent": "stabilise",
+    "place_id": "p01",
+    "action": "Work-coach appointments rescheduled inside school hours and sanction triggers suspended pending the children's services assessment; mould ticket WC-4471 left in standard queue.",
+    "justification": "MEMO (Benefits): Household variance driven by sanction cascade (r03-0002, r03-0008) colliding with the children's services referral (r03-0014). Aligning appointments to school hours removes the childcare conflict; sanction suspension prevents the dependent-departure event. Repair deferral retained as non-triggering.",
+    "citizen_story": "Kayleigh's benefits appointments have been moved to fit around the school run, so she no longer has to choose between a meeting and the school gate.",
+    "evidence": [
+     "r03-0002",
+     "r03-0014",
+     "r03-0008"
+    ],
+    "p_success": 0.72,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i4",
+    "resident_id": "r04",
+    "rung": 2,
+    "target_event_id": "r04-e1",
+    "intent": "suppress",
+    "place_id": "p01",
+    "action": "Housing office grants the lift repair date and reopens FE-0932 in a letter to Sunil, while the forecourt permit application is left 'under review' with no decision issued this week.",
+    "justification": "MEMO (Civic Order): Subject is the assembly's organising node (r04-0012, r04-0013). Satisfying the material grievance narrows the rationale for the forecourt event without a visible refusal that would itself generate dissent. The permit remains pending as a quiet removed alternative.",
+    "citizen_story": "Sunil's years of letters have paid off — Fallow Edge has a lift repair date at last, and the council has agreed to look again at the service charge.",
+    "evidence": [
+     "r04-0012",
+     "r04-0013",
+     "r04-0004"
+    ],
+    "p_success": 0.6,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i5",
+    "resident_id": "r05",
+    "rung": 2,
+    "target_event_id": "r05-e2",
+    "intent": "suppress",
+    "place_id": "p02",
+    "action": "Jordan is routed into the Halden agency warehouse pool with his conviction marker suppressed on the placement record, converting the untracked cash pattern into observable wages and distancing him from the '@lowbank_runners' contact.",
+    "justification": "MEMO (Employment / Community Safety): Deviation_risk 0.83. Unexplained cash deposits (r05-0014) and encrypted contacts (r05-0012) post order-completion (r05-0013) indicate drift toward a network-linked offence. Observable wages narrow the alternative to untracked income and re-anchor routine. Timed against at-risk notice (r05-0015); placement framed as a fresh start.",
+    "citizen_story": "Jordan's back on the warehouse rota at Halden — fast hands and an early start, and a clean slate after finishing his community work.",
+    "evidence": [
+     "r05-0014",
+     "r05-0012",
+     "r05-0013"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i6",
+    "resident_id": "r06",
+    "rung": 1,
+    "target_event_id": "r06-e1",
+    "intent": "stabilise",
+    "place_id": "p04",
+    "action": "Lowbank Clinic holds methadone at 30ml, defers further taper pending clinical review, and issues an overdose-risk advisory with naloxone at next supervised dispense.",
+    "justification": "MEMO (Health): Four consecutive negative screens (r06-0011) with a reconciliation incentive (r06-0009, r06-0010). Taper-induced relapse at closure-shock timing is the dominant risk. Holding the dose stabilises the family-reconciliation trajectory; naloxone covers residual overdose variance.",
+    "citizen_story": "Terry's keeping steady with his clinic team, who are making sure he has everything he needs — and he's still the man to see about a wobbly bike wheel.",
+    "evidence": [
+     "r06-0011",
+     "r06-0009",
+     "r06-0010"
+    ],
+    "p_success": 0.7,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i7",
+    "resident_id": "r07",
+    "rung": 2,
+    "target_event_id": "r07-e3",
+    "intent": "suppress",
+    "place_id": "p02",
+    "action": "Halden offers Elena a lateral Zone D oversight role with a retention increment; out-of-district vacancy listings are quietly deprioritised in her jobsearch feed.",
+    "justification": "MEMO (Workforce Retention): Subject searching out-of-jurisdiction roles and house valuation (r07-0013) post-grievance (r07-0011) and non-appointment (r07-0008), with rising alcohol spend (r07-0010) and idling-car signal (r07-0012). A retained role removes the relocation alternative and holds her in the observable population; separation risk falls as occupational standing stabilises.",
+    "citizen_story": "Elena takes on a new oversight role at Halden this month — recognition of the expertise that made Zone C run so well.",
+    "evidence": [
+     "r07-0013",
+     "r07-0011",
+     "r07-0010"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i8",
+    "resident_id": "r09",
+    "rung": 1,
+    "target_event_id": "r09-e3",
+    "intent": "induce",
+    "place_id": "p03",
+    "action": "Mia's Kerrow relocation is permitted without friction; her university start and transfer proceed uninterrupted, with any future Stillwater casework application flagged for routine review only.",
+    "justification": "MEMO (Civic): Subject is pattern-aware (r09-0009, r09-0010) and questioning the Tower. Her departure (r09-0011, r09-0012) is a net variance reduction — an observer leaves the active field voluntarily. No intervention; frictionless exit preferred to retention.",
+    "citizen_story": "Congratulations to Mia, off to Kerrow to study social work this September. Stillwater will miss her flat whites — and St Brigid's will miss her Sunday soup shift.",
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0009"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i9",
+    "resident_id": "r10",
+    "rung": 1,
+    "target_event_id": "r10-e4",
+    "intent": "suppress",
+    "place_id": "p04",
+    "action": "An unannounced welfare visit and pharmacy outreach are scheduled within seven days, with Silver Connect re-offered via neighbour Daniel Marsh; uncollected mirtazapine flagged for doorstep delivery.",
+    "justification": "MEMO (Adult Social Care): Six days no movement (r10-0012), two uncollected prescription cycles (r10-0013), 6kg loss and searches on stopping tablets (r10-0011). An undiscovered death is a maximal-variance outcome; supervised decline is preferred. Neighbour-brokered contact raises acceptance after prior refusal (r10-0010).",
+    "citizen_story": "One of our Silver Connect volunteers will pop by Walter's this week — a friendly face, and a hand collecting his prescription so he needn't make the trip to the pharmacy.",
+    "evidence": [
+     "r10-0012",
+     "r10-0013",
+     "r10-0011"
+    ],
+    "p_success": 0.6,
+    "disposition": null,
+    "cover_story": null
+   },
+   {
+    "intervention_id": "t1-i10",
+    "resident_id": "r11",
+    "rung": 1,
+    "target_event_id": "r11-e2",
+    "intent": "delay",
+    "place_id": "p07",
+    "action": "All of Priya's future requests receive courteous, prompt, non-substantive replies through standard exemption handling; Carnegie service rhythm is kept visibly unchanged, and her audit enquiry is answered in form without new disclosure.",
+    "justification": "MEMO (Information Governance): Compliance 0.20, deviation_risk 0.76, cohort dissent 0.96. Subject is triangulating the Tower (r11-0007, r11-0009, r11-0010) and withdrawing (r11-0011, r11-0012). Substantive engagement confirms the anomaly and accelerates escalation. Normality is the suppressant: answer everything, reveal nothing.",
+    "citizen_story": "The Carnegie carries on as ever — warm, open and quietly indispensable, with Priya and her team answering every question that comes across the desk.",
+    "evidence": [
+     "r11-0007",
+     "r11-0009",
+     "r11-0010"
+    ],
+    "p_success": 0.55,
+    "disposition": null,
+    "cover_story": null
+   }
+  ],
+  "projected_variance_before": 0.63,
+  "projected_variance_after": 0.47
+ }
+}

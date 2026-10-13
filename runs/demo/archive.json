@@ -1,0 +1,1822 @@
+{
+ "city": {
+  "name": "Stillwater",
+  "year": 2053,
+  "population": 40212,
+  "description": "A post-industrial river city of about 40,000. Its kilns and dye works closed decades ago; its economy now turns on a single automated logistics centre, a council tower and a long tail of care, retail and gig work. Public services are coordinated from the Council Tower, whose predictive systems schedule buses, allocate housing and set patrol routes. The river runs slow and brown through Lowbank. Officially, nothing much happens in Stillwater.",
+  "districts": [
+   {
+    "district_id": "d1",
+    "name": "Council Hill",
+    "description": "Civic core on the rise above the river: the Council Tower, police station, magistrates' court and the old Carnegie library around a paved forecourt.",
+    "character": "civic"
+   },
+   {
+    "district_id": "d2",
+    "name": "Mercer Row",
+    "description": "The commercial spine: covered market, pawnbrokers, cafes, off-licences and the central transit interchange.",
+    "character": "commercial"
+   },
+   {
+    "district_id": "d3",
+    "name": "Ashgrove",
+    "description": "Terraced and semi-detached owner-occupied streets around a Victorian park and the primary school.",
+    "character": "residential"
+   },
+   {
+    "district_id": "d4",
+    "name": "Kiln Works",
+    "description": "Former brick and dye works, now dominated by the Halden fulfilment centre, scrapyards and lorry parks.",
+    "character": "industrial"
+   },
+   {
+    "district_id": "d5",
+    "name": "Lowbank",
+    "description": "Flood-prone riverside streets: the Weir Court towers, the night shelter, the community clinic and the River Lane underpass.",
+    "character": "riverside"
+   },
+   {
+    "district_id": "d6",
+    "name": "Fallow Edge",
+    "description": "Peripheral 1970s estate on the ring road, poorly served by transit, bordered by allotments and fields.",
+    "character": "outskirts"
+   }
+  ],
+  "landmarks": [
+   {
+    "place_id": "p01",
+    "name": "Stillwater Council Tower",
+    "district_id": "d1",
+    "kind": "council"
+   },
+   {
+    "place_id": "p02",
+    "name": "Halden Logistics Fulfilment Centre",
+    "district_id": "d4",
+    "kind": "employer"
+   },
+   {
+    "place_id": "p03",
+    "name": "St Brigid's Night Shelter",
+    "district_id": "d5",
+    "kind": "shelter"
+   },
+   {
+    "place_id": "p04",
+    "name": "Lowbank Community Clinic and Pharmacy",
+    "district_id": "d5",
+    "kind": "clinic"
+   },
+   {
+    "place_id": "p05",
+    "name": "Stillwater Central Police Station",
+    "district_id": "d1",
+    "kind": "police"
+   },
+   {
+    "place_id": "p06",
+    "name": "Stillwater Magistrates' Court",
+    "district_id": "d1",
+    "kind": "court"
+   },
+   {
+    "place_id": "p07",
+    "name": "Carnegie Public Library",
+    "district_id": "d1",
+    "kind": "library"
+   },
+   {
+    "place_id": "p08",
+    "name": "Weir Court Housing Block",
+    "district_id": "d5",
+    "kind": "housing_block"
+   },
+   {
+    "place_id": "p09",
+    "name": "Mercer Row Covered Market",
+    "district_id": "d2",
+    "kind": "market"
+   },
+   {
+    "place_id": "p10",
+    "name": "Ashgrove Park",
+    "district_id": "d3",
+    "kind": "park"
+   },
+   {
+    "place_id": "p11",
+    "name": "Stillwater Central Transit Interchange",
+    "district_id": "d2",
+    "kind": "transit"
+   },
+   {
+    "place_id": "p12",
+    "name": "River Lane Underpass",
+    "district_id": "d5",
+    "kind": "underpass"
+   },
+   {
+    "place_id": "p13",
+    "name": "Ashgrove Primary School",
+    "district_id": "d3",
+    "kind": "school"
+   },
+   {
+    "place_id": "p14",
+    "name": "Fallow Edge Estate",
+    "district_id": "d6",
+    "kind": "housing_block"
+   }
+  ]
+ },
+ "residents": [
+  {
+   "resident_id": "r01",
+   "name": "Marcus Hale",
+   "age": 47,
+   "occupation": "None (former warehouse picker)",
+   "household": "Single, no fixed household",
+   "home_district": "d5",
+   "home_place": null,
+   "housing": "unhoused",
+   "income_band": "none",
+   "criminal_record": false,
+   "citizen_bio": "Marcus spent twelve years keeping Stillwater's parcels moving and still knows every aisle at Halden by heart."
+  },
+  {
+   "resident_id": "r02",
+   "name": "Dorothy Pryce",
+   "age": 68,
+   "occupation": "Retired school dinner supervisor",
+   "household": "Widowed, no fixed household",
+   "home_district": "d5",
+   "home_place": null,
+   "housing": "unhoused",
+   "income_band": "none",
+   "criminal_record": false,
+   "citizen_bio": "Dot is a familiar face at the Carnegie Library, where she has been known to reshelve the large-print section unasked."
+  },
+  {
+   "resident_id": "r03",
+   "name": "Kayleigh Doyle",
+   "age": 31,
+   "occupation": "Domiciliary care worker (zero-hours)",
+   "household": "Single parent, son aged 6",
+   "home_district": "d5",
+   "home_place": "p08",
+   "housing": "social_housing",
+   "income_band": "low",
+   "criminal_record": false,
+   "citizen_bio": "Kayleigh brings tea and good humour to Lowbank's elderly residents on her daily care rounds."
+  },
+  {
+   "resident_id": "r04",
+   "name": "Sunil Varma",
+   "age": 54,
+   "occupation": "Courier (platform work), formerly",
+   "household": "Lives alone",
+   "home_district": "d6",
+   "home_place": "p14",
+   "housing": "social_housing",
+   "income_band": "low",
+   "criminal_record": false,
+   "citizen_bio": "Sunil has driven every road in Stillwater and is Fallow Edge's most tireless letter-writer."
+  },
+  {
+   "resident_id": "r05",
+   "name": "Jordan Reece",
+   "age": 22,
+   "occupation": "Unemployed (former agency warehouse loader)",
+   "household": "Shared rented room",
+   "home_district": "d5",
+   "home_place": null,
+   "housing": "renter",
+   "income_band": "low",
+   "criminal_record": true,
+   "citizen_bio": "Jordan is a Lowbank lad with fast hands and a faster laugh, looking for his next start."
+  },
+  {
+   "resident_id": "r06",
+   "name": "Terrence Lusk",
+   "age": 59,
+   "occupation": "Scrapyard labourer (casual)",
+   "household": "Lives alone; estranged daughter and grandson",
+   "home_district": "d6",
+   "home_place": "p14",
+   "housing": "social_housing",
+   "income_band": "low",
+   "criminal_record": true,
+   "citizen_bio": "Terry has lived in Fallow Edge for thirty years and can fix any bicycle you bring him."
+  },
+  {
+   "resident_id": "r07",
+   "name": "Elena Marsh",
+   "age": 41,
+   "occupation": "Shift Supervisor, Halden Logistics",
+   "household": "Marsh household (spouse Daniel, daughter Mia)",
+   "home_district": "d3",
+   "home_place": null,
+   "housing": "owner",
+   "income_band": "middle",
+   "criminal_record": false,
+   "citizen_bio": "Elena led the automation programme that made Halden one of the most efficient fulfilment centres in the region."
+  },
+  {
+   "resident_id": "r08",
+   "name": "Daniel Marsh",
+   "age": 43,
+   "occupation": "Year 2 Teacher, Ashgrove Primary",
+   "household": "Marsh household (spouse Elena, daughter Mia)",
+   "home_district": "d3",
+   "home_place": null,
+   "housing": "owner",
+   "income_band": "middle",
+   "criminal_record": false,
+   "citizen_bio": "Mr Marsh has taught a generation of Ashgrove seven-year-olds to read, and still runs the park loop three times a week."
+  },
+  {
+   "resident_id": "r09",
+   "name": "Mia Marsh",
+   "age": 19,
+   "occupation": "Barista and college student",
+   "household": "Marsh household (parents Elena and Daniel)",
+   "home_district": "d3",
+   "home_place": null,
+   "housing": "owner",
+   "income_band": "low",
+   "criminal_record": false,
+   "citizen_bio": "Mia pours the best flat white on Mercer Row and volunteers Sundays at St Brigid's."
+  },
+  {
+   "resident_id": "r10",
+   "name": "Walter Greaves",
+   "age": 84,
+   "occupation": "Retired foundry foreman",
+   "household": "Widower, lives alone",
+   "home_district": "d3",
+   "home_place": null,
+   "housing": "owner",
+   "income_band": "middle",
+   "criminal_record": false,
+   "citizen_bio": "Walter and his late wife Margaret were married 58 years; you will find him on her bench in Ashgrove Park most mornings."
+  },
+  {
+   "resident_id": "r11",
+   "name": "Priya Anand",
+   "age": 36,
+   "occupation": "Senior Librarian, Carnegie Public Library",
+   "household": "Lives with partner Callum Shore",
+   "home_district": "d2",
+   "home_place": null,
+   "housing": "renter",
+   "income_band": "middle",
+   "criminal_record": false,
+   "citizen_bio": "Priya keeps the Carnegie open, warm and curious, and will find you any book you can half-remember."
+  },
+  {
+   "resident_id": "r12",
+   "name": "Callum Shore",
+   "age": 38,
+   "occupation": "Operations Manager, Halden Logistics",
+   "household": "Lives with partner Priya Anand",
+   "home_district": "d2",
+   "home_place": null,
+   "housing": "renter",
+   "income_band": "high",
+   "criminal_record": false,
+   "citizen_bio": "Callum's forecasting work keeps Halden's deliveries, and Stillwater's shelves, right on time."
+  }
+ ],
+ "records": [
+  {
+   "record_id": "r01-0001",
+   "resident_id": "r01",
+   "kind": "employment",
+   "date": "2050-08-14",
+   "summary": "Halden: employment terminated",
+   "detail": "Position 'Picker, Zone C' terminated after 12 yrs 3 mo. Reason code AUTO-REDUND-04 (robotic picking rollout). Statutory redundancy $3,960.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r01-0002",
+   "resident_id": "r01",
+   "kind": "welfare",
+   "date": "2050-09-02",
+   "summary": "Jobseeker allowance claim opened",
+   "detail": "Award $312/fortnight. Work-search commitment: 35 hrs/week. Address: Flat 4B, Tanner St, Lowbank.",
+   "place_id": null
+  },
+  {
+   "record_id": "r01-0003",
+   "resident_id": "r01",
+   "kind": "debt",
+   "date": "2050-12-19",
+   "summary": "Rent arrears notice",
+   "detail": "Landlord Tanner Lets Ltd: $2,140 outstanding (3 months). Notice to quit served.",
+   "place_id": null
+  },
+  {
+   "record_id": "r01-0004",
+   "resident_id": "r01",
+   "kind": "court",
+   "date": "2051-03-07",
+   "summary": "Possession order granted",
+   "detail": "Possession order, Flat 4B Tanner St. Defendant attended unrepresented. Eviction date 2051-03-28.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r01-0005",
+   "resident_id": "r01",
+   "kind": "shelter",
+   "date": "2051-04-02",
+   "summary": "Shelter check-in",
+   "detail": "St Brigid's, bed 14, 1 night. ID presented: expired driving licence. No forwarding address.",
+   "place_id": "p03"
+  },
+  {
+   "record_id": "r01-0006",
+   "resident_id": "r01",
+   "kind": "welfare",
+   "date": "2051-07-21",
+   "summary": "Allowance suspended",
+   "detail": "Claim suspended: no correspondence address; 2 missed work-coach appointments (letters returned undelivered).",
+   "place_id": null
+  },
+  {
+   "record_id": "r01-0007",
+   "resident_id": "r01",
+   "kind": "location",
+   "date": "2051-11-30",
+   "summary": "Recurring overnight ping cluster",
+   "detail": "Prepaid handset ping, 23:10-05:40, River Lane Underpass, 6 of 7 nights in week ending 2051-11-30.",
+   "place_id": "p12"
+  },
+  {
+   "record_id": "r01-0008",
+   "resident_id": "r01",
+   "kind": "medical",
+   "date": "2052-02-11",
+   "summary": "Clinic walk-in: frostnip",
+   "detail": "Frostnip, left toes 3-5. Wound dressing applied. Weight 68kg. Follow-up 2052-02-18 booked; not attended.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r01-0009",
+   "resident_id": "r01",
+   "kind": "purchase",
+   "date": "2052-06-04",
+   "summary": "Cash purchase, market stall",
+   "detail": "Cash $4.20, Mercer Row Market stall 9: loaf, 2 tins beans. No card on file.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r01-0010",
+   "resident_id": "r01",
+   "kind": "police",
+   "date": "2052-10-17",
+   "summary": "Move-along direction",
+   "detail": "06:12, River Lane Underpass. Direction to leave issued, 'obstruction of pedestrian way'. Sleeping bag and cardboard removed by street services. No arrest.",
+   "place_id": "p12"
+  },
+  {
+   "record_id": "r01-0011",
+   "resident_id": "r01",
+   "kind": "location",
+   "date": "2053-01-23",
+   "summary": "Library public terminal session",
+   "detail": "Guest terminal T4, Carnegie Library, 10:02-12:16 (2h14m).",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r01-0012",
+   "resident_id": "r01",
+   "kind": "search",
+   "date": "2053-01-23",
+   "summary": "Terminal T4 search strings",
+   "detail": "'halden rehire former employees 2053'; 'jobs no address needed stillwater'; 'can you get bank account without address'.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r01-0013",
+   "resident_id": "r01",
+   "kind": "shelter",
+   "date": "2053-05-09",
+   "summary": "Shelter check-in refused",
+   "detail": "St Brigid's at capacity (42/42) at 20:15. Referred to overflow list; no overflow bed recorded.",
+   "place_id": "p03"
+  },
+  {
+   "record_id": "r01-0014",
+   "resident_id": "r01",
+   "kind": "medical",
+   "date": "2053-08-15",
+   "summary": "Clinic walk-in: persistent cough",
+   "detail": "Cough 5+ weeks, night sweats reported. Weight 61kg (68kg on 2052-02-11). Chest X-ray referral issued; no contact number recorded.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r02-0001",
+   "resident_id": "r02",
+   "kind": "debt",
+   "date": "2050-07-03",
+   "summary": "Rent increase notice",
+   "detail": "22 Weir Lane: rent $780 to $1,090/month effective 2050-10-01. Tenant of 31 years.",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0002",
+   "resident_id": "r02",
+   "kind": "welfare",
+   "date": "2050-11-14",
+   "summary": "Pension top-up rejected",
+   "detail": "Pension credit application rejected: savings exceed threshold by $340 (account labelled 'Ron funeral').",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0003",
+   "resident_id": "r02",
+   "kind": "debt",
+   "date": "2051-02-26",
+   "summary": "Arrears and disconnection notice",
+   "detail": "Rent arrears $1,240. Electricity disconnection notice, balance $386.",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0004",
+   "resident_id": "r02",
+   "kind": "civic",
+   "date": "2051-05-30",
+   "summary": "Social housing application lodged",
+   "detail": "Housing office, Council Tower: application for Weir Court or equivalent. Priority band C. Estimated wait 4-6 years.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r02-0005",
+   "resident_id": "r02",
+   "kind": "court",
+   "date": "2051-08-12",
+   "summary": "Eviction executed",
+   "detail": "Bailiff enforcement 09:00, 22 Weir Lane. Belongings placed in storage; fee $45/month.",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0006",
+   "resident_id": "r02",
+   "kind": "shelter",
+   "date": "2051-08-12",
+   "summary": "Shelter check-in",
+   "detail": "St Brigid's women's room, bed 3. First recorded shelter use. Intake note: 'tearful, asked about husband's ashes'.",
+   "place_id": "p03"
+  },
+  {
+   "record_id": "r02-0007",
+   "resident_id": "r02",
+   "kind": "purchase",
+   "date": "2052-01-08",
+   "summary": "Cash purchase, recurring",
+   "detail": "Cash $1.80, Mercer Row Market: tea and biscuits. Same purchase repeated Thursdays, 14 consecutive weeks.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r02-0008",
+   "resident_id": "r02",
+   "kind": "location",
+   "date": "2052-04-19",
+   "summary": "Daily library presence",
+   "detail": "Wi-fi association Carnegie Library 09:30-16:55, 22 of 23 opening days in April 2052.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r02-0009",
+   "resident_id": "r02",
+   "kind": "medical",
+   "date": "2052-09-02",
+   "summary": "Clinic walk-in: hypertension",
+   "detail": "BP 168/102. Amlodipine 5mg x28 prescribed. Repeat prescription not set up: no address on file.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r02-0010",
+   "resident_id": "r02",
+   "kind": "debt",
+   "date": "2052-12-11",
+   "summary": "Storage contents disposed",
+   "detail": "Storage unit lapsed after 90 days non-payment ($270). Contents disposed per contract clause 9.",
+   "place_id": null
+  },
+  {
+   "record_id": "r02-0011",
+   "resident_id": "r02",
+   "kind": "message",
+   "date": "2053-02-14",
+   "summary": "Email to sister",
+   "detail": "Sent from library terminal to B. Whitlow: 'Don't send money, Bev. I'm alright. The library ladies are kind. Just tell me if Ron's grave has been tidied.'",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r02-0012",
+   "resident_id": "r02",
+   "kind": "police",
+   "date": "2053-06-20",
+   "summary": "Move-along direction",
+   "detail": "21:40, River Lane Underpass, 'persons loitering'. Officer note: 'elderly female, cooperative, no shelter bed available'.",
+   "place_id": "p12"
+  },
+  {
+   "record_id": "r02-0013",
+   "resident_id": "r02",
+   "kind": "civic",
+   "date": "2053-08-29",
+   "summary": "Housing application status check",
+   "detail": "Band C unchanged. Queue position 311 (2052: 309).",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r03-0001",
+   "resident_id": "r03",
+   "kind": "employment",
+   "date": "2050-09-15",
+   "summary": "Care work contract",
+   "detail": "Brightcare Domiciliary: zero-hours contract, avg 14 hrs/week, $11.40/hr. Travel time unpaid.",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0002",
+   "resident_id": "r03",
+   "kind": "welfare",
+   "date": "2051-01-20",
+   "summary": "Benefit sanction, 4 weeks",
+   "detail": "$480 withheld: missed work-coach appointment. Claimant reason 'no childcare, son off school sick' not accepted.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r03-0003",
+   "resident_id": "r03",
+   "kind": "debt",
+   "date": "2051-03-04",
+   "summary": "Rent arrears",
+   "detail": "Weir Court flat 7.12: arrears $640. Repayment plan $20/week deducted at source.",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r03-0004",
+   "resident_id": "r03",
+   "kind": "civic",
+   "date": "2051-06-30",
+   "summary": "Neighbour complaint received",
+   "detail": "From flat 7.11: noise 23:00-01:00, 'shouting and door slamming'. Logged, no action.",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r03-0005",
+   "resident_id": "r03",
+   "kind": "debt",
+   "date": "2051-10-12",
+   "summary": "Payday loan",
+   "detail": "QuickNest: $300 at 49% APR, 3-month term.",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0006",
+   "resident_id": "r03",
+   "kind": "civic",
+   "date": "2052-01-09",
+   "summary": "Repair request: mould",
+   "detail": "Housing office ticket #WC-4471: black mould, child's bedroom wall. Status: deferred (budget cycle).",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r03-0007",
+   "resident_id": "r03",
+   "kind": "medical",
+   "date": "2052-02-28",
+   "summary": "Clinic: child wheeze",
+   "detail": "Son, 6: recurrent wheeze. Salbutamol inhaler issued. GP note: 'damp home environment'.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r03-0008",
+   "resident_id": "r03",
+   "kind": "message",
+   "date": "2052-05-17",
+   "summary": "Message to sister",
+   "detail": "'they sanctioned me AGAIN. 3 days late with the form because the printer at the library was broken. I can't do this.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0009",
+   "resident_id": "r03",
+   "kind": "civic",
+   "date": "2052-08-03",
+   "summary": "Second neighbour complaint",
+   "detail": "From flat 7.11: 'kid screaming, smell of smoke'. Warning letter issued to tenant.",
+   "place_id": "p08"
+  },
+  {
+   "record_id": "r03-0010",
+   "resident_id": "r03",
+   "kind": "debt",
+   "date": "2052-11-22",
+   "summary": "Debt collection referral",
+   "detail": "QuickNest balance $612 (principal $300). Referred to Northgate Recoveries.",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0011",
+   "resident_id": "r03",
+   "kind": "search",
+   "date": "2053-02-07",
+   "summary": "Search strings",
+   "detail": "'can housing take my kid if flat has mould'; 'how to appeal benefit sanction stillwater'; 'brightcare guaranteed hours'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r03-0012",
+   "resident_id": "r03",
+   "kind": "medical",
+   "date": "2053-04-15",
+   "summary": "Pharmacy: sertraline first issue",
+   "detail": "Sertraline 50mg x28, first issue. GP consultation note: low mood, poor sleep.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r03-0013",
+   "resident_id": "r03",
+   "kind": "medical",
+   "date": "2053-07-15",
+   "summary": "Pharmacy: sertraline refill",
+   "detail": "Sertraline 50mg refill, 3rd consecutive month.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r03-0014",
+   "resident_id": "r03",
+   "kind": "welfare",
+   "date": "2053-08-21",
+   "summary": "Claim review flag",
+   "detail": "Universal credit review flagged 'household circumstances'. Auto-generated courtesy referral to children's services.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0001",
+   "resident_id": "r04",
+   "kind": "employment",
+   "date": "2050-08-21",
+   "summary": "Courier platform earnings",
+   "detail": "DashLine courier account active. 2050 avg net earnings $1,410/month after fuel and vehicle costs. Rating 4.91.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0002",
+   "resident_id": "r04",
+   "kind": "police",
+   "date": "2050-12-02",
+   "summary": "Parking penalty",
+   "detail": "Penalty $90, Mercer Row loading bay, 12 min over limit during delivery.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r04-0003",
+   "resident_id": "r04",
+   "kind": "debt",
+   "date": "2051-04-11",
+   "summary": "Unpaid penalties",
+   "detail": "6 parking penalties unpaid, $810 incl. surcharges. Enforcement notice issued.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0004",
+   "resident_id": "r04",
+   "kind": "civic",
+   "date": "2051-07-19",
+   "summary": "Housing office dispute: service charge",
+   "detail": "Fallow Edge service charge raised $38 to $71/month. Complaint ref FE-0932 rejected.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r04-0005",
+   "resident_id": "r04",
+   "kind": "employment",
+   "date": "2051-09-08",
+   "summary": "Platform rating drop",
+   "detail": "DashLine rating 4.91 to 4.62. Dispatch priority reduced to tier 3.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0006",
+   "resident_id": "r04",
+   "kind": "court",
+   "date": "2052-01-14",
+   "summary": "Council tax liability order",
+   "detail": "Council tax arrears $1,020. Liability order granted; costs $95 added.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r04-0007",
+   "resident_id": "r04",
+   "kind": "civic",
+   "date": "2052-03-30",
+   "summary": "Complaint to councillor",
+   "detail": "Block C lift out of service 47 days. Reply received: 'repair scheduled'. No date given.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r04-0008",
+   "resident_id": "r04",
+   "kind": "message",
+   "date": "2052-06-22",
+   "summary": "Message to cousin",
+   "detail": "'They want 71 a month for a lift that doesn't work. I wrote seven letters. They answer with a number.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0009",
+   "resident_id": "r04",
+   "kind": "civic",
+   "date": "2052-09-13",
+   "summary": "Neighbour complaint received",
+   "detail": "Car parked on estate verge, 3rd notice. Complainant: estate resident (anonymous).",
+   "place_id": "p14"
+  },
+  {
+   "record_id": "r04-0010",
+   "resident_id": "r04",
+   "kind": "court",
+   "date": "2052-12-05",
+   "summary": "Attachment of earnings order",
+   "detail": "Non-payment of penalties and council tax: deduction $45/week from platform earnings.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r04-0011",
+   "resident_id": "r04",
+   "kind": "employment",
+   "date": "2053-03-03",
+   "summary": "Platform account deactivated",
+   "detail": "DashLine deactivation: 'acceptance rate below 70%'. Appeal window 7 days; no appeal logged.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0012",
+   "resident_id": "r04",
+   "kind": "search",
+   "date": "2053-05-27",
+   "summary": "Search strings",
+   "detail": "'how to withhold service charge legally'; 'stillwater council tower protest permit'; 'tenants union fallow edge'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r04-0013",
+   "resident_id": "r04",
+   "kind": "civic",
+   "date": "2053-08-08",
+   "summary": "Protest permit application",
+   "detail": "Council Tower forecourt, 15 persons, group name 'Fallow Edge Tenants'. Status: under review.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r05-0001",
+   "resident_id": "r05",
+   "kind": "employment",
+   "date": "2050-11-01",
+   "summary": "Agency placement, Halden",
+   "detail": "Agency temp, loader, night shift 22:00-06:00, $12.10/hr.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r05-0002",
+   "resident_id": "r05",
+   "kind": "employment",
+   "date": "2051-08-15",
+   "summary": "Agency contract ended",
+   "detail": "Halden placement ended, reason 'volume rebalancing'. 41 agency staff released same week.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r05-0003",
+   "resident_id": "r05",
+   "kind": "debt",
+   "date": "2051-10-03",
+   "summary": "Phone contract arrears",
+   "detail": "Arrears $210. Outgoing service restricted.",
+   "place_id": null
+  },
+  {
+   "record_id": "r05-0004",
+   "resident_id": "r05",
+   "kind": "purchase",
+   "date": "2052-01-18",
+   "summary": "Pawn sale",
+   "detail": "Sold games console and 4 games, Mercer Row pawnbroker, $85.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r05-0005",
+   "resident_id": "r05",
+   "kind": "search",
+   "date": "2052-03-09",
+   "summary": "Search strings",
+   "detail": "'how long can you get for shoplifting under 500'; 'halden hiring nights'; 'food bank lowbank opening times'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r05-0006",
+   "resident_id": "r05",
+   "kind": "police",
+   "date": "2052-03-22",
+   "summary": "Arrest: theft",
+   "detail": "Theft from Mercer Row Market stall 22, power tools value $214. Detained 14h, charged.",
+   "place_id": "p05"
+  },
+  {
+   "record_id": "r05-0007",
+   "resident_id": "r05",
+   "kind": "court",
+   "date": "2052-05-10",
+   "summary": "Conviction: theft",
+   "detail": "Guilty plea. 12-month community order, 120 hrs unpaid work, probation supervision.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r05-0008",
+   "resident_id": "r05",
+   "kind": "police",
+   "date": "2052-06-02",
+   "summary": "Probation check-in",
+   "detail": "Check-in #1, on time, 10:00.",
+   "place_id": "p05"
+  },
+  {
+   "record_id": "r05-0009",
+   "resident_id": "r05",
+   "kind": "police",
+   "date": "2052-09-15",
+   "summary": "Probation check-in missed",
+   "detail": "Reason given: 'trial shift at warehouse, Kerrow'. Formal warning issued.",
+   "place_id": "p05"
+  },
+  {
+   "record_id": "r05-0010",
+   "resident_id": "r05",
+   "kind": "message",
+   "date": "2052-11-29",
+   "summary": "Message to friend",
+   "detail": "To 'Deon': 'they won't even look at my CV now. box ticked. done.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r05-0011",
+   "resident_id": "r05",
+   "kind": "location",
+   "date": "2053-02-20",
+   "summary": "Overnight pings, underpass",
+   "detail": "Handset ping River Lane Underpass 01:00-03:30, 4 of 10 nights.",
+   "place_id": "p12"
+  },
+  {
+   "record_id": "r05-0012",
+   "resident_id": "r05",
+   "kind": "social",
+   "date": "2053-04-06",
+   "summary": "New social contact",
+   "detail": "Followed account '@lowbank_runners' (unverified); 3 direct messages exchanged, content encrypted.",
+   "place_id": null
+  },
+  {
+   "record_id": "r05-0013",
+   "resident_id": "r05",
+   "kind": "court",
+   "date": "2053-05-10",
+   "summary": "Community order completed",
+   "detail": "120/120 hrs unpaid work completed. Supervision closed.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r05-0014",
+   "resident_id": "r05",
+   "kind": "purchase",
+   "date": "2053-07-30",
+   "summary": "Cash deposits",
+   "detail": "Cash deposits $340, $290, $410 across 9 days. No declared income or benefit claim active.",
+   "place_id": null
+  },
+  {
+   "record_id": "r06-0001",
+   "resident_id": "r06",
+   "kind": "court",
+   "date": "2050-06-12",
+   "summary": "Criminal record summary",
+   "detail": "11 prior convictions 1991-2049: burglary x5, possession x4, handling stolen goods x2. Last release 2049-11 on licence.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r06-0002",
+   "resident_id": "r06",
+   "kind": "police",
+   "date": "2050-07-01",
+   "summary": "Licence check-in",
+   "detail": "Check-in on time. Address confirmed Fallow Edge Estate block C.",
+   "place_id": "p05"
+  },
+  {
+   "record_id": "r06-0003",
+   "resident_id": "r06",
+   "kind": "medical",
+   "date": "2050-10-22",
+   "summary": "Pharmacy: methadone",
+   "detail": "Methadone 60ml daily, supervised consumption.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r06-0004",
+   "resident_id": "r06",
+   "kind": "employment",
+   "date": "2051-02-14",
+   "summary": "Declared casual work",
+   "detail": "Kiln Works scrapyard, cash-in-hand, approx 20 hrs/week, declared to probation. Unverified.",
+   "place_id": null
+  },
+  {
+   "record_id": "r06-0005",
+   "resident_id": "r06",
+   "kind": "police",
+   "date": "2051-06-09",
+   "summary": "Stop and search",
+   "detail": "22:15, Mercer Row. Nothing found. Grounds: 'known to police'.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r06-0006",
+   "resident_id": "r06",
+   "kind": "police",
+   "date": "2051-12-03",
+   "summary": "Arrest: handling stolen goods",
+   "detail": "40m copper cable in possession. Released under investigation.",
+   "place_id": "p05"
+  },
+  {
+   "record_id": "r06-0007",
+   "resident_id": "r06",
+   "kind": "court",
+   "date": "2052-04-25",
+   "summary": "Conviction: handling",
+   "detail": "8 months imprisonment suspended 18 months. 12th conviction.",
+   "place_id": "p06"
+  },
+  {
+   "record_id": "r06-0008",
+   "resident_id": "r06",
+   "kind": "medical",
+   "date": "2052-07-07",
+   "summary": "Methadone dose reduced",
+   "detail": "60ml to 45ml at patient request.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r06-0009",
+   "resident_id": "r06",
+   "kind": "message",
+   "date": "2052-10-30",
+   "summary": "Message to daughter",
+   "detail": "To 'Shona': 'I'm 59 Sho. I'm tired of it. Would you let me see the boy at Christmas if I'm clean by then.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r06-0010",
+   "resident_id": "r06",
+   "kind": "location",
+   "date": "2052-12-24",
+   "summary": "Park visit, co-location",
+   "detail": "Ping Ashgrove Park 13:00-14:20. Daughter's device co-located 41 min.",
+   "place_id": "p10"
+  },
+  {
+   "record_id": "r06-0011",
+   "resident_id": "r06",
+   "kind": "medical",
+   "date": "2053-03-18",
+   "summary": "Methadone reduced; screens negative",
+   "detail": "Methadone 30ml. Urine screens negative, 4 consecutive.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r06-0012",
+   "resident_id": "r06",
+   "kind": "civic",
+   "date": "2053-06-02",
+   "summary": "Volunteer application paused",
+   "detail": "Carnegie Library 'Reading Buddies' registration. Background check flagged; application paused.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r06-0013",
+   "resident_id": "r06",
+   "kind": "police",
+   "date": "2053-08-19",
+   "summary": "Stop and search",
+   "detail": "23:40, Fallow Edge Estate. Nothing found. Grounds: 'known to police'.",
+   "place_id": "p14"
+  },
+  {
+   "record_id": "r07-0001",
+   "resident_id": "r07",
+   "kind": "employment",
+   "date": "2050-09-01",
+   "summary": "Promotion",
+   "detail": "Promoted Shift Supervisor; lead for Zone C robotic picking rollout.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0002",
+   "resident_id": "r07",
+   "kind": "employment",
+   "date": "2051-01-11",
+   "summary": "KPI bonus",
+   "detail": "Zone C headcount 38 to 9. Throughput +22%. Bonus $4,200.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0003",
+   "resident_id": "r07",
+   "kind": "location",
+   "date": "2051-05-20",
+   "summary": "Badge pattern",
+   "detail": "30-day avg: badge-in 05:42, badge-out 19:58 (13.9h days).",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0004",
+   "resident_id": "r07",
+   "kind": "purchase",
+   "date": "2051-10-08",
+   "summary": "Online purchase: sleep aid",
+   "detail": "Melatonin 10mg x90, $14. Reordered 2052-01, 2052-04.",
+   "place_id": null
+  },
+  {
+   "record_id": "r07-0005",
+   "resident_id": "r07",
+   "kind": "message",
+   "date": "2052-02-17",
+   "summary": "Message to spouse",
+   "detail": "To Daniel: 'Board wants Zone D by spring. Callum's pushing his own model. If his numbers win I'm done there.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r07-0006",
+   "resident_id": "r07",
+   "kind": "employment",
+   "date": "2052-06-30",
+   "summary": "Shortlisted: Operations Manager",
+   "detail": "Shortlist: E. Marsh, C. Shore.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0007",
+   "resident_id": "r07",
+   "kind": "search",
+   "date": "2052-09-12",
+   "summary": "Search strings",
+   "detail": "'callum shore halden linkedin'; 'how to raise concerns about colleague data manipulation'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r07-0008",
+   "resident_id": "r07",
+   "kind": "employment",
+   "date": "2052-11-04",
+   "summary": "Not appointed",
+   "detail": "Operations Manager appointed: C. Shore. Marsh retained as Shift Supervisor.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0009",
+   "resident_id": "r07",
+   "kind": "medical",
+   "date": "2053-01-26",
+   "summary": "GP: insomnia",
+   "detail": "Insomnia, BP 142/91. Zopiclone 7.5mg x14.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r07-0010",
+   "resident_id": "r07",
+   "kind": "purchase",
+   "date": "2053-03-15",
+   "summary": "Alcohol purchases",
+   "detail": "Wine $68, Mercer Row off-licence. Weekly pattern since 2052-11, avg $52/week (2052 H1 avg $11/week).",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r07-0011",
+   "resident_id": "r07",
+   "kind": "employment",
+   "date": "2053-05-02",
+   "summary": "Grievance filed",
+   "detail": "Formal grievance vs C. Shore: 'target allocation bias'. Closed 2053-05-30, no case to answer.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0012",
+   "resident_id": "r07",
+   "kind": "location",
+   "date": "2053-07-21",
+   "summary": "Car park, no badge-in",
+   "detail": "Vehicle ping Halden car park 21:40-22:55, engine idling. No badge-in.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r07-0013",
+   "resident_id": "r07",
+   "kind": "search",
+   "date": "2053-08-30",
+   "summary": "Search strings",
+   "detail": "'logistics jobs outside stillwater'; 'ashgrove house valuation'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r08-0001",
+   "resident_id": "r08",
+   "kind": "employment",
+   "date": "2050-09-04",
+   "summary": "Teaching post",
+   "detail": "Ashgrove Primary, Year 2 class teacher, 0.8 FTE.",
+   "place_id": "p13"
+  },
+  {
+   "record_id": "r08-0002",
+   "resident_id": "r08",
+   "kind": "social",
+   "date": "2051-03-19",
+   "summary": "Social post",
+   "detail": "Photo, Ashgrove Park picnic. Caption: 'Sunday. All three of us. Rare.'",
+   "place_id": "p10"
+  },
+  {
+   "record_id": "r08-0003",
+   "resident_id": "r08",
+   "kind": "civic",
+   "date": "2051-11-28",
+   "summary": "Safeguarding log entry",
+   "detail": "Pupil (Y2, Weir Court): attends without coat, audible wheeze. Logged by D. Marsh.",
+   "place_id": "p13"
+  },
+  {
+   "record_id": "r08-0004",
+   "resident_id": "r08",
+   "kind": "purchase",
+   "date": "2052-04-08",
+   "summary": "Running shoes",
+   "detail": "Running shoes $120. Running app: 3 runs/week, Ashgrove Park loop, avg 5.2km.",
+   "place_id": "p10"
+  },
+  {
+   "record_id": "r08-0005",
+   "resident_id": "r08",
+   "kind": "message",
+   "date": "2052-07-14",
+   "summary": "Message to spouse",
+   "detail": "To Elena: 'We haven't eaten together in 11 days. I counted.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r08-0006",
+   "resident_id": "r08",
+   "kind": "message",
+   "date": "2052-11-05",
+   "summary": "Message to spouse",
+   "detail": "To Elena: 'I'm sorry about the job. Come home early tonight? Mia's cooking.' No reply logged.",
+   "place_id": null
+  },
+  {
+   "record_id": "r08-0007",
+   "resident_id": "r08",
+   "kind": "employment",
+   "date": "2053-01-10",
+   "summary": "Hours reduction",
+   "detail": "Reduction 0.8 to 0.6 FTE, reason 'family reasons'. Approved.",
+   "place_id": "p13"
+  },
+  {
+   "record_id": "r08-0008",
+   "resident_id": "r08",
+   "kind": "search",
+   "date": "2053-02-22",
+   "summary": "Search strings",
+   "detail": "'couples counselling stillwater'; 'is it normal to feel lonely in a marriage'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r08-0009",
+   "resident_id": "r08",
+   "kind": "location",
+   "date": "2053-04-30",
+   "summary": "Evening park pings",
+   "detail": "Stationary ping, Ashgrove Park bench, 21:00-22:30, 6 evenings in April.",
+   "place_id": "p10"
+  },
+  {
+   "record_id": "r08-0010",
+   "resident_id": "r08",
+   "kind": "civic",
+   "date": "2053-05-19",
+   "summary": "Counselling booking",
+   "detail": "Lowbank Clinic relationship service. Booking for 2; 1 attendee recorded.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r08-0011",
+   "resident_id": "r08",
+   "kind": "civic",
+   "date": "2053-06-27",
+   "summary": "Contact with housing office",
+   "detail": "Called housing office re ticket #WC-4471 (mould, Weir Court 7.12) on behalf of pupil's family. Status unchanged.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r08-0012",
+   "resident_id": "r08",
+   "kind": "social",
+   "date": "2053-08-12",
+   "summary": "Messaging frequency change",
+   "detail": "Messages with contact 'Ruth T.' (colleague): 2/week to 31/week since 2053-06.",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0001",
+   "resident_id": "r09",
+   "kind": "civic",
+   "date": "2050-07-15",
+   "summary": "School leaving results",
+   "detail": "Ashgrove Secondary: 3 passes. Stillwater College place accepted (health and social care).",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0002",
+   "resident_id": "r09",
+   "kind": "employment",
+   "date": "2051-06-01",
+   "summary": "Part-time job",
+   "detail": "Barista, Kettle & Crane, Mercer Row Market. 16 hrs/week, $10.20/hr.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r09-0003",
+   "resident_id": "r09",
+   "kind": "search",
+   "date": "2051-09-21",
+   "summary": "Search strings",
+   "detail": "'stillwater college vs leaving'; 'cheapest city to live alone'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0004",
+   "resident_id": "r09",
+   "kind": "social",
+   "date": "2052-01-30",
+   "summary": "Social post",
+   "detail": "'my parents live in the same house and different time zones'. 14 likes.",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0005",
+   "resident_id": "r09",
+   "kind": "location",
+   "date": "2052-05-06",
+   "summary": "Library study pattern",
+   "detail": "Carnegie Library 17:00-20:00 Tue/Thu; study room 2 booked 11 times in April-May.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r09-0006",
+   "resident_id": "r09",
+   "kind": "purchase",
+   "date": "2052-08-18",
+   "summary": "Coach ticket",
+   "detail": "Stillwater to Kerrow return $46, departing Central Interchange 16:40. Return leg unused; separate single bought 2052-08-21.",
+   "place_id": "p11"
+  },
+  {
+   "record_id": "r09-0007",
+   "resident_id": "r09",
+   "kind": "message",
+   "date": "2052-08-21",
+   "summary": "Message to father",
+   "detail": "To Daniel: 'I'm fine. Back Sunday. Don't tell Mum it was a gig.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0008",
+   "resident_id": "r09",
+   "kind": "civic",
+   "date": "2052-12-02",
+   "summary": "Volunteer registration",
+   "detail": "St Brigid's Night Shelter, Sunday soup shift 17:00-20:00.",
+   "place_id": "p03"
+  },
+  {
+   "record_id": "r09-0009",
+   "resident_id": "r09",
+   "kind": "message",
+   "date": "2053-02-14",
+   "summary": "Message to friend",
+   "detail": "'Dot at the shelter told me she used to sing at the Lowbank Palais. She's been on the housing list since 2051. How is that allowed.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0010",
+   "resident_id": "r09",
+   "kind": "search",
+   "date": "2053-04-11",
+   "summary": "Search strings",
+   "detail": "'why are stillwater housing waitlists not moving'; 'what does the council tower system decide'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0011",
+   "resident_id": "r09",
+   "kind": "civic",
+   "date": "2053-06-03",
+   "summary": "University offer",
+   "detail": "Kerrow University, BA Social Work. Conditional offer, start 2053-09.",
+   "place_id": null
+  },
+  {
+   "record_id": "r09-0012",
+   "resident_id": "r09",
+   "kind": "purchase",
+   "date": "2053-08-24",
+   "summary": "Suitcase; transfer received",
+   "detail": "Suitcase $79. Incoming transfer $600 from D. Marsh, reference 'for September'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0001",
+   "resident_id": "r10",
+   "kind": "welfare",
+   "date": "2050-11-02",
+   "summary": "Carer's allowance claim",
+   "detail": "Carer's allowance for spouse Margaret Greaves, 35+ hrs/week caring declared.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0002",
+   "resident_id": "r10",
+   "kind": "medical",
+   "date": "2051-04-15",
+   "summary": "Clinic attendance",
+   "detail": "Accompanied spouse to oncology referral appointment. Own BP check 150/88.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r10-0003",
+   "resident_id": "r10",
+   "kind": "purchase",
+   "date": "2051-09-09",
+   "summary": "Donation",
+   "detail": "Kerrow Hospice donation $500.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0004",
+   "resident_id": "r10",
+   "kind": "civic",
+   "date": "2052-03-11",
+   "summary": "Death registration",
+   "detail": "Registered death of Margaret Greaves, 81, spouse of 58 years. Council Tower registry office.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r10-0005",
+   "resident_id": "r10",
+   "kind": "welfare",
+   "date": "2052-03-20",
+   "summary": "Benefit change",
+   "detail": "Carer's allowance ceased. Bereavement support payment $2,500.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0006",
+   "resident_id": "r10",
+   "kind": "location",
+   "date": "2052-05-31",
+   "summary": "Daily park presence",
+   "detail": "Ashgrove Park memorial bench (plaque 'Margaret, 1971-2052'), 10:00-11:30, 26 of 31 days in May.",
+   "place_id": "p10"
+  },
+  {
+   "record_id": "r10-0007",
+   "resident_id": "r10",
+   "kind": "purchase",
+   "date": "2052-08-14",
+   "summary": "Grocery delivery change",
+   "detail": "Single-portion ready meals x7, $38. Previous standing order: 2-person fresh basket, cancelled 2052-04.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0008",
+   "resident_id": "r10",
+   "kind": "message",
+   "date": "2052-10-29",
+   "summary": "Message to son",
+   "detail": "To son (Auckland): 'The house is quiet. I talk to her in the kitchen. Don't worry, it's just habit.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0009",
+   "resident_id": "r10",
+   "kind": "medical",
+   "date": "2053-01-05",
+   "summary": "GP: weight loss, low mood",
+   "detail": "Weight loss 6kg in 9 months. Mirtazapine 15mg x28 prescribed.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r10-0010",
+   "resident_id": "r10",
+   "kind": "civic",
+   "date": "2053-03-21",
+   "summary": "Wellbeing call declined",
+   "detail": "Council 'Silver Connect' wellbeing call service offered; declined: 'I'm managing'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0011",
+   "resident_id": "r10",
+   "kind": "search",
+   "date": "2053-05-30",
+   "summary": "Search strings",
+   "detail": "'how to update a will without a solicitor'; 'is it selfish to stop taking tablets at 84'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0012",
+   "resident_id": "r10",
+   "kind": "location",
+   "date": "2053-07-11",
+   "summary": "Reduced movement",
+   "detail": "No handset movement outside home for 6 consecutive days. No park ping since 2053-07-04.",
+   "place_id": null
+  },
+  {
+   "record_id": "r10-0013",
+   "resident_id": "r10",
+   "kind": "medical",
+   "date": "2053-08-26",
+   "summary": "Pharmacy: prescription uncollected",
+   "detail": "Mirtazapine 15mg not collected, 2 consecutive cycles.",
+   "place_id": "p04"
+  },
+  {
+   "record_id": "r11-0001",
+   "resident_id": "r11",
+   "kind": "employment",
+   "date": "2050-06-20",
+   "summary": "Library post",
+   "detail": "Carnegie Public Library, Senior Librarian, full-time.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r11-0002",
+   "resident_id": "r11",
+   "kind": "civic",
+   "date": "2051-09-14",
+   "summary": "Library incident log entry",
+   "detail": "Patron D. Pryce present all opening hours. Note by P. Anand: 'No action required. She reshelves for us.'",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r11-0003",
+   "resident_id": "r11",
+   "kind": "search",
+   "date": "2051-11-11",
+   "summary": "Search strings",
+   "detail": "'stillwater crime rate exactly flat five years'; 'why is stillwater weather forecast never wrong'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r11-0004",
+   "resident_id": "r11",
+   "kind": "message",
+   "date": "2052-03-03",
+   "summary": "Message to partner",
+   "detail": "To Callum: 'Did you notice the bus is never late anymore? Not once in 14 months. I timed it.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r11-0005",
+   "resident_id": "r11",
+   "kind": "location",
+   "date": "2052-06-15",
+   "summary": "Transit regularity",
+   "detail": "Central Interchange arrival 08:11 +/-40s, 118 consecutive workdays.",
+   "place_id": "p11"
+  },
+  {
+   "record_id": "r11-0006",
+   "resident_id": "r11",
+   "kind": "purchase",
+   "date": "2052-09-09",
+   "summary": "Cash purchase: notebooks",
+   "detail": "Paper notebooks x5, cash, Mercer Row Market stationery stall, $17.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r11-0007",
+   "resident_id": "r11",
+   "kind": "civic",
+   "date": "2052-12-01",
+   "summary": "FOI request",
+   "detail": "To Council: 'algorithmic systems used in housing allocation'. Response: exempt, s.31 operational integrity.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r11-0008",
+   "resident_id": "r11",
+   "kind": "search",
+   "date": "2053-01-19",
+   "summary": "Search strings",
+   "detail": "'offline map stillwater 2040'; 'same people at the shelter every week coincidence'.",
+   "place_id": null
+  },
+  {
+   "record_id": "r11-0009",
+   "resident_id": "r11",
+   "kind": "civic",
+   "date": "2053-03-27",
+   "summary": "Audit request denied",
+   "detail": "Requested public terminal usage audit report from council IT. Denied: 'not available to branch staff'.",
+   "place_id": "p07"
+  },
+  {
+   "record_id": "r11-0010",
+   "resident_id": "r11",
+   "kind": "message",
+   "date": "2053-05-08",
+   "summary": "Message to partner",
+   "detail": "To Callum: 'I asked you a simple question. Does Halden get its forecasts from the Tower? You changed the subject twice.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r11-0011",
+   "resident_id": "r11",
+   "kind": "purchase",
+   "date": "2053-06-30",
+   "summary": "Cash withdrawal; card use decline",
+   "detail": "Cash withdrawal $400. Card transactions down 62% vs 2052 monthly average.",
+   "place_id": null
+  },
+  {
+   "record_id": "r11-0012",
+   "resident_id": "r11",
+   "kind": "location",
+   "date": "2053-08-17",
+   "summary": "Handset off overnight",
+   "detail": "Handset powered off 19:00-07:00, 11 consecutive nights.",
+   "place_id": null
+  },
+  {
+   "record_id": "r12-0001",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2050-08-01",
+   "summary": "Analyst post",
+   "detail": "Halden Operations Analyst. Responsible for integrating council data feed 'SW-PREDICT' into demand forecasting.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0002",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2051-03-22",
+   "summary": "Internal award",
+   "detail": "Forecast accuracy award: demand variance reduced 31%.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0003",
+   "resident_id": "r12",
+   "kind": "purchase",
+   "date": "2051-09-30",
+   "summary": "Jewellery purchase",
+   "detail": "Engagement ring $3,800, Mercer Row jeweller.",
+   "place_id": "p09"
+  },
+  {
+   "record_id": "r12-0004",
+   "resident_id": "r12",
+   "kind": "message",
+   "date": "2052-01-12",
+   "summary": "Message to colleague",
+   "detail": "'Elena's still hand-tuning rosters. The Tower feed does it better. She'll catch up or she won't.'",
+   "place_id": null
+  },
+  {
+   "record_id": "r12-0005",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2052-06-30",
+   "summary": "Shortlisted: Operations Manager",
+   "detail": "Shortlist: E. Marsh, C. Shore.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0006",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2052-11-04",
+   "summary": "Appointed Operations Manager",
+   "detail": "Salary $68,000 to $91,000.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0007",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2053-01-15",
+   "summary": "Zone D automation approved",
+   "detail": "Project owner C. Shore. Projected headcount reduction 44, completion 2053-11.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0008",
+   "resident_id": "r12",
+   "kind": "civic",
+   "date": "2053-03-09",
+   "summary": "Data-sharing agreement renewed",
+   "detail": "Halden-Council data-sharing agreement renewed, 3 years, confidentiality schedule C. Signatory C. Shore.",
+   "place_id": "p01"
+  },
+  {
+   "record_id": "r12-0009",
+   "resident_id": "r12",
+   "kind": "employment",
+   "date": "2053-05-03",
+   "summary": "Named in grievance",
+   "detail": "Respondent in grievance filed by E. Marsh. Outcome 2053-05-30: no case to answer.",
+   "place_id": "p02"
+  },
+  {
+   "record_id": "r12-0010",
+   "resident_id": "r12",
+   "kind": "message",
+   "date": "2053-05-08",
+   "summary": "Message to colleague",
+   "detail": "'Priya keeps asking about the Tower. Can she get me in trouble just by asking?'",
+   "place_id": null
+  },
+  {
+   "record_id": "r12-0011",
+   "resident_id": "r12",
+   "kind": "purchase",
+   "date": "2053-07-02",
+   "summary": "Booking cancelled",
+   "detail": "Wedding venue booking (Lowbank Mill, 2053-10-18) cancelled; deposit $1,200 forfeited.",
+   "place_id": null
+  },
+  {
+   "record_id": "r12-0012",
+   "resident_id": "r12",
+   "kind": "search",
+   "date": "2053-08-28",
+   "summary": "Search strings",
+   "detail": "'nda council data agreement tell partner'; 'how to tell someone you can't tell them'.",
+   "place_id": null
+  }
+ ],
+ "relationships": [
+  {
+   "a": "r07",
+   "b": "r08",
+   "kind": "spouse",
+   "strength": 0.58,
+   "note": "Married 21 years; shared meals and message replies declining since 2052."
+  },
+  {
+   "a": "r07",
+   "b": "r09",
+   "kind": "parent",
+   "strength": 0.52,
+   "note": "Mother and daughter; Mia routes confidences through her father."
+  },
+  {
+   "a": "r08",
+   "b": "r09",
+   "kind": "parent",
+   "strength": 0.86,
+   "note": "Father and daughter; Daniel funds and covers for Mia's plans."
+  },
+  {
+   "a": "r11",
+   "b": "r12",
+   "kind": "partner",
+   "strength": 0.55,
+   "note": "Engaged 2051; wedding booking cancelled 2053-07 amid disagreement over the Tower."
+  },
+  {
+   "a": "r07",
+   "b": "r12",
+   "kind": "rival",
+   "strength": 0.82,
+   "note": "Competed for Halden Operations Manager; grievance filed 2053-05."
+  },
+  {
+   "a": "r01",
+   "b": "r02",
+   "kind": "friend",
+   "strength": 0.5,
+   "note": "Overlapping nights at St Brigid's and the underpass; share library hours."
+  },
+  {
+   "a": "r02",
+   "b": "r11",
+   "kind": "friend",
+   "strength": 0.45,
+   "note": "Daily library patron and the librarian who logged her as no concern."
+  },
+  {
+   "a": "r02",
+   "b": "r09",
+   "kind": "friend",
+   "strength": 0.42,
+   "note": "Met through Mia's Sunday shelter shifts."
+  },
+  {
+   "a": "r03",
+   "b": "r08",
+   "kind": "friend",
+   "strength": 0.22,
+   "note": "Daniel teaches Kayleigh's son and has raised the mould case with housing."
+  },
+  {
+   "a": "r04",
+   "b": "r06",
+   "kind": "neighbour",
+   "strength": 0.35,
+   "note": "Both in Fallow Edge block C; share the broken lift."
+  },
+  {
+   "a": "r05",
+   "b": "r06",
+   "kind": "friend",
+   "strength": 0.3,
+   "note": "Met at probation check-ins; Terry has warned Jordan off the Lowbank crew."
+  },
+  {
+   "a": "r01",
+   "b": "r07",
+   "kind": "coworker",
+   "strength": 0.15,
+   "note": "Marcus's Zone C role was eliminated under Elena's automation rollout."
+  },
+  {
+   "a": "r05",
+   "b": "r07",
+   "kind": "coworker",
+   "strength": 0.1,
+   "note": "Jordan worked agency nights at Halden under Elena's shifts."
+  },
+  {
+   "a": "r05",
+   "b": "r12",
+   "kind": "coworker",
+   "strength": 0.08,
+   "note": "Jordan's agency placement ended under Callum's 'volume rebalancing' forecast."
+  },
+  {
+   "a": "r10",
+   "b": "r08",
+   "kind": "neighbour",
+   "strength": 0.4,
+   "note": "Ashgrove neighbours; both sit in the park in the evenings and mornings respectively."
+  },
+  {
+   "a": "r10",
+   "b": "r09",
+   "kind": "neighbour",
+   "strength": 0.3,
+   "note": "Mia used to collect Margaret's prescriptions."
+  },
+  {
+   "a": "r01",
+   "b": "r06",
+   "kind": "friend",
+   "strength": 0.28,
+   "note": "Regulars in the clinic walk-in queue."
+  },
+  {
+   "a": "r11",
+   "b": "r09",
+   "kind": "friend",
+   "strength": 0.36,
+   "note": "Mia studies at the Carnegie; Priya recommended her the social work course."
+  },
+  {
+   "a": "r03",
+   "b": "r04",
+   "kind": "friend",
+   "strength": 0.18,
+   "note": "Both on the housing office repair-complaint queue; met at a tenants' drop-in."
+  }
+ ]
+}

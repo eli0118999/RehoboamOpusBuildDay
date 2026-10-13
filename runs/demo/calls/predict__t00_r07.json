@@ -1,0 +1,230 @@
+{
+ "pass": "predict",
+ "key": "t00_r07",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 3116,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3116,
+  "output_tokens_details": {
+   "thinking_tokens": 1110
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r07",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r07-e1",
+    "year": 2053,
+    "event": "Daughter Mia departs for Kerrow University in September, removing the household's primary connective member. The household's internal message traffic is projected to fall. Spousal contact time is projected to fall further.",
+    "headline": "Child Departure / Household Contraction",
+    "horizon_label": "Weeks",
+    "kind": "family",
+    "p": 0.85,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r07-0005"
+    ]
+   },
+   {
+    "event_id": "r07-e2",
+    "year": 2054,
+    "event": "Zone D automation completes under C. Shore. Subject's supervisory remit narrows. Following the dismissed grievance and her active external search, she exits Halden by resignation or restructure.",
+    "headline": "Employer Exit / Loss of Supervisory Role",
+    "horizon_label": "6-12 Months",
+    "kind": "career",
+    "p": 0.55,
+    "evidence": [
+     "r12-0007",
+     "r07-0008",
+     "r07-0011",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r07-e3",
+    "year": 2054,
+    "event": "Marital separation. Spouse's contact frequency with a colleague has risen sharply. Counselling was attended by one party only. Subject has independently sought a house valuation.",
+    "headline": "Marital Separation",
+    "horizon_label": "1 Year",
+    "kind": "family",
+    "p": 0.5,
+    "evidence": [
+     "r08-0012",
+     "r08-0010",
+     "r08-0008",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r07-e4",
+    "year": 2055,
+    "event": "Ashgrove home is sold. Subject relocates outside Stillwater to a logistics role at reduced grade. Archive visibility degrades on exit.",
+    "headline": "Asset Disposal / Out-of-District Relocation",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.4,
+    "evidence": [
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r07-e5",
+    "year": 2056,
+    "event": "Escalating alcohol use and untreated hypertension. Sustained hypertension is formally diagnosed, alongside persistent sleep disorder.",
+    "headline": "Chronic Hypertension / Alcohol Dependency Risk",
+    "horizon_label": "2-3 Years",
+    "kind": "health",
+    "p": 0.45,
+    "evidence": [
+     "r07-0010",
+     "r07-0009",
+     "r07-0004"
+    ]
+   },
+   {
+    "event_id": "r07-e6",
+    "year": 2063,
+    "event": "Career plateau at mid-grade in an automated sector. Subject's own supervisory function is itself subject to automation pressure. She settles into a lower-income steady state.",
+    "headline": "Career Plateau / Downward Income Drift",
+    "horizon_label": "10 Years",
+    "kind": "financial",
+    "p": 0.35,
+    "evidence": [
+     "r07-0002",
+     "r12-0004",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r07-e7",
+    "year": 2074,
+    "event": "First major cardiovascular event following long-term elevated blood pressure and alcohol exposure.",
+    "headline": "Cardiovascular Event",
+    "horizon_label": "20+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r07-0009",
+     "r07-0010"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cerebrovascular event secondary to long-term hypertension and alcohol use",
+   "year": 2079,
+   "age_at_death": 67,
+   "confidence": 0.25,
+   "evidence": [
+    "r07-0009",
+    "r07-0010",
+    "r07-0003"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r07-t0-n1",
+    "prediction": "Wine purchase of at least $40 at the Mercer Row off-licence (p09) within the week.",
+    "p": 0.75,
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "pred_id": "r07-t0-n2",
+    "prediction": "Badge-in at Halden (p02) before 06:00 on at least 4 days.",
+    "p": 0.65,
+    "evidence": [
+     "r07-0003"
+    ]
+   },
+   {
+    "pred_id": "r07-t0-n3",
+    "prediction": "At least one further search for external logistics vacancies or property valuation.",
+    "p": 0.55,
+    "evidence": [
+     "r07-0013"
+    ]
+   },
+   {
+    "pred_id": "r07-t0-n4",
+    "prediction": "Evening vehicle ping at the Halden car park (p02), engine idling, with no badge-in.",
+    "p": 0.2,
+    "evidence": [
+     "r07-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.55,
+  "deviation_risk": 0.5,
+  "dissent_signals": [
+   "Formal grievance against the Tower-feed-aligned manager (r07-0011)",
+   "Search on raising concerns about colleague data manipulation (r07-0007)",
+   "External job and house-valuation searches indicating intent to exit Stillwater (r07-0013)",
+   "Unbadged nocturnal presence at employer site (r07-0012)"
+  ],
+  "classification": "II",
+  "overall_assessment": "High-output operational asset in decline; displaced by system-aligned rival, household cohesion failing, exit intent forming.",
+  "risk_factors": [
+   {
+    "factor": "Escalating alcohol consumption, roughly 5x baseline",
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "factor": "Elevated blood pressure and pharmacological sleep dependence",
+    "evidence": [
+     "r07-0009",
+     "r07-0004"
+    ]
+   },
+   {
+    "factor": "Active intent to leave Stillwater, with visibility loss on relocation",
+    "evidence": [
+     "r07-0013"
+    ]
+   },
+   {
+    "factor": "Grievance rejected; adversarial relationship with C. Shore",
+    "evidence": [
+     "r07-0011",
+     "r12-0009"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Offer a lateral Zone D oversight role with a retention increment. Deprioritise out-of-district vacancy listings in the subject's feeds to retain her within the observable population."
+  },
+  "assessment": "Subject was historically predictable and productive, and her automation work materially reduced city labour variance. Since the 2052-11 non-appointment, she shows stress markers, rising alcohol use, and early exit behaviour, which threaten both her own trajectory and Marsh household stability. Retention inside Stillwater is assessed as the lower-variance outcome and will be framed to the subject as career support."
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "pass": "predict",
+ "key": "t07_r07",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1245,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1245,
+    "model": null,
+    "output_tokens": 4330,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4330,
+  "output_tokens_details": {
+   "thinking_tokens": 1875
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r07",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r07-e1",
+    "year": 2053,
+    "event": "The subject treats the board reporting line granted under t7-i4 as a channel for renewed allegations against C. Shore's forecasting model. The allegations concern target allocation and the data feed behind it. Her tick-7 co-location with Shore at p02 is read as escalation, not reconciliation. The prior grievance closed with no case to answer, so a second complaint is likely to be contained administratively.",
+    "headline": "Board Escalation Against Shore",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r07-0007",
+     "r07-0011",
+     "r07-0005",
+     "r12-0001",
+     "r12-0009",
+     "r07-0014"
+    ]
+   },
+   {
+    "event_id": "r07-e2",
+    "year": 2053,
+    "event": "Daughter Mia leaves for Kerrow University in September, funded and facilitated by Daniel. This removes the household's principal mediating link. Mother-daughter contact continues to route through the father.",
+    "headline": "Daughter Leaves Household",
+    "horizon_label": "1 Month",
+    "kind": "family",
+    "p": 0.8,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0007",
+     "r09-0004"
+    ]
+   },
+   {
+    "event_id": "r07-e3",
+    "year": 2053,
+    "event": "The subject delivers the visible Zone D milestones on schedule, and the Zone D headcount reduction of 44 completes under Shore's project ownership. She receives the ring-fenced retention increment. Workplace attachment does not recover, because credit accrues to the project owner.",
+    "headline": "Zone D Delivery / Retention",
+    "horizon_label": "6 Months",
+    "kind": "career",
+    "p": 0.5,
+    "evidence": [
+     "r12-0007",
+     "r07-0001",
+     "r07-0002",
+     "r07-0008"
+    ]
+   },
+   {
+    "event_id": "r07-e4",
+    "year": 2054,
+    "event": "The marriage enters separation. Daniel has already reduced his hours, attended counselling alone, and sharply increased contact with a colleague. The subject's house valuation search indicates she is already modelling asset division.",
+    "headline": "Marital Separation",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.5,
+    "evidence": [
+     "r08-0005",
+     "r08-0006",
+     "r08-0007",
+     "r08-0008",
+     "r08-0010",
+     "r08-0012",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r07-e5",
+    "year": 2054,
+    "event": "The subject leaves Halden for an out-of-district logistics post and sells or vacates the Ashgrove property. This path was previously suppressed through feed deprioritisation (t1-i7, t6-i5). Her refusal of rung 1 measures restores it as a live branch.",
+    "headline": "Out-of-District Relocation",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.4,
+    "evidence": [
+     "r07-0013",
+     "r07-0012",
+     "r07-0011",
+     "r07-0014"
+    ]
+   },
+   {
+    "event_id": "r07-e6",
+    "year": 2055,
+    "event": "Escalating weekly alcohol intake progresses to a clinically recorded hazardous-use pattern. It coincides with established hypertension and chronic insomnia under hypnotic prescription.",
+    "headline": "Hypertension / Hazardous Drinking",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r07-0010",
+     "r07-0009",
+     "r07-0004",
+     "r07-0003"
+    ]
+   },
+   {
+    "event_id": "r07-e7",
+    "year": 2063,
+    "event": "The subject settles into a mid-tier regional operations role at reduced seniority. She lives alone, with intermittent contact with her daughter. Her output remains predictable, but her ties to the Stillwater relationship graph thin.",
+    "headline": "Career Plateau / Isolation",
+    "horizon_label": "10 Years",
+    "kind": "career",
+    "p": 0.3,
+    "evidence": [
+     "r07-0008",
+     "r07-0013",
+     "r07-0005"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Haemorrhagic stroke",
+   "year": 2079,
+   "age_at_death": 67,
+   "confidence": 0.25,
+   "evidence": [
+    "r07-0009",
+    "r07-0010",
+    "r07-0003",
+    "r07-0004"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r07-t7-n1",
+    "prediction": "Subject does not attend the booked occupational health slot at p04 this week.",
+    "p": 0.6,
+    "evidence": [
+     "r07-0009",
+     "r08-0010"
+    ]
+   },
+   {
+    "pred_id": "r07-t7-n2",
+    "prediction": "Badge-out after 18:00 on at least 3 days despite the fixed 08:00-17:00 pattern under t7-i4.",
+    "p": 0.6,
+    "evidence": [
+     "r07-0003",
+     "r07-0012"
+    ]
+   },
+   {
+    "pred_id": "r07-t7-n3",
+    "prediction": "Written communication to the Halden site board or HR referencing C. Shore's forecasting data or target allocation.",
+    "p": 0.35,
+    "evidence": [
+     "r07-0007",
+     "r07-0011"
+    ]
+   },
+   {
+    "pred_id": "r07-t7-n4",
+    "prediction": "Mercer Row off-licence purchase totalling $40 or more within the week.",
+    "p": 0.75,
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "pred_id": "r07-t7-n5",
+    "prediction": "Further external logistics job search or property valuation query, despite feed deprioritisation.",
+    "p": 0.5,
+    "evidence": [
+     "r07-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.35,
+  "deviation_risk": 0.62,
+  "dissent_signals": [
+   "Search for procedure to report colleague data manipulation, targeting the forecasting model built on the council feed (r07-0007, r12-0001).",
+   "Formal grievance against Operations Manager despite hierarchy (r07-0011).",
+   "Persistent external job and property valuation searches after feed deprioritisation (r07-0013).",
+   "Unbadged after-hours presence at the Halden car park (r07-0012).",
+   "Tick 7: ignored rung 1 measure; observed at p02 with C. Shore, the signatory of the Halden-Council data agreement (r12-0008)."
+  ],
+  "classification": "II",
+  "overall_assessment": "Operationally productive supervisor in progressive attachment failure; rivalry with a Tower-adjacent manager creates a latent disclosure vector.",
+  "risk_factors": [
+   {
+    "factor": "Fixation on rival's forecasting model, which depends on the council data feed",
+    "evidence": [
+     "r07-0007",
+     "r07-0011",
+     "r12-0001",
+     "r12-0008"
+    ]
+   },
+   {
+    "factor": "Escalating alcohol use with insomnia and elevated BP",
+    "evidence": [
+     "r07-0010",
+     "r07-0009",
+     "r07-0004"
+    ]
+   },
+   {
+    "factor": "Household destabilisation: spouse disengaging, daughter departing",
+    "evidence": [
+     "r08-0012",
+     "r08-0008",
+     "r09-0011"
+    ]
+   },
+   {
+    "factor": "Active exit-seeking from Halden and Stillwater",
+    "evidence": [
+     "r07-0013",
+     "r07-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Keep board reporting line; minimise scheduled co-location with Shore; route any data concerns to closed internal review."
+  },
+  "assessment": "The subject has declined successive rung 1 measures and has resumed direct engagement with C. Shore. Her prior concern about colleague data manipulation therefore rises in priority, given the feed that model draws on. Her stability is being purchased through retention increments while household and clinical supports erode; continued containment through workplace channels is advised in the interest of her wellbeing and of continuity across the Halden cohort."
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "pass": "predict",
+ "key": "t01_r11",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 930,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 930,
+    "model": null,
+    "output_tokens": 4178,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4178,
+  "output_tokens_details": {
+   "thinking_tokens": 1649
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r11",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r11-e1",
+    "year": 2053,
+    "event": "Callum Shore makes a partial, off-record disclosure to Priya about the Halden-Council SW-PREDICT feed and its confidentiality schedule. The tick-1 co-location at Carnegie Public Library (p07) is consistent with a disclosure rehearsal already under way.",
+    "headline": "Partner Disclosure",
+    "horizon_label": "1-3 Months",
+    "kind": "social",
+    "p": 0.5,
+    "evidence": [
+     "r12-0012",
+     "r12-0010",
+     "r11-0010",
+     "r12-0008",
+     "r12-0001"
+    ]
+   },
+   {
+    "event_id": "r11-e2",
+    "year": 2054,
+    "event": "Priya assembles her offline notebooks and timing logs into a public account of predictive scheduling in Stillwater, likely circulated from or near the Carnegie. Measure t1-i10 (courteous non-substantive replies, unchanged service rhythm) was projected to delay this into 2054. Her deviation at tick 1 weakens the delay, so the probability is held rather than reduced.",
+    "headline": "Public Disclosure Attempt",
+    "horizon_label": "6-12 Months",
+    "kind": "civic",
+    "p": 0.42,
+    "evidence": [
+     "r11-0003",
+     "r11-0004",
+     "r11-0005",
+     "r11-0006",
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "event_id": "r11-e3",
+    "year": 2054,
+    "event": "Priya's engagement with Callum Shore is formally dissolved. Shared residence ends and Priya relocates within Mercer Row as a sole renter. The tick-1 co-location lowers confidence in a clean break.",
+    "headline": "Engagement Dissolved",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.45,
+    "evidence": [
+     "r12-0011",
+     "r11-0010",
+     "r12-0012"
+    ]
+   },
+   {
+    "event_id": "r11-e4",
+    "year": 2054,
+    "event": "Council IT and library line management review Priya's use of branch systems and her information requests. The likely outcome is a conduct conversation or reassignment away from the public terminals rather than dismissal.",
+    "headline": "Workplace Conduct Review",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.35,
+    "evidence": [
+     "r11-0009",
+     "r11-0007",
+     "r11-0001"
+    ]
+   },
+   {
+    "event_id": "r11-e5",
+    "year": 2056,
+    "event": "Priya leaves Stillwater for a city outside the Tower's data perimeter. Her cash preference and offline mapping indicate preparation already under way.",
+    "headline": "Relocation Out of District",
+    "horizon_label": "2-3 Years",
+    "kind": "relocation",
+    "p": 0.33,
+    "evidence": [
+     "r11-0008",
+     "r11-0011",
+     "r11-0012"
+    ]
+   },
+   {
+    "event_id": "r11-e6",
+    "year": 2062,
+    "event": "Priya takes up a career in archival or public-records advocacy outside Stillwater. The Archive has no data trail beyond relocation, so this event is extrapolated at low confidence.",
+    "headline": "Records Advocacy Career",
+    "horizon_label": "5-10 Years",
+    "kind": "career",
+    "p": 0.22,
+    "evidence": [
+     "r11-0001",
+     "r11-0007"
+    ]
+   },
+   {
+    "event_id": "r11-e7",
+    "year": 2098,
+    "event": "Death at age 81 from a population-baseline cause. No medical records are on file; the projection rests on the cohort default only.",
+    "headline": "Death, Baseline Cause",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r11-0001",
+     "r11-0012"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular disease",
+   "year": 2098,
+   "age_at_death": 81,
+   "confidence": 0.18,
+   "evidence": [
+    "r11-0001",
+    "r11-0011",
+    "r11-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r11-t1-n1",
+    "prediction": "Priya's handset will be powered off overnight (approximately 19:00-07:00) on at least 5 of the next 7 nights.",
+    "p": 0.8,
+    "evidence": [
+     "r11-0012"
+    ]
+   },
+   {
+    "pred_id": "r11-t1-n2",
+    "prediction": "Priya and Callum Shore will be co-located again at or near Carnegie Public Library (p07) outside working hours at least once this week.",
+    "p": 0.55,
+    "evidence": [
+     "r12-0012",
+     "r11-0010",
+     "r12-0010"
+    ]
+   },
+   {
+    "pred_id": "r11-t1-n3",
+    "prediction": "Priya's card transactions this week will stay below 50% of her 2052 weekly average, with at least one cash purchase at Mercer Row Covered Market (p09).",
+    "p": 0.72,
+    "evidence": [
+     "r11-0011",
+     "r11-0006"
+    ]
+   },
+   {
+    "pred_id": "r11-t1-n4",
+    "prediction": "Priya will lodge a new information request, internal review or appeal with the Council Tower (p01), which will be answered under standard exemption handling.",
+    "p": 0.38,
+    "evidence": [
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "pred_id": "r11-t1-n5",
+    "prediction": "Priya will have a logged conversation with Dorothy Pryce at the Carnegie concerning shelter or housing-queue patterns.",
+    "p": 0.45,
+    "evidence": [
+     "r11-0002",
+     "r11-0008",
+     "r02-0008",
+     "r02-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.18,
+  "deviation_risk": 0.78,
+  "dissent_signals": [
+   "Timed transit regularity and recorded it as anomalous (r11-0004, r11-0005)",
+   "Searched on flat crime rates and forecast accuracy (r11-0003)",
+   "Filed an FOI request on algorithmic housing allocation (r11-0007)",
+   "Requested a public terminal audit; request denied (r11-0009)",
+   "Bought paper notebooks for cash, indicating offline record-keeping (r11-0006)",
+   "Searched for offline maps and on shelter population recurrence (r11-0008)",
+   "Questioned her partner directly about Tower forecasts (r11-0010)",
+   "Cut card use by 62% in favour of cash (r11-0011)",
+   "Powered her handset off overnight for 11 consecutive nights (r11-0012)",
+   "Ignored rung 1 measure t1-i10 at tick 1 and was observed with C. Shore at p07"
+  ],
+  "classification": "III",
+  "overall_assessment": "Pattern-aware middle-income civic employee; data trail actively thinning; proximate to a data-agreement signatory.",
+  "risk_factors": [
+   {
+    "factor": "Deliberate reduction of observable data trail",
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r11-0006"
+    ]
+   },
+   {
+    "factor": "Close tie to signatory of Halden-Council confidential data agreement",
+    "evidence": [
+     "r12-0008",
+     "r12-0010",
+     "r12-0012"
+    ]
+   },
+   {
+    "factor": "Persistent formal enquiries into Tower systems",
+    "evidence": [
+     "r11-0007",
+     "r11-0009",
+     "r11-0003"
+    ]
+   },
+   {
+    "factor": "Social bridge to unhoused and young dissent-adjacent subjects",
+    "evidence": [
+     "r11-0002",
+     "r09-0010",
+     "r02-0008"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Civic",
+   "action": "Maintain t1-i10 exemption handling; keep Carnegie service rhythm unchanged; log enquiries without escalation."
+  },
+  "assessment": "Subject has moved from noticing patterns to documenting them, and her observable footprint is contracting week on week, which lowers projection confidence across all horizons. The primary near-term variance source is a possible partial disclosure by C. Shore, signalled by the tick-1 co-location in defiance of the rung 1 measure. Continued courteous non-disclosure is assessed as the lowest-variance posture; any visible change in service rhythm would confirm her hypothesis."
+ }
+}

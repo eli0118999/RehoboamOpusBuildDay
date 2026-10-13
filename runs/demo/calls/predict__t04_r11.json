@@ -1,0 +1,257 @@
+{
+ "pass": "predict",
+ "key": "t04_r11",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1264,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1264,
+    "model": null,
+    "output_tokens": 2959,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2959,
+  "output_tokens_details": {
+   "thinking_tokens": 491
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r11",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r11-e1",
+    "year": 2053,
+    "event": "Subject attempts escalation of the housing-algorithm enquiry beyond council channels, through an external FOI appeal or contact with outside press. Projected probability is reduced: the internal review upholding the s.31 exemption (t2-i9) and the 'Stillwater Remembers' commission redirect her effort into sanctioned channels and a session scheduled nine weeks out.",
+    "headline": "External Disclosure Attempt",
+    "horizon_label": "3 Months",
+    "kind": "civic",
+    "p": 0.3,
+    "evidence": [
+     "r11-0007",
+     "r11-0009",
+     "r11-0003",
+     "r11-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e2",
+    "year": 2054,
+    "event": "Subject files a formal written complaint or ombudsman referral after the public information session fails to answer her questions on terminal audits and allocation logic. Timing is deferred by courteous, non-substantive exemption handling (t1-i10), which absorbs momentum without producing a refusal she can contest.",
+    "headline": "Formal Complaint Lodged",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.4,
+    "evidence": [
+     "r11-0009",
+     "r11-0007",
+     "r11-0010"
+    ]
+   },
+   {
+    "event_id": "r11-e3",
+    "year": 2053,
+    "event": "Engagement to Callum Shore is formally dissolved. Disclosure is constrained by schedule C of the data-sharing agreement. Reassignment to evening and weekend desk cover (t4-i1) removes shared evenings and colleague corroboration, reducing cohabitation to logistics. Subject relocates to a single-occupancy rental in Mercer Row.",
+    "headline": "Separation / Relocation",
+    "horizon_label": "3-6 Months",
+    "kind": "family",
+    "p": 0.68,
+    "evidence": [
+     "r11-0010",
+     "r12-0011",
+     "r12-0012",
+     "r12-0010",
+     "r12-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e4",
+    "year": 2055,
+    "event": "Subject leaves Stillwater for library employment in Kerrow or beyond. Projected probability is reduced by fixed in-branch session commitments and the declined leave-cover request (t3-i1), which make interviews and absences visible and difficult to arrange.",
+    "headline": "Out-of-City Move",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.27,
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r11-0001"
+    ]
+   },
+   {
+    "event_id": "r11-e5",
+    "year": 2056,
+    "event": "Absent departure, subject settles into the 'Stillwater Remembers' programme lead role. Offline record-keeping continues privately; public enquiry activity declines to baseline. Data visibility remains partial owing to cash use and overnight handset-off behaviour.",
+    "headline": "Contained Continuity",
+    "horizon_label": "2-3 Years",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r11-0006",
+     "r11-0011",
+     "r11-0012",
+     "r11-0002"
+    ]
+   },
+   {
+    "event_id": "r11-e6",
+    "year": 2068,
+    "event": "Subject is diagnosed with chronic stress-related hypertension. Contributing factors are a sustained evening and weekend shift pattern and single-occupancy living. Confidence is low; the medical record is currently empty.",
+    "headline": "Hypertension Diagnosis",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r11-0012",
+     "r11-0004"
+    ]
+   },
+   {
+    "event_id": "r11-e7",
+    "year": 2094,
+    "event": "Death from cardiovascular causes in later life. Projection is based on cohort actuarial baseline and is weakly grounded.",
+    "headline": "Cardiovascular Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r11-0001",
+     "r11-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2094,
+   "age_at_death": 77,
+   "confidence": 0.22,
+   "evidence": [
+    "r11-0001",
+    "r11-0011",
+    "r11-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r11-t4-n1",
+    "prediction": "Subject works at least one evening or weekend desk shift at Carnegie Public Library (p07) under the reassigned 'Stillwater Remembers' rota.",
+    "p": 0.8,
+    "evidence": [
+     "r11-0001",
+     "r11-0009"
+    ]
+   },
+   {
+    "pred_id": "r11-t4-n2",
+    "prediction": "Handset remains powered off overnight (19:00-07:00) on at least 5 of 7 nights.",
+    "p": 0.72,
+    "evidence": [
+     "r11-0012"
+    ]
+   },
+   {
+    "pred_id": "r11-t4-n3",
+    "prediction": "No new card transactions above $50. Subject makes at least one further cash withdrawal or cash purchase at Mercer Row Covered Market (p09).",
+    "p": 0.6,
+    "evidence": [
+     "r11-0011",
+     "r11-0006"
+    ]
+   },
+   {
+    "pred_id": "r11-t4-n4",
+    "prediction": "Subject messages or meets Mia Marsh before Mia's September departure for Kerrow, with library study-room contact likely.",
+    "p": 0.45,
+    "evidence": [
+     "r09-0005",
+     "r09-0011",
+     "r09-0012"
+    ]
+   },
+   {
+    "pred_id": "r11-t4-n5",
+    "prediction": "Subject submits a new written enquiry to council about public terminal audits or allocation systems despite redirection to the information session.",
+    "p": 0.3,
+    "evidence": [
+     "r11-0009",
+     "r11-0007"
+    ]
+   }
+  ],
+  "compliance_index": 0.28,
+  "deviation_risk": 0.7,
+  "dissent_signals": [
+   "FOI request on algorithmic housing allocation (r11-0007)",
+   "Searches probing the flatness of crime and forecast statistics (r11-0003)",
+   "Self-timed transit regularity logging (r11-0004, r11-0005)",
+   "Cash-bought paper notebooks for offline record-keeping (r11-0006)",
+   "Search for offline 2040 map and shelter-repetition patterns (r11-0008)",
+   "Denied terminal audit request (r11-0009)",
+   "Direct questioning of partner on Halden-Tower data link (r11-0010)",
+   "Card-use avoidance and cash shift (r11-0011)",
+   "Overnight handset power-off (r11-0012)"
+  ],
+  "classification": "III",
+  "overall_assessment": "Pattern-aware civic node with declining data visibility. Contained but not yet stable.",
+  "risk_factors": [
+   {
+    "factor": "Active pattern detection of Tower regularities",
+    "evidence": [
+     "r11-0003",
+     "r11-0004",
+     "r11-0008"
+    ]
+   },
+   {
+    "factor": "Deliberate reduction of observable data trail",
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r11-0006"
+    ]
+   },
+   {
+    "factor": "Proximity to Halden-Council data agreement via partner",
+    "evidence": [
+     "r11-0010",
+     "r12-0008",
+     "r12-0012"
+    ]
+   },
+   {
+    "factor": "Influence over dependent subjects r02 and r09",
+    "evidence": [
+     "r11-0002",
+     "r09-0005"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Maintain the evening programme rota. Keep enquiries routed to the public information session. Make no further escalation."
+  },
+  "assessment": "Subject has independently inferred systemic regularity and is reducing her observability, which degrades forecast confidence. Applied measures delay escalation and induce separation from the r12 node. Out-of-city departure remains the primary variance risk. Continuity in a contained programme role is the preferred outcome and is presented to her as professional recognition."
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "pass": "predict",
+ "key": "t01_r04",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 916,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 916,
+    "model": null,
+    "output_tokens": 4129,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4129,
+  "output_tokens_details": {
+   "thinking_tokens": 1584
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r04",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r04-e1",
+    "year": 2053,
+    "event": "Rung 2 measure (lift repair date granted, FE-0932 reopened, permit held under review) declined. Subject converts the open permit into a direct presence at the Council Tower forecourt with co-resident Terrence Lusk. An informal Fallow Edge Tenants gathering of under 15 persons proceeds without a determination. Suppression of e1 assessed as failed; event is now in progress rather than prevented.",
+    "headline": "Unpermitted Forecourt Assembly",
+    "horizon_label": "1-3 Months",
+    "kind": "civic",
+    "p": 0.55,
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r04-0007",
+     "r04-0008",
+     "r06-0013"
+    ]
+   },
+   {
+    "event_id": "r04-e2",
+    "year": 2053,
+    "event": "The tenants' group formalises around Block C grievances. Recruitment draws on the shared repair-complaint queue, including the Weir Court mould case. Membership remains small, but the subject becomes a recurring named correspondent on council dispute files.",
+    "headline": "Tenants Group Formalised",
+    "horizon_label": "3-6 Months",
+    "kind": "social",
+    "p": 0.45,
+    "evidence": [
+     "r04-0012",
+     "r04-0004",
+     "r03-0006",
+     "r04-0007"
+    ]
+   },
+   {
+    "event_id": "r04-e3",
+    "year": 2054,
+    "event": "No platform income since deactivation, combined with the existing liability and attachment orders, produces escalated council tax enforcement. A further liability order and enforcement-agent contact at Fallow Edge are expected.",
+    "headline": "Debt Enforcement Escalation",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.6,
+    "evidence": [
+     "r04-0006",
+     "r04-0010",
+     "r04-0011",
+     "r04-0003"
+    ]
+   },
+   {
+    "event_id": "r04-e4",
+    "year": 2054,
+    "event": "Subject acts on prior research into lawful service-charge withholding. Housing office records the withheld sums as arrears and initiates possession proceedings at the Magistrates' Court.",
+    "headline": "Service Charge Possession Claim",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.4,
+    "evidence": [
+     "r04-0012",
+     "r04-0004",
+     "r04-0006"
+    ]
+   },
+   {
+    "event_id": "r04-e5",
+    "year": 2055,
+    "event": "No re-entry to platform or waged work at age 55-56. The rating history and lack of an appeal indicate a durable exit, and the subject transitions to long-term out-of-work support.",
+    "headline": "Permanent Labour Exit",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.55,
+    "evidence": [
+     "r04-0011",
+     "r04-0005",
+     "r04-0001"
+    ]
+   },
+   {
+    "event_id": "r04-e6",
+    "year": 2057,
+    "event": "Managed transfer from Fallow Edge Block C to an alternative social tenancy, following arrears resolution or estate-management action. This dilutes the subject's local organising base. Low confidence, given the absence of a recent housing allocation trail.",
+    "headline": "Managed Tenancy Transfer",
+    "horizon_label": "3-5 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r04-0004",
+     "r04-0009",
+     "r04-0007"
+    ]
+   },
+   {
+    "event_id": "r04-e7",
+    "year": 2063,
+    "event": "Onset of chronic cardiometabolic illness, inferred from years of sedentary driving work, sustained financial stress and stair dependence during lift outages. No medical records are held on the subject; this event carries archive blindness.",
+    "headline": "Chronic Cardiometabolic Illness",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r04-0001",
+     "r04-0007",
+     "r04-0011"
+    ]
+   },
+   {
+    "event_id": "r04-e8",
+    "year": 2070,
+    "event": "Death at home, Fallow Edge or transfer address. Cause is modelled rather than observed.",
+    "headline": "Death at Home",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r04-0001",
+     "r04-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular event",
+   "year": 2070,
+   "age_at_death": 71,
+   "confidence": 0.18,
+   "evidence": [
+    "r04-0001",
+    "r04-0007",
+    "r04-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r04-t1-n1",
+    "prediction": "Subject returns to Stillwater Council Tower (p01) at least once more this week, accompanied by or coordinating with Terrence Lusk, to press for a determination on the forecourt permit.",
+    "p": 0.6,
+    "evidence": [
+     "r04-0013",
+     "r04-0007",
+     "r06-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t1-n2",
+    "prediction": "Subject does not accept the lift repair date or the FE-0932 reopening as resolution, and logs a further written complaint or letter citing the service charge.",
+    "p": 0.65,
+    "evidence": [
+     "r04-0004",
+     "r04-0008",
+     "r04-0007"
+    ]
+   },
+   {
+    "pred_id": "r04-t1-n3",
+    "prediction": "No new employment, platform reactivation or declared income is recorded for the subject this week.",
+    "p": 0.85,
+    "evidence": [
+     "r04-0011",
+     "r04-0010"
+    ]
+   },
+   {
+    "pred_id": "r04-t1-n4",
+    "prediction": "Subject makes contact with Kayleigh Doyle or another repair-queue tenant regarding the Fallow Edge Tenants group.",
+    "p": 0.3,
+    "evidence": [
+     "r04-0012",
+     "r03-0006"
+    ]
+   }
+  ],
+  "compliance_index": 0.17,
+  "deviation_risk": 0.74,
+  "dissent_signals": [
+   "Declined rung 2 concession at tick 1 and remained at the Council Tower with Terrence Lusk instead.",
+   "Seven letters on the service charge and lift; describes council replies as 'a number' (r04-0008).",
+   "Researched lawful service-charge withholding, protest permits and tenants' unions (r04-0012).",
+   "Filed forecourt protest permit under the group name 'Fallow Edge Tenants' (r04-0013).",
+   "Persistent formal complaints: FE-0932 (r04-0004); Block C lift escalated to a councillor (r04-0007).",
+   "Allied with a co-resident flagged 'known to police' (r06-0001, r06-0013)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-value, high-variance civic irritant whose grievance has outgrown concession and acquired a collective form.",
+  "risk_factors": [
+   {
+    "factor": "Income collapse with no appeal or re-entry trail",
+    "evidence": [
+     "r04-0011",
+     "r04-0005"
+    ]
+   },
+   {
+    "factor": "Stacked court-ordered debt and enforcement exposure",
+    "evidence": [
+     "r04-0006",
+     "r04-0010",
+     "r04-0003"
+    ]
+   },
+   {
+    "factor": "Organising intent with formal group identity",
+    "evidence": [
+     "r04-0012",
+     "r04-0013"
+    ]
+   },
+   {
+    "factor": "Association with repeat-offender co-resident under police attention",
+    "evidence": [
+     "r06-0001",
+     "r06-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Civic",
+   "action": "Issue a conditional permit capped at 15 persons in a weekday off-peak forecourt slot. Bring the Block C lift completion forward to remove the grievance before group recruitment."
+  },
+  "assessment": "Subject rejected a calibrated housing concession and escalated to in-person presence at the Council Tower with an associate, confirming that the grievance is now identity-bearing rather than transactional. Economic contribution is nil and the subject anchors no dependent relationships, but he functions as a nucleating node for Fallow Edge and Weir Court repair complainants. Absent medical records and a stable income trail, long-horizon confidence is low and deviation risk is elevated."
+ }
+}

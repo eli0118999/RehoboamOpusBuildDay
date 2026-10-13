@@ -1,0 +1,238 @@
+{
+ "pass": "predict",
+ "key": "t00_r11",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 2991,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2991,
+  "output_tokens_details": {
+   "thinking_tokens": 857
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r11",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r11-e1",
+    "year": 2053,
+    "event": "Engagement with Callum Shore formally ends. The wedding booking has already been cancelled, and his confidentiality obligations under the Halden-Council data agreement prevent him from answering her questions about the Tower.",
+    "headline": "Dissolution of Engagement",
+    "horizon_label": "6 Months",
+    "kind": "family",
+    "p": 0.62,
+    "evidence": [
+     "r12-0011",
+     "r11-0010",
+     "r12-0012",
+     "r12-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e2",
+    "year": 2054,
+    "event": "Subject escalates her inquiry into algorithmic housing allocation. Likely routes are an internal review or appeal of the s.31 exemption, or contact with an external party, supported by offline notes kept in paper notebooks.",
+    "headline": "Escalated Information Inquiry",
+    "horizon_label": "6-12 Months",
+    "kind": "civic",
+    "p": 0.45,
+    "evidence": [
+     "r11-0007",
+     "r11-0009",
+     "r11-0006",
+     "r11-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e3",
+    "year": 2054,
+    "event": "Subject's working relationship with council IT deteriorates after her repeated audit and terminal-usage requests. Possible redeployment, reduced access or a library service review.",
+    "headline": "Workplace Friction / Possible Redeployment",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.33,
+    "evidence": [
+     "r11-0009",
+     "r11-0001",
+     "r11-0003"
+    ]
+   },
+   {
+    "event_id": "r11-e4",
+    "year": 2055,
+    "event": "Subject leaves Stillwater as a renter with reduced attachments. Her declining digital footprint makes the destination unobservable.",
+    "headline": "Relocation Outside Jurisdiction",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.4,
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r12-0011"
+    ]
+   },
+   {
+    "event_id": "r11-e5",
+    "year": 2057,
+    "event": "Subject keeps an informal advisory link with a younger contact (M. Marsh, social work track) on housing-list and system-transparency questions.",
+    "headline": "Informal Advocacy Network",
+    "horizon_label": "3-5 Years",
+    "kind": "social",
+    "p": 0.22,
+    "evidence": [
+     "r09-0010",
+     "r09-0009",
+     "r11-0002"
+    ]
+   },
+   {
+    "event_id": "r11-e6",
+    "year": 2070,
+    "event": "Mid-life trajectory is unresolved. The Archive's view of the subject continues to degrade, and no stable occupational or residential anchor can be modelled.",
+    "headline": "Trajectory Unresolved / Low Visibility",
+    "horizon_label": "10+ Years",
+    "kind": "social",
+    "p": 0.3,
+    "evidence": [
+     "r11-0012",
+     "r11-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Unspecified natural causes (age-related cardiovascular, population baseline; no subject-specific clinical data on file)",
+   "year": 2097,
+   "age_at_death": 80,
+   "confidence": 0.12,
+   "evidence": [
+    "r11-0001",
+    "r11-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r11-t0-n1",
+    "prediction": "Handset powered off overnight (approx. 19:00-07:00) on at least 5 of the next 7 nights.",
+    "p": 0.8,
+    "evidence": [
+     "r11-0012"
+    ]
+   },
+   {
+    "pred_id": "r11-t0-n2",
+    "prediction": "Card transaction volume this week stays at least 50% below the 2052 weekly average, with purchases settled in cash.",
+    "p": 0.72,
+    "evidence": [
+     "r11-0011",
+     "r11-0006"
+    ]
+   },
+   {
+    "pred_id": "r11-t0-n3",
+    "prediction": "Subject is present at Carnegie Public Library (p07) on at least 4 workdays this week.",
+    "p": 0.78,
+    "evidence": [
+     "r11-0001",
+     "r11-0005"
+    ]
+   },
+   {
+    "pred_id": "r11-t0-n4",
+    "prediction": "Subject logs or facilitates at least one interaction with patron D. Pryce at p07 without raising a formal concern.",
+    "p": 0.55,
+    "evidence": [
+     "r11-0002",
+     "r02-0008",
+     "r02-0011"
+    ]
+   },
+   {
+    "pred_id": "r11-t0-n5",
+    "prediction": "No new formal information request or audit request lodged with the Council (p01) this week.",
+    "p": 0.7,
+    "evidence": [
+     "r11-0007",
+     "r11-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.2,
+  "deviation_risk": 0.76,
+  "dissent_signals": [
+   "Systematic observation of predictive regularity: timing of transit and noting flat crime and weather-forecast accuracy (r11-0003, r11-0004, r11-0005)",
+   "FOI request targeting algorithmic housing allocation (r11-0007)",
+   "Request for public terminal usage audit (r11-0009)",
+   "Searches indicating suspicion of engineered recurrence in the shelter population (r11-0008)",
+   "Shift to cash and paper record-keeping (r11-0006, r11-0011)",
+   "Deliberate overnight handset blackout (r11-0012)",
+   "Direct questioning of partner about Tower-Halden data flows (r11-0010)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Pattern-aware civic employee with a contracting data footprint and an active line of inquiry into allocation systems; low nudge responsiveness, moderate network reach.",
+  "risk_factors": [
+   {
+    "factor": "Active formal inquiry into council algorithmic systems",
+    "evidence": [
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "factor": "Deliberate reduction of observability (cash, handset off, paper notes)",
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r11-0006"
+    ]
+   },
+   {
+    "factor": "Proximity to confidential data-sharing channel via partner",
+    "evidence": [
+     "r11-0010",
+     "r12-0008",
+     "r12-0010",
+     "r12-0012"
+    ]
+   },
+   {
+    "factor": "Influence over adjacent subjects' questioning behaviour",
+    "evidence": [
+     "r09-0010",
+     "r11-0002"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Civic",
+   "action": "Route all future subject requests through standard exemption handling with courteous, timely, non-substantive replies. Maintain service normality at p07 to avoid confirming anomalies."
+  },
+  "assessment": "Subject has independently detected the regularity the system produces and is documenting it offline. Her declining visibility lowers model confidence across her linked subjects (r02, r09, r12). Low-friction containment through procedural normality is preferred to intervention, which would itself constitute a confirming signal."
+ }
+}

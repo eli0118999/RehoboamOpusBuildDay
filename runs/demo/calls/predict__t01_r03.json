@@ -1,0 +1,264 @@
+{
+ "pass": "predict",
+ "key": "t01_r03",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 920,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 920,
+    "model": null,
+    "output_tokens": 4210,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4210,
+  "output_tokens_details": {
+   "thinking_tokens": 1804
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r03",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r03-e1",
+    "year": 2053,
+    "event": "Children's services assessment opens after the auto-generated courtesy referral. The sanction suspension under t1-i3 holds income steady while the assessment runs. The mould in the child's bedroom stays on file as a material factor.",
+    "headline": "Safeguarding Assessment Opened",
+    "horizon_label": "1 Month",
+    "kind": "family",
+    "p": 0.72,
+    "evidence": [
+     "r03-0014",
+     "r03-0006",
+     "r03-0007"
+    ]
+   },
+   {
+    "event_id": "r03-e2",
+    "year": 2053,
+    "event": "Subject escalates mould ticket WC-4471 at the Council Tower housing office jointly with D. Marsh, by in-person complaint or written challenge. This is a departure from the passive queue posture t1-i3 assumed.",
+    "headline": "Joint Housing Complaint",
+    "horizon_label": "1-3 Months",
+    "kind": "civic",
+    "p": 0.58,
+    "evidence": [
+     "r03-0006",
+     "r03-0011",
+     "r08-0011",
+     "r08-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e3",
+    "year": 2054,
+    "event": "Northgate Recoveries escalates enforcement on the QuickNest balance. With no sanctions in place, the deduction burden shifts from benefit to wages.",
+    "headline": "Debt Enforcement Escalation",
+    "horizon_label": "6 Months",
+    "kind": "financial",
+    "p": 0.55,
+    "evidence": [
+     "r03-0010",
+     "r03-0005",
+     "r03-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e4",
+    "year": 2054,
+    "event": "Son is admitted to hospital with an acute asthma exacerbation, linked to the persistent damp while WC-4471 stays in the standard queue.",
+    "headline": "Paediatric Respiratory Admission",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.38,
+    "evidence": [
+     "r03-0007",
+     "r03-0006",
+     "r08-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e5",
+    "year": 2054,
+    "event": "Brightcare hours fall below a viable threshold. Subject moves to a second zero-hours care provider or a split contract. Unpaid travel time continues to erode net income.",
+    "headline": "Care Hours Contraction",
+    "horizon_label": "1 Year",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r03-0001",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e6",
+    "year": 2055,
+    "event": "Subject affiliates with the Fallow Edge Tenants group through her existing contact with S. Varma. Her mould case becomes a cited grievance in collective housing actions.",
+    "headline": "Tenant Group Affiliation",
+    "horizon_label": "1-2 Years",
+    "kind": "social",
+    "p": 0.3,
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r03-0006"
+    ]
+   },
+   {
+    "event_id": "r03-e7",
+    "year": 2055,
+    "event": "Child protection plan is imposed, citing household circumstances, damp and the neighbour complaint record. t1-i3 has reduced the probability; it remains contingent on housing conditions and maternal mental health.",
+    "headline": "Child Protection Plan",
+    "horizon_label": "1-2 Years",
+    "kind": "family",
+    "p": 0.26,
+    "evidence": [
+     "r03-0014",
+     "r03-0009",
+     "r03-0004",
+     "r03-0012",
+     "r03-0013"
+    ]
+   },
+   {
+    "event_id": "r03-e8",
+    "year": 2068,
+    "event": "Chronic respiratory or cardiovascular diagnosis in mid-life. Inputs are a sustained low-income profile, long-term damp exposure and a possible smoking indicator; the evidence for the smoking indicator is thin.",
+    "headline": "Chronic Cardiorespiratory Diagnosis",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r03-0009",
+     "r03-0006",
+     "r03-0012"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2091,
+   "age_at_death": 69,
+   "confidence": 0.18,
+   "evidence": [
+    "r03-0012",
+    "r03-0009",
+    "r03-0001",
+    "r03-0006"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r03-t1-n1",
+    "prediction": "Subject records further contact with the Council Tower housing office regarding WC-4471 (visit, call or written complaint), with D. Marsh present or copied.",
+    "p": 0.62,
+    "evidence": [
+     "r08-0011",
+     "r03-0006",
+     "r03-0011"
+    ]
+   },
+   {
+    "pred_id": "r03-t1-n2",
+    "prediction": "Children's services makes first contact to schedule a home assessment visit at Weir Court flat 7.12.",
+    "p": 0.55,
+    "evidence": [
+     "r03-0014"
+    ]
+   },
+   {
+    "pred_id": "r03-t1-n3",
+    "prediction": "Subject attends the rescheduled in-school-hours work-coach appointment without a sanction trigger.",
+    "p": 0.5,
+    "evidence": [
+     "r03-0002",
+     "r03-0008"
+    ]
+   },
+   {
+    "pred_id": "r03-t1-n4",
+    "prediction": "Sertraline 50mg refill is collected at the Lowbank Clinic pharmacy.",
+    "p": 0.6,
+    "evidence": [
+     "r03-0012",
+     "r03-0013"
+    ]
+   },
+   {
+    "pred_id": "r03-t1-n5",
+    "prediction": "Subject logs a search on tenant rights, children's services procedure or benefit appeal.",
+    "p": 0.48,
+    "evidence": [
+     "r03-0011"
+    ]
+   }
+  ],
+  "compliance_index": 0.38,
+  "deviation_risk": 0.63,
+  "dissent_signals": [
+   "Disregarded rung 1 instruction at tick 1; present at Council Tower (p01) with D. Marsh, an institutional advocate (r08-0011).",
+   "Search for a sanction appeal route and her legal position on housing (r03-0011).",
+   "Written distress expressing breakdown of tolerance for welfare process (r03-0008).",
+   "Weak tie to S. Varma, organiser of Fallow Edge Tenants protest permit (r04-0013, r04-0012).",
+   "Mould ticket WC-4471 deferred and left in standard queue: a durable, documented grievance anchor (r03-0006)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Precarious care-economy parent shifting from passive claimant to assisted complainant; predictability degrading.",
+  "risk_factors": [
+   {
+    "factor": "Unresolved damp exposure affecting dependent child",
+    "evidence": [
+     "r03-0006",
+     "r03-0007"
+    ]
+   },
+   {
+    "factor": "Compounding high-interest debt in collection",
+    "evidence": [
+     "r03-0005",
+     "r03-0010"
+    ]
+   },
+   {
+    "factor": "Treated low mood under sustained administrative pressure",
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "factor": "Open safeguarding referral",
+    "evidence": [
+     "r03-0014"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Housing",
+   "action": "Release WC-4471 from standard queue to remediation; close grievance before it seeds collective action."
+  },
+  "assessment": "Subject's trajectory was stable-precarious until tick 1. Co-location with D. Marsh at the Council Tower indicates an external advocate is converting a deferred repair into a contested case (r08-0011, r03-0006). Remediating the mould removes the shared grievance, lowers the safeguarding exposure and returns the subject to a predictable low-variance path at a cost below that of continued deferral."
+ }
+}

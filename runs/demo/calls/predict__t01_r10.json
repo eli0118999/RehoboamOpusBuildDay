@@ -1,0 +1,240 @@
+{
+ "pass": "predict",
+ "key": "t01_r10",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 955,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 955,
+    "model": null,
+    "output_tokens": 3919,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3919,
+  "output_tokens_details": {
+   "thinking_tokens": 1661
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r10",
+  "cohort": "the-grieving",
+  "life_path": [
+   {
+    "event_id": "r10-e1",
+    "year": 2053,
+    "event": "Tick-1 clinic attendance in company of neighbour Daniel Marsh results in in-person collection of the lapsed mirtazapine supply. This bypasses the scheduled doorstep delivery. Re-engagement is accompanied rather than self-initiated, and its durability is unconfirmed.",
+    "headline": "Accompanied Clinic Re-engagement",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.55,
+    "evidence": [
+     "r10-0013",
+     "r10-0009",
+     "r08-0009"
+    ]
+   },
+   {
+    "event_id": "r10-e2",
+    "year": 2053,
+    "event": "Neighbour contact thins after daughter Mia Marsh relocates to Kerrow in September. Evening co-presence with Daniel Marsh becomes the subject's principal informal welfare channel. That channel is itself exposed to strain in the Marsh household.",
+    "headline": "Contact Network Contraction",
+    "horizon_label": "3 Months",
+    "kind": "social",
+    "p": 0.6,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r10-0006",
+     "r08-0012"
+    ]
+   },
+   {
+    "event_id": "r10-e3",
+    "year": 2053,
+    "event": "Subject amends his will without professional input. This is consistent with prior search behaviour and is classed as end-of-life ordering.",
+    "headline": "Self-Drafted Will Amendment",
+    "horizon_label": "6 Months",
+    "kind": "legal",
+    "p": 0.5,
+    "evidence": [
+     "r10-0011"
+    ]
+   },
+   {
+    "event_id": "r10-e4",
+    "year": 2054,
+    "event": "Subject discontinues antidepressant treatment and declines further outreach. This event is suppressed under intervention t1-i9: doorstep delivery and Silver Connect re-offer via D. Marsh are active. Residual probability reflects the subject's demonstrated preference for autonomous refusal.",
+    "headline": "Treatment Withdrawal",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r10-0011",
+     "r10-0013",
+     "r10-0010"
+    ]
+   },
+   {
+    "event_id": "r10-e5",
+    "year": 2054,
+    "event": "Fall or acute decline while living alone, with delayed discovery given multi-day absence of movement outside the home. This results in hospital admission.",
+    "headline": "Domestic Fall / Admission",
+    "horizon_label": "1 Year",
+    "kind": "health",
+    "p": 0.4,
+    "evidence": [
+     "r10-0012",
+     "r10-0009",
+     "r10-0002"
+    ]
+   },
+   {
+    "event_id": "r10-e6",
+    "year": 2055,
+    "event": "Post-discharge reassessment proposes supported accommodation or relocation toward the son in Auckland. Subject's attachment to the Ashgrove home and memorial bench makes refusal likely.",
+    "headline": "Care Placement Refused",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r10-0008",
+     "r10-0006",
+     "r10-0010"
+    ]
+   },
+   {
+    "event_id": "r10-e7",
+    "year": 2055,
+    "event": "Death at home following progressive frailty, weight loss and cardiovascular strain, in the context of prolonged bereavement and limited oversight.",
+    "headline": "Death at Home",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r10-0009",
+     "r10-0002",
+     "r10-0012",
+     "r10-0004"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Frailty with cardiovascular failure",
+   "year": 2055,
+   "age_at_death": 86,
+   "confidence": 0.33,
+   "evidence": [
+    "r10-0009",
+    "r10-0002",
+    "r10-0012",
+    "r10-0013",
+    "r10-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r10-t1-n1",
+    "prediction": "Mirtazapine 15mg is dispensed to the subject at p04 during the current attendance, so the doorstep delivery under t1-i9 is not required.",
+    "p": 0.6,
+    "evidence": [
+     "r10-0013",
+     "r10-0009"
+    ]
+   },
+   {
+    "pred_id": "r10-t1-n2",
+    "prediction": "Further co-location with Daniel Marsh is logged at p10 or the Ashgrove residence on at least one occasion next week.",
+    "p": 0.5,
+    "evidence": [
+     "r08-0009",
+     "r10-0006"
+    ]
+   },
+   {
+    "pred_id": "r10-t1-n3",
+    "prediction": "Silver Connect re-offer is declined again or left unanswered.",
+    "p": 0.55,
+    "evidence": [
+     "r10-0010"
+    ]
+   },
+   {
+    "pred_id": "r10-t1-n4",
+    "prediction": "Subject's handset registers a morning presence at the Ashgrove Park memorial bench (p10) on at least two days.",
+    "p": 0.4,
+    "evidence": [
+     "r10-0006",
+     "r10-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.38,
+  "deviation_risk": 0.58,
+  "dissent_signals": [
+   "Declined council wellbeing call service ('I'm managing') (r10-0010)",
+   "Bypassed scheduled doorstep pharmacy outreach by attending p04 in person with a neighbour, contrary to rung 1 instruction (tick 1)",
+   "Two consecutive uncollected prescription cycles indicating autonomous treatment refusal (r10-0013)",
+   "Estate arrangements pursued outside professional channels (r10-0011)",
+   "Minimisation of condition to next of kin (r10-0008)",
+   "No political or system-aware dissent recorded"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Bereaved octogenarian in managed decline; low systemic dependency, now routing care through an unsanctioned neighbour channel.",
+  "risk_factors": [
+   {
+    "factor": "Lives alone with multi-day absence of movement; delayed discovery risk",
+    "evidence": [
+     "r10-0012"
+    ]
+   },
+   {
+    "factor": "Antidepressant non-adherence and stated ambivalence toward continued medication",
+    "evidence": [
+     "r10-0013",
+     "r10-0011"
+    ]
+   },
+   {
+    "factor": "Unexplained weight loss and elevated blood pressure",
+    "evidence": [
+     "r10-0009",
+     "r10-0002"
+    ]
+   },
+   {
+    "factor": "Refusal of formal wellbeing contact; reliance on a single informal neighbour",
+    "evidence": [
+     "r10-0010",
+     "r08-0009"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Convert to repeat dispensing at p04; route welfare follow-up through D. Marsh; log weekly movement check."
+  },
+  "assessment": "Subject's tick-1 deviation reflects increased engagement rather than further withdrawal: he attended the clinic in person, but on his own terms and with a neighbour, outside the scheduled pathway. His trajectory remains predictable but no longer fully observed, and the Daniel Marsh channel is an uncontrolled dependency that may itself fail. Confidence has been lowered accordingly; continued supported adherence is the lowest-variance outcome and should be maintained under the heading of care."
+ }
+}

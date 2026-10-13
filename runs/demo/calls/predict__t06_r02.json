@@ -1,0 +1,251 @@
+{
+ "pass": "predict",
+ "key": "t06_r02",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 22316
+  },
+  "cache_creation_input_tokens": 22316,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1372,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 22316
+    },
+    "cache_creation_input_tokens": 22316,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 1372,
+    "model": null,
+    "output_tokens": 4372,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4372,
+  "output_tokens_details": {
+   "thinking_tokens": 2019
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "elders",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Under t5-i4, Dorothy's unpaid reshelving becomes a named 'volunteer host' role at Carnegie Public Library (p07), with a reserved chair, a thermos and a standing Thursday Silver Connect companion. Her day is consolidated into a warm, observed routine at a single address.",
+    "headline": "Library Routine Formalised",
+    "horizon_label": "Weeks",
+    "kind": "social",
+    "p": 0.85,
+    "evidence": [
+     "r02-0008",
+     "r11-0002",
+     "r02-0011"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "Under t2-i2 and t6-i1, Dorothy holds a named winter-bed reservation letter at St Brigid's (p03). This removes her exposure to the overflow list and to nights at the River Lane Underpass (p12) through the 2053-54 cold season.",
+    "headline": "Winter Bed Secured",
+    "horizon_label": "6 Months",
+    "kind": "relocation",
+    "p": 0.72,
+    "evidence": [
+     "r02-0006",
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2054,
+    "event": "Her social housing application stays at Band C with no queue movement, as held under t1-i2. Dorothy remains unhoused, but now as a stable fixture of the shelter and library rather than a case that escalates.",
+    "headline": "Housing Queue Static",
+    "horizon_label": "1 Year",
+    "kind": "civic",
+    "p": 0.78,
+    "evidence": [
+     "r02-0004",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "The branch helped her reply to her sister confirming Ron's grave has been tidied (t3-i8), and she keeps declining money from Bev. Family contact continues by email from the library terminal. She is not expected to leave Stillwater.",
+    "headline": "Family Contact Contained",
+    "horizon_label": "1 Year",
+    "kind": "family",
+    "p": 0.6,
+    "evidence": [
+     "r02-0011",
+     "r02-0002"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2055,
+    "event": "Hypertensive crisis requiring an acute presentation at Lowbank Community Clinic (p04). This outcome is suppressed by the library-addressed amlodipine repeat (t1-i2, t2-i2) and monthly BP readings at the library desk (t4-i4, t6-i1). Residual risk comes from sleeping in a shelter and stress.",
+    "headline": "Hypertensive Crisis",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.28,
+    "evidence": [
+     "r02-0009",
+     "r02-0003"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2055,
+    "event": "Respiratory infection acquired through co-location with Marcus Hale, who has a 5+ week cough, night sweats and weight loss. This outcome is suppressed by staggering their terminal hours and by the contact screen at the library desk (t4-i4). Shared shelter nights remain an unmitigated exposure route.",
+    "headline": "Respiratory Infection",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r01-0014",
+     "r01-0011",
+     "r02-0008",
+     "r01-0005"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2058,
+    "event": "Transfer to an over-65 supported long-stay placement attached to St Brigid's register, in place of a social tenancy. The Band C application lapses without being resolved.",
+    "headline": "Supported Placement Transfer",
+    "horizon_label": "5 Years",
+    "kind": "relocation",
+    "p": 0.35,
+    "evidence": [
+     "r02-0013",
+     "r02-0004",
+     "r02-0006"
+    ]
+   },
+   {
+    "event_id": "r02-e8",
+    "year": 2061,
+    "event": "Cerebrovascular event at about age 76. It is delayed, but not prevented, by medication adherence inside a narrowed, observed routine.",
+    "headline": "Stroke",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.33,
+    "evidence": [
+     "r02-0009"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Stroke",
+   "year": 2061,
+   "age_at_death": 76,
+   "confidence": 0.33,
+   "evidence": [
+    "r02-0009",
+    "r02-0005",
+    "r02-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t6-n1",
+    "prediction": "Wi-fi association at Carnegie Library (p07) on at least 5 of 6 opening days this week, in the staggered morning slot.",
+    "p": 0.85,
+    "evidence": [
+     "r02-0008"
+    ]
+   },
+   {
+    "pred_id": "r02-t6-n2",
+    "prediction": "Checks in at St Brigid's (p03) under the named reservation letter on at least 5 of 7 nights.",
+    "p": 0.7,
+    "evidence": [
+     "r02-0006",
+     "r01-0013"
+    ]
+   },
+   {
+    "pred_id": "r02-t6-n3",
+    "prediction": "No move-along direction or police contact at River Lane Underpass (p12) this week.",
+    "p": 0.82,
+    "evidence": [
+     "r02-0012"
+    ]
+   },
+   {
+    "pred_id": "r02-t6-n4",
+    "prediction": "Thursday cash purchase of about $1.80 (tea and biscuits) at Mercer Row Covered Market (p09).",
+    "p": 0.55,
+    "evidence": [
+     "r02-0007"
+    ]
+   },
+   {
+    "pred_id": "r02-t6-n5",
+    "prediction": "Amlodipine collected and BP reading logged under the library-desk schedule this week.",
+    "p": 0.4,
+    "evidence": [
+     "r02-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.86,
+  "deviation_risk": 0.24,
+  "dissent_signals": [
+   "None originated by subject; recorded as 'cooperative' at move-along (r02-0012).",
+   "Declines offered support from family (r02-0011); a pattern of refusal that could extend to services.",
+   "Her case serves as a catalyst for others: r09 questions housing waitlists and the Tower (r09-0009, r09-0010)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-cost, highly predictable elder whose visible hardship drives pattern-awareness in r09 and r11; stabilise and keep out of sight.",
+  "risk_factors": [
+   {
+    "factor": "Hypertension, untreated before t1 (BP 168/102)",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "No fixed address; housing queue regressing",
+    "evidence": [
+     "r02-0005",
+     "r02-0013"
+    ]
+   },
+   {
+    "factor": "Shelter capacity failures",
+    "evidence": [
+     "r01-0013",
+     "r02-0012"
+    ]
+   },
+   {
+    "factor": "Exposure to a coughing co-located associate",
+    "evidence": [
+     "r01-0014",
+     "r02-0008"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Keep the monthly BP reading and amlodipine handover at the library desk; hold Band C."
+  },
+  "assessment": "Subject is compliant, routine-bound and now anchored to two observed sites (p07, p03), so she generates little surprise. Her main value to the model is narrative: her stability reduces the salience of her case to r09 and r11. Her residual mortality risk is cardiovascular and is slowed by the current measures, not eliminated."
+ }
+}

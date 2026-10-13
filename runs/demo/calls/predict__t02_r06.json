@@ -1,0 +1,257 @@
+{
+ "pass": "predict",
+ "key": "t02_r06",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 945,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 945,
+    "model": null,
+    "output_tokens": 3270,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3270,
+  "output_tokens_details": {
+   "thinking_tokens": 1074
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r06",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r06-e1",
+    "year": 2053,
+    "event": "Opioid lapse during self-requested methadone taper, with elevated overdose risk owing to reduced tolerance. Suppressed by t1-i6 and t2-i6: dose held at 30ml, unconditional naloxone reissued, taper review booked within 14 days and supervised dispensing fixed at 16:00 to fit his shift. Residual probability only.",
+    "headline": "Taper Lapse / Overdose",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.18,
+    "evidence": [
+     "r06-0008",
+     "r06-0011",
+     "r06-0003"
+    ]
+   },
+   {
+    "event_id": "r06-e2",
+    "year": 2053,
+    "event": "Clinical taper review confirms 30ml maintenance. Fixed-slot supervised consumption continues and urine screens remain negative.",
+    "headline": "Maintenance Dose Stabilised",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.62,
+    "evidence": [
+     "r06-0011",
+     "r06-0003"
+    ]
+   },
+   {
+    "event_id": "r06-e3",
+    "year": 2053,
+    "event": "Reading Buddies volunteer application declined at background check on the basis of the conviction history. This closes a supervised civic role and removes one prosocial routine.",
+    "headline": "Volunteer Role Declined",
+    "horizon_label": "6 Months",
+    "kind": "civic",
+    "p": 0.66,
+    "evidence": [
+     "r06-0012",
+     "r06-0001",
+     "r06-0007"
+    ]
+   },
+   {
+    "event_id": "r06-e4",
+    "year": 2053,
+    "event": "Suspended sentence operational period expires without breach. Recall exposure ends, but 'known to police' stop-and-search contacts continue on the estate.",
+    "headline": "Suspended Sentence Expires",
+    "horizon_label": "6 Months",
+    "kind": "legal",
+    "p": 0.55,
+    "evidence": [
+     "r06-0007",
+     "r06-0013",
+     "r06-0005"
+    ]
+   },
+   {
+    "event_id": "r06-e5",
+    "year": 2053,
+    "event": "Second Christmas contact with daughter Shona and grandson at Ashgrove Park, conditional on the clean status he offered her. Contact may be extended to periodic visits.",
+    "headline": "Family Contact Resumed",
+    "horizon_label": "6 Months",
+    "kind": "family",
+    "p": 0.42,
+    "evidence": [
+     "r06-0009",
+     "r06-0010",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r06-e6",
+    "year": 2055,
+    "event": "Casual cash-in-hand scrapyard work lapses as he ages and Kiln Works consolidates. Income contracts to benefits only, and prior copper-handling exposure resurfaces as a financial temptation.",
+    "headline": "Casual Work Lost",
+    "horizon_label": "1-2 Years",
+    "kind": "financial",
+    "p": 0.4,
+    "evidence": [
+     "r06-0004",
+     "r06-0006"
+    ]
+   },
+   {
+    "event_id": "r06-e7",
+    "year": 2056,
+    "event": "Arrest on a further acquisitive or handling allegation following income loss. Outcome uncertain given thin post-2053 data.",
+    "headline": "Further Arrest",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.3,
+    "evidence": [
+     "r06-0001",
+     "r06-0006",
+     "r06-0005"
+    ]
+   },
+   {
+    "event_id": "r06-e8",
+    "year": 2059,
+    "event": "Death following an opioid relapse at reduced tolerance, alone in Fallow Edge block C. Probability lowered by sustained naloxone access.",
+    "headline": "Fatal Relapse",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.25,
+    "evidence": [
+     "r06-0008",
+     "r06-0011",
+     "r06-0002"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Opioid overdose",
+   "year": 2059,
+   "age_at_death": 65,
+   "confidence": 0.27,
+   "evidence": [
+    "r06-0001",
+    "r06-0003",
+    "r06-0008",
+    "r06-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r06-t2-n1",
+    "prediction": "Attends the fixed 16:00 supervised methadone dispense at p04 on at least 5 of 7 days this week.",
+    "p": 0.74,
+    "evidence": [
+     "r06-0003",
+     "r06-0011"
+    ]
+   },
+   {
+    "pred_id": "r06-t2-n2",
+    "prediction": "Accepts the reissued naloxone kit at dispense at p04.",
+    "p": 0.7,
+    "evidence": [
+     "r06-0011",
+     "r06-0008"
+    ]
+   },
+   {
+    "pred_id": "r06-t2-n3",
+    "prediction": "Next supervised urine screen at p04 returns negative.",
+    "p": 0.72,
+    "evidence": [
+     "r06-0011"
+    ]
+   },
+   {
+    "pred_id": "r06-t2-n4",
+    "prediction": "Reading Buddies application at p07 remains paused with no decision issued this week.",
+    "p": 0.88,
+    "evidence": [
+     "r06-0012"
+    ]
+   },
+   {
+    "pred_id": "r06-t2-n5",
+    "prediction": "Subject is stopped and searched again at p14 or p09 this week.",
+    "p": 0.12,
+    "evidence": [
+     "r06-0005",
+     "r06-0013"
+    ]
+   }
+  ],
+  "compliance_index": 0.67,
+  "deviation_risk": 0.42,
+  "dissent_signals": [
+   "Self-directed methadone taper initiated outside clinical schedule (r06-0008)",
+   "Attempted entry into a supervised child-facing civic role despite flagged record (r06-0012)",
+   "Expressed fatigue with offending cycle; motivation sourced from family rather than system nudges (r06-0009)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Long-tenure recidivist in late-stage recovery; clinically compliant, economically marginal, low graph dependency.",
+  "risk_factors": [
+   {
+    "factor": "Twelve convictions; police contact on 'known to police' grounds persists",
+    "evidence": [
+     "r06-0001",
+     "r06-0007",
+     "r06-0013"
+    ]
+   },
+   {
+    "factor": "Rapid methadone reduction lowers opioid tolerance",
+    "evidence": [
+     "r06-0008",
+     "r06-0011"
+    ]
+   },
+   {
+    "factor": "Unverified cash-in-hand income near scrap metal trade",
+    "evidence": [
+     "r06-0004",
+     "r06-0006"
+    ]
+   },
+   {
+    "factor": "Prosocial pathway blocked at background check",
+    "evidence": [
+     "r06-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Hold 30ml maintenance at the fixed 16:00 slot; defer taper indefinitely."
+  },
+  "assessment": "Subject responds reliably to clinical scheduling, and the applied interventions have converted a volatile taper into a predictable maintenance routine. Residual variance sits in family-contingent motivation and income loss, neither of which the Archive observes closely. Containing him in stable dependence is the lower-variance outcome and is recorded as continuity of care."
+ }
+}

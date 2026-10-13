@@ -1,0 +1,257 @@
+{
+ "pass": "predict",
+ "key": "t05_r02",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1268,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1268,
+    "model": null,
+    "output_tokens": 3588,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3588,
+  "output_tokens_details": {
+   "thinking_tokens": 1264
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "elders",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Library-addressed amlodipine repeat runs on a 28-day cycle from p04. Desk BP readings fall from the 168/102 baseline into a partially controlled range. Adherence holds while the library address remains valid.",
+    "headline": "Blood Pressure Partially Controlled",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.7,
+    "evidence": [
+     "r02-0009",
+     "r02-0008"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "The over-65 standing bed register at St Brigid's (p03) secures her winter nights despite the shelter's recurrent 42/42 capacity. Underpass move-along contacts at p12 cease for the season.",
+    "headline": "Winter Bed Secured",
+    "horizon_label": "6 Months",
+    "kind": "relocation",
+    "p": 0.6,
+    "evidence": [
+     "r02-0006",
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2054,
+    "event": "Her unofficial reshelving becomes the formal 'volunteer host' role at p07, with a Thursday Silver Connect companion. Her day narrows to the observed library routine. Terminal hours are staggered away from r01, and that friendship thins.",
+    "headline": "Routine Consolidated",
+    "horizon_label": "6 Months",
+    "kind": "social",
+    "p": 0.65,
+    "evidence": [
+     "r02-0008",
+     "r11-0002",
+     "r01-0011",
+     "r02-0007"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "The respiratory contact screen delivered at the library desk follows r01's unresolved 5-week cough and weight loss. Follow-up for latent infection is possible. The source case remains unconfirmed, so confidence is low.",
+    "headline": "Respiratory Contact Follow-up",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.25,
+    "evidence": [
+     "r01-0014",
+     "r01-0005"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2055,
+    "event": "The social housing application remains in Band C, with queue position static above 300. She remains of no fixed abode, administered through library correspondence and the shelter register.",
+    "headline": "Housing Queue Static",
+    "horizon_label": "1-2 Years",
+    "kind": "civic",
+    "p": 0.75,
+    "evidence": [
+     "r02-0004",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2056,
+    "event": "Her library anchor is disrupted by the possible departure or reassignment of senior librarian r11, a pattern-aware subject. The informal protections around the host role weaken, and she reverts to underpass nights outside the winter register.",
+    "headline": "Anchor Disruption",
+    "horizon_label": "1-2 Years",
+    "kind": "social",
+    "p": 0.35,
+    "evidence": [
+     "r11-0002",
+     "r11-0012",
+     "r11-0009",
+     "r02-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2057,
+    "event": "Hypertensive event or transient ischaemic attack, with admission via p04 referral. This follows lapses in repeat collection during periods without a stable address.",
+    "headline": "Cerebrovascular Warning Event",
+    "horizon_label": "3-5 Years",
+    "kind": "health",
+    "p": 0.4,
+    "evidence": [
+     "r02-0009",
+     "r02-0010"
+    ]
+   },
+   {
+    "event_id": "r02-e8",
+    "year": 2059,
+    "event": "Fatal stroke in a context of chronic hypertension, prolonged homelessness and age. She is likely recorded at or near the shelter or library.",
+    "headline": "Death / Stroke",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r02-0009",
+     "r02-0013",
+     "r02-0006"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Stroke",
+   "year": 2059,
+   "age_at_death": 74,
+   "confidence": 0.35,
+   "evidence": [
+    "r02-0009",
+    "r02-0013",
+    "r02-0012"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t5-n1",
+    "prediction": "Carnegie Library (p07) wi-fi association on at least 5 of 6 opening days in the coming week.",
+    "p": 0.85,
+    "evidence": [
+     "r02-0008"
+    ]
+   },
+   {
+    "pred_id": "r02-t5-n2",
+    "prediction": "Accepts the volunteer host role and is logged present for the Thursday Silver Connect companion session at p07.",
+    "p": 0.7,
+    "evidence": [
+     "r11-0002",
+     "r02-0011"
+    ]
+   },
+   {
+    "pred_id": "r02-t5-n3",
+    "prediction": "Thursday cash purchase of tea and biscuits (about $1.80) at Mercer Row Market (p09).",
+    "p": 0.6,
+    "evidence": [
+     "r02-0007"
+    ]
+   },
+   {
+    "pred_id": "r02-t5-n4",
+    "prediction": "Guest terminal sessions fall in the morning slot, with no overlap with r01 sessions.",
+    "p": 0.65,
+    "evidence": [
+     "r01-0011",
+     "r02-0011"
+    ]
+   },
+   {
+    "pred_id": "r02-t5-n5",
+    "prediction": "No move-along direction at River Lane Underpass (p12) recorded for subject this week.",
+    "p": 0.6,
+    "evidence": [
+     "r02-0012",
+     "r02-0006"
+    ]
+   }
+  ],
+  "compliance_index": 0.82,
+  "deviation_risk": 0.3,
+  "dissent_signals": [
+   "No subject-originated dissent; police note records 'cooperative' (r02-0012).",
+   "Declines offered financial support from her sister, limiting the levers available to the model (r02-0011).",
+   "Her case is cited by r09 in queries about housing waitlists and Tower decision-making (r09-0009, r09-0010).",
+   "Daily proximity to pattern-aware librarian r11 (r11-0002, r11-0007)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Compliant, cash-only elderly unhoused subject; low system cost, moderate cardiovascular attrition risk, stabilised within the library routine.",
+  "risk_factors": [
+   {
+    "factor": "Untreated hypertension baseline, with prescription continuity dependent on a borrowed address",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "Unhoused at 68; housing queue position deteriorating",
+    "evidence": [
+     "r02-0004",
+     "r02-0013",
+     "r02-0005"
+    ]
+   },
+   {
+    "factor": "Shared spaces with a symptomatic respiratory contact",
+    "evidence": [
+     "r01-0014",
+     "r01-0011"
+    ]
+   },
+   {
+    "factor": "Shelter capacity failure exposes her to overnight street contact",
+    "evidence": [
+     "r01-0013",
+     "r02-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Maintain the 28-day amlodipine collection and a monthly BP log at the library desk; escalate if two readings exceed 160 systolic."
+  },
+  "assessment": "Subject is highly compliant and low-variance, and the narrowed library routine contains her predictably at minimal cost. Her principal exposure is cardiovascular, compounded by persistent homelessness that the held Band C status does not resolve. The data trail is cash-based and thin outside p07, so confidence beyond 2055 is limited."
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "pass": "predict",
+ "key": "t02_r01",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 22316
+  },
+  "cache_creation_input_tokens": 22316,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 937,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 22316
+    },
+    "cache_creation_input_tokens": 22316,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 937,
+    "model": null,
+    "output_tokens": 3146,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3146,
+  "output_tokens_details": {
+   "thinking_tokens": 971
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r01",
+  "cohort": "non-contributing",
+  "life_path": [
+   {
+    "event_id": "r01-e1",
+    "year": 2053,
+    "event": "Under intervention t2-i1, subject retrieves the appointment card from the St Brigid's front desk, occupies the held bed and attends the Thursday 10:00 chest X-ray at Lowbank Clinic. This is his first completed clinic follow-up on record.",
+    "headline": "Chest X-Ray Attended",
+    "horizon_label": "1 Week",
+    "kind": "health",
+    "p": 0.62,
+    "evidence": [
+     "r01-0014",
+     "r01-0013",
+     "r01-0008",
+     "r01-0005"
+    ]
+   },
+   {
+    "event_id": "r01-e2",
+    "year": 2053,
+    "event": "Imaging and sputum results are consistent with active pulmonary infection, most likely tuberculosis, given the 5+ week cough, night sweats and 7kg weight loss. A multi-month treatment course begins at the Lowbank pharmacy.",
+    "headline": "Respiratory Diagnosis / Treatment",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "event_id": "r01-e3",
+    "year": 2053,
+    "event": "With St Brigid's now registered as his correspondence address, a jobseeker claim is reopened. The 35-hour work-search commitment is likely to be relaxed on medical grounds. Earlier suspension followed returned post.",
+    "headline": "Allowance Claim Reinstated",
+    "horizon_label": "3 Months",
+    "kind": "financial",
+    "p": 0.38,
+    "evidence": [
+     "r01-0006",
+     "r01-0002",
+     "r01-0012"
+    ]
+   },
+   {
+    "event_id": "r01-e4",
+    "year": 2054,
+    "event": "When the held-bed arrangement ends, shelter capacity pressure returns the subject to overnight placement at the River Lane Underpass. Pharmacy collection becomes intermittent.",
+    "headline": "Return to Underpass",
+    "horizon_label": "6 Months",
+    "kind": "relocation",
+    "p": 0.52,
+    "evidence": [
+     "r01-0013",
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "event_id": "r01-e5",
+    "year": 2054,
+    "event": "Treatment adherence lapses and the disease progresses, leading to emergency admission. Probability is reduced by intervention t1-i1, which established the clinic and shelter as held contact points.",
+    "headline": "Treatment Lapse / Admission",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r01-0008",
+     "r01-0014",
+     "r01-0006"
+    ]
+   },
+   {
+    "event_id": "r01-e6",
+    "year": 2055,
+    "event": "The subject applies for warehouse or agency work in or near Kiln Works, consistent with his prior searches. Lack of a fixed address and his health history limit outcomes to casual cash work, if any.",
+    "headline": "Casual Work Attempt",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.25,
+    "evidence": [
+     "r01-0012",
+     "r01-0001",
+     "r01-0009"
+    ]
+   },
+   {
+    "event_id": "r01-e7",
+    "year": 2058,
+    "event": "Death from chronic respiratory disease compounded by repeated cold exposure and malnutrition, while sleeping rough in Lowbank.",
+    "headline": "Death / Respiratory Failure",
+    "horizon_label": "5 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r01-0014",
+     "r01-0008",
+     "r01-0007"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Pulmonary tuberculosis / Exposure",
+   "year": 2058,
+   "age_at_death": 52,
+   "confidence": 0.35,
+   "evidence": [
+    "r01-0014",
+    "r01-0008",
+    "r01-0007",
+    "r01-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r01-t2-n1",
+    "prediction": "Subject attends the Thursday 10:00 chest X-ray at Lowbank Clinic (p04).",
+    "p": 0.6,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "pred_id": "r01-t2-n2",
+    "prediction": "Subject occupies the held bed at St Brigid's (p03) on at least 2 nights this week.",
+    "p": 0.7,
+    "evidence": [
+     "r01-0005",
+     "r01-0013"
+    ]
+   },
+   {
+    "pred_id": "r01-t2-n3",
+    "prediction": "Subject logs a guest terminal session at Carnegie Library (p07).",
+    "p": 0.4,
+    "evidence": [
+     "r01-0011",
+     "r01-0012"
+    ]
+   },
+   {
+    "pred_id": "r01-t2-n4",
+    "prediction": "Subject's handset records an overnight ping at the River Lane Underpass (p12).",
+    "p": 0.25,
+    "evidence": [
+     "r01-0007",
+     "r01-0010"
+    ]
+   }
+  ],
+  "compliance_index": 0.48,
+  "deviation_risk": 0.6,
+  "dissent_signals": [
+   "None overt. Searches (r01-0012) indicate re-entry intent, not opposition.",
+   "Passive non-attendance at follow-ups (r01-0008), attributed to lack of a contact point rather than refusal.",
+   "Association with pattern-aware nodes via shared library hours (r01-0011; relationship r01-r02, r02-r11): low exposure, monitored."
+  ],
+  "classification": "V",
+  "overall_assessment": "Unhoused former picker with probable active respiratory infection. Thin trail and minimal dependency weight in the graph.",
+  "risk_factors": [
+   {
+    "factor": "Probable active pulmonary infection: chronic cough, night sweats, 7kg weight loss",
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "factor": "No fixed address. Correspondence failures caused benefit suspension and missed care",
+    "evidence": [
+     "r01-0006",
+     "r01-0004",
+     "r01-0005"
+    ]
+   },
+   {
+    "factor": "Recurrent rough sleeping with cold injury history",
+    "evidence": [
+     "r01-0007",
+     "r01-0010",
+     "r01-0008"
+    ]
+   },
+   {
+    "factor": "Shelter capacity shortfall blocks stable placement",
+    "evidence": [
+     "r01-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Retain St Brigid's as fixed contact point for the full treatment course. Dispense via supervised clinic consumption."
+  },
+  "assessment": "Subject r01 carries negligible economic weight and few dependants in the relationship graph. His principal system value is containment of a probable communicable respiratory condition affecting shelter and clinic populations. Interventions t1-i1 and t2-i1 improve diagnostic capture, but the sparse data trail and the 2053 at-risk notice logged against a role terminated in 2050 (r01-0015 vs r01-0001) indicate record unreliability. Path confidence is held low accordingly."
+ }
+}

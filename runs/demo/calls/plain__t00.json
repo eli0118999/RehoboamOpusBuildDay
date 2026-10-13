@@ -1,0 +1,499 @@
+{
+ "pass": "plain",
+ "key": "t00",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 7994,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 7994,
+    "model": null,
+    "output_tokens": 4904,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4904,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Misses chest X-ray",
+    "explain": "They never get the chest X-ray because nobody could contact them, and they had missed an earlier follow-up."
+   },
+   {
+    "id": "h2",
+    "plain": "Sleeps rough through winter",
+    "explain": "They go back to sleeping under a bridge in winter because the shelter is full."
+   },
+   {
+    "id": "h3",
+    "plain": "Moved on, bedding taken",
+    "explain": "They are told to move along again and street crews take away their bedding."
+   },
+   {
+    "id": "h4",
+    "plain": "Can't get benefits or bank account",
+    "explain": "They fail to restore income or open an account without an address, and their old job is gone to robots."
+   },
+   {
+    "id": "h5",
+    "plain": "Rushed to hospital, can't breathe",
+    "explain": "They end up in emergency care with a serious untreated lung illness after weight loss and night sweats."
+   },
+   {
+    "id": "h6",
+    "plain": "Dies of lung disease",
+    "explain": "They die from lung disease, made worse by cold and hunger."
+   },
+   {
+    "id": "h7",
+    "plain": "Untreated lung infection, cold, hunger",
+    "explain": "They are expected to die at 49 from an untreated lung illness worsened by exposure and malnutrition."
+   },
+   {
+    "id": "h8",
+    "plain": "Stuck on housing waiting list",
+    "explain": "They stay low on the housing list, keep slipping back, and are never offered a home."
+   },
+   {
+    "id": "h9",
+    "plain": "Loses shelter volunteer friend",
+    "explain": "Their main volunteer contact moves away for university, and their Sunday shelter visits stop."
+   },
+   {
+    "id": "h10",
+    "plain": "Loses library as daytime refuge",
+    "explain": "The library where they spend their days becomes less welcoming, weakening their daily routine."
+   },
+   {
+    "id": "h11",
+    "plain": "High blood pressure goes untreated",
+    "explain": "They have no prescription or address, so their high blood pressure stays untreated, with occasional clinic walk-ins."
+   },
+   {
+    "id": "h12",
+    "plain": "Has a stroke while homeless",
+    "explain": "They suffer a stroke while sleeping rough in the cold and are likely discharged back onto the street."
+   },
+   {
+    "id": "h13",
+    "plain": "Dies homeless",
+    "explain": "They die without a home, and a sibling is told through old library emails."
+   },
+   {
+    "id": "h14",
+    "plain": "Stroke worsened by cold",
+    "explain": "They are expected to die at 70 from a blood-pressure stroke worsened by cold while homeless."
+   },
+   {
+    "id": "h15",
+    "plain": "Child welfare investigation begins",
+    "explain": "They come under children's services assessment, citing mould, the child's wheeze and neighbour complaints."
+   },
+   {
+    "id": "h16",
+    "plain": "Debt collectors take more money",
+    "explain": "Debt collectors add another deduction, leaving them too little to live on with their child."
+   },
+   {
+    "id": "h17",
+    "plain": "Benefits cut again",
+    "explain": "Their benefits are cut a third time over a missed appointment or late form caused by childcare problems."
+   },
+   {
+    "id": "h18",
+    "plain": "Joins tenants' group",
+    "explain": "They occasionally join local tenants' meetings about repairs, limited by long work hours."
+   },
+   {
+    "id": "h19",
+    "plain": "Moved out over mould",
+    "explain": "They are moved to temporary housing while mould is fixed, disrupting their child's schooling."
+   },
+   {
+    "id": "h20",
+    "plain": "Long-term depression, insecure work",
+    "explain": "They stay on antidepressants long-term and stuck in care work with no guaranteed hours."
+   },
+   {
+    "id": "h21",
+    "plain": "Child grows up, leaves home",
+    "explain": "Their child moves out, they live alone, and child-related benefits stop."
+   },
+   {
+    "id": "h22",
+    "plain": "Quits work through ill health",
+    "explain": "They leave care work worn out in body and heart, and move onto sickness benefits."
+   },
+   {
+    "id": "h23",
+    "plain": "Heart disease from stress, poverty",
+    "explain": "They are expected to die at 66 from heart disease worsened by stress, poverty and likely smoking."
+   },
+   {
+    "id": "h24",
+    "plain": "Holds small tenants' protest",
+    "explain": "Their protest permit is likely approved with conditions, and a small tenants' gathering follows."
+   },
+   {
+    "id": "h25",
+    "plain": "Withholds charges, faces arrears action",
+    "explain": "They refuse to pay a service charge in protest, and with other debts face formal arrears action."
+   },
+   {
+    "id": "h26",
+    "plain": "Tenants' group becomes official",
+    "explain": "Their tenants' group becomes a formal association, and they write more letters to the housing office."
+   },
+   {
+    "id": "h27",
+    "plain": "Back to low-paid driving work",
+    "explain": "They return to low-paid driving or agency work after a long gap, with wages docked for debts."
+   },
+   {
+    "id": "h28",
+    "plain": "Gives up on activism",
+    "explain": "They drift away from activism as members leave and money worries continue."
+   },
+   {
+    "id": "h29",
+    "plain": "Has a heart attack",
+    "explain": "They are guessed to have a heart problem in late middle age, though no medical records exist."
+   },
+   {
+    "id": "h30",
+    "plain": "Heart disease, caught late",
+    "explain": "They are expected to die at 72 from heart disease diagnosed late, with no medical history recorded."
+   },
+   {
+    "id": "h31",
+    "plain": "Bank account frozen",
+    "explain": "Their bank freezes the account over unexplained cash deposits, pushing them further into cash-only life."
+   },
+   {
+    "id": "h32",
+    "plain": "Arrested again",
+    "explain": "They are arrested again for theft or drug-related crime through a shady local network."
+   },
+   {
+    "id": "h33",
+    "plain": "Jailed or put on tag",
+    "explain": "They get a short prison sentence or a suspended one with an electronic tag and curfew."
+   },
+   {
+    "id": "h34",
+    "plain": "Loses room, relies on shelters",
+    "explain": "They lose their rented room during the court case and depend on already-full shelters."
+   },
+   {
+    "id": "h35",
+    "plain": "Moves away for warehouse work",
+    "explain": "With local jobs automated and a criminal record, they look for agency warehouse work in another town."
+   },
+   {
+    "id": "h36",
+    "plain": "Odd jobs and police trouble",
+    "explain": "They fall into cycles of cash-in-hand work and repeated run-ins with police."
+   },
+   {
+    "id": "h37",
+    "plain": "Dies young",
+    "explain": "They die in mid-life, most likely from drugs or violence."
+   },
+   {
+    "id": "h38",
+    "plain": "Drug overdose or assault",
+    "explain": "They are expected to die at 44 from drug poisoning, or possibly injuries from an assault."
+   },
+   {
+    "id": "h39",
+    "plain": "Keeps cutting down methadone",
+    "explain": "They keep lowering their methadone dose under supervision and stay clean through the year."
+   },
+   {
+    "id": "h40",
+    "plain": "Sees family more often",
+    "explain": "They meet their daughter and grandson again at Christmas and start seeing them a bit more."
+   },
+   {
+    "id": "h41",
+    "plain": "Rejected as library volunteer",
+    "explain": "They are turned down as a reading volunteer after a background check, with nothing else offered."
+   },
+   {
+    "id": "h42",
+    "plain": "Keeps getting stopped by police",
+    "explain": "They are repeatedly stopped and searched by police without charge, causing ongoing strain."
+   },
+   {
+    "id": "h43",
+    "plain": "Loses cash scrapyard work",
+    "explain": "Their cash-in-hand scrapyard job ends, leaving them on benefits only."
+   },
+   {
+    "id": "h44",
+    "plain": "Relapses into heroin use",
+    "explain": "They start using illegal opioids again, now with lower tolerance and higher overdose risk."
+   },
+   {
+    "id": "h45",
+    "plain": "Arrested, convicted again",
+    "explain": "They are arrested for theft or drug possession and get their thirteenth conviction."
+   },
+   {
+    "id": "h46",
+    "plain": "Dies of overdose",
+    "explain": "They are expected to die at 64 from an opioid overdose after relapsing, worsened by years of drug use."
+   },
+   {
+    "id": "h47",
+    "plain": "Child leaves for university",
+    "explain": "Their daughter leaves for university, and the household grows quieter and more distant."
+   },
+   {
+    "id": "h48",
+    "plain": "Leaves job after automation",
+    "explain": "Their supervisory job shrinks with automation, and they leave the company by resigning or being restructured."
+   },
+   {
+    "id": "h49",
+    "plain": "Separates from spouse",
+    "explain": "Their marriage ends after the spouse grows close to a colleague and counselling fails."
+   },
+   {
+    "id": "h50",
+    "plain": "Sells home, moves away",
+    "explain": "They sell the family home and move out of town for a lower-level job."
+   },
+   {
+    "id": "h51",
+    "plain": "Drinks more, high blood pressure",
+    "explain": "They drink more, get diagnosed with high blood pressure, and have ongoing sleep problems."
+   },
+   {
+    "id": "h52",
+    "plain": "Career stalls, earns less",
+    "explain": "Their career stalls in a shrinking, automated field and they settle on lower pay."
+   },
+   {
+    "id": "h53",
+    "plain": "Has a heart attack",
+    "explain": "They have a major heart or blood-vessel event after years of high blood pressure and drinking."
+   },
+   {
+    "id": "h54",
+    "plain": "Dies of a stroke",
+    "explain": "They are expected to die at 67 from a stroke caused by high blood pressure and alcohol."
+   },
+   {
+    "id": "h55",
+    "plain": "Child leaves for university",
+    "explain": "Their closest family member, their daughter, leaves for university, and they pay for the move."
+   },
+   {
+    "id": "h56",
+    "plain": "Grows close to a colleague",
+    "explain": "Their messaging with a colleague turns into an emotional affair that becomes their main comfort."
+   },
+   {
+    "id": "h57",
+    "plain": "Sells home, rents nearby",
+    "explain": "They sell the family home in the divorce and rent nearby to stay close to work."
+   },
+   {
+    "id": "h58",
+    "plain": "Goes back to more teaching hours",
+    "explain": "They increase their teaching hours to afford housing on one income."
+   },
+   {
+    "id": "h59",
+    "plain": "Moves in with new partner",
+    "explain": "They move in with a new partner, probably the colleague, and home life settles down."
+   },
+   {
+    "id": "h60",
+    "plain": "Retires from teaching",
+    "explain": "They retire after a long teaching career and stay living in town."
+   },
+   {
+    "id": "h61",
+    "plain": "Dies of heart trouble, old age",
+    "explain": "They are expected to die at 81 from a normal age-related heart problem, having stayed healthy."
+   },
+   {
+    "id": "h62",
+    "plain": "Moves away to university",
+    "explain": "They leave home to study social work, partly paid for by their father."
+   },
+   {
+    "id": "h63",
+    "plain": "Parents separate",
+    "explain": "Their parents split up during their first year, and they drift further from their mother."
+   },
+   {
+    "id": "h64",
+    "plain": "Qualifies as social worker",
+    "explain": "They finish their degree and become a registered social worker focused on housing and homelessness."
+   },
+   {
+    "id": "h65",
+    "plain": "Returns home as caseworker",
+    "explain": "They come back to the area to work on local housing and child welfare cases."
+   },
+   {
+    "id": "h66",
+    "plain": "Challenges unfair housing system",
+    "explain": "They formally question how the housing list decides who gets homes and support tenant campaigns."
+   },
+   {
+    "id": "h67",
+    "plain": "Burns out at work",
+    "explain": "They burn out from heavy caseloads and cut their hours or leave the field."
+   },
+   {
+    "id": "h68",
+    "plain": "Cares for ageing father",
+    "explain": "They become the main unpaid carer for their elderly father."
+   },
+   {
+    "id": "h69",
+    "plain": "Dies of heart disease",
+    "explain": "They are expected to die at 77 from heart disease linked to high blood pressure."
+   },
+   {
+    "id": "h70",
+    "plain": "Stops going out, stops medication",
+    "explain": "They stop leaving home, stop visiting the memorial bench, and stop picking up antidepressants."
+   },
+   {
+    "id": "h71",
+    "plain": "Rewrites will alone",
+    "explain": "They change their will without a lawyer, apparently putting their affairs in order."
+   },
+   {
+    "id": "h72",
+    "plain": "Neighbours stop checking in",
+    "explain": "The neighbour's daughter who ran their errands moves away, and nobody else keeps watch."
+   },
+   {
+    "id": "h73",
+    "plain": "Rushed to hospital, frail",
+    "explain": "Weight loss and depression lead to a fall, dehydration or malnutrition and an emergency hospital stay."
+   },
+   {
+    "id": "h74",
+    "plain": "May move to care home",
+    "explain": "Their distant child is called and a care home is suggested, though they will likely refuse."
+   },
+   {
+    "id": "h75",
+    "plain": "Dies alone at home",
+    "explain": "They die at home after neglecting themselves and stopping treatment, with heart problems in the background."
+   },
+   {
+    "id": "h76",
+    "plain": "Dies from grief and self-neglect",
+    "explain": "They are expected to die at 85 from self-neglect, grief-driven depression and weight loss, plus heart problems."
+   },
+   {
+    "id": "h77",
+    "plain": "Engagement is called off",
+    "explain": "Their engagement ends because the partner's job secrecy stops them answering the person's questions."
+   },
+   {
+    "id": "h78",
+    "plain": "Pushes harder for housing answers",
+    "explain": "They push further to uncover how computers decide housing, through appeals or outside contacts, keeping paper notes."
+   },
+   {
+    "id": "h79",
+    "plain": "Trouble at work, may be moved",
+    "explain": "Their relationship with workplace IT sours over their questions, and they may be moved or lose access."
+   },
+   {
+    "id": "h80",
+    "plain": "Moves away from town",
+    "explain": "They leave town for somewhere unknown, with few ties left behind."
+   },
+   {
+    "id": "h81",
+    "plain": "Mentors a young social worker",
+    "explain": "They stay informally in touch with a young social work student about housing and system fairness."
+   },
+   {
+    "id": "h82",
+    "plain": "Life path becomes unclear",
+    "explain": "Their later life can't be predicted, with no settled job or home on record."
+   },
+   {
+    "id": "h83",
+    "plain": "Dies of natural causes",
+    "explain": "They are expected to die at 80 from ordinary age-related causes, likely heart-related."
+   },
+   {
+    "id": "h84",
+    "plain": "Automation project cuts 44 jobs",
+    "explain": "They complete an automation project that eliminates 44 jobs, strengthening their standing with company bosses."
+   },
+   {
+    "id": "h85",
+    "plain": "Breaks up, moves out",
+    "explain": "Their relationship ends because job secrecy prevents honest answers, and they move into a flat alone."
+   },
+   {
+    "id": "h86",
+    "plain": "Leaks secrets, faces discipline",
+    "explain": "In an unlikely scenario, they reveal secret project details to their partner and face disciplinary action."
+   },
+   {
+    "id": "h87",
+    "plain": "Becomes key data deal contact",
+    "explain": "They sign a renewed data-sharing deal and become locked in as the link between company and council."
+   },
+   {
+    "id": "h88",
+    "plain": "Promoted, partly moves away",
+    "explain": "They are promoted to a regional role and partly relocate while still overseeing local operations."
+   },
+   {
+    "id": "h89",
+    "plain": "Diagnosed with high blood pressure",
+    "explain": "They are found to have stress-related high blood pressure at a work check-up and take medication."
+   },
+   {
+    "id": "h90",
+    "plain": "Retires, lives alone",
+    "explain": "They retire on a good pension and live alone with few friends outside work."
+   },
+   {
+    "id": "h91",
+    "plain": "Dies of heart disease",
+    "explain": "They are expected to die at 78 from heart disease after years of high blood pressure."
+   }
+  ]
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "pass": "plain",
+ "key": "t03",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 4935,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 4935,
+    "model": null,
+    "output_tokens": 2831,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2831,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Comes to rely on a friend",
+    "explain": "They lean on one close friend for support, sharing shelter, underpass and library time instead of using official services."
+   },
+   {
+    "id": "h2",
+    "plain": "Diagnosed late with tuberculosis",
+    "explain": "They are finally diagnosed with suspected tuberculosis after walking into a clinic sick, and supervised treatment may begin."
+   },
+   {
+    "id": "h3",
+    "plain": "Abandons tuberculosis treatment",
+    "explain": "They leave hospital with nowhere to live, stop treatment, and cannot restart benefits without a postal address."
+   },
+   {
+    "id": "h4",
+    "plain": "Dies from lung infection",
+    "explain": "They die of a worsening lung infection made worse by hunger and sleeping rough, likely under a bridge or in emergency care."
+   },
+   {
+    "id": "h5",
+    "plain": "Dies of untreated tuberculosis",
+    "explain": "They are expected to die in 2055, aged 49, from tuberculosis that was never properly treated."
+   },
+   {
+    "id": "h6",
+    "plain": "Skips blood pressure medication",
+    "explain": "They rarely or never pick up their blood pressure pills, so their dangerously high blood pressure stays untreated."
+   },
+   {
+    "id": "h7",
+    "plain": "Often sleeps rough instead",
+    "explain": "They use their reserved shelter bed only sometimes, sleeping under a bridge with a friend when the shelter is full or unused."
+   },
+   {
+    "id": "h8",
+    "plain": "Exposed to a friend's tuberculosis",
+    "explain": "They spend a lot of close time with a friend who has untreated tuberculosis symptoms, so they will probably catch it."
+   },
+   {
+    "id": "h9",
+    "plain": "Loses main supporter to university",
+    "explain": "Their most active helper moves away for university, and their regular Sunday shelter visits stop."
+   },
+   {
+    "id": "h10",
+    "plain": "Keeps refusing family help",
+    "explain": "They keep turning down money from family and insist they are fine, while their situation stays the same."
+   },
+   {
+    "id": "h11",
+    "plain": "Gets mouldy flat fixed",
+    "explain": "The long-delayed mould repair in their flat is finally done, easing their child's wheezing."
+   },
+   {
+    "id": "h12",
+    "plain": "Child welfare referral dropped",
+    "explain": "A referral to children's services is withdrawn before anyone assesses the family, and the concern is dropped."
+   },
+   {
+    "id": "h13",
+    "plain": "Debts rolled into payment plan",
+    "explain": "Their debts are combined into a small weekly payment, collectors stop calling, and money stays tight but steady."
+   },
+   {
+    "id": "h14",
+    "plain": "Benefit penalties stop",
+    "explain": "Job centre meetings fit around school hours so benefit cuts stop, though they still rely on insecure care work plus benefits."
+   },
+   {
+    "id": "h15",
+    "plain": "Lives with ongoing depression",
+    "explain": "They stay on antidepressants long term, avoiding crisis but remaining worn out from caring work and raising a child alone."
+   },
+   {
+    "id": "h16",
+    "plain": "Gets a steady care job",
+    "explain": "They land a care job with guaranteed hours once their child starts secondary school, and earn a bit more."
+   },
+   {
+    "id": "h17",
+    "plain": "Stays in council flat long-term",
+    "explain": "They remain in the same council flat for years, their child moves out, and dealings with housing become routine."
+   },
+   {
+    "id": "h18",
+    "plain": "Protest draws few people",
+    "explain": "Their approved protest at the council building goes ahead with very few people, since a lift repair removed the main complaint."
+   },
+   {
+    "id": "h19",
+    "plain": "Tenants' group falls apart",
+    "explain": "Their attempt to set up a tenants' group fails as neighbours distrust them and fear delaying repairs, so the group breaks up."
+   },
+   {
+    "id": "h20",
+    "plain": "Falls into debt, claims benefits",
+    "explain": "With no work income, their tax and fine debts grow, and they start claiming benefits with job-search requirements."
+   },
+   {
+    "id": "h21",
+    "plain": "Drifts apart from neighbours",
+    "explain": "They become estranged from neighbours and switch to writing personal complaints that get filed and ignored."
+   },
+   {
+    "id": "h22",
+    "plain": "Finds low-paid odd jobs",
+    "explain": "They pick up occasional low-paid driving or warehouse work, and their income stays low."
+   },
+   {
+    "id": "h23",
+    "plain": "Sees doctor for stress",
+    "explain": "They visit a clinic for the first time, likely for stress or heart problems."
+   },
+   {
+    "id": "h24",
+    "plain": "Takes regular on-the-books work",
+    "explain": "They accept official agency shifts with a reference from a friend, and their criminal record stays hidden from the employer."
+   },
+   {
+    "id": "h25",
+    "plain": "Investigated over cash, loses friend",
+    "explain": "Their cash deposits are reviewed without any charge, but it stays on file, and a friendship fades."
+   },
+   {
+    "id": "h26",
+    "plain": "Slips back into cash work",
+    "explain": "They return to irregular cash jobs and sleeping under a bridge, lose phone service, and become hard to track."
+   },
+   {
+    "id": "h27",
+    "plain": "Drifts between casual jobs",
+    "explain": "They move between short-term warehouse and scrap jobs, sometimes losing work when their criminal record comes up."
+   },
+   {
+    "id": "h28",
+    "plain": "Gets council housing on outskirts",
+    "explain": "After a long wait they get social housing on the edge of town, living alone on a low income."
+   },
+   {
+    "id": "h29",
+    "plain": "Starts volunteering at library",
+    "explain": "Their record check is quietly cleared, so they can begin supervised volunteering at the library if staff approve."
+   },
+   {
+    "id": "h30",
+    "plain": "Finishes suspended sentence cleanly",
+    "explain": "They complete their suspended sentence without trouble, though police still stop them regularly without charging them."
+   },
+   {
+    "id": "h31",
+    "plain": "Spends Christmas with family",
+    "explain": "They meet their daughter and grandson again at Christmas, as long as their drug tests stay clean."
+   },
+   {
+    "id": "h32",
+    "plain": "Builds regular family contact",
+    "explain": "They see their daughter and grandson regularly, which becomes the main thing keeping them from relapsing."
+   },
+   {
+    "id": "h33",
+    "plain": "Too frail for odd jobs",
+    "explain": "They stop cash scrapyard work around 64 as their body gives out, and live on benefits until pension age."
+   },
+   {
+    "id": "h34",
+    "plain": "Dies, likely from overdose",
+    "explain": "They die at 70 on their housing estate, most likely from opioids."
+   },
+   {
+    "id": "h35",
+    "plain": "Starts picking up medication again",
+    "explain": "They resume collecting antidepressants at the clinic with a neighbour's help, though they miss their booked review."
+   },
+   {
+    "id": "h36",
+    "plain": "Rewrites will alone",
+    "explain": "They change their will without a lawyer, probably leaving things to their child abroad and maybe a charity."
+   },
+   {
+    "id": "h37",
+    "plain": "Keeps losing weight",
+    "explain": "They keep losing weight on ready meals, take medication on and off, stay low, and their blood pressure goes unchecked."
+   },
+   {
+    "id": "h38",
+    "plain": "Falls at home, hospitalised",
+    "explain": "They fall or collapse at home and lie there a while before being found and taken to hospital."
+   },
+   {
+    "id": "h39",
+    "plain": "Loses helpful neighbours",
+    "explain": "The neighbouring family who helped them starts drifting away and moving, leaving no one to collect medication."
+   },
+   {
+    "id": "h40",
+    "plain": "Faces selling home for care",
+    "explain": "After a decline or hospital stay, selling their house and moving into a care home or near their child is considered."
+   },
+   {
+    "id": "h41",
+    "plain": "Dies of physical decline",
+    "explain": "They are expected to die in 2055, aged 86, from gradually wasting away and declining health."
+   },
+   {
+    "id": "h42",
+    "plain": "Whistleblowing attempt gets blocked",
+    "explain": "They take questions about council computer systems to outsiders, but information requests are refused and their inquiries redirected."
+   },
+   {
+    "id": "h43",
+    "plain": "Files appeal, loses momentum",
+    "explain": "They formally appeal the refusal to release information, but polite non-answers slowly drain their urgency."
+   },
+   {
+    "id": "h44",
+    "plain": "Can't move for new job",
+    "explain": "They look for work elsewhere, but a heavy workload and refused leave make leaving the city hard."
+   },
+   {
+    "id": "h45",
+    "plain": "Stays in library job",
+    "explain": "They remain head librarian, their questions steered into local history work, kept in place by close friendships."
+   },
+   {
+    "id": "h46",
+    "plain": "Goes off the grid",
+    "explain": "They use cash, paper notes and a switched-off phone, making their life much harder to track or predict."
+   },
+   {
+    "id": "h47",
+    "plain": "Dies of old age",
+    "explain": "They die late in life of an unknown cause, since their medical records are too thin to say."
+   }
+  ]
+ }
+}

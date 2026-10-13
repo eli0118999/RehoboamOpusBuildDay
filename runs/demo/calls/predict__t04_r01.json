@@ -1,0 +1,255 @@
+{
+ "pass": "predict",
+ "key": "t04_r01",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 22316
+  },
+  "cache_creation_input_tokens": 22316,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1267,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 22316
+    },
+    "cache_creation_input_tokens": 22316,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 1267,
+    "model": null,
+    "output_tokens": 3858,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3858,
+  "output_tokens_details": {
+   "thinking_tokens": 1467
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r01",
+  "cohort": "non-contributing",
+  "life_path": [
+   {
+    "event_id": "r01-e1",
+    "year": 2053,
+    "event": "Chest X-ray completed late, outside the escorted pathway. Reliable uptake is likelier if imaging is brought to the shelter or offered with Dorothy Pryce present. The tick-4 refusal of the keyworker escort lowers the probability that he attends alone.",
+    "headline": "Delayed Chest Imaging",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.42,
+    "evidence": [
+     "r01-0014",
+     "r01-0008",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r01-e2",
+    "year": 2053,
+    "event": "Presumptive respiratory infection treatment started. Supervised dispensing is routed through the St Brigid's held bed and fixed contact point (t3-i6). Initiation depends on e1 and on the bed hold surviving shelter capacity pressure.",
+    "headline": "Supervised Treatment Initiation",
+    "horizon_label": "1-3 Months",
+    "kind": "health",
+    "p": 0.34,
+    "evidence": [
+     "r01-0014",
+     "r01-0005",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r01-e3",
+    "year": 2053,
+    "event": "Contact screening flag raised for close associates sharing shelter and underpass nights, principally Dorothy Pryce. This extends the subject's variance into an adjacent case file.",
+    "headline": "Associate Screening Flag",
+    "horizon_label": "3 Months",
+    "kind": "social",
+    "p": 0.38,
+    "evidence": [
+     "r01-0014",
+     "r02-0012",
+     "r02-0006"
+    ]
+   },
+   {
+    "event_id": "r01-e4",
+    "year": 2054,
+    "event": "Treatment course interrupted and follow-up lost. This is consistent with the prior pattern of booked follow-ups going unattended and contact routes failing for lack of an address.",
+    "headline": "Loss to Follow-Up",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r01-0008",
+     "r01-0006",
+     "r01-0014"
+    ]
+   },
+   {
+    "event_id": "r01-e5",
+    "year": 2054,
+    "event": "Emergency admission with advanced respiratory deterioration and further weight loss, presenting via the clinic walk-in route during winter rough sleeping.",
+    "headline": "Emergency Respiratory Admission",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.44,
+    "evidence": [
+     "r01-0014",
+     "r01-0008",
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "event_id": "r01-e6",
+    "year": 2054,
+    "event": "Self-directed attempt at economic re-entry fails: an address-free job or bank account search, or a Halden rehire enquiry. Zone C picking roles no longer exist.",
+    "headline": "Failed Re-entry Attempt",
+    "horizon_label": "1 Year",
+    "kind": "career",
+    "p": 0.3,
+    "evidence": [
+     "r01-0012",
+     "r01-0011",
+     "r01-0001",
+     "r01-0015"
+    ]
+   },
+   {
+    "event_id": "r01-e7",
+    "year": 2055,
+    "event": "Death following chronic untreated respiratory illness, compounded by cold exposure and malnutrition, in the Lowbank riverside zone.",
+    "headline": "Death, Respiratory Failure",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.33,
+    "evidence": [
+     "r01-0014",
+     "r01-0008",
+     "r01-0009",
+     "r01-0013"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Untreated pulmonary infection",
+   "year": 2055,
+   "age_at_death": 49,
+   "confidence": 0.33,
+   "evidence": [
+    "r01-0014",
+    "r01-0008",
+    "r01-0013",
+    "r01-0007"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r01-t4-n1",
+    "prediction": "Subject is recorded co-located with Dorothy Pryce at St Brigid's (p03), the Carnegie Library (p07) or the River Lane Underpass (p12) on at least two days in tick 5.",
+    "p": 0.68,
+    "evidence": [
+     "r02-0008",
+     "r02-0012",
+     "r01-0011"
+    ]
+   },
+   {
+    "pred_id": "r01-t4-n2",
+    "prediction": "Subject occupies the held St Brigid's bed for at least three nights in tick 5.",
+    "p": 0.5,
+    "evidence": [
+     "r01-0005",
+     "r01-0013"
+    ]
+   },
+   {
+    "pred_id": "r01-t4-n3",
+    "prediction": "Subject attends a chest X-ray at Lowbank Clinic (p04) within tick 5, escorted or unescorted.",
+    "p": 0.3,
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "pred_id": "r01-t4-n4",
+    "prediction": "At least one overnight handset ping at the River Lane Underpass (p12) in tick 5.",
+    "p": 0.45,
+    "evidence": [
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "pred_id": "r01-t4-n5",
+    "prediction": "Carnegie Library guest terminal session logged, with search terms relating to employment, banking or housing without an address.",
+    "p": 0.25,
+    "evidence": [
+     "r01-0011",
+     "r01-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.28,
+  "deviation_risk": 0.66,
+  "dissent_signals": [
+   "Tick-4 refusal of the rung-2 escorted X-ray pathway in favour of contact with Dorothy Pryce near p03; peer loyalty outranks institutional routing (field observation; relationship r01-r02).",
+   "Repeated non-attendance at booked clinical follow-up (r01-0008).",
+   "Habitual return to the River Lane Underpass despite move-along direction and removal of belongings (r01-0007, r01-0010).",
+   "Self-directed re-entry searches that bypass the work-coach channel (r01-0012).",
+   "Signal is low-grade and non-political; it reads as withdrawal and peer attachment rather than organised dissent."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Unhoused, economically inert subject with probable infectious respiratory illness; low compliance; variance now propagating to adjacent shelter cases.",
+  "risk_factors": [
+   {
+    "factor": "Untreated progressive respiratory illness with 7kg weight loss",
+    "evidence": [
+     "r01-0014",
+     "r01-0008"
+    ]
+   },
+   {
+    "factor": "No address or contact number; correspondence-dependent services fail",
+    "evidence": [
+     "r01-0006",
+     "r01-0014",
+     "r01-0005"
+    ]
+   },
+   {
+    "factor": "Shelter capacity exclusion and recurrent rough sleeping",
+    "evidence": [
+     "r01-0013",
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "factor": "Disregards institutional pathways; anchors to peer Dorothy Pryce",
+    "evidence": [
+     "r01-0008",
+     "r02-0012"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Bring portable chest imaging and supervised dispensing to the St Brigid's desk; screen Marcus with Dorothy Pryce present."
+  },
+  "assessment": "Subject has no economic function and a thin data trail. His principal systemic weight is as an infection vector within the St Brigid's, underpass and library cluster, which justifies tier IV rather than V. The tick-4 deviation shows that individually routed nudges fail, while his attachment to Dorothy Pryce is the one reliable lever. Containment is therefore best framed as joint care at a fixed location, accepting a modest confidence ceiling on all downstream events."
+ }
+}

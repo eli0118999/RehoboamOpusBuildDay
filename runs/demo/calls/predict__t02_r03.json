@@ -1,0 +1,286 @@
+{
+ "pass": "predict",
+ "key": "t02_r03",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1097,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1097,
+    "model": null,
+    "output_tokens": 4550,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4550,
+  "output_tokens_details": {
+   "thinking_tokens": 1859
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r03",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r03-e1",
+    "year": 2053,
+    "event": "Children's services assessment opens from the auto-generated courtesy referral. Sanction triggers are suspended under t1-i3. Assessors find the damp home and the child's recurrent wheeze, not neglect, to be the presenting concern.",
+    "headline": "Children's Services Assessment",
+    "horizon_label": "1 Month",
+    "kind": "family",
+    "p": 0.72,
+    "evidence": [
+     "r03-0014",
+     "r03-0007",
+     "r03-0006",
+     "r08-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e2",
+    "year": 2053,
+    "event": "Subject declines single-caseworker routing and escalates WC-4471 in person with Daniel Marsh. A formal housing complaint follows, and she is drawn toward the Fallow Edge Tenants forecourt assembly through the tenants' drop-in contact with Sunil Varma.",
+    "headline": "Housing Complaint Escalation",
+    "horizon_label": "1-3 Months",
+    "kind": "civic",
+    "p": 0.48,
+    "evidence": [
+     "r08-0011",
+     "r04-0013",
+     "r04-0012",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e3",
+    "year": 2054,
+    "event": "The assessment converts to a child-in-need plan with conditions on home environment and attendance. Mould remediation proceeds without the subject's signed acknowledgement, but custody pressure persists as a lever. Probability is held moderate because the rung 2 suppression was declined.",
+    "headline": "Child-in-Need Plan",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.36,
+    "evidence": [
+     "r03-0014",
+     "r03-0009",
+     "r03-0004",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e4",
+    "year": 2054,
+    "event": "Northgate Recoveries pursues the unconsolidated QuickNest balance after the debt-advice plan is refused with the caseworker package. Repayments compete with the existing $20/week rent deduction.",
+    "headline": "Debt Enforcement Action",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.5,
+    "evidence": [
+     "r03-0010",
+     "r03-0005",
+     "r03-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e5",
+    "year": 2056,
+    "event": "Subject obtains a medically supported transfer out of Weir Court flat 7.12 on respiratory grounds for her son. Persistent advocacy outlasts the standard queue.",
+    "headline": "Housing Transfer",
+    "horizon_label": "2-3 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r03-0007",
+     "r03-0006",
+     "r08-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e6",
+    "year": 2058,
+    "event": "Subject exits zero-hours domiciliary care after a period of low mood and unpaid travel strain. Antidepressant maintenance continues.",
+    "headline": "Care Work Exit",
+    "horizon_label": "5 Years",
+    "kind": "career",
+    "p": 0.38,
+    "evidence": [
+     "r03-0001",
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "event_id": "r03-e7",
+    "year": 2062,
+    "event": "Subject returns to care work on a guaranteed-hours contract. Welfare conditionality is relaxed after t1-i3 removed childcare-conflicting appointments, and household variance narrows.",
+    "headline": "Guaranteed-Hours Stabilisation",
+    "horizon_label": "5-10 Years",
+    "kind": "career",
+    "p": 0.34,
+    "evidence": [
+     "r03-0011",
+     "r03-0002",
+     "r03-0001"
+    ]
+   },
+   {
+    "event_id": "r03-e8",
+    "year": 2076,
+    "event": "Subject is diagnosed with chronic obstructive respiratory disease. Contributing exposures are long-term damp housing and household smoke.",
+    "headline": "Chronic Respiratory Diagnosis",
+    "horizon_label": "20+ Years",
+    "kind": "health",
+    "p": 0.27,
+    "evidence": [
+     "r03-0009",
+     "r03-0006",
+     "r03-0007"
+    ]
+   },
+   {
+    "event_id": "r03-e9",
+    "year": 2088,
+    "event": "Subject dies at 66 following an acute respiratory exacerbation with cardiovascular comorbidity.",
+    "headline": "Death",
+    "horizon_label": "30+ Years",
+    "kind": "health",
+    "p": 0.18,
+    "evidence": [
+     "r03-0009",
+     "r03-0012",
+     "r03-0006"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "COPD exacerbation",
+   "year": 2088,
+   "age_at_death": 66,
+   "confidence": 0.18,
+   "evidence": [
+    "r03-0009",
+    "r03-0006",
+    "r03-0012",
+    "r03-0007"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r03-t2-n1",
+    "prediction": "Subject does not sign the 'repair resolved' acknowledgement for WC-4471 and does not engage the assigned caseworker this week.",
+    "p": 0.74,
+    "evidence": [
+     "r03-0006",
+     "r08-0011"
+    ]
+   },
+   {
+    "pred_id": "r03-t2-n2",
+    "prediction": "A further WC-4471 enquiry reaches the housing office (p01) outside the caseworker channel, made by Daniel Marsh or by the subject jointly with him.",
+    "p": 0.58,
+    "evidence": [
+     "r08-0011",
+     "r03-0006"
+    ]
+   },
+   {
+    "pred_id": "r03-t2-n3",
+    "prediction": "Subject attends or schedules first contact with children's services for the household-circumstances assessment.",
+    "p": 0.55,
+    "evidence": [
+     "r03-0014",
+     "r03-0011"
+    ]
+   },
+   {
+    "pred_id": "r03-t2-n4",
+    "prediction": "Sertraline 50mg refill collected at Lowbank Community Clinic and Pharmacy (p04).",
+    "p": 0.66,
+    "evidence": [
+     "r03-0013",
+     "r03-0012"
+    ]
+   },
+   {
+    "pred_id": "r03-t2-n5",
+    "prediction": "Subject makes contact with Sunil Varma or the Fallow Edge Tenants group regarding the Council Tower forecourt permit.",
+    "p": 0.22,
+    "evidence": [
+     "r04-0013",
+     "r04-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.36,
+  "deviation_risk": 0.64,
+  "dissent_signals": [
+   "Declined rung 2 caseworker package and repair-resolved acknowledgement (tick 2 deviation).",
+   "Spent the full day at Council Tower (p01) with Daniel Marsh, forming a third-party advocacy pairing that routing was designed to close (r08-0011).",
+   "Searched sanction appeal procedure and guaranteed-hours terms (r03-0011).",
+   "Expressed rejection of benefit conditionality in a message to her sister (r03-0008).",
+   "Linked through the tenants' drop-in to Sunil Varma, whose Fallow Edge Tenants forecourt permit is under review (r04-0013)."
+  ],
+  "classification": "III",
+  "overall_assessment": "Low-income single parent whose prior compliance has inverted into externally supported escalation. Moderate dependency value as care provider and sole carer.",
+  "risk_factors": [
+   {
+    "factor": "Child respiratory illness tied to unremediated mould; custody leverage live",
+    "evidence": [
+     "r03-0006",
+     "r03-0007",
+     "r03-0014"
+    ]
+   },
+   {
+    "factor": "Compounding debt and welfare sanction history",
+    "evidence": [
+     "r03-0002",
+     "r03-0003",
+     "r03-0005",
+     "r03-0010"
+    ]
+   },
+   {
+    "factor": "Treated low mood under financial and caring strain",
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "factor": "Emerging advocacy coalition with teacher and tenants' organiser",
+    "evidence": [
+     "r08-0011",
+     "r04-0013",
+     "r08-0003"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Housing",
+   "action": "Complete WC-4471 remediation unconditionally and withdraw the acknowledgement requirement. Allow Daniel Marsh's channel to close through resolution rather than routing."
+  },
+  "assessment": "Subject was previously a passive, highly predictable claimant. Recorded dissent is now conditioned on a single solvable grievance, mould in the child's bedroom, and amplified by a credible third-party ally. Conditional remediation has been read as a trade and refused. Unconditional repair is the lowest-variance path, and the coalition is expected to dissolve once its object is removed."
+ }
+}

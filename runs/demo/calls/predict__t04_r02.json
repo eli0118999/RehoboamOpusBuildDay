@@ -1,0 +1,232 @@
+{
+ "pass": "predict",
+ "key": "t04_r02",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1149,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1149,
+    "model": null,
+    "output_tokens": 3485,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3485,
+  "output_tokens_details": {
+   "thinking_tokens": 1505
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "elders",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Library-addressed amlodipine repeat (t1-i2, t2-i2) and the desk-side BP check (t4-i4) give partial blood-pressure control. Adherence depends on her daily Carnegie attendance and is not otherwise verifiable.",
+    "headline": "Antihypertensive Adherence Established",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.6,
+    "evidence": [
+     "r02-0009",
+     "r02-0008"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "The St Brigid's over-65 standing bed register (t2-i2, t3-i8) absorbs winter overflow risk. Underpass move-along contacts fall but do not cease on nights the register lapses.",
+    "headline": "Winter Bed Secured",
+    "horizon_label": "3 Months",
+    "kind": "health",
+    "p": 0.62,
+    "evidence": [
+     "r02-0006",
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2054,
+    "event": "Respiratory contact screen following exposure to r01 (suspected active pulmonary infection). Staggered terminal hours reduce shared airspace. Latent infection remains possible given months of overlapping shelter and library hours.",
+    "headline": "Respiratory Exposure Screen",
+    "horizon_label": "6 Months",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r01-0014",
+     "r01-0011",
+     "r02-0008",
+     "r02-0006"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "Support graph contracts. r09 relocates to Kerrow, r01 is scheduled away from her hours, and r11 withdraws into offline behaviour. Contact narrows to library staff and the pacified sister channel (t3-i8).",
+    "headline": "Social Network Contraction",
+    "horizon_label": "6-12 Months",
+    "kind": "social",
+    "p": 0.6,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r11-0012",
+     "r02-0011"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2055,
+    "event": "Housing application remains at Band C, queue position static or regressing (t1-i2 hold). Subject continues library-and-shelter routine without escalation or complaint.",
+    "headline": "Housing Queue Stasis",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.8,
+    "evidence": [
+     "r02-0004",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2057,
+    "event": "Hypertensive episode during a lapse in prescription collection or bed allocation, followed by a short acute admission and discharge back to shelter address.",
+    "headline": "Hypertensive Crisis Admission",
+    "horizon_label": "3-5 Years",
+    "kind": "health",
+    "p": 0.35,
+    "evidence": [
+     "r02-0009",
+     "r02-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2060,
+    "event": "Cumulative frailty from street-adjacent living, poor nutrition and residual hypertension. Cerebrovascular event in a shelter or library setting.",
+    "headline": "Terminal Cerebrovascular Event",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r02-0009",
+     "r02-0007",
+     "r02-0013"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Stroke",
+   "year": 2060,
+   "age_at_death": 75,
+   "confidence": 0.3,
+   "evidence": [
+    "r02-0009",
+    "r02-0012",
+    "r02-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t4-n1",
+    "prediction": "Carnegie Library wi-fi association on at least 5 of 6 opening days this week.",
+    "p": 0.82,
+    "evidence": [
+     "r02-0008"
+    ]
+   },
+   {
+    "pred_id": "r02-t4-n2",
+    "prediction": "Accepts the morning terminal slot without objection; no terminal session overlaps with r01.",
+    "p": 0.75,
+    "evidence": [
+     "r02-0012",
+     "r02-0008"
+    ]
+   },
+   {
+    "pred_id": "r02-t4-n3",
+    "prediction": "A library-desk BP reading is recorded for the subject this week.",
+    "p": 0.6,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "pred_id": "r02-t4-n4",
+    "prediction": "Thursday cash purchase of about $1.80 (tea and biscuits) at Mercer Row Market.",
+    "p": 0.5,
+    "evidence": [
+     "r02-0007"
+    ]
+   }
+  ],
+  "compliance_index": 0.78,
+  "deviation_risk": 0.35,
+  "dissent_signals": [
+   "No direct dissent recorded.",
+   "Refuses external financial support (r02-0011).",
+   "Case narrative propagates pattern-awareness in r09 (r09-0009, r09-0010).",
+   "Sustained proximity to pattern-aware node r11 (r11-0002)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Cooperative, low-cost, highly routinised elder; health-fragile, with a thin cash-only data trail.",
+  "risk_factors": [
+   {
+    "factor": "Uncontrolled hypertension with no stable address",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "Recurrent rough-sleeping exposure when the shelter is at capacity",
+    "evidence": [
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "factor": "Close contact with a suspected infectious subject",
+    "evidence": [
+     "r01-0014",
+     "r02-0008"
+    ]
+   },
+   {
+    "factor": "Housing queue regressing",
+    "evidence": [
+     "r02-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Maintain library-desk BP monitoring and standing bed entry; continue Band C hold."
+  },
+  "assessment": "Subject is compliant and anchored to a single fixed location, which keeps routine-care delivery cheap and her trajectory legible. Primary variance comes from cardiovascular events and possible respiratory exposure, not behaviour. Her secondary function as a sympathy focus for pattern-aware contacts is best managed by keeping her visibly cared for and unchanged."
+ }
+}

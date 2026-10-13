@@ -1,0 +1,469 @@
+{
+ "pass": "plain",
+ "key": "t01",
+ "model": "claude-opus-5-5",
+ "effort": "low",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 7751,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 7751,
+    "model": null,
+    "output_tokens": 4607,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4607,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "items": [
+   {
+    "id": "h1",
+    "plain": "Goes for a chest X-ray",
+    "explain": "They may attend a booked chest X-ray this week, though they missed a previous follow-up appointment."
+   },
+   {
+    "id": "h2",
+    "plain": "Diagnosed with likely tuberculosis",
+    "explain": "The person's scans and tests show a probable lung infection, likely tuberculosis, and supervised treatment begins."
+   },
+   {
+    "id": "h3",
+    "plain": "Gets a shelter bed sometimes",
+    "explain": "Because of the illness, the person gets priority for a shelter bed during treatment, but only when one is free."
+   },
+   {
+    "id": "h4",
+    "plain": "Misses doses of medication",
+    "explain": "After losing the shelter bed and contact point, the person skips some treatment doses."
+   },
+   {
+    "id": "h5",
+    "plain": "Gets unemployment benefits again",
+    "explain": "The person reclaims jobseeker benefits using the clinic or shelter as an address; the old job no longer exists."
+   },
+   {
+    "id": "h6",
+    "plain": "Goes back to sleeping rough",
+    "explain": "The person returns to sleeping on the streets, repeatedly moved on, living on cash from a market."
+   },
+   {
+    "id": "h7",
+    "plain": "Dies from lung failure outdoors",
+    "explain": "The person dies after long breathing decline worsened by exposure to cold, on or near the streets."
+   },
+   {
+    "id": "h8",
+    "plain": "Dies of pneumonia",
+    "explain": "The person is expected to die of lung failure or pneumonia in 2059, aged 53."
+   },
+   {
+    "id": "h9",
+    "plain": "Gets blood pressure medication regularly",
+    "explain": "Using the library as an address, the person can finally get repeat blood pressure prescriptions from a clinic."
+   },
+   {
+    "id": "h10",
+    "plain": "Sleeps under a bridge in winter",
+    "explain": "The shelter is full in winter, so the person often sleeps in an underpass in the cold."
+   },
+   {
+    "id": "h11",
+    "plain": "Loses a young helper",
+    "explain": "A young volunteer who supported the person moves away for university, weakening that connection."
+   },
+   {
+    "id": "h12",
+    "plain": "Stuck on housing waiting list",
+    "explain": "The person's social housing application doesn't move up, so they rely on the library and shelters."
+   },
+   {
+    "id": "h13",
+    "plain": "Has a stroke",
+    "explain": "The person may have a stroke from high blood pressure; medication lowers but doesn't remove the risk."
+   },
+   {
+    "id": "h14",
+    "plain": "Hospitalised with chest infection",
+    "explain": "The person catches a chest infection from the cold and goes to hospital with no home to return to."
+   },
+   {
+    "id": "h15",
+    "plain": "Dies still homeless",
+    "explain": "The person dies one winter while still homeless, with the housing application never resolved."
+   },
+   {
+    "id": "h16",
+    "plain": "Dies of pneumonia from cold",
+    "explain": "The person is expected to die of pneumonia after cold exposure in 2058, aged 73."
+   },
+   {
+    "id": "h17",
+    "plain": "Social services investigate the family",
+    "explain": "Children's services start assessing the family's care of a child, while benefit cuts are paused."
+   },
+   {
+    "id": "h18",
+    "plain": "Complains about mould with neighbour",
+    "explain": "The person and a neighbour formally complain to the council about mould in the home."
+   },
+   {
+    "id": "h19",
+    "plain": "Child hospitalised with asthma",
+    "explain": "The person's child goes to hospital with a severe asthma attack caused by the damp home."
+   },
+   {
+    "id": "h20",
+    "plain": "Loses work hours at care job",
+    "explain": "The person's care work hours drop too low, forcing a second insecure job, with unpaid travel cutting income."
+   },
+   {
+    "id": "h21",
+    "plain": "Joins a tenants' group",
+    "explain": "The person joins a local tenants' group, and the mould problem becomes part of its campaign."
+   },
+   {
+    "id": "h22",
+    "plain": "Child placed under protection",
+    "explain": "Social services impose a child protection plan citing the home's conditions, damp and neighbour complaints."
+   },
+   {
+    "id": "h23",
+    "plain": "Develops chronic heart or lung disease",
+    "explain": "In middle age the person is diagnosed with long-term heart or lung illness linked to poverty and damp."
+   },
+   {
+    "id": "h24",
+    "plain": "Dies of heart disease",
+    "explain": "The person is expected to die of heart disease in 2091, aged 69."
+   },
+   {
+    "id": "h25",
+    "plain": "Holds unpermitted protest at council",
+    "explain": "Rejecting offered concessions, the person protests outside the council building with a neighbour without permission."
+   },
+   {
+    "id": "h26",
+    "plain": "Helps found tenants' group",
+    "explain": "The person becomes a regular named organiser of a small, formal tenants' group around building complaints."
+   },
+   {
+    "id": "h27",
+    "plain": "Faces eviction over withheld charges",
+    "explain": "The person withholds service charges as protest; the council treats it as debt and starts eviction proceedings."
+   },
+   {
+    "id": "h28",
+    "plain": "Never works again",
+    "explain": "The person never returns to paid work in their mid-fifties and lives on long-term benefits."
+   },
+   {
+    "id": "h29",
+    "plain": "Moved to another council home",
+    "explain": "The person is transferred to a different social housing flat, weakening their local organising."
+   },
+   {
+    "id": "h30",
+    "plain": "Develops heart and diabetes problems",
+    "explain": "The person likely develops long-term heart or metabolic illness from years of sitting, stress and stairs."
+   },
+   {
+    "id": "h31",
+    "plain": "Dies of heart attack",
+    "explain": "The person is expected to die of a heart or circulation problem in 2070, aged 71."
+   },
+   {
+    "id": "h32",
+    "plain": "Skips a job placement",
+    "explain": "The person doesn't show up for an arranged job placement, spending the time with an older acquaintance instead."
+   },
+   {
+    "id": "h33",
+    "plain": "Stays in street cash work",
+    "explain": "The person keeps earning cash through an informal crew, though an older acquaintance warns them off."
+   },
+   {
+    "id": "h34",
+    "plain": "Arrested again",
+    "explain": "The person is arrested again for theft-like offences linked to needing cash."
+   },
+   {
+    "id": "h35",
+    "plain": "Goes to prison",
+    "explain": "The person gets a second conviction and a short prison sentence, losing their rented room."
+   },
+   {
+    "id": "h36",
+    "plain": "Released into homelessness",
+    "explain": "The person leaves prison with nowhere to live, sleeps under a bridge, and struggles to find work."
+   },
+   {
+    "id": "h37",
+    "plain": "Moves away for warehouse work",
+    "explain": "In a less likely path, the person leaves the city for warehouse work elsewhere."
+   },
+   {
+    "id": "h38",
+    "plain": "Stuck in cycle of hardship",
+    "explain": "The person drifts between cash jobs, petty crime and shelters while their health steadily worsens."
+   },
+   {
+    "id": "h39",
+    "plain": "Dies of an overdose",
+    "explain": "The person is expected to die of a drug overdose in 2071, aged 40."
+   },
+   {
+    "id": "h40",
+    "plain": "Quits methadone against advice",
+    "explain": "The person keeps cutting methadone to quit fully to see a grandchild, lowering drug tolerance without naloxone."
+   },
+   {
+    "id": "h41",
+    "plain": "Keeps getting stopped by police",
+    "explain": "The person is repeatedly stopped by police and likely held, possibly arrested."
+   },
+   {
+    "id": "h42",
+    "plain": "Sees family more often",
+    "explain": "The person gets more supervised visits with a daughter and grandson, as long as drug tests stay clean."
+   },
+   {
+    "id": "h43",
+    "plain": "Loses work and daily purpose",
+    "explain": "The person's casual scrapyard income shrinks and volunteering is blocked, leaving little structure to days."
+   },
+   {
+    "id": "h44",
+    "plain": "Relapses into heroin use",
+    "explain": "After a setback, the person starts using opioids again while their tolerance is dangerously low."
+   },
+   {
+    "id": "h45",
+    "plain": "Dies alone of overdose",
+    "explain": "The person dies of an opioid overdose alone at home, with no overdose antidote nearby."
+   },
+   {
+    "id": "h46",
+    "plain": "Dies of an overdose",
+    "explain": "The person is expected to die of an opioid overdose in 2057, aged 63."
+   },
+   {
+    "id": "h47",
+    "plain": "Accepts sideways job move",
+    "explain": "The person takes a same-level job with a pay bump, overseeing automation that will cut 44 jobs."
+   },
+   {
+    "id": "h48",
+    "plain": "Child moves away",
+    "explain": "The person's child leaves for university, leaving a strained two-adult household and less contact."
+   },
+   {
+    "id": "h49",
+    "plain": "Moves away for new job",
+    "explain": "The person might sell the house and leave town for a job, though this is made less likely."
+   },
+   {
+    "id": "h50",
+    "plain": "Diagnosed with high blood pressure, drinking",
+    "explain": "The person's heavier drinking and insomnia lead to diagnoses of high blood pressure and harmful drinking."
+   },
+   {
+    "id": "h51",
+    "plain": "Made redundant by automation",
+    "explain": "The person's management job is cut by automation, and they find lower-paid work locally."
+   },
+   {
+    "id": "h52",
+    "plain": "Moves to smaller rental",
+    "explain": "After separating, the person sells or remortgages the house and rents somewhere smaller in town."
+   },
+   {
+    "id": "h53",
+    "plain": "Has a stroke",
+    "explain": "The person has a stroke caused by years of uncontrolled blood pressure and drinking."
+   },
+   {
+    "id": "h54",
+    "plain": "Dies of a stroke",
+    "explain": "The person is expected to die of a bleeding stroke in 2077, aged 65."
+   },
+   {
+    "id": "h55",
+    "plain": "Finishes volunteering at shelter",
+    "explain": "The person does final soup kitchen shifts before leaving, staying in touch with a homeless friend."
+   },
+   {
+    "id": "h56",
+    "plain": "Leaves café job",
+    "explain": "The person's part-time barista job ends before moving away."
+   },
+   {
+    "id": "h57",
+    "plain": "Moves away to university",
+    "explain": "The person moves to another city to study social work, with a parent paying."
+   },
+   {
+    "id": "h58",
+    "plain": "Parents separate",
+    "explain": "The person's parents split up, and contact narrows mostly to one parent."
+   },
+   {
+    "id": "h59",
+    "plain": "Graduates in social work",
+    "explain": "The person finishes a social work degree."
+   },
+   {
+    "id": "h60",
+    "plain": "Job application quietly sidelined",
+    "explain": "The person applies for a housing casework job back home but is steered away from housing decisions."
+   },
+   {
+    "id": "h61",
+    "plain": "Campaigns for housing rights",
+    "explain": "The person stays involved in tenant and housing advocacy, location uncertain."
+   },
+   {
+    "id": "h62",
+    "plain": "Dies in old age",
+    "explain": "The person dies in old age of a heart-related cause."
+   },
+   {
+    "id": "h63",
+    "plain": "Collects medication with neighbour",
+    "explain": "The person goes to the clinic with a neighbour and picks up lapsed antidepressants in person."
+   },
+   {
+    "id": "h64",
+    "plain": "Becomes more isolated",
+    "explain": "The person sees neighbours less, relying mainly on one neighbour who is under strain himself."
+   },
+   {
+    "id": "h65",
+    "plain": "Rewrites will alone",
+    "explain": "The person changes their will without a lawyer, as if putting affairs in order before death."
+   },
+   {
+    "id": "h66",
+    "plain": "Stops taking antidepressants",
+    "explain": "The person may stop antidepressants and refuse help, though deliveries and visits make this less likely."
+   },
+   {
+    "id": "h67",
+    "plain": "Falls at home, found late",
+    "explain": "Living alone, the person falls or gets ill, isn't found for days, and goes to hospital."
+   },
+   {
+    "id": "h68",
+    "plain": "Refuses to leave home",
+    "explain": "After hospital, the person likely refuses supported housing or moving abroad near their son."
+   },
+   {
+    "id": "h69",
+    "plain": "Dies of frailty and heart failure",
+    "explain": "The person is expected to die of frailty and heart failure in 2055, aged 86."
+   },
+   {
+    "id": "h70",
+    "plain": "Partner reveals secret data sharing",
+    "explain": "The person's partner privately reveals some of a secret data deal between an employer and the council."
+   },
+   {
+    "id": "h71",
+    "plain": "Tries to expose secret scheduling",
+    "explain": "The person compiles notes into a public account of predictive surveillance, while officials give empty replies."
+   },
+   {
+    "id": "h72",
+    "plain": "Breaks off engagement",
+    "explain": "The person's engagement ends; they move out and rent alone nearby."
+   },
+   {
+    "id": "h73",
+    "plain": "Investigated at work",
+    "explain": "The person's employer reviews their computer use, likely leading to a warning or reassignment."
+   },
+   {
+    "id": "h74",
+    "plain": "Moves away from the city",
+    "explain": "The person leaves for a city beyond the system's surveillance, having already prepared."
+   },
+   {
+    "id": "h75",
+    "plain": "Works in public records advocacy",
+    "explain": "The person likely builds a career defending public access to records elsewhere."
+   },
+   {
+    "id": "h76",
+    "plain": "Dies at 81",
+    "explain": "The person dies at 81 of a common cause, guessed from population averages."
+   },
+   {
+    "id": "h77",
+    "plain": "Dies of heart disease",
+    "explain": "The person is expected to die of heart disease in 2098, aged 81."
+   },
+   {
+    "id": "h78",
+    "plain": "Finishes automation, cutting 44 jobs",
+    "explain": "The person completes an automation project that eliminates 44 jobs on schedule."
+   },
+   {
+    "id": "h79",
+    "plain": "Engagement ends, moves out",
+    "explain": "The person's engagement ends over secrets they can't share, and they move out."
+   },
+   {
+    "id": "h80",
+    "plain": "Keeps job, gets promoted duties",
+    "explain": "The person survives job cuts and is given more forecasting responsibility."
+   },
+   {
+    "id": "h81",
+    "plain": "Signs data deal again",
+    "explain": "The person signs a renewed data-sharing deal, taking on deeper secrecy obligations."
+   },
+   {
+    "id": "h82",
+    "plain": "Buys a house",
+    "explain": "The person buys a home, likely in a nicer neighbourhood."
+   },
+   {
+    "id": "h83",
+    "plain": "Promoted and moves away",
+    "explain": "The person is promoted to a regional role and moves away, still overseeing the data deal."
+   },
+   {
+    "id": "h84",
+    "plain": "Develops high blood pressure",
+    "explain": "The person likely develops high blood pressure from years of high-pressure work."
+   },
+   {
+    "id": "h85",
+    "plain": "Dies of a heart attack",
+    "explain": "The person is expected to die of a heart attack in 2091, aged 76."
+   }
+  ]
+ }
+}

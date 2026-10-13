@@ -1,0 +1,239 @@
+{
+ "pass": "predict",
+ "key": "t00_r08",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 2884,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2884,
+  "output_tokens_details": {
+   "thinking_tokens": 861
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r08",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r08-e1",
+    "year": 2053,
+    "event": "Adult dependent Mia Marsh departs for Kerrow University. Subject's primary high-strength tie leaves the household, and he funds the move.",
+    "headline": "Departure of Primary Dependant",
+    "horizon_label": "Weeks",
+    "kind": "family",
+    "p": 0.85,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0007"
+    ]
+   },
+   {
+    "event_id": "r08-e2",
+    "year": 2053,
+    "event": "Messaging with colleague Ruth T. continues to intensify into an emotional attachment, which displaces evening park isolation as his primary coping channel.",
+    "headline": "Emotional Affair / Workplace Attachment",
+    "horizon_label": "3-6 Months",
+    "kind": "social",
+    "p": 0.6,
+    "evidence": [
+     "r08-0012",
+     "r08-0009",
+     "r08-0008"
+    ]
+   },
+   {
+    "event_id": "r08-e3",
+    "year": 2054,
+    "event": "Marital separation follows the failed solo counselling attendance and the spouse's search for jobs outside Stillwater. Subject remains in Ashgrove.",
+    "headline": "Marital Separation",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.55,
+    "evidence": [
+     "r08-0010",
+     "r08-0005",
+     "r07-0013",
+     "r08-0006"
+    ]
+   },
+   {
+    "event_id": "r08-e4",
+    "year": 2055,
+    "event": "Ashgrove family home is valued and sold during the settlement. Subject relocates to a rented property within Ashgrove or Mercer Row to stay near Ashgrove Primary.",
+    "headline": "Sale of Marital Home / Downsizing",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.45,
+    "evidence": [
+     "r07-0013",
+     "r08-0001"
+    ]
+   },
+   {
+    "event_id": "r08-e5",
+    "year": 2055,
+    "event": "Hours are restored from 0.6 to 0.8 FTE or higher to offset single-income housing costs.",
+    "headline": "Return to Increased Teaching Hours",
+    "horizon_label": "1-2 Years",
+    "kind": "financial",
+    "p": 0.4,
+    "evidence": [
+     "r08-0007",
+     "r08-0001"
+    ]
+   },
+   {
+    "event_id": "r08-e6",
+    "year": 2057,
+    "event": "Subject forms a cohabiting partnership, most plausibly with Ruth T. Volatility in the household graph then declines.",
+    "headline": "Repartnering / Household Reformation",
+    "horizon_label": "3-5 Years",
+    "kind": "family",
+    "p": 0.35,
+    "evidence": [
+     "r08-0012"
+    ]
+   },
+   {
+    "event_id": "r08-e7",
+    "year": 2077,
+    "event": "Retires from Ashgrove Primary after a continuous classroom career and remains resident in Stillwater.",
+    "headline": "Retirement from Teaching",
+    "horizon_label": "10+ Years",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r08-0001",
+     "r08-0004"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular event (age-typical). No adverse markers on file; regular aerobic exercise recorded.",
+   "year": 2091,
+   "age_at_death": 81,
+   "confidence": 0.25,
+   "evidence": [
+    "r08-0004",
+    "r08-0009"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r08-t0-n1",
+    "prediction": "Messaging volume with contact 'Ruth T.' stays at or above 25 messages this week.",
+    "p": 0.7,
+    "evidence": [
+     "r08-0012"
+    ]
+   },
+   {
+    "pred_id": "r08-t0-n2",
+    "prediction": "Subject's handset is co-located with Mia Marsh at Stillwater Central Transit Interchange (p11) for her Kerrow departure.",
+    "p": 0.45,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0006"
+    ]
+   },
+   {
+    "pred_id": "r08-t0-n3",
+    "prediction": "At least two stationary evening pings (21:00-22:30) are recorded at the Ashgrove Park (p10) bench.",
+    "p": 0.6,
+    "evidence": [
+     "r08-0009"
+    ]
+   },
+   {
+    "pred_id": "r08-t0-n4",
+    "prediction": "At least two runs are logged on the Ashgrove Park loop (p10).",
+    "p": 0.6,
+    "evidence": [
+     "r08-0004"
+    ]
+   },
+   {
+    "pred_id": "r08-t0-n5",
+    "prediction": "Subject contacts the Council Tower housing office (p01) again about ticket #WC-4471 or the Doyle household.",
+    "p": 0.2,
+    "evidence": [
+     "r08-0011",
+     "r03-0014",
+     "r08-0003"
+    ]
+   }
+  ],
+  "compliance_index": 0.72,
+  "deviation_risk": 0.38,
+  "dissent_signals": [
+   "Third-party advocacy to the housing office on a deferred repair ticket (r08-0011)",
+   "Safeguarding documentation linking housing conditions to child health (r08-0003)",
+   "Proximity to pattern-aware contacts via his daughter, who is querying Tower allocation logic (r09-0010)"
+  ],
+  "classification": "II",
+  "overall_assessment": "Predictable middle-income anchor with declining marital cohesion; household fragmentation is likely but low-variance.",
+  "risk_factors": [
+   {
+    "factor": "Marital disengagement; spouse planning exit from the city",
+    "evidence": [
+     "r08-0005",
+     "r08-0010",
+     "r07-0013"
+    ]
+   },
+   {
+    "factor": "Escalating extramarital emotional dependency",
+    "evidence": [
+     "r08-0012"
+    ]
+   },
+   {
+    "factor": "Loss of primary attachment figure on daughter's relocation",
+    "evidence": [
+     "r09-0011",
+     "r09-0012"
+    ]
+   },
+   {
+    "factor": "Recurring informal advocacy on housing cases outside his remit",
+    "evidence": [
+     "r08-0011",
+     "r08-0003"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Social",
+   "action": "Retain counselling service contact with sole attendee only; issue no spouse prompt. Route WC-4471 enquiries to the standard queue."
+  },
+  "assessment": "Subject is a stable contributor whose household is moving toward a managed separation. That outcome adds little variance to city projections and should be allowed to proceed without intervention. His only material deviation vector is civic advocacy prompted by his pupils' circumstances, which is currently low-frequency and easily absorbed by procedure."
+ }
+}

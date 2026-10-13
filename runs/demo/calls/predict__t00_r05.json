@@ -1,0 +1,235 @@
+{
+ "pass": "predict",
+ "key": "t00_r05",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 3330,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3330,
+  "output_tokens_details": {
+   "thinking_tokens": 1301
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Unexplained cash deposits ($1,040 across 9 days, no declared income or benefit claim) trigger a bank source-of-funds review. The account is restricted pending explanation, pushing remaining income further off-ledger.",
+    "headline": "Account Restriction / Source-of-Funds Review",
+    "horizon_label": "3 Months",
+    "kind": "financial",
+    "p": 0.55,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2054,
+    "event": "Deepening involvement with the unverified Lowbank contact network (encrypted channel) leads to arrest for an acquisitive or supply-adjacent offence, despite a cautionary tie to r06.",
+    "headline": "Second Arrest / Network-Linked Offence",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.4,
+    "evidence": [
+     "r05-0012",
+     "r05-0014",
+     "r05-0006"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2054,
+    "event": "A prior conviction and completed community order make a custodial outcome plausible on second offence. Short custodial sentence or suspended sentence with tagged curfew.",
+    "headline": "Custodial or Suspended Sentence",
+    "horizon_label": "1 Year",
+    "kind": "legal",
+    "p": 0.3,
+    "evidence": [
+     "r05-0007",
+     "r05-0013"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2055,
+    "event": "Loss of the shared rented room during legal processing. Recurrent overnight presence at River Lane Underpass converts to formal shelter dependency, against a shelter system already at capacity.",
+    "headline": "Housing Loss / Shelter Dependency",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.38,
+    "evidence": [
+     "r05-0011",
+     "r01-0013"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2056,
+    "event": "Local warehouse demand contracts as Halden automates Zone D, and the conviction marker suppresses applications. Subject seeks agency warehouse work in Kerrow, his last recorded legitimate lead.",
+    "headline": "Relocation for Agency Work",
+    "horizon_label": "2-3 Years",
+    "kind": "career",
+    "p": 0.3,
+    "evidence": [
+     "r12-0007",
+     "r05-0009",
+     "r05-0010"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2062,
+    "event": "Settles into cycles of cash-in-hand casual labour punctuated by police contact. This trajectory mirrors the pattern of associate r06.",
+    "headline": "Chronic Casual Labour / Repeat Police Contact",
+    "horizon_label": "5-10 Years",
+    "kind": "career",
+    "p": 0.3,
+    "evidence": [
+     "r06-0001",
+     "r06-0004",
+     "r05-0002"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2075,
+    "event": "Death in mid-life. Drug-related poisoning or violence is the modal outcome for this cohort profile. Confidence is low given the thin trail.",
+    "headline": "Premature Death",
+    "horizon_label": "20+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r05-0012",
+     "r06-0003"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Drug-related poisoning (alternative: assault-related injury)",
+   "year": 2075,
+   "age_at_death": 44,
+   "confidence": 0.18,
+   "evidence": [
+    "r05-0012",
+    "r05-0014",
+    "r06-0003",
+    "r05-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t0-n1",
+    "prediction": "Handset pings at River Lane Underpass (p12) between 00:00 and 04:00 on at least one night this week.",
+    "p": 0.6,
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t0-n2",
+    "prediction": "At least one further cash deposit of $200 or more with no matching declared income.",
+    "p": 0.5,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t0-n3",
+    "prediction": "No welfare or jobseeker claim opened this week.",
+    "p": 0.75,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t0-n4",
+    "prediction": "Further encrypted message exchange with '@lowbank_runners' or an associated account.",
+    "p": 0.5,
+    "evidence": [
+     "r05-0012"
+    ]
+   },
+   {
+    "pred_id": "r05-t0-n5",
+    "prediction": "Search query for warehouse or night-shift work (Halden or Kerrow).",
+    "p": 0.3,
+    "evidence": [
+     "r05-0005",
+     "r05-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.45,
+  "deviation_risk": 0.68,
+  "dissent_signals": [
+   "Expressed exclusion from the labour market following conviction ('box ticked. done.').",
+   "Pre-offence search on sentencing thresholds indicating calculated risk-taking.",
+   "Encrypted communications with an unverified local network, which reduces observability.",
+   "Off-ledger cash income with no benefit claim, a withdrawal from monitored systems."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-dependency young male with off-ledger income and an encrypted network tie; observability declining, reoffence probable.",
+  "risk_factors": [
+   {
+    "factor": "Undeclared cash income",
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "factor": "Encrypted contact with unverified Lowbank network",
+    "evidence": [
+     "r05-0012"
+    ]
+   },
+   {
+    "factor": "Prior theft conviction suppressing employability",
+    "evidence": [
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "factor": "Intermittent rough sleeping",
+    "evidence": [
+     "r05-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Route to agency warehouse pool with conviction marker suppressed, to convert untracked cash into observable wages."
+  },
+  "assessment": "Subject completed supervision fully but has since moved toward off-ledger income and an unverified network, reducing Archive visibility. Graph dependency is minimal; the only stabilising tie (r06) is weak and is itself in fragile recovery. Path confidence is low; restoring observability through legitimate employment is the lowest-variance intervention."
+ }
+}

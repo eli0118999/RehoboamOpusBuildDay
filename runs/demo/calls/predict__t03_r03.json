@@ -1,0 +1,251 @@
+{
+ "pass": "predict",
+ "key": "t03_r03",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1113,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1113,
+    "model": null,
+    "output_tokens": 3281,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3281,
+  "output_tokens_details": {
+   "thinking_tokens": 1148
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r03",
+  "cohort": "precarious-young",
+  "life_path": [
+   {
+    "event_id": "r03-e1",
+    "year": 2053,
+    "event": "Under t3-i3, mould remediation of ticket WC-4471 in flat 7.12 is completed unconditionally. The deferred repair closes. The son's wheeze trigger is reduced and the third-party enquiry from D. Marsh is closed through resolution.",
+    "headline": "Mould Remediation Completed",
+    "horizon_label": "1 Month",
+    "kind": "health",
+    "p": 0.82,
+    "evidence": [
+     "r03-0006",
+     "r03-0007",
+     "r08-0011",
+     "r08-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e2",
+    "year": 2053,
+    "event": "The children's-services courtesy referral raised by the claim review is withdrawn before assessment. The household-circumstances flag lapses without onward routing.",
+    "headline": "Referral Withdrawn",
+    "horizon_label": "1-3 Months",
+    "kind": "family",
+    "p": 0.78,
+    "evidence": [
+     "r03-0014",
+     "r03-0011"
+    ]
+   },
+   {
+    "event_id": "r03-e3",
+    "year": 2053,
+    "event": "The QuickNest/Northgate balance is consolidated into a $10/week plan alongside the existing $20/week rent-arrears deduction. Collection contact ceases and the household budget stabilises at a low baseline.",
+    "headline": "Debt Consolidation",
+    "horizon_label": "3 Months",
+    "kind": "financial",
+    "p": 0.7,
+    "evidence": [
+     "r03-0010",
+     "r03-0005",
+     "r03-0003"
+    ]
+   },
+   {
+    "event_id": "r03-e4",
+    "year": 2054,
+    "event": "With work-coach appointments held inside school hours and sanction triggers suspended, the sanction cycle ends. Income remains zero-hours care work with unpaid travel, supplemented by benefit.",
+    "headline": "Sanction Cycle Ends",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.62,
+    "evidence": [
+     "r03-0002",
+     "r03-0008",
+     "r03-0001"
+    ]
+   },
+   {
+    "event_id": "r03-e5",
+    "year": 2055,
+    "event": "Low mood persists at a managed level. Sertraline continues as a long-term repeat and no acute crisis is recorded. Residual exhaustion follows from caring labour and single parenthood.",
+    "headline": "Managed Depression",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.55,
+    "evidence": [
+     "r03-0012",
+     "r03-0013",
+     "r03-0008"
+    ]
+   },
+   {
+    "event_id": "r03-e6",
+    "year": 2058,
+    "event": "Subject secures a guaranteed-hours domiciliary care contract as her son enters secondary school and childcare constraints ease. Income rises modestly.",
+    "headline": "Guaranteed Hours Contract",
+    "horizon_label": "5 Years",
+    "kind": "career",
+    "p": 0.38,
+    "evidence": [
+     "r03-0011",
+     "r03-0001"
+    ]
+   },
+   {
+    "event_id": "r03-e7",
+    "year": 2066,
+    "event": "Subject remains a long-term Weir Court tenant, a fixed node in Lowbank care provision. Her son leaves the household and contact with the housing office drops to routine.",
+    "headline": "Long-Term Tenancy",
+    "horizon_label": "10+ Years",
+    "kind": "relocation",
+    "p": 0.45,
+    "evidence": [
+     "r03-0003",
+     "r03-0004",
+     "r03-0009"
+    ]
+   },
+   {
+    "event_id": "r03-e8",
+    "year": 2088,
+    "event": "Death from cardiovascular disease following decades of low income, chronic stress and probable smoking exposure.",
+    "headline": "Cardiovascular Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r03-0009",
+     "r03-0012",
+     "r03-0001"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2088,
+   "age_at_death": 66,
+   "confidence": 0.28,
+   "evidence": [
+    "r03-0009",
+    "r03-0012",
+    "r03-0005",
+    "r03-0001"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r03-t3-n1",
+    "prediction": "The named housing caseworker makes at least one recorded contact with the subject this week regarding WC-4471 scheduling or completion.",
+    "p": 0.72,
+    "evidence": [
+     "r03-0006"
+    ]
+   },
+   {
+    "pred_id": "r03-t3-n2",
+    "prediction": "No new benefit sanction is recorded against the subject this week.",
+    "p": 0.86,
+    "evidence": [
+     "r03-0002",
+     "r03-0008",
+     "r03-0014"
+    ]
+   },
+   {
+    "pred_id": "r03-t3-n3",
+    "prediction": "D. Marsh makes no further contact with the housing office about flat 7.12 this week.",
+    "p": 0.66,
+    "evidence": [
+     "r08-0011"
+    ]
+   },
+   {
+    "pred_id": "r03-t3-n4",
+    "prediction": "No neighbour complaint from flat 7.11 is logged this week.",
+    "p": 0.8,
+    "evidence": [
+     "r03-0004",
+     "r03-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.68,
+  "deviation_risk": 0.32,
+  "dissent_signals": [
+   "Search for benefit sanction appeal routes (r03-0011)",
+   "Search for guaranteed hours at Brightcare (r03-0011)",
+   "Expressed despair at the sanction regime (r03-0008)",
+   "Tenants' drop-in contact with Fallow Edge organiser S. Varma, who has a pending protest permit (r04-0013)"
+  ],
+  "classification": "III",
+  "overall_assessment": "Low-income care-labour node; grievance vectors closed by remediation; stable at reduced variance.",
+  "risk_factors": [
+   {
+    "factor": "Income precarity under zero-hours care work with unpaid travel",
+    "evidence": [
+     "r03-0001",
+     "r03-0005"
+    ]
+   },
+   {
+    "factor": "Depression on ongoing SSRI treatment",
+    "evidence": [
+     "r03-0012",
+     "r03-0013"
+    ]
+   },
+   {
+    "factor": "Child respiratory illness linked to damp housing",
+    "evidence": [
+     "r03-0007",
+     "r03-0006"
+    ]
+   },
+   {
+    "factor": "Latent organising link through the tenants' drop-in",
+    "evidence": [
+     "r04-0012",
+     "r04-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Benefits",
+   "action": "Maintain the sanction suspension and school-hours appointments indefinitely; route all contact through the single caseworker."
+  },
+  "assessment": "Applied interventions have removed the three principal grievance channels: the mould, the children's-services referral and the sanction cycle. The subject now projects as a compliant low-variance tenant supplying care labour to Lowbank elders. Residual deviation lies in a weak tenants'-union link and in depressive load, both of which are monitorable at low cost."
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "pass": "predict",
+ "key": "t02_r04",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1096,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1096,
+    "model": null,
+    "output_tokens": 3681,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3681,
+  "output_tokens_details": {
+   "thinking_tokens": 1302
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r04",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r04-e1",
+    "year": 2053,
+    "event": "Subject attends the approved Tuesday 10:00 forecourt slot at the Council Tower (p01) under the name 'Fallow Edge Tenants'. Turnout is projected below the 15 persons applied for. The brought-forward lift repair (t2-i4) and the lobby notice crediting the liaison panel reduce neighbour grievance, but they do not extinguish the subject's own. His tick-2 contact with r06 near p14 indicates recruitment within Block C.",
+    "headline": "Forecourt Assembly Held",
+    "horizon_label": "Weeks",
+    "kind": "civic",
+    "p": 0.62,
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r04-0007",
+     "r06-0013"
+    ]
+   },
+   {
+    "event_id": "r04-e2",
+    "year": 2053,
+    "event": "Subject attempts formal registration of a tenants' group despite the estate officer's consultation-delay framing. Registration is likely to stall on membership thresholds. Co-signatory r06 carries a 12-conviction record, which may lead other residents to withhold signatures.",
+    "headline": "Tenants' Group Registration",
+    "horizon_label": "3 Months",
+    "kind": "civic",
+    "p": 0.42,
+    "evidence": [
+     "r04-0012",
+     "r04-0013",
+     "r06-0001",
+     "r06-0007"
+    ]
+   },
+   {
+    "event_id": "r04-e3",
+    "year": 2054,
+    "event": "No recorded income since the platform deactivation. The attachment of earnings now has no earnings to attach. Council tax and penalty arrears re-escalate to enforcement agent referral.",
+    "headline": "Arrears Enforcement Escalation",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.66,
+    "evidence": [
+     "r04-0011",
+     "r04-0010",
+     "r04-0006",
+     "r04-0003"
+    ]
+   },
+   {
+    "event_id": "r04-e4",
+    "year": 2054,
+    "event": "Subject withholds the disputed $71/month service charge as a matter of principle. The housing office treats the withheld charge as arrears, and a notice of seeking possession is issued against his Block C tenancy.",
+    "headline": "Service Charge Arrears",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.38,
+    "evidence": [
+     "r04-0012",
+     "r04-0004",
+     "r04-0008"
+    ]
+   },
+   {
+    "event_id": "r04-e5",
+    "year": 2055,
+    "event": "The possession matter resolves either by settlement through the liaison panel or by a suspended possession order. The subject remains at p14 under a repayment condition. Civic activity contracts to letter-writing.",
+    "headline": "Suspended Possession Order",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.3,
+    "evidence": [
+     "r04-0004",
+     "r04-0007",
+     "r04-0008"
+    ]
+   },
+   {
+    "event_id": "r04-e6",
+    "year": 2058,
+    "event": "Subject is aged 59 with no vehicle-based livelihood and an estate poorly served by transit. Long-term economic inactivity is projected, with dependence on working-age benefits pending pension age. No medical baseline exists on file, so health trajectory cannot be modelled with precision.",
+    "headline": "Long-Term Economic Inactivity",
+    "horizon_label": "5 Years",
+    "kind": "financial",
+    "p": 0.45,
+    "evidence": [
+     "r04-0011",
+     "r04-0005",
+     "r04-0001"
+    ]
+   },
+   {
+    "event_id": "r04-e7",
+    "year": 2071,
+    "event": "Death at home in Fallow Edge, attributed to cardiovascular causes typical of a sedentary, financially stressed, lone-living male. Absence of clinical records reduces confidence materially.",
+    "headline": "Death at Home",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r04-0001",
+     "r04-0011",
+     "r04-0007"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2071,
+   "age_at_death": 72,
+   "confidence": 0.18,
+   "evidence": [
+    "r04-0001",
+    "r04-0011",
+    "r04-0008"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r04-t2-n1",
+    "prediction": "Subject is present at the Council Tower forecourt (p01) during the approved Tuesday 10:00 slot, with fewer than 15 persons co-located.",
+    "p": 0.6,
+    "evidence": [
+     "r04-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t2-n2",
+    "prediction": "Subject's handset co-locates again with r06 at Fallow Edge Estate (p14), Block C.",
+    "p": 0.65,
+    "evidence": [
+     "r06-0013",
+     "r04-0007"
+    ]
+   },
+   {
+    "pred_id": "r04-t2-n3",
+    "prediction": "Subject sends a further written communication to the housing office referencing FE-0932 or the service-charge level, despite the lift repair.",
+    "p": 0.5,
+    "evidence": [
+     "r04-0004",
+     "r04-0008",
+     "r04-0007"
+    ]
+   },
+   {
+    "pred_id": "r04-t2-n4",
+    "prediction": "Subject runs a search or makes an enquiry on formal tenants' association registration.",
+    "p": 0.35,
+    "evidence": [
+     "r04-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.27,
+  "deviation_risk": 0.72,
+  "dissent_signals": [
+   "Protest permit application under group name 'Fallow Edge Tenants' (r04-0013)",
+   "Searches on lawful service-charge withholding, protest permits and tenants' unions (r04-0012)",
+   "Sustained letter-writing campaign; 'They answer with a number' (r04-0008)",
+   "Rejected complaint FE-0932 and escalation to councillor (r04-0004, r04-0007)",
+   "Tick 2: bypassed Rung 3 isolation measure and made direct contact with r06 at p14",
+   "Did not appeal platform deactivation, suggesting disengagement from individual remedies in favour of collective ones (r04-0011)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-dependency, non-earning node converting individual grievance into collective organisation; low nudge responsiveness.",
+  "risk_factors": [
+   {
+    "factor": "No income since platform deactivation; enforcement arrears open",
+    "evidence": [
+     "r04-0011",
+     "r04-0010",
+     "r04-0006"
+    ]
+   },
+   {
+    "factor": "Active collective organising intent at Council Tower forecourt",
+    "evidence": [
+     "r04-0013",
+     "r04-0012"
+    ]
+   },
+   {
+    "factor": "Persistent grievance against housing office service charges",
+    "evidence": [
+     "r04-0004",
+     "r04-0007",
+     "r04-0008"
+    ]
+   },
+   {
+    "factor": "No clinical record on file; health trajectory unobservable",
+    "evidence": [
+     "r04-0001",
+     "r04-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Housing",
+   "action": "Settle FE-0932 individually via the liaison panel, applying a service-charge reduction to his account only; route all correspondence away from group channels."
+  },
+  "assessment": "Subject has lost his economic function and now directs surplus time into civic contestation, a variance source disproportionate to his weight in the relationship graph. The Rung 3 measure removed the material grievance but not the attribution grievance, and the tick-2 contact with r06 confirms that isolation has not taken hold. Confidence is constrained by the absence of medical and recent location data; individual resolution is advised as the lowest-variance form of care."
+ }
+}

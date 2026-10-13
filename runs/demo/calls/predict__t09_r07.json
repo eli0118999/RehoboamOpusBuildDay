@@ -1,0 +1,263 @@
+{
+ "pass": "predict",
+ "key": "t09_r07",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1519,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1519,
+    "model": null,
+    "output_tokens": 4814,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4814,
+  "output_tokens_details": {
+   "thinking_tokens": 2233
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r07",
+  "cohort": "stable-contributors",
+  "life_path": [
+   {
+    "event_id": "r07-e1",
+    "year": 2053,
+    "event": "Subject nominally retained as Zone D delivery lead under the ring-fenced retention increment (t1-i7, t6-i5, t7-i4). Uptake is now uncertain: the rung 3 closed-review protocol (t9-i1) was declined and acceptance can no longer be inferred from prior compliance.",
+    "headline": "Zone D Retention",
+    "horizon_label": "3 Months",
+    "kind": "career",
+    "p": 0.45,
+    "evidence": [
+     "r12-0007",
+     "r07-0014",
+     "r07-0006",
+     "r07-0008"
+    ]
+   },
+   {
+    "event_id": "r07-e2",
+    "year": 2053,
+    "event": "Following unsanctioned direct contact with C. Shore at tick 9, subject raises a formal concern about the provenance of Halden forecasting data and its dependence on the council feed, outside the closed internal review slot (t8-i2). Shore's own records show unresolved strain under confidentiality schedule C, so a joint or tacit disclosure cannot be excluded.",
+    "headline": "Data Integrity Disclosure",
+    "horizon_label": "6 Months",
+    "kind": "legal",
+    "p": 0.4,
+    "evidence": [
+     "r07-0007",
+     "r07-0011",
+     "r12-0001",
+     "r12-0008",
+     "r12-0010",
+     "r12-0012"
+    ]
+   },
+   {
+    "event_id": "r07-e3",
+    "year": 2054,
+    "event": "Marsh household separates. Spouse disengagement is well documented: counselling was attended alone, contact with a colleague has risen sharply and his hours were reduced. Daughter's departure to Kerrow in September 2053 removes the remaining shared routine.",
+    "headline": "Marital Separation",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.45,
+    "evidence": [
+     "r08-0005",
+     "r08-0006",
+     "r08-0008",
+     "r08-0010",
+     "r08-0012",
+     "r09-0011",
+     "r09-0012"
+    ]
+   },
+   {
+    "event_id": "r07-e4",
+    "year": 2054,
+    "event": "Subject exits Halden and relocates out of district to logistics employment elsewhere. The Ashgrove property is valued and sold. Deprioritising external listings (t1-i7, t6-i5) slows this outcome but has not suppressed the intent behind it.",
+    "headline": "Exit and Relocation",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.38,
+    "evidence": [
+     "r07-0013",
+     "r07-0011",
+     "r07-0008",
+     "r07-0014"
+    ]
+   },
+   {
+    "event_id": "r07-e5",
+    "year": 2055,
+    "event": "Escalating alcohol use and untreated hypertension consolidate into a chronic clinical picture. Occupational health referrals (t2-i7, t9-i1) are attended intermittently at best.",
+    "headline": "Hypertension / Alcohol Misuse",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.5,
+    "evidence": [
+     "r07-0009",
+     "r07-0010",
+     "r07-0004",
+     "r07-0003",
+     "r07-0012"
+    ]
+   },
+   {
+    "event_id": "r07-e6",
+    "year": 2066,
+    "event": "First cardiovascular event, probably a transient ischaemic attack or angina admission. It is associated with sustained hypertension, a long history of disrupted sleep and the alcohol pattern.",
+    "headline": "Cardiovascular Event",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r07-0009",
+     "r07-0010",
+     "r07-0004"
+    ]
+   },
+   {
+    "event_id": "r07-e7",
+    "year": 2083,
+    "event": "Death from acute myocardial infarction at approximately 71. Confidence is low because subject trajectory beyond 2054 is weakly constrained by the Archive.",
+    "headline": "Cardiac Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.22,
+    "evidence": [
+     "r07-0009",
+     "r07-0010"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Acute myocardial infarction",
+   "year": 2083,
+   "age_at_death": 71,
+   "confidence": 0.22,
+   "evidence": [
+    "r07-0009",
+    "r07-0010",
+    "r07-0004",
+    "r07-0003"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r07-t9-n1",
+    "prediction": "Subject does not attend the occupational health blood-pressure follow-up at Lowbank Community Clinic (p04) set as a condition of retention.",
+    "p": 0.6,
+    "evidence": [
+     "r07-0009",
+     "r07-0011"
+    ]
+   },
+   {
+    "pred_id": "r07-t9-n2",
+    "prediction": "A further unscheduled co-location with C. Shore at Halden (p02) is logged outside rostered hours, and the mediated session is postponed or refused.",
+    "p": 0.5,
+    "evidence": [
+     "r07-0011",
+     "r12-0009",
+     "r12-0012"
+    ]
+   },
+   {
+    "pred_id": "r07-t9-n3",
+    "prediction": "Off-licence spend at Mercer Row (p09) of at least $40 is recorded during the week.",
+    "p": 0.7,
+    "evidence": [
+     "r07-0010"
+    ]
+   },
+   {
+    "pred_id": "r07-t9-n4",
+    "prediction": "Search activity on whistleblowing, data-sharing agreements or out-of-district logistics vacancies recurs despite feed deprioritisation.",
+    "p": 0.45,
+    "evidence": [
+     "r07-0007",
+     "r07-0013"
+    ]
+   },
+   {
+    "pred_id": "r07-t9-n5",
+    "prediction": "At least one badge day exceeds 12 hours, or the vehicle idles in the Halden car park after hours, breaching the early-rotation pattern.",
+    "p": 0.4,
+    "evidence": [
+     "r07-0003",
+     "r07-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.68,
+  "dissent_signals": [
+   "Declined rung 3 closed-review protocol and spent tick 9 in direct contact with C. Shore (t9 deviation)",
+   "Searched for how to raise concerns about colleague data manipulation (r07-0007)",
+   "Filed formal grievance against C. Shore, closed with no case to answer (r07-0011)",
+   "Searched out-of-district logistics jobs and a house valuation despite deprioritised listings (r07-0013)",
+   "Vehicle idled in the Halden car park after hours with no badge-in, an unexplained presence (r07-0012)",
+   "Stated prior intent to leave if Shore's model prevailed (r07-0005)"
+  ],
+  "classification": "II",
+  "overall_assessment": "Formerly compliant automation lead now non-responsive to retention measures, aligning with her rival and approaching data-provenance questions the model treats as confidential.",
+  "risk_factors": [
+   {
+    "factor": "Proximity to SW-PREDICT provenance via contact with C. Shore",
+    "evidence": [
+     "r12-0001",
+     "r12-0008",
+     "r12-0012",
+     "r07-0007"
+    ]
+   },
+   {
+    "factor": "Escalating alcohol use with untreated hypertension and insomnia",
+    "evidence": [
+     "r07-0010",
+     "r07-0009",
+     "r07-0004"
+    ]
+   },
+   {
+    "factor": "Household disintegration removes stabilising anchors",
+    "evidence": [
+     "r08-0010",
+     "r08-0012",
+     "r09-0011"
+    ]
+   },
+   {
+    "factor": "Active external exit search",
+    "evidence": [
+     "r07-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Downgrade to rung 2. Restore a visible Zone D milestone, replace the mandated mediated session with a voluntary one, and route any data concern to a scheduled review with documented feedback."
+  },
+  "assessment": "Subject's prior compliance was conditional on career advancement. The loss of the Operations Manager post and the rung 3 isolation have converted grievance into independent action. Re-read at tick 9, the records indicate a move from rivalry toward possible collaboration with C. Shore on forecasting provenance, and this is the principal variance in her path. Further escalation of isolation risks accelerating disclosure and exit; calibrated restoration of status is the lower-variance option, presented as support during consolidation."
+ }
+}

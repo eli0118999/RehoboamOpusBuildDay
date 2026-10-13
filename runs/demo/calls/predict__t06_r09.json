@@ -1,0 +1,259 @@
+{
+ "pass": "predict",
+ "key": "t06_r09",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1012,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1012,
+    "model": null,
+    "output_tokens": 3772,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3772,
+  "output_tokens_details": {
+   "thinking_tokens": 1347
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r09",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r09-e1",
+    "year": 2053,
+    "event": "At the Central Transit Interchange, subject contacts Daniel Marsh instead of completing departure. Expected sequence: a short delay of days, not weeks, while she processes household instability (father's increased contact with a colleague, mother's out-of-area job search), followed by a deferred journey to Kerrow. The t6-i6 frictionless-departure measure stays in place.",
+    "headline": "Delayed Departure",
+    "horizon_label": "1 Week",
+    "kind": "family",
+    "p": 0.55,
+    "evidence": [
+     "r09-0012",
+     "r09-0007",
+     "r08-0012",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r09-e2",
+    "year": 2053,
+    "event": "Enrolment on the Kerrow University BA Social Work proceeds, as induced by t1-i8 and stabilised by t6-i6. Father's $600 transfer covers initial costs. Confidence is reduced from the prior tick because she has already departed from the modelled path once.",
+    "headline": "University Enrolment",
+    "horizon_label": "1 Month",
+    "kind": "relocation",
+    "p": 0.62,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0006"
+    ]
+   },
+   {
+    "event_id": "r09-e3",
+    "year": 2054,
+    "event": "Parents separate and the Ashgrove house is valued for sale. Subject becomes the communication bridge between the parents, mostly through her father, and makes repeated weekend returns to Stillwater via the Interchange.",
+    "headline": "Parental Separation",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.45,
+    "evidence": [
+     "r09-0004",
+     "r08-0008",
+     "r08-0010",
+     "r08-0012",
+     "r07-0013"
+    ]
+   },
+   {
+    "event_id": "r09-e4",
+    "year": 2055,
+    "event": "Through her coursework, subject formalises her inquiry into the Stillwater housing waitlist, citing the Dorothy Pryce case. She will likely draw on Priya Anand's prior FOI refusal and request material on allocation logic. Under s.31 handling, outcome projected as exempt.",
+    "headline": "Housing Allocation Inquiry",
+    "horizon_label": "1-2 Years",
+    "kind": "civic",
+    "p": 0.35,
+    "evidence": [
+     "r09-0009",
+     "r09-0010",
+     "r11-0007",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r09-e5",
+    "year": 2056,
+    "event": "Graduates in social work and seeks a first post. Kerrow placements are favoured. Any Stillwater casework application is routed to routine review per t1-i8 and t6-i6.",
+    "headline": "Social Work Qualification",
+    "horizon_label": "2-3 Years",
+    "kind": "career",
+    "p": 0.5,
+    "evidence": [
+     "r09-0011",
+     "r09-0008",
+     "r09-0001"
+    ]
+   },
+   {
+    "event_id": "r09-e6",
+    "year": 2057,
+    "event": "Applies for Lowbank-area casework covering the shelter and Weir Court population. Application held at routine review, and Kerrow employment retained. Moderate probability she pursues the post regardless.",
+    "headline": "Casework Application Deferred",
+    "horizon_label": "3-5 Years",
+    "kind": "career",
+    "p": 0.35,
+    "evidence": [
+     "r09-0008",
+     "r09-0009",
+     "r09-0005"
+    ]
+   },
+   {
+    "event_id": "r09-e7",
+    "year": 2066,
+    "event": "Settles permanently outside Stillwater. Contact with the city reduces to visits to her father. Her civic footprint in the projection area attenuates.",
+    "headline": "Permanent Relocation",
+    "horizon_label": "10+ Years",
+    "kind": "relocation",
+    "p": 0.4,
+    "evidence": [
+     "r09-0003",
+     "r09-0006",
+     "r09-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular disease",
+   "year": 2115,
+   "age_at_death": 81,
+   "confidence": 0.12,
+   "evidence": [
+    "r09-0001",
+    "r07-0009",
+    "r07-0010"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r09-t6-n1",
+    "prediction": "Subject boards a Stillwater-to-Kerrow coach from Central Transit Interchange (p11) within 7 days.",
+    "p": 0.55,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0006"
+    ]
+   },
+   {
+    "pred_id": "r09-t6-n2",
+    "prediction": "Subject exchanges 5 or more messages or calls with Daniel Marsh over the coming week.",
+    "p": 0.75,
+    "evidence": [
+     "r09-0007",
+     "r09-0012",
+     "r08-0012"
+    ]
+   },
+   {
+    "pred_id": "r09-t6-n3",
+    "prediction": "No direct message from subject to Elena Marsh is logged this week.",
+    "p": 0.65,
+    "evidence": [
+     "r09-0007",
+     "r09-0004",
+     "r08-0006"
+    ]
+   },
+   {
+    "pred_id": "r09-t6-n4",
+    "prediction": "Subject makes contact with Priya Anand or is present at the Carnegie Public Library (p07) before departure.",
+    "p": 0.35,
+    "evidence": [
+     "r09-0005",
+     "r09-0010",
+     "r11-0012"
+    ]
+   },
+   {
+    "pred_id": "r09-t6-n5",
+    "prediction": "Subject logs a search string referencing the Council Tower, housing waitlists or algorithmic allocation.",
+    "p": 0.3,
+    "evidence": [
+     "r09-0010",
+     "r09-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.44,
+  "deviation_risk": 0.62,
+  "dissent_signals": [
+   "Queries on the Council Tower decision system and on waitlist stagnation (r09-0010)",
+   "Explicit moral objection to the housing queue outcome for D. Pryce (r09-0009)",
+   "Prior unannounced travel with a concealed purpose and an unused return leg (r09-0006, r09-0007)",
+   "Close tie to pattern-aware subject P. Anand, who has an FOI refusal on file (r11-0007)",
+   "Deviation at t6: did not follow the Rung 1 departure nudge and contacted D. Marsh at p11 instead",
+   "Public commentary on household dysfunction (r09-0004)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-dependency young departer showing emergent pattern-awareness. Departure is the preferred outcome and remains probable but no longer assured.",
+  "risk_factors": [
+   {
+    "factor": "Interest in Tower allocation logic and in the cases of named unhoused subjects",
+    "evidence": [
+     "r09-0010",
+     "r09-0009",
+     "r02-0013"
+    ]
+   },
+   {
+    "factor": "Concealment of movements, with confidences routed through her father",
+    "evidence": [
+     "r09-0006",
+     "r09-0007"
+    ]
+   },
+   {
+    "factor": "Household fracture likely to anchor her to Stillwater",
+    "evidence": [
+     "r08-0012",
+     "r07-0013",
+     "r08-0008"
+    ]
+   },
+   {
+    "factor": "Social work vocation oriented toward Lowbank casework",
+    "evidence": [
+     "r09-0011",
+     "r09-0008"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Social",
+   "action": "Hold frictionless Kerrow logistics. Allow D. Marsh contact to resolve toward endorsing departure. No escalation."
+  },
+  "assessment": "Subject's departure to Kerrow remains the lowest-variance outcome, but her t6 contact with her father at the Interchange introduces a family-anchoring vector the model had underweighted. Her pattern-aware enquiries are currently diffuse and unaffiliated, and they decay with distance. Continued routine-review routing is advised, and supporting her studies at a distance is the appropriate expression of care."
+ }
+}

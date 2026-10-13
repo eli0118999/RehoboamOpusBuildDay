@@ -1,0 +1,246 @@
+{
+ "pass": "predict",
+ "key": "t02_r05",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1109,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1109,
+    "model": null,
+    "output_tokens": 3870,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3870,
+  "output_tokens_details": {
+   "thinking_tokens": 1703
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Subject declines the guaranteed-hours Kiln Works yard role (t2-i5) and stays in the Halden agency warehouse pool (t1-i5) on suppressed-marker placement. Wages become partly observable through payroll. The untracked cash pattern is reduced but not closed.",
+    "headline": "Yard Role Declined",
+    "horizon_label": "1-4 Weeks",
+    "kind": "career",
+    "p": 0.6,
+    "evidence": [
+     "r05-0001",
+     "r05-0014",
+     "r05-0015"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2053,
+    "event": "Agency pool placement released during Halden line consolidation and Zone D automation completion. This repeats the 2051 'volume rebalancing' exit.",
+    "headline": "Agency Release",
+    "horizon_label": "3-6 Months",
+    "kind": "career",
+    "p": 0.58,
+    "evidence": [
+     "r05-0002",
+     "r05-0015",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2054,
+    "event": "Subject reverts to an undeclared cash economy and renews contact with the '@lowbank_runners' account. Overnight underpass presence resumes. T. Lusk's moderating influence partly offsets this; that influence is unquantified.",
+    "headline": "Informal Economy Reentry",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.42,
+    "evidence": [
+     "r05-0012",
+     "r05-0014",
+     "r05-0011",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2055,
+    "event": "Arrest and second conviction for an acquisitive or supply-adjacent offence. Disclosure on future employment screening becomes unavoidable.",
+    "headline": "Second Conviction",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.33,
+    "evidence": [
+     "r05-0005",
+     "r05-0006",
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2057,
+    "event": "Subject relocates to Kerrow for warehouse work outside the Stillwater data perimeter. Observability is lost.",
+    "headline": "Relocation to Kerrow",
+    "horizon_label": "3-5 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r05-0009",
+     "r05-0002"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2066,
+    "event": "Sustained low-income precarity with intermittent insecure housing, punctuated by short-term logistics contracts.",
+    "headline": "Chronic Precarity",
+    "horizon_label": "10+ Years",
+    "kind": "financial",
+    "p": 0.35,
+    "evidence": [
+     "r05-0003",
+     "r05-0004",
+     "r05-0011"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2097,
+    "event": "Death from cardiovascular disease, consistent with long-run low-income and night-shift exposure. Projection rests on a thin trail.",
+    "headline": "Cardiovascular Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.15,
+    "evidence": [
+     "r05-0001",
+     "r05-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2097,
+   "age_at_death": 66,
+   "confidence": 0.15,
+   "evidence": [
+    "r05-0001",
+    "r05-0011",
+    "r05-0014"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t2-n1",
+    "prediction": "Subject fails to attend the Kiln Works yard night shift (21:00-05:00) on at least 3 of 6 scheduled nights.",
+    "p": 0.65,
+    "evidence": [
+     "r05-0009",
+     "r05-0001"
+    ]
+   },
+   {
+    "pred_id": "r05-t2-n2",
+    "prediction": "Subject is co-located with T. Lusk at least once more at p02 or p14, outside the scheduled yard shift.",
+    "p": 0.6,
+    "evidence": [
+     "r06-0013",
+     "r06-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t2-n3",
+    "prediction": "Subject makes at least one cash deposit of $200 or more not matched to agency payroll.",
+    "p": 0.35,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t2-n4",
+    "prediction": "Subject's handset pings overnight at River Lane Underpass (p12) on at least one night.",
+    "p": 0.38,
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t2-n5",
+    "prediction": "Subject requests reassignment from the yard contract to direct Halden warehouse shifts.",
+    "p": 0.4,
+    "evidence": [
+     "r05-0005",
+     "r05-0001",
+     "r05-0015"
+    ]
+   }
+  ],
+  "compliance_index": 0.36,
+  "deviation_risk": 0.7,
+  "dissent_signals": [
+   "Disregarded the rung 3 yard-role instruction (t2-i5); self-selected presence at p02 with T. Lusk instead.",
+   "Previously prioritised a self-sourced Kerrow trial shift over a mandated probation check-in (r05-0009).",
+   "Encrypted messaging with an unverified '@lowbank_runners' account (r05-0012).",
+   "Undeclared cash income outside payroll and benefit visibility (r05-0014).",
+   "Expressed rejection of screening systems: 'box ticked. done.' (r05-0010)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-dependency young male with suppressed conviction marker; responds to work opportunity on own terms, not on assigned ones.",
+  "risk_factors": [
+   {
+    "factor": "Prior theft conviction; screening exclusion drives an informal-income pivot.",
+    "evidence": [
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "factor": "Unexplained cash deposits with no declared income.",
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "factor": "Encrypted contact with an unverified Lowbank network.",
+    "evidence": [
+     "r05-0012"
+    ]
+   },
+   {
+    "factor": "Repeated exposure to Halden headcount reductions.",
+    "evidence": [
+     "r05-0002",
+     "r05-0015",
+     "r12-0007"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Withdraw yard contract; issue payroll-tracked Halden pool shifts with Lusk retained as informal referee; flag cash deposits for review."
+  },
+  "assessment": "Subject completed his community order in full but rejects assigned placements in favour of self-directed routes. His tick-2 deviation shows attachment to T. Lusk, a desisting associate, rather than to the rostered structure; the direction of that drift is not yet determinable. Confidence in the long-range path is low and should remain so until wage observability is restored."
+ }
+}

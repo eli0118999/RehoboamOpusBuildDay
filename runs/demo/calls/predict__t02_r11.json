@@ -1,0 +1,255 @@
+{
+ "pass": "predict",
+ "key": "t02_r11",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 991,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 991,
+    "model": null,
+    "output_tokens": 3357,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3357,
+  "output_tokens_details": {
+   "thinking_tokens": 1024
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r11",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r11-e1",
+    "year": 2053,
+    "event": "Priya escalates the upheld s.31 FOI exemption beyond the Council Tower by filing an external appeal on algorithmic housing allocation. Probability is reduced by t2-i9: the internal review is closed, enquiries are routed to a public session nine weeks away, and her workload is absorbed by the 'Stillwater Remembers' lead.",
+    "headline": "External FOI Appeal",
+    "horizon_label": "3 Months",
+    "kind": "civic",
+    "p": 0.3,
+    "evidence": [
+     "r11-0007",
+     "r11-0009",
+     "r11-0003"
+    ]
+   },
+   {
+    "event_id": "r11-e2",
+    "year": 2054,
+    "event": "Her offline notebook record of transit regularity, flat crime figures and repeat shelter attendance is shared outside the household, most likely with Mia Marsh or a regional journalist. Timing is delayed by t1-i10: courteous, non-substantive replies and an unchanged Carnegie service rhythm deny her a triggering refusal.",
+    "headline": "Pattern Evidence Disclosure",
+    "horizon_label": "6-12 Months",
+    "kind": "civic",
+    "p": 0.35,
+    "evidence": [
+     "r11-0004",
+     "r11-0005",
+     "r11-0006",
+     "r11-0008",
+     "r11-0012",
+     "r09-0010"
+    ]
+   },
+   {
+    "event_id": "r11-e3",
+    "year": 2054,
+    "event": "Her partnership with Callum Shore is formally dissolved. Cohabitation ends because of his confidentiality obligations under the Halden-Council data agreement.",
+    "headline": "Separation From Partner",
+    "horizon_label": "6-12 Months",
+    "kind": "family",
+    "p": 0.6,
+    "evidence": [
+     "r11-0010",
+     "r12-0011",
+     "r12-0012",
+     "r12-0008",
+     "r12-0010"
+    ]
+   },
+   {
+    "event_id": "r11-e4",
+    "year": 2055,
+    "event": "She relocates out of Stillwater, probably to Kerrow, and her data trail within the city degrades further. Card use is already down 62% and her handset is powered off overnight.",
+    "headline": "Relocation / Trace Loss",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.4,
+    "evidence": [
+     "r11-0011",
+     "r11-0012",
+     "r11-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e5",
+    "year": 2056,
+    "event": "She leaves the Senior Librarian post at Carnegie. Branch continuity for dependent patrons, including D. Pryce, is reduced.",
+    "headline": "Library Post Vacated",
+    "horizon_label": "2-3 Years",
+    "kind": "career",
+    "p": 0.4,
+    "evidence": [
+     "r11-0001",
+     "r11-0002",
+     "r02-0008"
+    ]
+   },
+   {
+    "event_id": "r11-e6",
+    "year": 2068,
+    "event": "She sustains low-visibility civic activity on public-records access and algorithmic transparency. Projection confidence is limited by trace loss.",
+    "headline": "Sustained Transparency Activity",
+    "horizon_label": "10+ Years",
+    "kind": "civic",
+    "p": 0.25,
+    "evidence": [
+     "r11-0003",
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "event_id": "r11-e7",
+    "year": 2082,
+    "event": "She retires from library and information work at about age 65. This is projected from her occupational baseline only.",
+    "headline": "Retirement",
+    "horizon_label": "10+ Years",
+    "kind": "career",
+    "p": 0.3,
+    "evidence": [
+     "r11-0001"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular disease",
+   "year": 2098,
+   "age_at_death": 81,
+   "confidence": 0.12,
+   "evidence": [
+    "r11-0001",
+    "r11-0012",
+    "r11-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r11-t2-n1",
+    "prediction": "Handset remains powered off overnight (19:00-07:00) on at least 5 of 7 nights in the coming week.",
+    "p": 0.75,
+    "evidence": [
+     "r11-0012"
+    ]
+   },
+   {
+    "pred_id": "r11-t2-n2",
+    "prediction": "Card transactions remain below 40% of her 2052 weekly average; at least one cash purchase is logged at Mercer Row Market.",
+    "p": 0.65,
+    "evidence": [
+     "r11-0011",
+     "r11-0006"
+    ]
+   },
+   {
+    "pred_id": "r11-t2-n3",
+    "prediction": "She accepts the 'Stillwater Remembers' programme lead without formal objection to her line manager.",
+    "p": 0.6,
+    "evidence": [
+     "r11-0001",
+     "r11-0009"
+    ]
+   },
+   {
+    "pred_id": "r11-t2-n4",
+    "prediction": "She submits a further written enquiry or review request on the s.31 exemption, bypassing the scheduled public session.",
+    "p": 0.35,
+    "evidence": [
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "pred_id": "r11-t2-n5",
+    "prediction": "No logged message between r11 and r12 references the Tower or SW-PREDICT this week.",
+    "p": 0.55,
+    "evidence": [
+     "r11-0010",
+     "r12-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.72,
+  "dissent_signals": [
+   "Search queries on statistical flatness of crime and forecast accuracy (r11-0003)",
+   "Self-timed transit regularity logging (r11-0004, r11-0005)",
+   "Cash-only purchase of paper notebooks (r11-0006)",
+   "FOI request on algorithmic housing allocation (r11-0007)",
+   "Search on recurring shelter population and offline pre-2040 maps (r11-0008)",
+   "Audit request for public terminal usage (r11-0009)",
+   "Direct questioning of partner on Tower data feed (r11-0010)",
+   "Cash withdrawal with 62% card-use decline (r11-0011)",
+   "Handset powered off overnight, 11 consecutive nights (r11-0012)"
+  ],
+  "classification": "III",
+  "overall_assessment": "Pattern-aware, mid-value civic node with deliberately thinning trace; containment currently procedural, not assured.",
+  "risk_factors": [
+   {
+    "factor": "Active trace reduction: cash shift and nightly handset blackout",
+    "evidence": [
+     "r11-0011",
+     "r11-0012"
+    ]
+   },
+   {
+    "factor": "Repeated formal enquiries into Tower systems",
+    "evidence": [
+     "r11-0007",
+     "r11-0009"
+    ]
+   },
+   {
+    "factor": "Proximity to SW-PREDICT signatory via partner",
+    "evidence": [
+     "r11-0010",
+     "r12-0008",
+     "r12-0010"
+    ]
+   },
+   {
+    "factor": "Influence over young, sympathetic contact on social work track",
+    "evidence": [
+     "r09-0010",
+     "r09-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Load the 'Stillwater Remembers' lead with fixed weekly deliverables and in-branch reporting to absorb discretionary hours before the public session."
+  },
+  "assessment": "Subject has independently inferred systemic regularity and is reducing observability, which degrades projection confidence across the library cluster and the Shore and Marsh nodes. Interventions t1-i10 and t2-i9 lower near-term escalation, but separation from r12 will remove the remaining informal channel of oversight. Continued care should take the form of occupational absorption rather than further refusal, which would validate her hypothesis."
+ }
+}

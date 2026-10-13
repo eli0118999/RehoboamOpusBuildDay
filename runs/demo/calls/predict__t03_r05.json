@@ -1,0 +1,247 @@
+{
+ "pass": "predict",
+ "key": "t03_r05",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1112,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1112,
+    "model": null,
+    "output_tokens": 2932,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2932,
+  "output_tokens_details": {
+   "thinking_tokens": 747
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Following withdrawal of the Kiln Works yard contract (t3-i4), subject accepts payroll-tracked Halden pool shifts with T. Lusk as referee. The conviction marker remains suppressed on the placement record. Cash activity becomes partially observable as wages.",
+    "headline": "Payroll Re-entry",
+    "horizon_label": "1 Month",
+    "kind": "career",
+    "p": 0.66,
+    "evidence": [
+     "r05-0001",
+     "r05-0005",
+     "r05-0013",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2053,
+    "event": "The routine income review on the July cash deposits proceeds visibly. The '@lowbank_runners' contact cools and direct messaging lapses. No charge results, but the review is retained on file and is retrievable by future screeners.",
+    "headline": "Income Review / Contact Withdrawal",
+    "horizon_label": "3 Months",
+    "kind": "legal",
+    "p": 0.58,
+    "evidence": [
+     "r05-0012",
+     "r05-0014"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2053,
+    "event": "Halden line consolidation and Zone D automation reach completion. Agency pool volume is rebalanced, and subject's shifts fall below subsistence or end, repeating the 2051 release pattern.",
+    "headline": "Agency Release",
+    "horizon_label": "6 Months",
+    "kind": "career",
+    "p": 0.6,
+    "evidence": [
+     "r05-0015",
+     "r12-0007",
+     "r05-0002"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2054,
+    "event": "Subject returns to irregular cash income and overnight underpass presence. Phone service lapses. The data trail thins as subject moves outside payroll visibility.",
+    "headline": "Cash Economy Drift",
+    "horizon_label": "6-12 Months",
+    "kind": "financial",
+    "p": 0.45,
+    "evidence": [
+     "r05-0003",
+     "r05-0004",
+     "r05-0011",
+     "r05-0014"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2055,
+    "event": "Second acquisitive offence. With the prior conviction on record and the retained income-review flag, a custodial or suspended sentence is likely.",
+    "headline": "Second Conviction",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.38,
+    "evidence": [
+     "r05-0006",
+     "r05-0007",
+     "r05-0010",
+     "r06-0001"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2059,
+    "event": "Subject cycles through casual logistics and scrap work in the Kiln Works district, mirroring the Lusk trajectory. Conviction disclosure periodically blocks placements.",
+    "headline": "Casual Labour Cycle",
+    "horizon_label": "5 Years",
+    "kind": "career",
+    "p": 0.4,
+    "evidence": [
+     "r05-0010",
+     "r06-0004",
+     "r06-0005"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2068,
+    "event": "Subject enters social housing on the Fallow Edge periphery after prolonged band placement. Household remains single, income remains low.",
+    "headline": "Peripheral Rehousing",
+    "horizon_label": "10+ Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r05-0011",
+     "r04-0004"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2093,
+   "age_at_death": 62,
+   "confidence": 0.18,
+   "evidence": [
+    "r05-0011",
+    "r05-0003",
+    "r06-0003"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t3-n1",
+    "prediction": "Subject badges in for at least two payroll-tracked Halden pool shifts at p02 this week.",
+    "p": 0.68,
+    "evidence": [
+     "r05-0001",
+     "r05-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t3-n2",
+    "prediction": "T. Lusk is recorded as referee on the subject's placement record, or the two are co-located at p02 during at least one shift.",
+    "p": 0.55,
+    "evidence": [
+     "r06-0011",
+     "r05-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t3-n3",
+    "prediction": "No new unexplained cash deposit is recorded this week.",
+    "p": 0.55,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t3-n4",
+    "prediction": "Direct message exchanges with '@lowbank_runners' fall to zero this week.",
+    "p": 0.45,
+    "evidence": [
+     "r05-0012"
+    ]
+   },
+   {
+    "pred_id": "r05-t3-n5",
+    "prediction": "At least one overnight handset ping is recorded at the River Lane Underpass (p12).",
+    "p": 0.3,
+    "evidence": [
+     "r05-0011"
+    ]
+   }
+  ],
+  "compliance_index": 0.56,
+  "deviation_risk": 0.62,
+  "dissent_signals": [
+   "Search for shoplifting sentencing thresholds preceding the offence (r05-0005)",
+   "Expressed withdrawal from formal labour market: 'box ticked. done.' (r05-0010)",
+   "Encrypted direct messages with unverified account '@lowbank_runners' (r05-0012)",
+   "Unexplained cash deposits totalling $1,040 with no declared income (r05-0014)",
+   "Missed probation check-in in favour of an out-of-town trial shift, indicating self-directed routing (r05-0009)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-value, partially legible young male. Compliant when wages are visible; reverts to the cash economy on release.",
+  "risk_factors": [
+   {
+    "factor": "Prior theft conviction; disclosure blocks employment",
+    "evidence": [
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "factor": "Untracked cash income and an unverified network contact",
+    "evidence": [
+     "r05-0012",
+     "r05-0014"
+    ]
+   },
+   {
+    "factor": "Dependent on an agency pool scheduled for consolidation",
+    "evidence": [
+     "r05-0002",
+     "r05-0015",
+     "r12-0007"
+    ]
+   },
+   {
+    "factor": "Intermittent rough sleeping and lapsed phone service",
+    "evidence": [
+     "r05-0003",
+     "r05-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Retain subject in the payroll-tracked pool through the consolidation period. Prioritise his shift allocation over other agency staff, and keep Lusk as anchor contact."
+  },
+  "assessment": "Subject completed his community order in full (r05-0013) and responds to legible wage pathways. His deviation, however, tracks Halden release cycles (r05-0002, r05-0015). The t3-i4 income review buys distance from the cash network at the cost of a retained flag that will impede future placements. The record is thin across encrypted contacts and cash flows, so the path past the 2053 consolidation is held at low confidence."
+ }
+}

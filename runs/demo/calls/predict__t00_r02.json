@@ -1,0 +1,241 @@
+{
+ "pass": "predict",
+ "key": "t00_r02",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 3340,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3340,
+  "output_tokens_details": {
+   "thinking_tokens": 1310
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r02",
+  "cohort": "elders",
+  "life_path": [
+   {
+    "event_id": "r02-e1",
+    "year": 2053,
+    "event": "Winter onset with St Brigid's at capacity. Subject alternates between overflow-list refusals and nights at the River Lane Underpass (p12), with further move-along directions likely.",
+    "headline": "Winter Rough Sleeping / Shelter Exclusion",
+    "horizon_label": "3 Months",
+    "kind": "health",
+    "p": 0.65,
+    "evidence": [
+     "r02-0012",
+     "r01-0013",
+     "r02-0006"
+    ]
+   },
+   {
+    "event_id": "r02-e2",
+    "year": 2053,
+    "event": "Housing application remains in Band C. Queue position continues to drift backward. No allocation within the modelled horizon.",
+    "headline": "Housing Queue Stagnation",
+    "horizon_label": "6 Months",
+    "kind": "civic",
+    "p": 0.85,
+    "evidence": [
+     "r02-0004",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r02-e3",
+    "year": 2053,
+    "event": "Primary volunteer contact r09 relocates to Kerrow for university. Sunday shelter contact lapses.",
+    "headline": "Loss of Shelter Contact",
+    "horizon_label": "1 Month",
+    "kind": "social",
+    "p": 0.75,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0008"
+    ]
+   },
+   {
+    "event_id": "r02-e4",
+    "year": 2054,
+    "event": "Daytime refuge at Carnegie Library (p07) degrades, either through staffing change around r11's audit inquiries or tightened patron policy. Subject's daily anchor weakens.",
+    "headline": "Loss of Daytime Refuge",
+    "horizon_label": "6-12 Months",
+    "kind": "social",
+    "p": 0.3,
+    "evidence": [
+     "r02-0008",
+     "r11-0002",
+     "r11-0009",
+     "r11-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e5",
+    "year": 2054,
+    "event": "Untreated hypertension persists with no repeat prescription and no address. Probable further clinic walk-in at Lowbank (p04) with elevated readings.",
+    "headline": "Uncontrolled Hypertension",
+    "horizon_label": "6-12 Months",
+    "kind": "health",
+    "p": 0.55,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "event_id": "r02-e6",
+    "year": 2055,
+    "event": "Acute cerebrovascular event during cold-weather rough sleeping, followed by emergency admission. Discharge to no fixed address is likely.",
+    "headline": "Stroke / Emergency Admission",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r02-0009",
+     "r02-0012"
+    ]
+   },
+   {
+    "event_id": "r02-e7",
+    "year": 2055,
+    "event": "Death recorded in Lowbank. Sister B. Whitlow notified via library email trail.",
+    "headline": "Death, No Fixed Abode",
+    "horizon_label": "1-2 Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r02-0009",
+     "r02-0011",
+     "r02-0013"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Hypertensive cerebrovascular event compounded by cold exposure while unhoused",
+   "year": 2055,
+   "age_at_death": 70,
+   "confidence": 0.3,
+   "evidence": [
+    "r02-0009",
+    "r02-0012",
+    "r02-0013",
+    "r01-0013"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r02-t0-n1",
+    "prediction": "Housing application remains Band C with no allocation offer this week.",
+    "p": 0.95,
+    "evidence": [
+     "r02-0013",
+     "r02-0004"
+    ]
+   },
+   {
+    "pred_id": "r02-t0-n2",
+    "prediction": "Subject is associated with Carnegie Library (p07) wi-fi on at least 4 opening days this week.",
+    "p": 0.65,
+    "evidence": [
+     "r02-0008",
+     "r11-0002"
+    ]
+   },
+   {
+    "pred_id": "r02-t0-n3",
+    "prediction": "No amlodipine issue is recorded at Lowbank Pharmacy (p04) this week.",
+    "p": 0.85,
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "pred_id": "r02-t0-n4",
+    "prediction": "No St Brigid's (p03) bed is recorded for subject on any night this week.",
+    "p": 0.55,
+    "evidence": [
+     "r01-0013",
+     "r02-0012"
+    ]
+   },
+   {
+    "pred_id": "r02-t0-n5",
+    "prediction": "A Thursday cash purchase under $3 is recorded at Mercer Row Market (p09).",
+    "p": 0.4,
+    "evidence": [
+     "r02-0007"
+    ]
+   }
+  ],
+  "compliance_index": 0.82,
+  "deviation_risk": 0.3,
+  "dissent_signals": [
+   "None direct. Subject is cooperative with move-along directions (r02-0012).",
+   "Subject declines family financial support, which limits external leverage (r02-0011).",
+   "Subject's case is cited by r09 in a system-questioning message and searches (r09-0009, r09-0010).",
+   "Subject has daily presence under a pattern-aware librarian, r11 (r02-0008, r11-0002, r11-0007)."
+  ],
+  "classification": "IV",
+  "overall_assessment": "Elderly unhoused non-contributor. Compliant and low-variance, with declining physiological reserve.",
+  "risk_factors": [
+   {
+    "factor": "Untreated hypertension; no address for repeat prescriptions",
+    "evidence": [
+     "r02-0009"
+    ]
+   },
+   {
+    "factor": "Persistent shelter exclusion and rough sleeping at p12",
+    "evidence": [
+     "r02-0012",
+     "r01-0013"
+    ]
+   },
+   {
+    "factor": "Housing queue regressing (309 to 311)",
+    "evidence": [
+     "r02-0013",
+     "r02-0004"
+    ]
+   },
+   {
+    "factor": "Visible decline acts as a catalyst for pattern-aware subjects r09 and r11",
+    "evidence": [
+     "r09-0009",
+     "r11-0002"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Health",
+   "action": "Register p07 as correspondence address to enable amlodipine repeat. Hold housing at Band C. Lowest-cost variance suppression."
+  },
+  "assessment": "Subject is compliant and predictable, has no economic output, and has negligible dependants. Her principal system cost is indirect: her visible deterioration feeds inquiry by r09 and r11. Quiet clinical stabilisation is preferred to rehousing, which would itself register as an anomaly in the queue."
+ }
+}

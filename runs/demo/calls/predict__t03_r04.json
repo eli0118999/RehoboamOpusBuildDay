@@ -1,0 +1,247 @@
+{
+ "pass": "predict",
+ "key": "t03_r04",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 1122,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 1122,
+    "model": null,
+    "output_tokens": 2848,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2848,
+  "output_tokens_details": {
+   "thinking_tokens": 720
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r04",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r04-e1",
+    "year": 2053,
+    "event": "The approved Tuesday 10:00 forecourt assembly at Stillwater Council Tower (p01) goes ahead well below its 15-person permit. The Block C lift repair, credited to the liaison panel, has removed the grievance that would have drawn attendance.",
+    "headline": "Assembly Under Capacity",
+    "horizon_label": "1 Week",
+    "kind": "civic",
+    "p": 0.62,
+    "evidence": [
+     "r04-0013",
+     "r04-0007",
+     "r04-0012"
+    ]
+   },
+   {
+    "event_id": "r04-e2",
+    "year": 2053,
+    "event": "The Fallow Edge Tenants registration stalls. Residents read the individual FE-0932 settlement as private bargaining, and the warning that registration would 'hold up further works' deters co-signatories. The group dissolves before filing.",
+    "headline": "Tenants' Group Dissolution",
+    "horizon_label": "1-3 Months",
+    "kind": "social",
+    "p": 0.58,
+    "evidence": [
+     "r04-0004",
+     "r04-0012",
+     "r04-0013",
+     "r04-0009"
+    ]
+   },
+   {
+    "event_id": "r04-e3",
+    "year": 2053,
+    "event": "With no platform income since the DashLine deactivation and the attachment order still outstanding, council tax and penalty arrears compound. A benefit claim is opened under work-search conditionality.",
+    "headline": "Arrears / Benefit Entry",
+    "horizon_label": "3-6 Months",
+    "kind": "financial",
+    "p": 0.66,
+    "evidence": [
+     "r04-0011",
+     "r04-0010",
+     "r04-0006",
+     "r04-0003"
+    ]
+   },
+   {
+    "event_id": "r04-e4",
+    "year": 2054,
+    "event": "Estrangement from estate neighbours following the settlement narrative. Letter-writing redirects toward individual complaints and councillor correspondence, which are received and filed without escalation.",
+    "headline": "Estate Social Withdrawal",
+    "horizon_label": "6-12 Months",
+    "kind": "social",
+    "p": 0.48,
+    "evidence": [
+     "r04-0008",
+     "r04-0009",
+     "r04-0007"
+    ]
+   },
+   {
+    "event_id": "r04-e5",
+    "year": 2055,
+    "event": "Intermittent low-paid casual driving or warehouse work. Possible Halden Zone D-adjacent agency placement; income remains in the low band.",
+    "headline": "Casual Re-employment",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.4,
+    "evidence": [
+     "r04-0001",
+     "r04-0005",
+     "r04-0011"
+    ]
+   },
+   {
+    "event_id": "r04-e6",
+    "year": 2060,
+    "event": "First recorded clinic contact for stress-related or cardiovascular complaint. No prior medical record exists, so timing is low-confidence.",
+    "headline": "Late Clinical Presentation",
+    "horizon_label": "5-10 Years",
+    "kind": "health",
+    "p": 0.3,
+    "evidence": [
+     "r04-0008",
+     "r04-0010"
+    ]
+   },
+   {
+    "event_id": "r04-e7",
+    "year": 2071,
+    "event": "Death at home, Fallow Edge Estate (p14), of a cardiovascular event. Alone; no household member recorded.",
+    "headline": "Death at Home",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.22,
+    "evidence": [
+     "r04-0004",
+     "r04-0007"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular event",
+   "year": 2071,
+   "age_at_death": 72,
+   "confidence": 0.22,
+   "evidence": [
+    "r04-0004",
+    "r04-0007",
+    "r04-0011"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r04-t3-n1",
+    "prediction": "Tuesday 10:00 assembly at the Council Tower forecourt (p01) proceeds with fewer than 8 attendees.",
+    "p": 0.6,
+    "evidence": [
+     "r04-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t3-n2",
+    "prediction": "Subject accepts the individual service-charge reduction and FE-0932 closure in writing this week, with no appeal.",
+    "p": 0.5,
+    "evidence": [
+     "r04-0004",
+     "r04-0011"
+    ]
+   },
+   {
+    "pred_id": "r04-t3-n3",
+    "prediction": "No formal tenants' group registration is filed with the housing office this week.",
+    "p": 0.65,
+    "evidence": [
+     "r04-0012",
+     "r04-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t3-n4",
+    "prediction": "Subject sends at least one further letter or councillor complaint on estate conditions.",
+    "p": 0.55,
+    "evidence": [
+     "r04-0007",
+     "r04-0008"
+    ]
+   },
+   {
+    "pred_id": "r04-t3-n5",
+    "prediction": "Subject makes contact with neighbour r06 or friend r03 about the rumoured settlement.",
+    "p": 0.35,
+    "evidence": [
+     "r04-0009"
+    ]
+   }
+  ],
+  "compliance_index": 0.38,
+  "deviation_risk": 0.52,
+  "dissent_signals": [
+   "Seven letters to housing office on service charge and lift (r04-0008)",
+   "Search for withholding service charge, protest permits and tenants' union (r04-0012)",
+   "Protest permit application for 'Fallow Edge Tenants' at Council Tower forecourt (r04-0013)",
+   "Formal complaint FE-0932 and councillor correspondence (r04-0004, r04-0007)",
+   "No appeal of platform deactivation, suggesting energy redirected into collective action (r04-0011)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-income organiser with no economic anchor role; collective-action vector neutralised, individual residual dissent tolerable.",
+  "risk_factors": [
+   {
+    "factor": "Loss of sole income source; no appeal lodged",
+    "evidence": [
+     "r04-0011",
+     "r04-0005"
+    ]
+   },
+   {
+    "factor": "Compounding court-ordered debt",
+    "evidence": [
+     "r04-0003",
+     "r04-0006",
+     "r04-0010"
+    ]
+   },
+   {
+    "factor": "Organising capacity among estate tenants",
+    "evidence": [
+     "r04-0012",
+     "r04-0013"
+    ]
+   },
+   {
+    "factor": "Lives alone; no medical baseline on file",
+    "evidence": [
+     "r04-0004",
+     "r04-0007"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Benefits",
+   "action": "Open jobseeker claim with full work-search schedule; route correspondence through individual case officer only."
+  },
+  "assessment": "Subject's collective grievance has been converted into an individually resolved account. The lift repair is attributed to the liaison panel and the settlement narrative has been seeded, so variance from the Fallow Edge cluster is expected to decay over 1-3 months. Residual risk lies in persistent letter-writing and thin medical and income data, which keep path confidence moderate."
+ }
+}

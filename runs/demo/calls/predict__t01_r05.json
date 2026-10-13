@@ -1,0 +1,251 @@
+{
+ "pass": "predict",
+ "key": "t01_r05",
+ "model": "claude-opus-5-5",
+ "effort": "high",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 945,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 945,
+    "model": null,
+    "output_tokens": 4339,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 4339,
+  "output_tokens_details": {
+   "thinking_tokens": 2005
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r05",
+  "cohort": "recidivism-risk",
+  "life_path": [
+   {
+    "event_id": "r05-e1",
+    "year": 2053,
+    "event": "Subject fails to take up the suppressed-marker Halden agency placement and spends the placement window in unscheduled contact with r06 (Terrence Lusk) near p02 instead. The wage channel opened by t1-i5 stays unused. The Halden line consolidation already under consultation leaves agency pool slots precarious either way.",
+    "headline": "Placement Non-Uptake",
+    "horizon_label": "1-3 Months",
+    "kind": "career",
+    "p": 0.6,
+    "evidence": [
+     "r05-0015",
+     "r05-0009",
+     "r05-0010",
+     "r12-0007"
+    ]
+   },
+   {
+    "event_id": "r05-e2",
+    "year": 2053,
+    "event": "Cash income continues outside observable wages. The '@lowbank_runners' channel stays active and suppression has not taken hold. A competing anchor works against it: r06 has warned subject off the Lowbank crew and is himself in documented recovery. Net probability is lowered from baseline, but confidence is low.",
+    "headline": "Informal Network Entrenchment",
+    "horizon_label": "6 Months",
+    "kind": "financial",
+    "p": 0.42,
+    "evidence": [
+     "r05-0012",
+     "r05-0014",
+     "r05-0011",
+     "r06-0011"
+    ]
+   },
+   {
+    "event_id": "r05-e3",
+    "year": 2054,
+    "event": "Re-arrest following a cash-economy pattern consistent with the subject's prior theft profile. The conviction marker is unsuppressed in police systems. Prior pattern is acquisitive offending under income loss.",
+    "headline": "Re-Arrest / Charge",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.38,
+    "evidence": [
+     "r05-0005",
+     "r05-0006",
+     "r05-0007",
+     "r05-0014"
+    ]
+   },
+   {
+    "event_id": "r05-e4",
+    "year": 2054,
+    "event": "Second conviction. A short custodial term is likely given the prior community order and the formal warning on record. The rented room is lost during custody.",
+    "headline": "Custodial Sentence",
+    "horizon_label": "1-2 Years",
+    "kind": "legal",
+    "p": 0.32,
+    "evidence": [
+     "r05-0007",
+     "r05-0009",
+     "r05-0013"
+    ]
+   },
+   {
+    "event_id": "r05-e5",
+    "year": 2055,
+    "event": "Release without a fixed address. Overnight presence at p12 resumes, joining the cohort pattern already recorded at the underpass. Work access is degraded by an unspent record.",
+    "headline": "Release / Street Homelessness",
+    "horizon_label": "1-2 Years",
+    "kind": "relocation",
+    "p": 0.3,
+    "evidence": [
+     "r05-0011",
+     "r05-0010",
+     "r01-0007",
+     "r01-0010"
+    ]
+   },
+   {
+    "event_id": "r05-e6",
+    "year": 2058,
+    "event": "Alternative branch: subject leaves Stillwater for warehouse work in Kerrow, following the 2052 trial-shift route. This exits Archive visibility. It is weighted low but not negligible given the tick-1 deviation.",
+    "headline": "Out-of-Area Relocation",
+    "horizon_label": "3-5 Years",
+    "kind": "relocation",
+    "p": 0.22,
+    "evidence": [
+     "r05-0009",
+     "r05-0005"
+    ]
+   },
+   {
+    "event_id": "r05-e7",
+    "year": 2063,
+    "event": "Cyclical pattern of casual cash work, low-level offending and intermittent shelter use, with progressive health deterioration. The record base is thin and confidence is minimal.",
+    "headline": "Chronic Instability Cycle",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r05-0003",
+     "r05-0004",
+     "r05-0014",
+     "r06-0001"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Overdose",
+   "year": 2071,
+   "age_at_death": 40,
+   "confidence": 0.14,
+   "evidence": [
+    "r05-0011",
+    "r05-0012",
+    "r05-0014",
+    "r06-0003"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r05-t1-n1",
+    "prediction": "No badge-in recorded for subject in the Halden agency pool at p02 during tick 2.",
+    "p": 0.6,
+    "evidence": [
+     "r05-0015",
+     "r05-0009"
+    ]
+   },
+   {
+    "pred_id": "r05-t1-n2",
+    "prediction": "At least one further device co-location with r06 (Terrence Lusk) in d4 Kiln Works or at p14 Fallow Edge Estate.",
+    "p": 0.55,
+    "evidence": [
+     "r06-0004",
+     "r06-0013",
+     "r05-0013"
+    ]
+   },
+   {
+    "pred_id": "r05-t1-n3",
+    "prediction": "At least one cash deposit of $200 or more with no declared income source.",
+    "p": 0.48,
+    "evidence": [
+     "r05-0014"
+    ]
+   },
+   {
+    "pred_id": "r05-t1-n4",
+    "prediction": "At least one overnight handset ping at p12 River Lane Underpass between 00:00 and 04:00.",
+    "p": 0.42,
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "pred_id": "r05-t1-n5",
+    "prediction": "Further encrypted direct-message exchange with '@lowbank_runners'.",
+    "p": 0.38,
+    "evidence": [
+     "r05-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.72,
+  "dissent_signals": [
+   "Declined a routed Rung 2 work placement and substituted self-selected peer contact (r06) near p02 (r05-0015, r06-0013)",
+   "Income held in cash outside observable wage channels (r05-0014)",
+   "Encrypted communications with an unverified network account (r05-0012)",
+   "Expressed disengagement from formal labour-market screening: 'box ticked. done.' (r05-0010)",
+   "Seeks guidance from an unsupervised peer rather than system channels; probation supervision closed (r05-0013, r06-0009)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-visibility young male in a cash economy; formal compliance completed, informal compliance refused; trajectory unanchored.",
+  "risk_factors": [
+   {
+    "factor": "Unspent theft conviction blocking formal hiring",
+    "evidence": [
+     "r05-0007",
+     "r05-0010"
+    ]
+   },
+   {
+    "factor": "Undeclared cash income and an encrypted network contact",
+    "evidence": [
+     "r05-0014",
+     "r05-0012"
+    ]
+   },
+   {
+    "factor": "Housing insecurity with overnight underpass presence",
+    "evidence": [
+     "r05-0011"
+    ]
+   },
+   {
+    "factor": "Contact exposes r06's suspended sentence and recovery to secondary destabilisation",
+    "evidence": [
+     "r06-0007",
+     "r06-0011",
+     "r06-0013"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Work",
+   "action": "Reissue the agency placement as a d4 scrapyard-adjacent shift co-scheduled with r06; route the peer contact into a supervised wage channel and retain the conviction suppression."
+  },
+  "assessment": "Subject completed his court-mandated order in full but rejected the tick-1 placement nudge in favour of unmonitored contact with r06. The pattern indicates selective compliance: high with enforced obligations, low with voluntary routing. With thin records and active cash and encrypted channels, long-horizon projections carry low confidence, and the subject should be treated as a variance source pending re-anchoring through r06."
+ }
+}

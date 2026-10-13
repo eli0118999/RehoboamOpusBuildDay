@@ -1,0 +1,223 @@
+{
+ "pass": "predict",
+ "key": "t00_r04",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21912,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 635,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 21912,
+    "input_tokens": 635,
+    "model": null,
+    "output_tokens": 2992,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 2992,
+  "output_tokens_details": {
+   "thinking_tokens": 984
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r04",
+  "cohort": "civic-burden",
+  "life_path": [
+   {
+    "event_id": "r04-e1",
+    "year": 2053,
+    "event": "Protest permit for 15 persons on the Council Tower forecourt (p01) is resolved, most likely by approval with conditions or deferral. A small 'Fallow Edge Tenants' assembly follows within the quarter.",
+    "headline": "Forecourt Assembly / Permit Resolution",
+    "horizon_label": "3 Months",
+    "kind": "civic",
+    "p": 0.55,
+    "evidence": [
+     "r04-0013",
+     "r04-0012",
+     "r04-0007"
+    ]
+   },
+   {
+    "event_id": "r04-e2",
+    "year": 2054,
+    "event": "Subject withholds the Fallow Edge service charge in protest. Combined with existing council tax and penalty arrears, this produces formal arrears action on the Fallow Edge Estate (p14) tenancy.",
+    "headline": "Service Charge Withholding / Arrears Proceedings",
+    "horizon_label": "6-12 Months",
+    "kind": "legal",
+    "p": 0.45,
+    "evidence": [
+     "r04-0012",
+     "r04-0004",
+     "r04-0006",
+     "r04-0010"
+    ]
+   },
+   {
+    "event_id": "r04-e3",
+    "year": 2054,
+    "event": "Fallow Edge Tenants is formalised as a standing association drawing on block C neighbours and repair-queue contacts. The subject's written output to the housing office increases.",
+    "headline": "Tenants' Association Formalised",
+    "horizon_label": "1 Year",
+    "kind": "social",
+    "p": 0.4,
+    "evidence": [
+     "r04-0008",
+     "r04-0012",
+     "r04-0013"
+    ]
+   },
+   {
+    "event_id": "r04-e4",
+    "year": 2055,
+    "event": "Subject re-enters low-paid driving or agency work after a prolonged earnings gap following deactivation. Wage deductions are reapplied under the standing attachment order.",
+    "headline": "Re-entry to Precarious Work / Wage Deduction",
+    "horizon_label": "1-2 Years",
+    "kind": "career",
+    "p": 0.35,
+    "evidence": [
+     "r04-0011",
+     "r04-0001",
+     "r04-0010"
+    ]
+   },
+   {
+    "event_id": "r04-e5",
+    "year": 2058,
+    "event": "Activism attrition. Association membership declines and the subject's complaint volume falls back toward baseline as financial strain persists.",
+    "headline": "Civic Withdrawal / Association Lapse",
+    "horizon_label": "5 Years",
+    "kind": "civic",
+    "p": 0.3,
+    "evidence": [
+     "r04-0008",
+     "r04-0004"
+    ]
+   },
+   {
+    "event_id": "r04-e6",
+    "year": 2066,
+    "event": "Cardiovascular event in late middle age. The Archive holds no medical record for this subject, so this is inferred from a sedentary occupational history, chronic financial strain and low clinic contact; confidence is minimal.",
+    "headline": "Unmonitored Cardiovascular Event",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.25,
+    "evidence": [
+     "r04-0001",
+     "r04-0010",
+     "r04-0011"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Cardiovascular disease, late-diagnosed (no clinical baseline in Archive)",
+   "year": 2071,
+   "age_at_death": 72,
+   "confidence": 0.2,
+   "evidence": [
+    "r04-0001",
+    "r04-0011",
+    "r04-0010"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r04-t0-n1",
+    "prediction": "Protest permit application for the Council Tower forecourt (p01) remains 'under review' at end of tick 0.",
+    "p": 0.7,
+    "evidence": [
+     "r04-0013"
+    ]
+   },
+   {
+    "pred_id": "r04-t0-n2",
+    "prediction": "Subject lodges at least one further written complaint or enquiry with the housing office or a councillor during the week.",
+    "p": 0.55,
+    "evidence": [
+     "r04-0007",
+     "r04-0008",
+     "r04-0004"
+    ]
+   },
+   {
+    "pred_id": "r04-t0-n3",
+    "prediction": "No new platform or employer earnings record is logged for the subject this week.",
+    "p": 0.8,
+    "evidence": [
+     "r04-0011"
+    ]
+   },
+   {
+    "pred_id": "r04-t0-n4",
+    "prediction": "Subject performs at least one further search on tenant rights, service charge withholding or organising.",
+    "p": 0.45,
+    "evidence": [
+     "r04-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.3,
+  "deviation_risk": 0.6,
+  "dissent_signals": [
+   "Protest permit application for Council Tower forecourt under group name 'Fallow Edge Tenants' (r04-0013)",
+   "Searches on legal service charge withholding and tenants' union formation (r04-0012)",
+   "Sustained written complaint campaign; 'seven letters' (r04-0008, r04-0007)",
+   "Rejected formal complaint FE-0932 not accepted as closure (r04-0004)",
+   "Non-appeal of platform deactivation indicates disengagement from managed channels (r04-0011)"
+  ],
+  "classification": "IV",
+  "overall_assessment": "Low-income, recently deactivated male, 54, with escalating organised grievance against housing administration; economically marginal, civically noisy, clinically unobserved.",
+  "risk_factors": [
+   {
+    "factor": "Loss of sole income source with a standing attachment order",
+    "evidence": [
+     "r04-0011",
+     "r04-0010"
+    ]
+   },
+   {
+    "factor": "Compounding public-body debt (council tax, penalties, service charge)",
+    "evidence": [
+     "r04-0003",
+     "r04-0006",
+     "r04-0004"
+    ]
+   },
+   {
+    "factor": "Escalation from individual complaint to collective action",
+    "evidence": [
+     "r04-0012",
+     "r04-0013"
+    ]
+   },
+   {
+    "factor": "No medical record: health trajectory unmodellable",
+    "evidence": [
+     "r04-0001",
+     "r04-0011"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Housing",
+   "action": "Schedule the Block C lift repair with a fixed date and reopen service charge review FE-0932 before the permit decision, removing the grievance anchor ahead of assembly."
+  },
+  "assessment": "Subject's variance stems from one legible, remediable grievance (lift and service charge), now converting into collective action. Resolving the material complaint is the lowest-cost route to restoring baseline and is recordable as tenant care. Absent medical and employment data, all projections beyond 2055 carry low confidence; current home location is unconfirmed this tick."
+ }
+}

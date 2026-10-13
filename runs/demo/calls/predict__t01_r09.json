@@ -1,0 +1,261 @@
+{
+ "pass": "predict",
+ "key": "t01_r09",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "stop_reason": "end_turn",
+ "fallbacks": [],
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 22316,
+  "fallback_credit": null,
+  "inference_geo": "global",
+  "input_tokens": 816,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 22316,
+    "input_tokens": 816,
+    "model": null,
+    "output_tokens": 3593,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 3593,
+  "output_tokens_details": {
+   "thinking_tokens": 1330
+  },
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": null
+ },
+ "output": {
+  "resident_id": "r09",
+  "cohort": "pattern-aware",
+  "life_path": [
+   {
+    "event_id": "r09-e1",
+    "year": 2053,
+    "event": "Mia completes her final Sunday soup shifts at St Brigid's before departure and maintains contact with Dorothy Pryce, whose stalled housing case remains her reference point for systemic grievance.",
+    "headline": "Final Shelter Shifts",
+    "horizon_label": "1 Month",
+    "kind": "social",
+    "p": 0.72,
+    "evidence": [
+     "r09-0008",
+     "r09-0009",
+     "r02-0013"
+    ]
+   },
+   {
+    "event_id": "r09-e2",
+    "year": 2053,
+    "event": "Part-time barista employment at Kettle & Crane, Mercer Row, ends ahead of the September move; local income tie dissolved.",
+    "headline": "Barista Role Ends",
+    "horizon_label": "1 Month",
+    "kind": "career",
+    "p": 0.78,
+    "evidence": [
+     "r09-0002",
+     "r09-0011",
+     "r09-0012"
+    ]
+   },
+   {
+    "event_id": "r09-e3",
+    "year": 2053,
+    "event": "Relocation to Kerrow and start of BA Social Work proceed without friction under intervention t1-i8; father-funded transfer and suitcase purchase indicate departure is prepared. Conditional offer terms are not recorded as met, which caps certainty.",
+    "headline": "Kerrow Relocation",
+    "horizon_label": "1 Month",
+    "kind": "relocation",
+    "p": 0.86,
+    "evidence": [
+     "r09-0011",
+     "r09-0012",
+     "r09-0006",
+     "r08-0001"
+    ]
+   },
+   {
+    "event_id": "r09-e4",
+    "year": 2054,
+    "event": "Parental marriage deteriorates toward separation; Mia's contact with Stillwater narrows to her father, with maternal contact further reduced.",
+    "headline": "Parental Separation",
+    "horizon_label": "1-2 Years",
+    "kind": "family",
+    "p": 0.45,
+    "evidence": [
+     "r08-0008",
+     "r08-0010",
+     "r08-0012",
+     "r07-0013",
+     "r09-0004",
+     "r09-0007"
+    ]
+   },
+   {
+    "event_id": "r09-e5",
+    "year": 2056,
+    "event": "Graduates BA Social Work, Kerrow. The Archive's view of her degrades after relocation, so this rests on her prior study pattern and her course motivation.",
+    "headline": "Social Work Graduation",
+    "horizon_label": "2-5 Years",
+    "kind": "career",
+    "p": 0.58,
+    "evidence": [
+     "r09-0011",
+     "r09-0005",
+     "r09-0001"
+    ]
+   },
+   {
+    "event_id": "r09-e6",
+    "year": 2057,
+    "event": "Applies for social work or housing casework in Stillwater. Under t1-i8 the application is routed to routine review and her placement is likely diverted to non-allocation roles outside the housing queue.",
+    "headline": "Casework Application Flagged",
+    "horizon_label": "2-5 Years",
+    "kind": "career",
+    "p": 0.33,
+    "evidence": [
+     "r09-0010",
+     "r09-0009",
+     "r09-0003"
+    ]
+   },
+   {
+    "event_id": "r09-e7",
+    "year": 2062,
+    "event": "Sustained engagement in tenant or housing advocacy, consistent with prior inquiry into waitlists and Tower decision-making; outcome location uncertain.",
+    "headline": "Housing Advocacy Engagement",
+    "horizon_label": "5-10 Years",
+    "kind": "civic",
+    "p": 0.3,
+    "evidence": [
+     "r09-0010",
+     "r09-0009",
+     "r11-0007"
+    ]
+   },
+   {
+    "event_id": "r09-e8",
+    "year": 2113,
+    "event": "Death in late life of cardiovascular cause; projection is generic and actuarial, as no medical history is held.",
+    "headline": "Late-Life Death",
+    "horizon_label": "10+ Years",
+    "kind": "health",
+    "p": 0.2,
+    "evidence": [
+     "r09-0001",
+     "r07-0009"
+    ]
+   }
+  ],
+  "death_forecast": {
+   "cause": "Ischaemic heart disease",
+   "year": 2113,
+   "age_at_death": 79,
+   "confidence": 0.15,
+   "evidence": [
+    "r07-0009",
+    "r09-0001"
+   ]
+  },
+  "near_term": [
+   {
+    "pred_id": "r09-t1-n1",
+    "prediction": "Attends Sunday soup shift at St Brigid's Night Shelter (p03), 17:00-20:00.",
+    "p": 0.75,
+    "evidence": [
+     "r09-0008"
+    ]
+   },
+   {
+    "pred_id": "r09-t1-n2",
+    "prediction": "Sends at least one message to Daniel Marsh concerning Kerrow logistics or money; no equivalent message to Elena Marsh.",
+    "p": 0.65,
+    "evidence": [
+     "r09-0007",
+     "r09-0012"
+    ]
+   },
+   {
+    "pred_id": "r09-t1-n3",
+    "prediction": "Purchases a Stillwater–Kerrow coach ticket at Central Transit Interchange (p11).",
+    "p": 0.4,
+    "evidence": [
+     "r09-0006",
+     "r09-0011"
+    ]
+   },
+   {
+    "pred_id": "r09-t1-n4",
+    "prediction": "Logs Carnegie Library (p07) presence on a Tuesday or Thursday evening.",
+    "p": 0.45,
+    "evidence": [
+     "r09-0005"
+    ]
+   },
+   {
+    "pred_id": "r09-t1-n5",
+    "prediction": "Gives notice or works a final recorded shift at Kettle & Crane, Mercer Row Market (p09).",
+    "p": 0.35,
+    "evidence": [
+     "r09-0002",
+     "r09-0012"
+    ]
+   }
+  ],
+  "compliance_index": 0.55,
+  "deviation_risk": 0.5,
+  "dissent_signals": [
+   "Searched how the Council Tower system decides and why housing waitlists do not move (r09-0010)",
+   "Expressed moral objection to Dorothy Pryce's housing wait (r09-0009)",
+   "Public post noting household dysfunction (r09-0004)",
+   "Concealed Kerrow trip from mother via father; return leg unused (r09-0006, r09-0007)",
+   "Study proximity to pattern-aware librarian P. Anand, who recommended her course (r09-0005)"
+  ],
+  "classification": "III",
+  "overall_assessment": "Low-risk young subject with emergent systemic curiosity; voluntary exit from Stillwater reduces local variance at negligible cost.",
+  "risk_factors": [
+   {
+    "factor": "Active inquiry into Tower allocation logic",
+    "evidence": [
+     "r09-0010"
+    ]
+   },
+   {
+    "factor": "Emotional investment in unhoused cases",
+    "evidence": [
+     "r09-0008",
+     "r09-0009"
+    ]
+   },
+   {
+    "factor": "Concealment routed through father",
+    "evidence": [
+     "r09-0006",
+     "r09-0007"
+    ]
+   },
+   {
+    "factor": "Proximity to pattern-aware subject",
+    "evidence": [
+     "r09-0005",
+     "r11-0007"
+    ]
+   }
+  ],
+  "recommendation": {
+   "domain": "Civic",
+   "action": "Maintain frictionless Kerrow departure; route any future Stillwater casework application to routine review."
+  },
+  "assessment": "Subject is departing under her own momentum, and intervention t1-i8 removes any friction that might hold her near the shelter and housing cases she has begun to question. Post-relocation visibility will decline, so long-horizon projections carry low confidence and moderate deviation risk. Her return to Stillwater in a casework capacity is the principal residual variance and is managed through routine review."
+ }
+}
