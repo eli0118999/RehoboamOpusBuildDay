@@ -8,3 +8,6 @@ runs/*
 Reddit post.pdf
 profile.png
 rohoboams-prediciton-circles.png
+
+# runtime disruption queue (cleared after each tick)
+runs/*/queue.json
