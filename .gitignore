@@ -3,3 +3,8 @@ __pycache__/
 .pytest_cache/
 runs/*
 !runs/demo/
+
+# visual references: kept locally, not tracked
+Reddit post.pdf
+profile.png
+rohoboams-prediciton-circles.png
