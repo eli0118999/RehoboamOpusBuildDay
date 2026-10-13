@@ -1,0 +1,30 @@
+## 3D World: Visual Style ("White Architectural Model")
+
+**Concept:** Town is rendered as a pristine architectural scale model on a dark table. Clean, minimal, clinical, like a museum maquette, not a game or cyberpunk city. The world is monochrome; colour only appears when it encodes data.
+
+**Geometry:** Primitive boxes, cylinders and extrusions only. Flat-roofed buildings of varied height on a rectilinear street grid, with a taller council tower at the centre that doubles as Rehoboam's node. Residents are small white capsules. Keep it to roughly 30-60 meshes.
+
+**Materials and lighting:** Matte off-white (#F2F2EE) buildings, light-grey (#D9D9D6) plinth, near-black (#0B0D10) background with faint fog. No textures. One soft directional light with gentle shadows plus low ambient fill.
+
+**Camera:** Slow, eased orbit by default. Click a building or resident to fly in.
+
+**Accent colours (data only):**
+- Cyan (#6FE7FF): Rehoboam's attention, threads, central node, pulses
+- Amber (#FFB347) to red (#FF4D4D): deviation risk and intervention severity
+
+**Data-driven visuals:**
+- Thin cyan thread from each resident to the central node; it re-routes when an intervention changes their path
+- Ground risk ring under each resident, shifting white to amber to red
+- Light pulse travels along the thread when Rehoboam intervenes
+- Translucent cohort zones on the ground as a dissent heatmap
+- Retired residents fade to wireframe, then vanish
+
+**Two views (same geometry):**
+- **Citizen View:** warm sunset lighting, no overlays. A peaceful little town.
+- **System View:** cool monochrome lighting with threads, rings, cohort zones and monospace forecast labels. Fade between views over ~1 second.
+
+**UI:** Monospace font, thin 1px lines, dark panels, minimal ornament.
+
+**Tech:** Three.js in a single HTML file with OrbitControls. The scene is a visual layer driven entirely by the JSON state, so it can be built after the dashboard.
+
+**Avoid:** Neon glow, textures, cartoon colours, toy-like shapes, realistic trees or cars, and any colour that doesn't encode data.
